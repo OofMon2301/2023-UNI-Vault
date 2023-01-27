@@ -1,0 +1,15 @@
+{
+  "showCLICommands": false,
+  "addExtensionsToInternalLinks": "html",
+  "injectAppCSS": "dark",
+  "injectThemeCSS": false,
+  "customCSSFile": null,
+  "displayYAMLFrontmatter": false,
+  "linkStrippingBehaviour": "text",
+  "highDPIDiagrams": true,
+  "pandoc": "C:\\Users\\015653\\OneDrive - A.B. Paterson College\\Desktop\\Obsidian Vault\\OofMon's Vault\\.obsidian\\plugins\\obsidian-pandoc",
+  "pdflatex": null,
+  "outputFolder": "C:\\Users\\015653\\OneDrive - A.B. Paterson College\\Desktop\\Obsidian Vault",
+  "extraArguments": "",
+  "exportFrom": "md"
+}

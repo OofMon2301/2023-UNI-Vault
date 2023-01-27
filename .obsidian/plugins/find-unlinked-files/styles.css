@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html><!DOCTYPE html>
+<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Access Denied</title>
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="//local.managedagentcdn.com/noauth/css/normalize.min.css">
+        <link rel="stylesheet" href="//local.managedagentcdn.com/noauth/css/simple.css">
+
+        <script src="//local.managedagentcdn.com/noauth/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title main">Access Denied</h1>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+                <article>
+                    <h2>
+                        Access denied to this website as it matched the policy: "All students".
+                    </h2>
+                    <p>
+                        <p>Your organization's current URL Filtering policy prevents your request from being allowed at this time.</p><p>The URL you are trying to access is: <a href="https://gh.gcdn.mirr.one/Vinzent03/find-unlinked-files/releases/download/1.8.0/styles.css">https://gh.gcdn.mirr.one/Vinzent03/find-unlinked-files/releases/download/1.8.0/styles.css</a></p><p>The categories this URL matches are: <ul><li>Uncategorised</li></ul><p>If you have a lesson code to access this URL, go <a href=http://lesson.localnetwork.zone>here</a> to enter it.</p>
+                    </p>
+                </article>
+            </div>
+        </div>
+
+        <div class="footer-container">
+            <footer class="wrapper">
+            </footer>
+        </div>
+        <!-- %c -->
+    </body>
+</html>
+
+<!--
+domain: gh.gcdn.mirr.one
+classroom_control_url: http://lesson.localnetwork.zone
+url_html: https://gh.gcdn.mirr.one/Vinzent03/find-unlinked-files/releases/download/1.8.0/styles.css
+ip: 10.50.13.159
+sitekey_url: abpaterson
+username_html: 015653
+domain_html: gh.gcdn.mirr.one
+policy_html: All students
+classroom_control_url_url: http%3A//lesson.localnetwork.zone
+categories_comma_url: Uncategorised
+on_agent_html: True
+domain_url: gh.gcdn.mirr.one
+categories_comma_html: Uncategorised
+full_username_url: 015653%40ABPAT_DOMAIN
+url_url: https%3A//gh.gcdn.mirr.one/Vinzent03/find-unlinked-files/releases/download/1.8.0/styles.css
+behind_gateway_html: True
+userdomain_html: ABPAT_DOMAIN
+sitekey_html: abpaterson
+categories_comma: Uncategorised
+ip_url: 10.50.13.159
+policy: All students
+username: 015653
+classroom_control_url_html: http://lesson.localnetwork.zone
+userdomain: ABPAT_DOMAIN
+userdomain_url: ABPAT_DOMAIN
+policy_url: All%20students
+full_username: 015653@ABPAT_DOMAIN
+username_url: 015653
+active_classroom_control: True
+categories: <ul><li>Uncategorised</li></ul>
+sitekey: abpaterson
+behind_gateway_url: True
+url: https://gh.gcdn.mirr.one/Vinzent03/find-unlinked-files/releases/download/1.8.0/styles.css
+ip_html: 10.50.13.159
+active_classroom_control_html: True
+full_username_html: 015653@ABPAT_DOMAIN
+active_classroom_control_url: True
+on_agent_url: True
+behind CyberHound Appliance: True
+on RoamSafe Agent: True
+--></html>
