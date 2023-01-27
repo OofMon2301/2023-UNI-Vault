@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3767712a7fa36005",
+        "id": "c87b17be28265486",
         "type": "tabs",
         "children": [
           {
-            "id": "622237cb6e4bb3ad",
+            "id": "03980ad7e4dcd9fd",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,8 +20,32 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "4478bd101c7476e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/Notes/Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7dcf533db1ae98d",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "How to use Obsidian Git.md",
+                "staged": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,9 +104,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Homepage.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -105,7 +127,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +143,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,13 +158,21 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "b109f0679e60e484",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,17 +190,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "622237cb6e4bb3ad",
+  "active": "b109f0679e60e484",
   "lastOpenFiles": [
-    "2023/ENGG1100/English major.md",
+    "2023/Notes/Notes.md",
+    "How to use Obsidian Git.md",
     "Homepage.md",
+    "2023/ENGG1100/English major.md",
     "2023/ENGG1100/ENGG1100.md",
     "2023/MATH1050/MATH1050.md",
     "2023/MATH1051/MATH1051.md",
     "2023/MATH1061/MATH1061.md",
     "2023/ENGG1100/d.md",
-    "Oof.md",
-    "oof.md",
-    "2023/Notes/Notes.md"
+    "Oof.md"
   ]
 }
