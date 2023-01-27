@@ -37,10 +37,11 @@
             "id": "d7dcf533db1ae98d",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "How to use Obsidian Git.md",
-                "staged": false
+                "file": "2023/Notes/Notes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +105,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2023/Notes/Notes.md"
+              }
             }
           }
         ]
@@ -127,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2023/Notes/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,6 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2023/Notes/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,10 +195,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b109f0679e60e484",
+  "active": "acfa305c99aa7427",
   "lastOpenFiles": [
-    "2023/Notes/Notes.md",
     "How to use Obsidian Git.md",
+    "2023/Notes/Notes.md",
     "Homepage.md",
     "2023/ENGG1100/English major.md",
     "2023/ENGG1100/ENGG1100.md",
