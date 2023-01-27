@@ -1,0 +1,1 @@
+This is how you use Obsidian git, and I will show you how. There is a source control and how that is working is by working out what changes you have made to the system and then commiting them to the github desktop. Byt then it will also push them to the online repository and then sending them online.
