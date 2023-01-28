@@ -4,18 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ad836202ea8ff6d4",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Homepage.md",
-            "mode": "preview",
-            "source": false
-          },
-          "pinned": true
-        }
+        "id": "b80da25c262b9831",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bca4ab3f7be5c006",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Homepage.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,11 +170,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ad836202ea8ff6d4",
+  "active": "bca4ab3f7be5c006",
   "lastOpenFiles": [
     "How to use Obsidian Git.md",
-    "2023/Notes/Notes.md",
     "Homepage.md",
+    "2023/Notes/Notes.md",
     "2023/ENGG1100/English major.md",
     "2023/ENGG1100/ENGG1100.md",
     "2023/MATH1050/MATH1050.md",
