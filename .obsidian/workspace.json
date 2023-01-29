@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "300c3ce98df0f516",
+            "id": "203230c88fbdf1b2",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,17 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "5411b798d34adb90",
-            "type": "leaf",
-            "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +171,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5411b798d34adb90",
+  "active": "203230c88fbdf1b2",
   "lastOpenFiles": [
     "Homepage.md",
     "How to use Obsidian Git.md",
