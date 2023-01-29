@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b80da25c262b9831",
+        "id": "f129da07d71c9a21",
         "type": "tabs",
         "children": [
           {
-            "id": "bca4ab3f7be5c006",
+            "id": "300c3ce98df0f516",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,8 +20,17 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "5411b798d34adb90",
+            "type": "leaf",
+            "state": {
+              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,10 +180,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bca4ab3f7be5c006",
+  "active": "5411b798d34adb90",
   "lastOpenFiles": [
-    "How to use Obsidian Git.md",
     "Homepage.md",
+    "How to use Obsidian Git.md",
     "2023/Notes/Notes.md",
     "2023/ENGG1100/English major.md",
     "2023/ENGG1100/ENGG1100.md",
