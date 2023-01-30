@@ -6,15 +6,23 @@
     },
     {
       "basename": "Notes",
+      "path": "Notes.md"
+    },
+    {
+      "basename": "ENGG1100",
+      "path": "2023/ENGG1100/ENGG1100.md"
+    },
+    {
+      "basename": "Kieran",
+      "path": "2023/ENGG1100/Kieran.md"
+    },
+    {
+      "basename": "Notes",
       "path": "2023/Notes/Notes.md"
     },
     {
       "basename": "MATH1061",
       "path": "2023/MATH1061/MATH1061.md"
-    },
-    {
-      "basename": "ENGG1100",
-      "path": "2023/ENGG1100/ENGG1100.md"
     },
     {
       "basename": "MATH1050",

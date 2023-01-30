@@ -1,4 +1,5 @@
 {
   "readableLineLength": true,
-  "attachmentFolderPath": "Attachment Folder"
+  "attachmentFolderPath": "Attachment Folder",
+  "showInlineTitle": false
 }
