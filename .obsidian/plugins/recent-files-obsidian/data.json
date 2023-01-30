@@ -9,16 +9,24 @@
       "path": "Random Stuff/Templates/Lecture.md"
     },
     {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
+      "basename": "Banners",
+      "path": "Random Stuff/Banners.md"
+    },
+    {
+      "basename": "1st Law of Thermodynamics",
+      "path": "2023/Definitions/1st Law of Thermodynamics.md"
+    },
+    {
       "basename": "Theories of Thermodynamics",
       "path": "2023/ENGG1100/Theories of Thermodynamics.md"
     },
     {
       "basename": "ENGG1100",
       "path": "2023/ENGG1100/ENGG1100.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
     },
     {
       "basename": "MATH1061",
@@ -31,10 +39,6 @@
     {
       "basename": "MATH1051",
       "path": "2023/MATH1051/MATH1051.md"
-    },
-    {
-      "basename": "Banners",
-      "path": "Random Stuff/Banners.md"
     },
     {
       "basename": "getEmailPos",
