@@ -7,13 +7,17 @@
       ""
     ]
   ],
-  "trigger_on_file_creation": false,
+  "trigger_on_file_creation": true,
   "auto_jump_to_cursor": false,
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
   "folder_templates": [
+    {
+      "folder": "2023",
+      "template": "Random Stuff/Templates/Lecture.md"
+    },
     {
       "folder": "",
       "template": ""
@@ -26,5 +30,5 @@
   "startup_templates": [
     ""
   ],
-  "enable_ribbon_icon": true
+  "enable_ribbon_icon": false
 }

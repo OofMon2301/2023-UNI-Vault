@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "8c3268771cf6bd25",
+            "id": "9d0f0a3897346073",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Lecture.md",
+                "file": "Random Stuff/Templates/Definitions.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Lecture.md"
+                "file": "Random Stuff/Templates/Definitions.md"
               }
             }
           }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Lecture.md",
+                "file": "Random Stuff/Templates/Definitions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Lecture.md",
+                "file": "Random Stuff/Templates/Definitions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,17 +184,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8c3268771cf6bd25",
+  "active": "acfa305c99aa7427",
   "lastOpenFiles": [
-    "Homepage.md",
-    "Templates/New things.md",
-    "Templates/Untitled.md",
-    "Test Note.md",
+    "Random Stuff/Templates/Lecture.md",
+    "Random Stuff/Templates/Definitions.md",
+    "2023/Notes/Notes.md",
+    "2023/ENGG1100/Theories of Thermodynamics.md",
     "Notes.md",
     "2023/ENGG1100/ENGG1100.md",
     "2023/ENGG1100/Kieran.md",
-    "How to use Obsidian Git.md",
-    "2023/Notes/Notes.md",
-    "2023/ENGG1100/English major.md"
+    "Homepage.md",
+    "Templates/New things.md",
+    "Templates/Untitled.md"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 date: <% tp.date.now("DD-MM-YYYY") %>
-type: lecture
+type: Lecture
 subject: 
 tags: lecture
 ---
