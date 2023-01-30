@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/ENGG1100/ENGG1100.md",
+                "file": "Random Stuff/Templates/Lecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/ENGG1100/ENGG1100.md"
+                "file": "Random Stuff/Templates/Lecture.md"
               }
             }
           }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/ENGG1100/ENGG1100.md",
+                "file": "Random Stuff/Templates/Lecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/ENGG1100/ENGG1100.md",
+                "file": "Random Stuff/Templates/Lecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,15 +210,15 @@
   },
   "active": "85a848ea0c532983",
   "lastOpenFiles": [
+    "Random Stuff/Templates/Definitions.md",
     "Random Stuff/Templates/Lecture.md",
+    "2023/ENGG1100/Special Relativity.md",
+    "2023/ENGG1100/Untitled.md",
+    "Homepage.md",
     "2023/ENGG1100/ENGG1100.md",
     "2023/ENGG1100/Theories of Thermodynamics.md",
-    "Random Stuff/Templates/Definitions.md",
-    "Homepage.md",
     "Random Stuff/Banners.md",
     "2023/Definitions/1st Law of Thermodynamics.md",
-    "1st Law of Thermodynamics.md",
-    "2023/Notes/Notes.md",
-    "Notes.md"
+    "1st Law of Thermodynamics.md"
   ]
 }
