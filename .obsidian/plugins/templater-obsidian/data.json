@@ -19,8 +19,8 @@
       "template": "Random Stuff/Templates/Lecture.md"
     },
     {
-      "folder": "",
-      "template": ""
+      "folder": "2023/Definitions",
+      "template": "Random Stuff/Templates/Definitions.md"
     }
   ],
   "syntax_highlighting": true,
