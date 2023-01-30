@@ -18,7 +18,7 @@
   "things-style@@floating-button-off": false,
   "things-style@@mobile-black-background": false,
   "things-style@@no-codeblock-line-numbers": false,
-  "sanctum@@dark-mode-contrast-mode": "sanctum-black",
+  "sanctum@@dark-mode-contrast-mode": "sanctum-default-dark",
   "sanctum@@color-accent-rgb-d": "102, 153, 97",
   "sanctum@@active-line-accent": "var(--background-hover)",
   "sanctum@@sticky-view-actions": false,
