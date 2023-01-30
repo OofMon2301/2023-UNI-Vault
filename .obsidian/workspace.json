@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f129da07d71c9a21",
+        "id": "c86b30c2ca8b0b63",
         "type": "tabs",
         "children": [
           {
-            "id": "203230c88fbdf1b2",
+            "id": "ccbc541044e83ad8",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -171,7 +171,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "203230c88fbdf1b2",
+  "active": "ccbc541044e83ad8",
   "lastOpenFiles": [
     "Homepage.md",
     "How to use Obsidian Git.md",
