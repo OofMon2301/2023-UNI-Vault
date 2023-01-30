@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/ENGG1100/Theories of Thermodynamics.md",
+                "file": "2023/ENGG1100/ENGG1100.md",
                 "mode": "source",
                 "source": false
               }
@@ -58,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Random Stuff/Templates/Definitions.md"
+                "file": "2023/ENGG1100/ENGG1100.md"
               }
             }
           }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Random Stuff/Templates/Definitions.md",
+                "file": "2023/ENGG1100/ENGG1100.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Random Stuff/Templates/Definitions.md",
+                "file": "2023/ENGG1100/ENGG1100.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,17 +208,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bc27278557e8d04c",
+  "active": "85a848ea0c532983",
   "lastOpenFiles": [
     "Random Stuff/Templates/Lecture.md",
+    "2023/ENGG1100/ENGG1100.md",
+    "2023/ENGG1100/Theories of Thermodynamics.md",
+    "Random Stuff/Templates/Definitions.md",
     "Homepage.md",
     "Random Stuff/Banners.md",
     "2023/Definitions/1st Law of Thermodynamics.md",
-    "2023/ENGG1100/Theories of Thermodynamics.md",
     "1st Law of Thermodynamics.md",
-    "Random Stuff/Templates/Definitions.md",
     "2023/Notes/Notes.md",
-    "Notes.md",
-    "2023/ENGG1100/ENGG1100.md"
+    "Notes.md"
   ]
 }
