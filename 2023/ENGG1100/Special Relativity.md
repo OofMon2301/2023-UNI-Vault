@@ -5,6 +5,6 @@ subject:
 tags: lecture
 ---
 # [[Special Relativity]]
-#ENGG1100
+
 # Notes
 [[2023/Definitions/Time Dilation]]
