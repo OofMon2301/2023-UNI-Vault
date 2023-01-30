@@ -5,6 +5,6 @@ subject:
 tags: lecture
 ---
 # [[<% tp.file.title %>]]
-#<% tp.file.folder %>
+#<% tp.file.folder(true) %>
 # Notes
-<% tp.file.cursor(order) %>
+<% tp.file.cursor(1) %>
