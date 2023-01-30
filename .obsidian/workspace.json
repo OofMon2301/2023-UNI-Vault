@@ -39,14 +39,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/ENGG1100/Theories of Thermodynamics.md",
+                "file": "Random Stuff/Templates/Definitions.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "17c88cbe922e7ece",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -75,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#2023/ENGG110",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,9 +113,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2023/ENGG1100/Theories of Thermodynamics.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -130,7 +136,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/ENGG1100/Theories of Thermodynamics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +152,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/ENGG1100/Theories of Thermodynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,17 +200,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "98a1a18ba65c4fa9",
+  "active": "acfa305c99aa7427",
   "lastOpenFiles": [
-    "2023/Definitions/1st Law of Thermodynamics.md",
+    "2023/ENGG1100/Math.md",
+    "Random Stuff/Templates/Lecture.md",
     "2023/ENGG1100/Theories of Thermodynamics.md",
     "2023/ENGG1100/Special Relativity.md",
     "Random Stuff/Templates/Definitions.md",
-    "Random Stuff/Templates/Lecture.md",
-    "2023/ENGG1100/ENGG1100.md",
-    "2023/Definitions/Time Dilation.md",
-    "2023/ENGG1100/ Special Relativity.md",
+    "2023/MATH1050/Math.md",
     "2023/MATH1050/MATH1050.md",
-    "2023/ENGG1100/Special.md"
+    "2023/ENGG1100/How things work.md",
+    "2023/ENGG1100/General Relativity.md",
+    "2023/Definitions/1st Law of Thermodynamics.md"
   ]
 }
