@@ -3,10 +3,10 @@ date: <% tp.date.now("DD-MM-YYYY") %>
 type: Lecture
 subject: 
 tags: lecture
-Topic:: 3
+Topic:: 
 ---
 # [[<% tp.file.title %>]]
-#<% tp.file.folder(true).split("/").pop() %>
+#<% this.app.workspace.getActiveFile().parent.name %>
 # Notes
 
 <% tp.file.cursor(1) %>

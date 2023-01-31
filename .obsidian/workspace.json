@@ -22,23 +22,19 @@
             }
           },
           {
-            "id": "57fa2bc1253ab171",
+            "id": "43af5013662aa256",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "d680e81e2caa8822",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Random Stuff/Templates/Lecture.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Random Stuff/Templates/Lecture.md"
+              }
             }
           }
         ]
@@ -120,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Random Stuff/Templates/Lecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Random Stuff/Templates/Lecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,17 +183,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d680e81e2caa8822",
+  "active": "43af5013662aa256",
   "lastOpenFiles": [
+    "2023/ENGG1100/Matheletics.md",
+    "Random Stuff/Templates/Lecture.md",
+    "Random Stuff/Templates/Definitions.md",
+    "Homepage.md",
     "2023/ENGG1100/Lowks.md",
     "2023/ENGG1100/ENGG1100.md",
-    "Random Stuff/Templates/Lecture.md",
     "2023/ENGG1100/Special Relativity.md",
-    "Random Stuff/Templates/Definitions.md",
     "2023/ENGG1100/Newtons.md",
     "2023/ENGG1100/Theories of Thermodynamics.md",
-    "2023/ENGG1100/Math.md",
-    "2023/Defenitions/asjdhflkajshdflkj.md",
-    "Homepage.md"
+    "2023/ENGG1100/Math.md"
   ]
 }
