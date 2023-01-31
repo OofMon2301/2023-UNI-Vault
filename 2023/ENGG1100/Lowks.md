@@ -1,11 +1,12 @@
 ---
-date: 31-01-2023
+date: 01-02-2023
 type: Lecture
 subject: 
 tags: lecture
+Topic:: 3
 ---
-# [[asjdhflkajshdflkj]]
-
+# [[Lowks]]
+#ENGG1100
 # Notes
 
 
