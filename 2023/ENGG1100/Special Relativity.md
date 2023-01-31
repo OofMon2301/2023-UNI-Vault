@@ -7,4 +7,4 @@ tags: lecture
 # [[Special Relativity]]
 
 # Notes
-[[2023/Definitions/Time Dilation]]
+[[2023/Definitions/Time Dilation|Time Dilation]]
