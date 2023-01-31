@@ -20,8 +20,33 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "57fa2bc1253ab171",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/ENGG1100/Math.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d680e81e2caa8822",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/Defenitions/asjdhflkajshdflkj.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage.md"
+                "file": "2023/Defenitions/asjdhflkajshdflkj.md"
               }
             }
           }
@@ -105,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
+                "file": "2023/Defenitions/asjdhflkajshdflkj.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
+                "file": "2023/Defenitions/asjdhflkajshdflkj.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,17 +195,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "538f4e14f81d0654",
+  "active": "d680e81e2caa8822",
   "lastOpenFiles": [
+    "2023/ENGG1100/Math.md",
+    "Homepage.md",
     "2023/ENGG1100/Special Relativity.md",
     "2023/Definitions/Time Dilation.md",
     "2023/ENGG1100/Theories of Thermodynamics.md",
     "2023/Definitions/1st Law of Thermodynamics.md",
     "2023/ENGG1100/ENGG1100.md",
     "Random Stuff/Templates/Definitions.md",
-    "2023/ENGG1100/Math.md",
     "Random Stuff/Templates/Lecture.md",
-    "2023/MATH1050/Math.md",
-    "2023/MATH1050/MATH1050.md"
+    "2023/MATH1050/Math.md"
   ]
 }
