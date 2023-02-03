@@ -8,4 +8,4 @@ tags: lecture
 
 # Notes
 The notes in here are quite useless.
-There is the [[2023/Definitions/1st Law of Thermodynamics|1st Law of Thermodynamics]] that will be discussed today.
+There is the [[2023/Definitions/1st Law of Thermodynamics|1st Law of Thermodynamics]] that will be discussed today. [[2023/Definitions/Mathematics|Mathematics]]
