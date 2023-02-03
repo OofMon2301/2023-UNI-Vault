@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/MATH1051/asdjfkl;aj;lsdlf.md",
+                "file": "Random Stuff/Templates/Lecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1051/asdjfkl;aj;lsdlf.md"
+                "file": "Random Stuff/Templates/Lecture.md"
               }
             }
           }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1051/asdjfkl;aj;lsdlf.md",
+                "file": "Random Stuff/Templates/Lecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1051/asdjfkl;aj;lsdlf.md",
+                "file": "Random Stuff/Templates/Lecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,6 +171,7 @@
   },
   "active": "a2329e47d96a78b7",
   "lastOpenFiles": [
+    "2023/MATH1051/asdjfkl;aj;lsdlf.md",
     "Random Stuff/Templates/Lecture.md",
     "2023/MATH1051/asldjfh'.md",
     "2023/ENGG1100/Theories of Thermodynamics.md",
@@ -179,7 +180,6 @@
     "2023/ENGG1100/ENGG1100.md",
     "2023/Definitions/Time Dilation.md",
     "2023/MATH1050/Nice.md",
-    "2023/MATH1050/MATH1050.md",
-    "2023/ENGG1100/Untitled database.md"
+    "2023/MATH1050/MATH1050.md"
   ]
 }
