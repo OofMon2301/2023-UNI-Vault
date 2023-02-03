@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "89b06d03df993ea6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/Definitions/1st Law of Thermodynamics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -71,22 +58,6 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "b67c7e629266c0c9",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "f8bf2afc386aa564",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
           }
         ]
       },
@@ -100,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Definitions/1st Law of Thermodynamics.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -119,35 +90,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "981b75af9e493464",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "2023/Definitions/1st Law of Thermodynamics.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "a94b1fa819925d9c",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "2023/Definitions/1st Law of Thermodynamics.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "0b26a3995e309d89",
             "type": "leaf",
             "state": {
@@ -157,39 +99,67 @@
                 "useHierarchy": true
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "b2e398d710777b6e",
+        "type": "tabs",
+        "children": [
           {
-            "id": "b109f0679e60e484",
+            "id": "981b75af9e493464",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {}
+              "type": "backlink",
+              "state": {
+                "file": "Homepage.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "a94b1fa819925d9c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Homepage.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "obsidian-projects:Open projects": false,
       "dbfolder:Create a new database table": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "acfa305c99aa7427",
+  "active": "04c44a456f92b0a1",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "2023/Definitions/1st Law of Thermodynamics.md",
     "Homepage.md",
     "Random Stuff/Templates/Lecture.md",
     "Hop.md",
@@ -197,8 +167,6 @@
     "Sp.md",
     "Untitled 1.md",
     "Random Stuff/textgenerator/prompts/default/getParagraph.md",
-    "Random Stuff/textgenerator/prompts/default/getOutline.md",
-    "2023/ENGG1100/Special Relativity.md",
-    "2023/ENGG1100/ENGG1100.md"
+    "Random Stuff/textgenerator/prompts/default/getOutline.md"
   ]
 }

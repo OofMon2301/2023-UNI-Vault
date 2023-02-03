@@ -1,0 +1,165 @@
+{
+  "workspaces": {
+    "Uni Work": {
+      "main": {
+        "id": "61f210a3e75bc5fb",
+        "type": "split",
+        "children": [
+          {
+            "id": "5ef851d2a3c0abbc",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "04c44a456f92b0a1",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Homepage.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "9de9ace4f25fb458",
+        "type": "split",
+        "children": [
+          {
+            "id": "631fd72ade8ce58d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "acfa305c99aa7427",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "9086fba33c94ae1b",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "a14c5693f5463fc1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e3f77537e0ebace8",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Homepage.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "bbad5c880586bc53",
+        "type": "split",
+        "children": [
+          {
+            "id": "413c01d99c7ceb6f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0b26a3995e309d89",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "b2e398d710777b6e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "981b75af9e493464",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Homepage.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "a94b1fa819925d9c",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Homepage.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "homepage:Open homepage": false,
+          "switcher:Open quick switcher": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "markdown-importer:Open format converter": false,
+          "obsidian-projects:Open projects": false,
+          "dbfolder:Create a new database table": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "04c44a456f92b0a1"
+    }
+  },
+  "active": "Uni Work"
+}
