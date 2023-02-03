@@ -1,7 +1,7 @@
 ---
 date: <% tp.date.now("DD-MM-YYYY") %>
 type: Lecture
-subject: 
+subject: <% tp.file.folder(true).split('/').pop() %>
 tags: lecture
 Topic:: 
 ---

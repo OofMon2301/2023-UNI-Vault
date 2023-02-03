@@ -78,6 +78,30 @@
           "lastUpdated": 1675424722574
         }
       }
+    },
+    "ENGG1100": {
+      "ENGG1100": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1675427825881
+        }
+      }
+    },
+    "Definitions": {
+      "Definitions": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675428163538
+        }
+      }
+    },
+    "MATH1050": {
+      "MATH1050": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675428240339
+        }
+      }
     }
   }
 }

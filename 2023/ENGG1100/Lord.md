@@ -5,8 +5,8 @@ subject:
 tags: lecture
 Topic:: 
 ---
-# [[Kepler's Laws of Grvaitation]]
-#ENGG1100
+# [[Lord]]
+#Templates
 # Notes
 
 <% tp.file.cursor(1) %>
