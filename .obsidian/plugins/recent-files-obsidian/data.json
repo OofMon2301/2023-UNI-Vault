@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Time Dilation",
-      "path": "2023/Definitions/Time Dilation.md"
+      "basename": "1st Law of Thermodynamics",
+      "path": "2023/Definitions/1st Law of Thermodynamics.md"
     },
     {
       "basename": "Homepage",
@@ -11,6 +11,10 @@
     {
       "basename": "Lecture",
       "path": "Random Stuff/Templates/Lecture.md"
+    },
+    {
+      "basename": "Time Dilation",
+      "path": "2023/Definitions/Time Dilation.md"
     },
     {
       "basename": "getParagraph",
@@ -35,10 +39,6 @@
     {
       "basename": "Theories of Thermodynamics",
       "path": "2023/ENGG1100/Theories of Thermodynamics.md"
-    },
-    {
-      "basename": "1st Law of Thermodynamics",
-      "path": "2023/Definitions/1st Law of Thermodynamics.md"
     },
     {
       "basename": "MATH1050",

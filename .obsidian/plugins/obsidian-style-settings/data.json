@@ -24,5 +24,6 @@
   "sanctum@@sticky-view-actions": false,
   "sanctum@@nav-folder-indicators": true,
   "sanctum@@colorful-active-nav": false,
-  "sanctum@@heading-outline": "#"
+  "sanctum@@heading-outline": "#",
+  "ITS@@bttn@@light": "#7347C2"
 }

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0fa7899b047b2d01",
+        "id": "5ef851d2a3c0abbc",
         "type": "tabs",
         "children": [
           {
-            "id": "e94fa0f00fbd5370",
+            "id": "04c44a456f92b0a1",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,11 +22,15 @@
             }
           },
           {
-            "id": "f533f281dbea5775",
+            "id": "89b06d03df993ea6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2023/Definitions/1st Law of Thermodynamics.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -83,13 +87,21 @@
               "type": "recent-files",
               "state": {}
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "a14c5693f5463fc1",
+        "type": "tabs",
+        "children": [
           {
             "id": "e3f77537e0ebace8",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2023/Definitions/1st Law of Thermodynamics.md"
+              }
             }
           }
         ]
@@ -112,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2023/Definitions/1st Law of Thermodynamics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2023/Definitions/1st Law of Thermodynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,12 +190,12 @@
   },
   "active": "acfa305c99aa7427",
   "lastOpenFiles": [
-    "2023/Definitions/Time Dilation.md",
-    "Hop.md",
     "Homepage.md",
+    "Random Stuff/Templates/Lecture.md",
+    "Hop.md",
+    "2023/Definitions/Time Dilation.md",
     "Sp.md",
     "Untitled 1.md",
-    "Random Stuff/Templates/Lecture.md",
     "Random Stuff/textgenerator/prompts/default/getParagraph.md",
     "Random Stuff/textgenerator/prompts/default/getOutline.md",
     "2023/ENGG1100/Special Relativity.md",
