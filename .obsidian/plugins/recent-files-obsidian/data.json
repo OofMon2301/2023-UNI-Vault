@@ -5,6 +5,26 @@
       "path": "Random Stuff/Templates/Lecture.md"
     },
     {
+      "basename": "getParagraph",
+      "path": "Random Stuff/textgenerator/prompts/default/getParagraph.md"
+    },
+    {
+      "basename": "getOutline",
+      "path": "Random Stuff/textgenerator/prompts/default/getOutline.md"
+    },
+    {
+      "basename": "Special Relativity",
+      "path": "2023/ENGG1100/Special Relativity.md"
+    },
+    {
+      "basename": "ENGG1100",
+      "path": "2023/ENGG1100/ENGG1100.md"
+    },
+    {
+      "basename": "Time Dilation",
+      "path": "2023/Definitions/Time Dilation.md"
+    },
+    {
       "basename": "Definitions",
       "path": "Random Stuff/Templates/Definitions.md"
     },
@@ -13,20 +33,8 @@
       "path": "Homepage.md"
     },
     {
-      "basename": "ENGG1100",
-      "path": "2023/ENGG1100/ENGG1100.md"
-    },
-    {
-      "basename": "Special Relativity",
-      "path": "2023/ENGG1100/Special Relativity.md"
-    },
-    {
       "basename": "Theories of Thermodynamics",
       "path": "2023/ENGG1100/Theories of Thermodynamics.md"
-    },
-    {
-      "basename": "Time Dilation",
-      "path": "2023/Definitions/Time Dilation.md"
     },
     {
       "basename": "1st Law of Thermodynamics",
