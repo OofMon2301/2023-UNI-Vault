@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "be0ce34b94f45c5e",
+            "id": "874a8a22465476e3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Random Stuff/Templates/Lecture.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -66,7 +70,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Random Stuff/Templates/Lecture.md"
+              }
             }
           }
         ]
@@ -106,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Random Stuff/Templates/Lecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Random Stuff/Templates/Lecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,17 +156,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "be0ce34b94f45c5e",
+  "active": "874a8a22465476e3",
   "lastOpenFiles": [
-    "2023/ENGG1100/Niewjdnsflob.md",
-    "2023/ENGG1100/Special Relativity.md",
+    "2023/MATH1050/Nice.md",
+    "Random Stuff/Templates/Lecture.md",
+    "Random Stuff/Templates/Definitions.md",
+    "2023/MATH1050/MATH1050.md",
     "2023/ENGG1100/Theories of Thermodynamics.md",
     "2023/Definitions/Mathematics.md",
+    "2023/ENGG1100/Niewjdnsflob.md",
+    "2023/ENGG1100/Special Relativity.md",
     "2023/Definitions/Time Dilation.md",
-    "2023/ENGG1100/ENGG1100.md",
-    "Random Stuff/Templates/Definitions.md",
-    "Random Stuff/Templates/Lecture.md",
-    "2023/Definitions/OPklopk.md",
-    "2023/ENGG1100/Nice.md"
+    "2023/ENGG1100/ENGG1100.md"
   ]
 }

@@ -1,14 +1,13 @@
 ---
 date: 03-02-2023
 type: Lecture
-subject: ENGG1100
+subject: MATH1050
 tags: lecture
 Topic:: 
 ---
-# [[Niewjdnsflob]]
-#Templates
+# [[Nice]]
+#MATH1050
 # Notes
 
-<% tp.file.cursor(1) %>
 
 

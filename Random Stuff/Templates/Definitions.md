@@ -1,7 +1,7 @@
 ---
 date: <% tp.date.now("DD-MM-YYYY") %>
 type: Definition
-subject: <% tp.file.folder(true).split('/').pop() %>
+subject: <% tp.file.folder() %>
 tags: definition
 ---
 # [[<% tp.file.title %>]]
