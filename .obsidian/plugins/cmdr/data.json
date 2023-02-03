@@ -8,7 +8,15 @@
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
-  "pageHeader": [],
+  "pageHeader": [
+    {
+      "id": "quickadd:choice:0e908f6f-46dd-4395-b8a4-c9fb4702adfa",
+      "icon": "plus",
+      "name": "New Lecture",
+      "mode": "any",
+      "color": "#ffffff"
+    }
+  ],
   "macros": [],
   "explorer": [],
   "hide": {

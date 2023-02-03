@@ -1,31 +1,23 @@
 {
   "choices": [
     {
-      "id": "3311c62d-acae-4754-8426-6a15852f5503",
+      "id": "0e908f6f-46dd-4395-b8a4-c9fb4702adfa",
       "name": "New Lecture",
-      "type": "Capture",
-      "command": false,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
+      "type": "Template",
+      "command": true,
+      "templatePath": "Random Stuff/Templates/Lecture",
+      "fileNameFormat": {
         "enabled": false,
         "format": ""
       },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": true,
+        "createInSameFolderAsActiveFile": false
       },
-      "prepend": false,
-      "task": false,
+      "appendLink": false,
+      "incrementFileName": false,
       "openFileInNewTab": {
         "enabled": false,
         "direction": "vertical",
