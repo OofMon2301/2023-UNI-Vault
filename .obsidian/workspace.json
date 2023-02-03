@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5ef851d2a3c0abbc",
+        "id": "2f8dee49ac3ef6d5",
         "type": "tabs",
         "children": [
           {
-            "id": "04c44a456f92b0a1",
+            "id": "3e30ccc012fc4208",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "database-plugin",
+              "type": "markdown",
               "state": {
-                "file": "2023/ENGG1100/Untitled database.md"
-              },
-              "pinned": true
+                "file": "2023/ENGG1100/ENGG1100.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -69,7 +69,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/ENGG1100/Untitled database.md"
+                "file": "2023/ENGG1100/ENGG1100.md"
               }
             }
           }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/ENGG1100/Untitled database.md",
+                "file": "2023/ENGG1100/ENGG1100.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/ENGG1100/Untitled database.md",
+                "file": "2023/ENGG1100/ENGG1100.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,17 +154,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "04c44a456f92b0a1",
+  "active": "3e30ccc012fc4208",
   "lastOpenFiles": [
+    "2023/ENGG1100/Theories of Thermodynamics.md",
+    "2023/ENGG1100/Special Relativity.md",
     "2023/ENGG1100/ENGG1100.md",
+    "2023/Definitions/Time Dilation.md",
     "2023/ENGG1100/Untitled database.md",
     "Homepage.md",
     "Untitled.canvas",
     "2023/Definitions/1st Law of Thermodynamics.md",
     "Random Stuff/Templates/Lecture.md",
-    "Hop.md",
-    "2023/Definitions/Time Dilation.md",
-    "Sp.md",
-    "Untitled 1.md"
+    "Hop.md"
   ]
 }

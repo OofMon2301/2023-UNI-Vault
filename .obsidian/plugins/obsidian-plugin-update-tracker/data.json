@@ -1,5 +1,5 @@
 {
-  "daysToSuppressNewUpdates": 3,
+  "daysToSuppressNewUpdates": 1,
   "dismissedVersionsByPluginId": {},
   "showIconOnMobile": true,
   "excludeBetaVersions": true,
