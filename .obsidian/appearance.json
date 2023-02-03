@@ -5,5 +5,7 @@
     "dashboard"
   ],
   "theme": "obsidian",
-  "cssTheme": "Sanctum"
+  "cssTheme": "Sanctum",
+  "nativeMenus": false,
+  "translucency": false
 }

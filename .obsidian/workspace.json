@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5bc233a141d07cf1",
+        "id": "0fa7899b047b2d01",
         "type": "tabs",
         "children": [
           {
-            "id": "538f4e14f81d0654",
+            "id": "e94fa0f00fbd5370",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,15 +22,11 @@
             }
           },
           {
-            "id": "43af5013662aa256",
+            "id": "f533f281dbea5775",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Random Stuff/Templates/Lecture.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -93,9 +89,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Random Stuff/Templates/Lecture.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -118,7 +112,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Random Stuff/Templates/Lecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +128,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Random Stuff/Templates/Lecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,17 +175,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "43af5013662aa256",
+  "active": "acfa305c99aa7427",
   "lastOpenFiles": [
+    "2023/Definitions/Time Dilation.md",
+    "Hop.md",
+    "Homepage.md",
+    "Sp.md",
+    "Untitled 1.md",
+    "Random Stuff/Templates/Lecture.md",
     "Random Stuff/textgenerator/prompts/default/getParagraph.md",
     "Random Stuff/textgenerator/prompts/default/getOutline.md",
-    "Random Stuff/Templates/Lecture.md",
     "2023/ENGG1100/Special Relativity.md",
-    "2023/ENGG1100/ENGG1100.md",
-    "2023/Definitions/Time Dilation.md",
-    "2023/ENGG1100/Matheletics.md",
-    "Random Stuff/Templates/Definitions.md",
-    "Homepage.md",
-    "2023/ENGG1100/Lowks.md"
+    "2023/ENGG1100/ENGG1100.md"
   ]
 }
