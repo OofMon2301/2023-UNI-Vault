@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c11864d2071489af",
+        "id": "d3b35443144970d3",
         "type": "tabs",
         "children": [
           {
-            "id": "874a8a22465476e3",
+            "id": "505e3ab263c80693",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/ENGG1100/Theories of Thermodynamics.md",
-                "mode": "source",
+                "file": "Homepage.md",
+                "mode": "preview",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "a2329e47d96a78b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Random Stuff/Templates/Lecture.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,8 +59,17 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "ec945fb91ead8bd5",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "a14c5693f5463fc1",
@@ -84,7 +82,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Random Stuff/Templates/Lecture.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -125,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Random Stuff/Templates/Lecture.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Random Stuff/Templates/Lecture.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +167,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a2329e47d96a78b7",
+  "active": "505e3ab263c80693",
   "lastOpenFiles": [
     "2023/MATH1051/asdjfkl;aj;lsdlf.md",
     "Random Stuff/Templates/Lecture.md",
