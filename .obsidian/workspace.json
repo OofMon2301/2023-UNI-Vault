@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3b9b0ff85bf65f36",
+        "id": "3137f306f825849e",
         "type": "tabs",
         "children": [
           {
-            "id": "a02836c403621b33",
+            "id": "2b1d962431a0dbed",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -166,7 +166,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a02836c403621b33",
+  "active": "2b1d962431a0dbed",
   "lastOpenFiles": [
     "Random Stuff/Templates/Lecture.md",
     "Homepage.md",
