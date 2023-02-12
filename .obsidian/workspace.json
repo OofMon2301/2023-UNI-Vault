@@ -27,14 +27,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/ENGG1100/Theories of Thermodynamics.md",
+                "file": "2023/ENGG1100/Special Relativity.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "ac7b3cd8f7a205d4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,9 +101,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2023/ENGG1100/Theories of Thermodynamics.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -135,7 +141,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/ENGG1100/Theories of Thermodynamics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +157,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/ENGG1100/Theories of Thermodynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,17 +183,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1b3f3ab78f9b3d2a",
+  "active": "acfa305c99aa7427",
   "lastOpenFiles": [
-    "2023/Definitions/1st Law of Thermodynamics.md",
-    "2023/ENGG1100/Theories of Thermodynamics.md",
     "2023/ENGG1100/Special Relativity.md",
+    "2023/Definitions/Time Dilation.md",
+    "2023/ENGG1100/Theories of Thermodynamics.md",
+    "2023/Definitions/1st Law of Thermodynamics.md",
     "Random Stuff/Templates/Definitions.md",
     "Random Stuff/Templates/Lecture.md",
     "Homepage.md",
     "2023/MATH1051/asdjfkl;aj;lsdlf.md",
     "2023/MATH1051/asldjfh'.md",
-    "2023/ENGG1100/ENGG1100.md",
-    "2023/Definitions/Time Dilation.md"
+    "2023/ENGG1100/ENGG1100.md"
   ]
 }
