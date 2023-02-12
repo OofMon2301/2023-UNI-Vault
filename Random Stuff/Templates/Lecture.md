@@ -1,7 +1,7 @@
 ---
 date: <% tp.date.now("DD-MM-YYYY") %>
 type: Lecture
-subject: <% tp.file.folder(true).split('/').pop() %>
+subject: <% this.app.workspace.getActiveFile().parent.name %>
 tags: lecture
 Topic:: 
 ---

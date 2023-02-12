@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Homepage",
-      "path": "Homepage.md"
-    },
-    {
       "basename": "Theories of Thermodynamics",
       "path": "2023/ENGG1100/Theories of Thermodynamics.md"
+    },
+    {
+      "basename": "1st Law of Thermodynamics",
+      "path": "2023/Definitions/1st Law of Thermodynamics.md"
     },
     {
       "basename": "Special Relativity",
       "path": "2023/ENGG1100/Special Relativity.md"
     },
     {
+      "basename": "Definitions",
+      "path": "Random Stuff/Templates/Definitions.md"
+    },
+    {
       "basename": "Lecture",
       "path": "Random Stuff/Templates/Lecture.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
     },
     {
       "basename": "Time Dilation",
@@ -31,10 +39,6 @@
     {
       "basename": "ENGG1100",
       "path": "2023/ENGG1100/ENGG1100.md"
-    },
-    {
-      "basename": "Definitions",
-      "path": "Random Stuff/Templates/Definitions.md"
     },
     {
       "basename": "MATH1050",
