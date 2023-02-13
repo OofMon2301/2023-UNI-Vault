@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e3e4045c67358721",
+            "id": "ac7b3cd8f7a205d4",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,29 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "1b3f3ab78f9b3d2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/ENGG1100/Special Relativity.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac7b3cd8f7a205d4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +80,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Homepage.md"
+              }
             }
           }
         ]
@@ -141,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +166,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "acfa305c99aa7427",
+  "active": "ac7b3cd8f7a205d4",
   "lastOpenFiles": [
     "2023/ENGG1100/Special Relativity.md",
     "2023/Definitions/Time Dilation.md",

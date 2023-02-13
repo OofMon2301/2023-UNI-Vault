@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
       "basename": "Special Relativity",
       "path": "2023/ENGG1100/Special Relativity.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Lecture",
       "path": "Random Stuff/Templates/Lecture.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
     },
     {
       "basename": "getParagraph",
