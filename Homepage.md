@@ -4,19 +4,23 @@ banner: "![[wallhaven-57o619.png]]"
 banner_y: 0.49466
 ---
 # ENGG1100
-- Lectures `$=dv.list(dv.pages('"2023/ENGG1100"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
+All files: [[ENGG1100]]
+- Lectures `$=dv.list(dv.pages('"2023/ENGG1100"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
 - Definitions `$=dv.list(dv.pages('"2023/Definitions"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
 
 # MATH1050
-- Lectures `$=dv.list(dv.pages('"2023/MATH1050"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
+All files: [[MATH1050]]
+- Lectures `$=dv.list(dv.pages('"2023/MATH1050"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
 - Definitions `$=dv.list(dv.pages('"2023/Definitions"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
 
 # MATH1051
-- Lectures `$=dv.list(dv.pages('"2023/MATH1051"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
+All files: [[MATH1051]]
+- Lectures `$=dv.list(dv.pages('"2023/MATH1051"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
 - Definitions `$=dv.list(dv.pages('"2023/Definitions"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
 
 # MATH1061
-- Lectures `$=dv.list(dv.pages('"2023/MATH1061"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
+All files: [[MATH1061]]
+- Lectures `$=dv.list(dv.pages('"2023/MATH1061"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
 - Definitions `$=dv.list(dv.pages('"2023/Definitions"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
 
 # Vault Info
