@@ -6,7 +6,8 @@ banner_y: 0.49466
 # ENGG1100
 All files: [[ENGG1100]]
 - Lectures `$=dv.list(dv.pages('"2023/ENGG1100"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
-- Definitions `$=dv.list(dv.pages('"2023/Definitions"').sort(f=>f.file.mtime.ts,"desc" and f=>f.file.subject).limit(10).file.link)`
+- Definitions `$=dv.list(dv.pages('"2023/Definitions"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
+- Nice 
 
 # MATH1050
 All files: [[MATH1050]]
