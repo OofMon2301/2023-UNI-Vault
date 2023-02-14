@@ -5,6 +5,10 @@
       "path": "Homepage.md"
     },
     {
+      "basename": "Engineering",
+      "path": "2023/ENGG1100/Engineering.md"
+    },
+    {
       "basename": "Special Relativity",
       "path": "2023/ENGG1100/Special Relativity.md"
     },

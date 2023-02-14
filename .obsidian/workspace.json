@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3137f306f825849e",
+        "id": "bdc08d7e2dcfb4bf",
         "type": "tabs",
         "children": [
           {
-            "id": "ac7b3cd8f7a205d4",
+            "id": "b539fa63a709904a",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -166,17 +166,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ac7b3cd8f7a205d4",
+  "active": "b539fa63a709904a",
   "lastOpenFiles": [
+    "2023/Definitions/Layman's Rule.md",
+    "2023/ENGG1100/Engineering.md",
     "2023/ENGG1100/Special Relativity.md",
+    "Homepage.md",
     "2023/Definitions/Time Dilation.md",
     "2023/ENGG1100/Theories of Thermodynamics.md",
     "2023/Definitions/1st Law of Thermodynamics.md",
     "Random Stuff/Templates/Definitions.md",
     "Random Stuff/Templates/Lecture.md",
-    "Homepage.md",
-    "2023/MATH1051/asdjfkl;aj;lsdlf.md",
-    "2023/MATH1051/asldjfh'.md",
-    "2023/ENGG1100/ENGG1100.md"
+    "2023/MATH1051/asdjfkl;aj;lsdlf.md"
   ]
 }
