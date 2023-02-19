@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "094405f98c7f6b95",
+        "id": "de73a025e0015d4f",
         "type": "tabs",
         "children": [
           {
-            "id": "28e261119e5a8acc",
+            "id": "efac8c891fb745f1",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "4b295d3db2eddf11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/Definitions/1st Law of Thermodynamics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Definitions/1st Law of Thermodynamics.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -135,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Definitions/1st Law of Thermodynamics.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Definitions/1st Law of Thermodynamics.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,8 +166,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4b295d3db2eddf11",
+  "active": "efac8c891fb745f1",
   "lastOpenFiles": [
+    "2023/Definitions/1st Law of Thermodynamics.md",
     "Random Stuff/Templates/Definitions.md",
     "2023/Definitions/ENGG1100Time Dilation.md",
     "2023/ENGG1100/Special Relativity.md",
@@ -188,7 +176,6 @@
     "Random Stuff/Templates/Lecture.md",
     "2023/ENGG1100/ENGG1100.md",
     "Homepage.md",
-    "2023/Definitions/1st Law of Thermodynamics.md",
     "2023/ENGG1100/Nice.md",
     "2023/ENGG1100/Theories of Thermodynamics.md"
   ]
