@@ -4,7 +4,12 @@ banner: "![[wallhaven-57o619.png]]"
 banner_y: 0.49466
 ---
 # ENGG1100
-All files: [[ENGG1100]]
+```dataview
+Table file.name, file.size, Topic
+from "2023/ENGG1100" and #ENGG1100
+where file.size>1
+```
+
 - Lectures `$=dv.list(dv.pages('"2023/ENGG1100"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
 - Definitions `$=dv.list(dv.pages('"2023/Definitions"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
 - Nice 

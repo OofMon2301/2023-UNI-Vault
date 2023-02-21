@@ -127,7 +127,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           }
@@ -171,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,17 +186,17 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "2b576e5acb914936",
+  "active": "0b26a3995e309d89",
   "lastOpenFiles": [
-    "2023/ENGG1100/Introduction to Electrical Engineering.md",
     "2023/ENGG1100/Engineering.md",
+    "2023/ENGG1100/ENGG1100.md",
+    "2023/ENGG1100/Introduction to Electrical Engineering.md",
+    "2023/Definitions/1st Law of Thermodynamics.md",
+    "Homepage.md",
     "Random Stuff/Templates/Lecture.md",
     "2023/ENGG1100/Introduction to Electrical Systems.md",
     "2023/ENGG1100/Special Relativity.md",
-    "2023/ENGG1100/ENGG1100.md",
     "2023/ENGG1100/Introcud.md",
-    "Random Stuff/Templates/Definitions.md",
-    "Homepage.md",
-    "2023/Engg1100/Introduction to Electrical Systems.md"
+    "Random Stuff/Templates/Definitions.md"
   ]
 }

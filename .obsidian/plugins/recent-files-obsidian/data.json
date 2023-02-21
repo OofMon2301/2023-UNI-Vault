@@ -9,28 +9,24 @@
       "path": "2023/ENGG1100/Engineering.md"
     },
     {
-      "basename": "Lecture",
-      "path": "Random Stuff/Templates/Lecture.md"
-    },
-    {
       "basename": "ENGG1100",
       "path": "2023/ENGG1100/ENGG1100.md"
-    },
-    {
-      "basename": "Definitions",
-      "path": "Random Stuff/Templates/Definitions.md"
     },
     {
       "basename": "Homepage",
       "path": "Homepage.md"
     },
     {
-      "basename": "Introduction to Electrical Systems",
-      "path": "2023/Engg1100/Introduction to Electrical Systems.md"
+      "basename": "Lecture",
+      "path": "Random Stuff/Templates/Lecture.md"
     },
     {
-      "basename": "1st Law of Thermodynamics",
-      "path": "2023/Definitions/1st Law of Thermodynamics.md"
+      "basename": "Definitions",
+      "path": "Random Stuff/Templates/Definitions.md"
+    },
+    {
+      "basename": "Introduction to Electrical Systems",
+      "path": "2023/Engg1100/Introduction to Electrical Systems.md"
     },
     {
       "basename": "MATH1050",
