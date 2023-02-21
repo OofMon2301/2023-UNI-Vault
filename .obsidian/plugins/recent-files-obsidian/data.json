@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
       "basename": "Introduction to Electrical Engineering",
       "path": "2023/ENGG1100/Introduction to Electrical Engineering.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "ENGG1100",
       "path": "2023/ENGG1100/ENGG1100.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
     },
     {
       "basename": "Lecture",
