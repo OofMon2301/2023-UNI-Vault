@@ -42,5 +42,18 @@
       "action"
     ],
     "defaultFilterType": "tree"
-  }
+  },
+  "treeData": [
+    {
+      "id": "5a6de1dde42b529b",
+      "parent": 0,
+      "droppable": true,
+      "text": "google - Google Search",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }

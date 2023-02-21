@@ -33,6 +33,3 @@ Calculating the operating conditions (voltage, current) of an electric circuit, 
 
 
 
-
-
-
