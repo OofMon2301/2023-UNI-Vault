@@ -9,5 +9,4 @@ Topic::
 #<% tp.file.folder(true).split('/').pop() %>
 # Notes
 
-<% tp.file.cursor(1) %>
 
