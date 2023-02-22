@@ -39,5 +39,10 @@
   "o-theme-settings@@o-canvas-border0": false,
   "o-theme-settings@@o-accent-title": true,
   "o-theme-settings@@o-faintselect": false,
-  "o-theme-settings@@o-canvas-center": false
+  "o-theme-settings@@o-canvas-center": false,
+  "o-theme-settings@@o-notitle": false,
+  "o-theme-settings@@o-scrollbars": false,
+  "o-theme-settings@@o-float-tabs-hover": false,
+  "o-theme-settings@@o-float-tabs": false,
+  "o-theme-settings@@o-bar": false
 }
