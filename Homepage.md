@@ -12,7 +12,7 @@ where file.size>1
 
 - Lectures `$=dv.list(dv.pages('"2023/ENGG1100"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
 - Definitions `$=dv.list(dv.pages('"2023/Definitions"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
-- Nice 
+
 
 # MATH1050
 ```dataview

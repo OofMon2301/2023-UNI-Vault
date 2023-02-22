@@ -25,5 +25,19 @@
   "sanctum@@nav-folder-indicators": true,
   "sanctum@@colorful-active-nav": false,
   "sanctum@@heading-outline": "#",
-  "ITS@@bttn@@light": "#7347C2"
+  "ITS@@bttn@@light": "#7347C2",
+  "ITS@@slrvb-b": false,
+  "ITS@@slrvb-g": false,
+  "ITS@@s-d": false,
+  "ITS@@select": "none",
+  "ITS@@t-d": false,
+  "ITS@@mini": false,
+  "ITS@@notion": true,
+  "ITS@@its-d": false,
+  "o-theme-settings@@o-theme": "none",
+  "o-theme-settings@@o-color-accent": "o-purple",
+  "o-theme-settings@@o-canvas-border0": false,
+  "o-theme-settings@@o-accent-title": true,
+  "o-theme-settings@@o-faintselect": false,
+  "o-theme-settings@@o-canvas-center": false
 }

@@ -25,8 +25,12 @@
             "id": "6a9005fb4eeea925",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2023/ENGG1300/Introduction to Electrical Engineering.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -97,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2023/ENGG1300/Introduction to Electrical Engineering.md"
+              }
             }
           }
         ]
@@ -137,6 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2023/ENGG1300/Introduction to Electrical Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,6 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2023/ENGG1300/Introduction to Electrical Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,16 +186,16 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "acfa305c99aa7427",
+  "active": "6a9005fb4eeea925",
   "lastOpenFiles": [
-    "2023/MATH1061/MATH1061.md",
     "Homepage.md",
+    "2023/ENGG1300/Introduction to Electrical Engineering.md",
+    "2023/MATH1050/Nice.md",
+    "2023/MATH1061/MATH1061.md",
     "2023/MATH1051/MATH1051.md",
     "2023/MATH1050/MATH1050.md",
     "2023/ENGG1100/ENGG1100.md",
     "2023/ENGG1100/Engineering.md",
-    "2023/ENGG1300/Introduction to Electrical Engineering.md",
-    "2023/MATH1050/Nice.md",
     "Random Stuff/Templates/Definitions.md",
     "2023/Definitions/1st Law of Thermodynamics.md"
   ]
