@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "452d4f91033dd0f3",
+        "id": "a58ab4564004aa59",
         "type": "tabs",
         "children": [
           {
-            "id": "0e739854dcf1990d",
+            "id": "14f0d333f1c65c4d",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -19,18 +19,6 @@
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "74a949b2b47d5a2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/ENGG1100/Introduction to Electrical Engineering.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
         ]
@@ -185,7 +173,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "0e739854dcf1990d",
+  "active": "14f0d333f1c65c4d",
   "lastOpenFiles": [
     "2023/ENGG1100/Introduction to Electrical Engineering.md",
     "Homepage.md",
