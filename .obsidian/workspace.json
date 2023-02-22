@@ -166,12 +166,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 281.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,12 +187,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e0f7859300f1cb5c",
+  "active": "a94b1fa819925d9c",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md",
+    "2023/Definitions/MATH1050/Vector.md",
     "2023/MATH1050/Vectors.md",
+    "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md",
     "Homepage.md",
-    "2023/Definitions/Vector.md",
     "2023/ENGG1300/Introduction to Electrical Engineering.md",
     "2023/MATH1050/Nice.md",
     "2023/MATH1061/MATH1061.md",
