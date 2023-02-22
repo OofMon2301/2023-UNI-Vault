@@ -1,7 +1,7 @@
 ---
 date: 21-02-2023
 type: Lecture
-subject: ENGG1100
+subject: ENGG1300
 tags: lecture
 Topic: Electrical Engineering - Introductory
 ---

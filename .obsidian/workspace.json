@@ -20,8 +20,17 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "6a9005fb4eeea925",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +78,7 @@
             }
           },
           {
-            "id": "52d156598fd101b5",
+            "id": "6c45bca2a3655fb2",
             "type": "leaf",
             "state": {
               "type": "surfing-tab-tree",
@@ -88,9 +97,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Homepage.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -130,7 +137,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +153,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,17 +178,17 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "14f0d333f1c65c4d",
+  "active": "acfa305c99aa7427",
   "lastOpenFiles": [
-    "2023/ENGG1100/Introduction to Electrical Engineering.md",
+    "2023/MATH1061/MATH1061.md",
     "Homepage.md",
-    "2023/ENGG1100/Engineering.md",
+    "2023/MATH1051/MATH1051.md",
+    "2023/MATH1050/MATH1050.md",
     "2023/ENGG1100/ENGG1100.md",
-    "2023/Definitions/1st Law of Thermodynamics.md",
-    "Random Stuff/Templates/Lecture.md",
-    "2023/ENGG1100/Introduction to Electrical Systems.md",
-    "2023/ENGG1100/Special Relativity.md",
-    "2023/ENGG1100/Introcud.md",
-    "Random Stuff/Templates/Definitions.md"
+    "2023/ENGG1100/Engineering.md",
+    "2023/ENGG1300/Introduction to Electrical Engineering.md",
+    "2023/MATH1050/Nice.md",
+    "Random Stuff/Templates/Definitions.md",
+    "2023/Definitions/1st Law of Thermodynamics.md"
   ]
 }

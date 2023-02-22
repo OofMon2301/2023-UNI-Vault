@@ -34,5 +34,6 @@
   "obsidian-wakatime",
   "obsidian-auto-link-title",
   "link-favicon",
-  "quickadd"
+  "quickadd",
+  "obsidian-linter"
 ]

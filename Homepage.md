@@ -15,17 +15,29 @@ where file.size>1
 - Nice 
 
 # MATH1050
-All files: [[MATH1050]]
+```dataview
+Table file.name, file.size
+from #MATH1050
+where file.size>500
+```
 - Lectures `$=dv.list(dv.pages('"2023/MATH1050"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
 - Definitions `$=dv.list(dv.pages('"2023/Definitions"and"#MATH1050"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
 
 # MATH1051
-All files: [[MATH1051]]
+```dataview
+Table file.name, file.size
+from #MATH1051
+where file.size>500
+```
 - Lectures `$=dv.list(dv.pages('"2023/MATH1051"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
 - Definitions `$=dv.list(dv.pages('"2023/Definitions"and"#MATH1051"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
 
 # MATH1061
-All files: [[MATH1061]]
+```dataview
+Table file.name, file.size
+from #MATH1061
+where file.size>500
+```
 - Lectures `$=dv.list(dv.pages('"2023/MATH1061"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
 - Definitions `$=dv.list(dv.pages('"2023/Definitions"and"#MATH1061"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
 
