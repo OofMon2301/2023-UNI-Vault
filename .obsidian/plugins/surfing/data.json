@@ -43,5 +43,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "73d318735dd94122",
+      "parent": 0,
+      "droppable": true,
+      "text": "Real number(ℝ) symbol in LaTeX | Latexhelp",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }
