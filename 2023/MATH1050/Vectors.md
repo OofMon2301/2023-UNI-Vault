@@ -60,4 +60,7 @@ The entries $v_{1}$ and $v_{2}$ are called the components of the vector.
 ---
 ## Addition of Vectors
 ### Geometric addition of vectors
-Given vectors $v$ and $w$, we define the sum $v+w$ by the triangle ruel 
+Given vectors $v$ and $w$, we define the sum $v+w$ by the triangle ruel for vector addition.
+ Let $P,Q$ and $R$ be points in $\mathbb{R}^{2}$ (or $\mathbb{R}^3$) such that $v=\overrightarrow{PQ}$ and $w=\overrightarrow{QR}$. Then $v+w=\overrightarrow{PR}$. 
+
+Note that when adding vectors $v$ and $w$ geometrically you put the tail of $w$ at the head of $v$ and 

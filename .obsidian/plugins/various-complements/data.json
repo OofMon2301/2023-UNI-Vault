@@ -122,8 +122,8 @@
     "vector": {
       "vector": {
         "currentFile": {
-          "count": 4,
-          "lastUpdated": 1677072235433
+          "count": 5,
+          "lastUpdated": 1677072990807
         }
       }
     },
@@ -180,6 +180,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1677072917139
+        }
+      }
+    },
+    "addition": {
+      "addition": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677072993337
+        }
+      }
+    },
+    "\\overrightarrow": {
+      "\\overrightarrow": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677073214505
         }
       }
     }
