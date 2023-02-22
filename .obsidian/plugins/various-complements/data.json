@@ -114,16 +114,16 @@
     "direction": {
       "direction": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1677071242764
+          "count": 5,
+          "lastUpdated": 1677072213842
         }
       }
     },
     "vector": {
       "vector": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1677071703062
+          "count": 4,
+          "lastUpdated": 1677072235433
         }
       }
     },
@@ -154,8 +154,24 @@
     "representation": {
       "representation": {
         "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677072181273
+        }
+      }
+    },
+    "geometric": {
+      "geometric": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677072233117
+        }
+      }
+    },
+    "point": {
+      "point": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1677071701065
+          "lastUpdated": 1677072218270
         }
       }
     }
