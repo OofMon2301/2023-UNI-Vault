@@ -16,7 +16,7 @@
               "state": {
                 "file": "Homepage.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "pinned": true
             }
@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "2023/ENGG1300/Introduction to Electrical Engineering.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -110,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 256.5
   },
   "right": {
     "id": "bbad5c880586bc53",
