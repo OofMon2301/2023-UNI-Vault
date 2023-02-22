@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "ec41e833e0734fed",
+            "id": "e0f7859300f1cb5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,18 +31,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "73d318735dd94122",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://latexhelp.com/latex-real-number/"
-              },
-              "pinned": true
             }
           }
         ],
@@ -198,9 +186,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ec41e833e0734fed",
+  "active": "e0f7859300f1cb5c",
   "lastOpenFiles": [
     "2023/MATH1050/Vectors.md",
+    "2023/Definitions/Vector.md",
     "Homepage.md",
     "2023/ENGG1300/Introduction to Electrical Engineering.md",
     "2023/MATH1050/Nice.md",
@@ -208,7 +197,6 @@
     "2023/MATH1051/MATH1051.md",
     "2023/MATH1050/MATH1050.md",
     "2023/ENGG1100/ENGG1100.md",
-    "2023/ENGG1100/Engineering.md",
-    "Random Stuff/Templates/Definitions.md"
+    "2023/ENGG1100/Engineering.md"
   ]
 }

@@ -8,7 +8,7 @@
   "complementAutomatically": true,
   "delayMilliSeconds": 0,
   "disableSuggestionsDuringImeOn": false,
-  "insertAfterCompletion": true,
+  "insertAfterCompletion": false,
   "firstCharactersDisableSuggestions": ":/^",
   "showMatchStrategy": false,
   "showComplementAutomatically": false,
@@ -98,8 +98,8 @@
     "MATH1050": {
       "MATH1050": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675428240339
+          "count": 2,
+          "lastUpdated": 1677071367596
         }
       }
     },
@@ -114,8 +114,48 @@
     "direction": {
       "direction": {
         "currentFile": {
+          "count": 3,
+          "lastUpdated": 1677071242764
+        }
+      }
+    },
+    "vector": {
+      "vector": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677071703062
+        }
+      }
+    },
+    "arrow": {
+      "arrow": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1677071174489
+          "lastUpdated": 1677071228450
+        }
+      }
+    },
+    "magnitude": {
+      "magnitude": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677071241217
+        }
+      }
+    },
+    "\\mathbb": {
+      "\\mathbb": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677071370057
+        }
+      }
+    },
+    "representation": {
+      "representation": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677071701065
         }
       }
     }
