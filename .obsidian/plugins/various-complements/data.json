@@ -114,8 +114,8 @@
     "direction": {
       "direction": {
         "currentFile": {
-          "count": 5,
-          "lastUpdated": 1677072213842
+          "count": 6,
+          "lastUpdated": 1677075019900
         }
       }
     },
@@ -138,8 +138,8 @@
     "magnitude": {
       "magnitude": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677071241217
+          "count": 2,
+          "lastUpdated": 1677075014591
         }
       }
     },
@@ -194,8 +194,40 @@
     "\\overrightarrow": {
       "\\overrightarrow": {
         "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677075163301
+        }
+      }
+    },
+    "components": {
+      "components": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1677073214505
+          "lastUpdated": 1677074962263
+        }
+      }
+    },
+    "\\space": {
+      "\\space": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677075181500
+        }
+      }
+    },
+    "geometrically": {
+      "geometrically": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677075126571
+        }
+      }
+    },
+    "\\space\\text": {
+      "\\space\\text": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677075186256
         }
       }
     }

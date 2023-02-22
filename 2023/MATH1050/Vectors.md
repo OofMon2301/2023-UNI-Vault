@@ -81,3 +81,22 @@ $$v+w=\begin{pmatrix}
 v_{1}+w_{1} \\
 v_{2}+w_{2}
 \end{pmatrix}$$
+Addition of vectors in $\mathbb{R}^{3}$ is the same procedure.
+
+We define the *zero vector* to be the vector (of an appropriate size) with each component equal to zero, and denote it by 0.
+$$0=\begin{pmatrix}
+0 \\
+0 \\
+
+\end{pmatrix} or \space 0=\begin{pmatrix}
+0 \\
+0 \\
+0 \\
+
+\end{pmatrix}$$
+The zero vector has zero magnitude and unspecified direction, so can be represented geometrically as a point.
+
+### Properties of Vector Addition
+1. Vector addition is *commutative* ($v+w=w+v$).
+	1. To illustrate the commutativity of addition geometrically, consider four points $P,Q,R,S$, arranged in 2-space so that:
+$$v=\overrightarrow{PQ}=\overrightarrow{SR} \space\text{and}\space w=\overrightarrow{PS}=\overrightarrow{QR}$$

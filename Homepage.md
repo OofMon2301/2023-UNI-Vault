@@ -17,7 +17,7 @@ where file.size>1
 
 # MATH1050
 ```dataview
-Table file.name, file.size
+Table file.name, file.size, Topic
 from #MATH1050
 where file.size>500
 ```
@@ -26,7 +26,7 @@ where file.size>500
 
 # MATH1051
 ```dataview
-Table file.name, file.size
+Table file.name, file.size, Topic
 from #MATH1051
 where file.size>500
 ```
@@ -35,7 +35,7 @@ where file.size>500
 
 # MATH1061
 ```dataview
-Table file.name, file.size
+Table file.name, file.size, Topic
 from #MATH1061
 where file.size>500
 ```

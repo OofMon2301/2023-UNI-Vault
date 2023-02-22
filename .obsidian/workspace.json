@@ -32,9 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "556ed409c1e18dc0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1050/Vectors.md"
+                "file": "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md"
               }
             }
           }
@@ -143,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
+                "file": "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
+                "file": "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,14 +193,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "workspaces:Manage workspace layouts": false,
       "dbfolder:Create a new database table": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e0f7859300f1cb5c",
+  "active": "556ed409c1e18dc0",
   "lastOpenFiles": [
     "2023/MATH1050/Vectors.md",
-    "2023/Definitions/Vector.md",
     "Homepage.md",
+    "2023/Definitions/Vector.md",
     "2023/ENGG1300/Introduction to Electrical Engineering.md",
     "2023/MATH1050/Nice.md",
     "2023/MATH1061/MATH1061.md",
