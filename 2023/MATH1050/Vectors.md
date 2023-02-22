@@ -100,3 +100,6 @@ The zero vector has zero magnitude and unspecified direction, so can be represen
 1. Vector addition is *commutative* ($v+w=w+v$).
 	1. To illustrate the commutativity of addition geometrically, consider four points $P,Q,R,S$, arranged in 2-space so that:
 $$v=\overrightarrow{PQ}=\overrightarrow{SR} \space\text{and}\space w=\overrightarrow{PS}=\overrightarrow{QR}$$
+![[Drawing 2023-02-23 00.15.53.excalidraw|center]]
+Then:
+$$\large v+w=\overrightarrow{PQ}+\overrightarrow{QR}=\overrightarrow{PR}=\overrightarrow{PS}+\overrightarrow{SR}=w+v$$

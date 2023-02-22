@@ -32,19 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "556ed409c1e18dc0",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md"
+                "file": "2023/MATH1050/Vectors.md"
               }
             }
           }
@@ -153,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md",
+                "file": "2023/MATH1050/Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md",
+                "file": "2023/MATH1050/Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,8 +187,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "556ed409c1e18dc0",
+  "active": "e0f7859300f1cb5c",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md",
     "2023/MATH1050/Vectors.md",
     "Homepage.md",
     "2023/Definitions/Vector.md",
@@ -207,7 +198,6 @@
     "2023/MATH1061/MATH1061.md",
     "2023/MATH1051/MATH1051.md",
     "2023/MATH1050/MATH1050.md",
-    "2023/ENGG1100/ENGG1100.md",
-    "2023/ENGG1100/Engineering.md"
+    "2023/ENGG1100/ENGG1100.md"
   ]
 }
