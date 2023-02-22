@@ -45,8 +45,19 @@ $$v=(v_{1},v_{2})$$
 Given a vector in matrix form, you can find a geometric representation of $v$ by picking any point in the plane as the tail of the vector, moving $v_{1}$ units in the $x$ direction and the $v_{2}$ units in the $y$ direction to find the point that is the head of the vector.
 
 For a geometric vector $v=\overrightarrow{PQ}$ in $\mathbb{R}^3$, where $P = (x_{P},y_{P},z_{P})$ and $Q=(x_{Q},y_{Q},z_{Q})$, the matrix form is:
-$$v=\begin{pmatrix}
+$$\large v=\begin{pmatrix}
 x_{Q}-x_{P} \\
 y_{Q}-y_{P} \\
 z_{Q}-z_{P} \\
-\end{pmatrix}=matr$$
+\end{pmatrix}=\begin{pmatrix}
+v_{1} \\
+v_{2} \\
+v_{3}
+\end{pmatrix} \text{or} \space v=(v_{1},v_{2},v_{3}) 
+$$
+The entries $v_{1}$ and $v_{2}$ are called the components of the vector.
+
+---
+## Addition of Vectors
+### Geometric addition of vectors
+Given vectors $v$ and $w$, we define the sum $v+w$ by the triangle ruel 
