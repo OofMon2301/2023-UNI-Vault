@@ -35,5 +35,6 @@
   "obsidian-auto-link-title",
   "link-favicon",
   "quickadd",
-  "obsidian-linter"
+  "obsidian-linter",
+  "obsidian-view-mode-by-frontmatter"
 ]

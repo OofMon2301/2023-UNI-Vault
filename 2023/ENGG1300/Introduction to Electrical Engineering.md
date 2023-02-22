@@ -13,7 +13,7 @@ Topic: Electrical Engineering - Introductory
 ---
 Calculating the operating conditions (voltage, current) of an electric circuit, including:
 
-- DC Circuits, where currents and voltages are constant
+- DC Circuits, where currents and voltages are constant.
 - AC Circuits, where currents and voltages vary with time.
 - These include:
 	- AC power supply circuits,

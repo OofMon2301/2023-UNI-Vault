@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a58ab4564004aa59",
+        "id": "fef280e42f588d89",
         "type": "tabs",
         "children": [
           {
-            "id": "14f0d333f1c65c4d",
+            "id": "bba0f3ddd57f31c8",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -16,25 +16,12 @@
               "state": {
                 "file": "Homepage.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "6a9005fb4eeea925",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/ENGG1300/Introduction to Electrical Engineering.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/ENGG1300/Introduction to Electrical Engineering.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -143,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/ENGG1300/Introduction to Electrical Engineering.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/ENGG1300/Introduction to Electrical Engineering.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +173,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "6a9005fb4eeea925",
+  "active": "bba0f3ddd57f31c8",
   "lastOpenFiles": [
     "Homepage.md",
     "2023/ENGG1300/Introduction to Electrical Engineering.md",
