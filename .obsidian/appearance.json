@@ -7,5 +7,6 @@
   "theme": "obsidian",
   "cssTheme": "Origami",
   "nativeMenus": false,
-  "translucency": false
+  "translucency": false,
+  "baseFontSize": 17
 }
