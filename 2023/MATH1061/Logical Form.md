@@ -33,8 +33,7 @@ Topic:: Logical Form
 ---
 The symbol $\lor$ means "inclusive or:. So $p \lor q$ is true  when $p$ is true, or $q$ is true or both are true. Sometimes when the word "or" is used, the meaning is "one or the other, but not both".
 
-This is "exclusive or". Exclusive *or* is often written using the logical connective $\large \oplus$. $\sim (p \land q ) \equiv \sim p \lor \sim q$
-
+This is "exclusive or". Exclusive *or* is often written using the logical connective $\large \oplus$.
 | **P**   | **Q**   | **R**   |      Statement Form $(p \land \sim q) \lor (q \land r)$|
 | --- | --- | --- | --- | -------------- |
 | t   | t   | t   | f    |        t        |
@@ -45,4 +44,19 @@ This is "exclusive or". Exclusive *or* is often written using the logical connec
 | f   | t   | f   | f    |        f        |
 | f   | f   | t   | t    |        f        |
 | f   | f   | f   | t    |        f        |
+
+## De Morgan's Laws
+--- 
+> [!note] De Morgan's Laws
+>  Important logical equivalences for the negations of statements involving "and" and "or".
+>  $$\sim (p \land q ) \equiv \sim p \lor \sim q$$
+>  
+>  $$\sim (p \lor q ) \equiv \sim p \land \sim q$$
+
+Use the laws of logical equivalence to show that not not p and q or not p and not q is equal to p.
+p and not q or p and q is p.
+
+$$\sim ((\sim p \land q )\lor (\sim p \land \sim q )) \equiv (p \land \sim q ) \lor (p \land q)$$
+
+
 

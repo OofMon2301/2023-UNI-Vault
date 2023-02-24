@@ -22,7 +22,19 @@
             }
           },
           {
-            "id": "7abe8c1e7381ca8f",
+            "id": "e2bdd91661a6078c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/ENGG1300/Introduction to Electrical Engineering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "302ddb3fa32db4e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -180,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 281.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,14 +208,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "72e68bb264b05e5c",
+  "active": "302ddb3fa32db4e9",
   "lastOpenFiles": [
-    "2023/MATH1061/Introduction to Logical Equivalence.md",
-    "2023/MATH1061/Logical Form.md",
-    "2023/Definitions/MATH1061/Introduction to Logical Equivalence.md",
-    "Homepage.md",
-    "2023/MATH1050/Vectors.md",
     "2023/ENGG1300/Introduction to Electrical Engineering.md",
+    "2023/MATH1061/Untitled noteasldkfjh.md",
+    "2023/MATH1061/Nice.md",
+    "Homepage.md",
+    "2023/MATH1061/Logical Form.md",
+    "2023/MATH1061/Introduction to Logical Equivalence.md",
+    "2023/Definitions/MATH1061/Introduction to Logical Equivalence.md",
+    "2023/MATH1050/Vectors.md",
     "2023/Definitions/MATH1050/Vector.md",
     "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md",
     "2023/MATH1050/Nice.md",
