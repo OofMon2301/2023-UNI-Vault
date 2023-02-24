@@ -39,5 +39,6 @@ $$\large p \to q \equiv \sim p \lor q \equiv \sim q \to \sim p$$
 2. $\sim q\to \sim p$ $\equiv q \to p$
 3. $q \to p \not\equiv$
 4. $p \land \sim q$
-5. $sim q \to sim p equiv p \to q$
-6. 
+5. $\sim q \to \sim p \equiv p \to q$
+6.  $q \lor \sim p \equiv \sim p \lor q \equiv p \to q$
+
