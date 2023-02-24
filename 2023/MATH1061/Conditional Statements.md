@@ -35,4 +35,9 @@ $$\large p \to q \equiv \sim p \lor q \equiv \sim q \to \sim p$$
 > Bi-Conditional Statement: $p \leftrightarrow q \equiv (p \to q) \land (q \to p)$
 > 
 
-
+1. $p\to q$
+2. $\sim q\to \sim p$ $\equiv q \to p$
+3. $q \to p \not\equiv$
+4. $p \land \sim q$
+5. $sim q \to sim p equiv p \to q$
+6. 
