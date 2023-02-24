@@ -16,6 +16,7 @@ Topic:: Conditional Statements
 $$\large p \to q \equiv \sim p \lor q \equiv \sim q \to \sim p$$
 
 
+
 > [!NOTE] Conditional Statements
 > 
 > Logically Equivalent Pairs:

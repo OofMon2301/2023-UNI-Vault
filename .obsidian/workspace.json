@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9dcceb45f69483b8",
+        "id": "1e530babfadef799",
         "type": "tabs",
         "children": [
           {
-            "id": "97685991bf38932b",
+            "id": "68c14d66615d3a87",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "29bf054c1dd38a51",
+            "id": "1dd876303217a092",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/MATH1061/Conditional Statements.md",
+                "file": "2023/MATH1061/Logical Form and Logical Equivalence.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1061/Conditional Statements.md"
+                "file": "2023/MATH1061/Logical Form and Logical Equivalence.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1061/Conditional Statements.md",
+                "file": "2023/MATH1061/Logical Form and Logical Equivalence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1061/Conditional Statements.md",
+                "file": "2023/MATH1061/Logical Form and Logical Equivalence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,13 +196,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "29bf054c1dd38a51",
+  "active": "1dd876303217a092",
   "lastOpenFiles": [
-    "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "2023/MATH1061/Conditional Statements.md",
+    "2023/MATH1061/Logical Form and Logical Equivalence.md",
+    "Homepage.md",
     "Excalidraw/Drawing 2023-02-24 15.30.49.excalidraw.md",
     "2023/MATH1061/Introduction to Logical Equivalence.md",
-    "Homepage.md",
     "2023/ENGG1300/Introduction to Electrical Engineering.md",
     "2023/MATH1061/Untitled noteasldkfjh.md",
     "2023/MATH1061/Nice.md",
