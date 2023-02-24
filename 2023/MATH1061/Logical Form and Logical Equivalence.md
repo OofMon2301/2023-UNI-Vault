@@ -5,7 +5,7 @@ subject: MATH1061
 tags: lecture
 Topic:: Logical Form
 ---
-# [[Logical Form]]
+# [[Logical Form and Logical Equivalence]]
 #MATH1061
 
 ## Introduction to Logical Form

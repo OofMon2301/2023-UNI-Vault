@@ -22,31 +22,19 @@
             }
           },
           {
-            "id": "e2bdd91661a6078c",
+            "id": "29bf054c1dd38a51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/ENGG1300/Introduction to Electrical Engineering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "302ddb3fa32db4e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/MATH1061/Logical Form.md",
+                "file": "2023/MATH1061/Conditional Statements.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1061/Logical Form.md"
+                "file": "2023/MATH1061/Conditional Statements.md"
               }
             }
           }
@@ -122,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -165,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1061/Logical Form.md",
+                "file": "2023/MATH1061/Conditional Statements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1061/Logical Form.md",
+                "file": "2023/MATH1061/Conditional Statements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,14 +196,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "302ddb3fa32db4e9",
+  "active": "29bf054c1dd38a51",
   "lastOpenFiles": [
+    "2023/MATH1061/Logical Form and Logical Equivalence.md",
+    "2023/MATH1061/Conditional Statements.md",
+    "2023/MATH1061/Introduction to Logical Equivalence.md",
+    "Homepage.md",
     "2023/ENGG1300/Introduction to Electrical Engineering.md",
     "2023/MATH1061/Untitled noteasldkfjh.md",
     "2023/MATH1061/Nice.md",
-    "Homepage.md",
-    "2023/MATH1061/Logical Form.md",
-    "2023/MATH1061/Introduction to Logical Equivalence.md",
     "2023/Definitions/MATH1061/Introduction to Logical Equivalence.md",
     "2023/MATH1050/Vectors.md",
     "2023/Definitions/MATH1050/Vector.md",
