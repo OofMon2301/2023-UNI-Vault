@@ -53,10 +53,13 @@ This is "exclusive or". Exclusive *or* is often written using the logical connec
 >  
 >  $$\sim (p \lor q ) \equiv \sim p \land \sim q$$
 
-Use the laws of logical equivalence to show that not not p and q or not p and not q is equal to p.
-p and not q or p and q is p.
+Use the laws of logical equivalence to show that:
 
-$$\sim ((\sim p \land q )\lor (\sim p \land \sim q )) \equiv (p \land \sim q ) \lor (p \land q)$$
-
+$$\sim ((\sim p \land q )\lor (\sim p \land \sim q )) \equiv p$$
+---
+$$
+\equiv \sim (\sim p \land q) \land \sim (\sim p \land \sim q)\ \ \ \ \ \ \ \ \ \ \ \ \ \text{De Morgan's Law}
+$$
+$$ \equiv (\sim ( \sim p)\lor \sim q) \land (\sim ( \sim p) \lor \sim (\sim q))$$
 
 
