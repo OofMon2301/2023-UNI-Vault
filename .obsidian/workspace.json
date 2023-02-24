@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -130,8 +131,17 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "72e68bb264b05e5c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "b2e398d710777b6e",
@@ -170,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5,
-    "collapsed": true
+    "width": 281.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,7 +196,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7abe8c1e7381ca8f",
+  "active": "72e68bb264b05e5c",
   "lastOpenFiles": [
     "2023/MATH1061/Introduction to Logical Equivalence.md",
     "2023/MATH1061/Logical Form.md",
