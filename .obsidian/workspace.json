@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1e530babfadef799",
+        "id": "0f96bb85378b602d",
         "type": "tabs",
         "children": [
           {
-            "id": "68c14d66615d3a87",
+            "id": "429553d0bc63793a",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "1dd876303217a092",
+            "id": "ae521dc8b2e5ae40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/MATH1061/Logical Form and Logical Equivalence.md",
+                "file": "2023/MATH1050/Vectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1061/Logical Form and Logical Equivalence.md"
+                "file": "2023/MATH1050/Vectors.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1061/Logical Form and Logical Equivalence.md",
+                "file": "2023/MATH1050/Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1061/Logical Form and Logical Equivalence.md",
+                "file": "2023/MATH1050/Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,18 +196,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1dd876303217a092",
+  "active": "ae521dc8b2e5ae40",
   "lastOpenFiles": [
-    "2023/MATH1061/Conditional Statements.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
+    "2023/MATH1061/Conditional Statements.md",
+    "2023/MATH1050/Vectors.md",
+    "2023/ENGG1300/Introduction to Electrical Engineering.md",
     "Homepage.md",
     "Excalidraw/Drawing 2023-02-24 15.30.49.excalidraw.md",
     "2023/MATH1061/Introduction to Logical Equivalence.md",
-    "2023/ENGG1300/Introduction to Electrical Engineering.md",
     "2023/MATH1061/Untitled noteasldkfjh.md",
     "2023/MATH1061/Nice.md",
     "2023/Definitions/MATH1061/Introduction to Logical Equivalence.md",
-    "2023/MATH1050/Vectors.md",
     "2023/Definitions/MATH1050/Vector.md",
     "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md",
     "2023/MATH1050/Nice.md",
