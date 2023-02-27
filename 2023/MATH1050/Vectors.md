@@ -217,4 +217,39 @@ is a unit vector in the direction of $\mathbf{v}$.
 ## Component form of a vector
 
 ### Component form in 2-space
-In the $(x,y)$ plane, there are two important unit vectors. The unit vector in the direction of the $x$-axis is denoted $\mathbf{i}$
+In the $(x,y)$ plane, there are two important unit vectors. The unit vector in the direction of the $x$-axis is denoted $\mathbf{i}$, and the unit vector in the direction of the $y$-axis is denoted $\mathbf{j}$, so:
+$$
+\mathbf{i}=\begin{pmatrix}
+1 \\
+0 \\
+
+\end{pmatrix}
+
+$$
+and:
+$$
+\mathbf{j} =\begin{pmatrix}
+0 \\
+1
+\end{pmatrix}
+$$
+Note that $\mathbf{i}$ and $\mathbf{j}$ can also be written as row vectors as $\mathbf{i} =(1,0)$ and $\mathbf{j}=(0,1)$.
+
+Any vector $\mathbf{v}$ in $\mathbb{R}^{2}$can be written as the sum of scalar multiples of $\mathbf{i}$ and $\mathbf{j}$, since:
+
+$$
+\mathbf{v}=\begin{pmatrix}
+a \\
+b \\
+\end{pmatrix}
+=a\begin{pmatrix}
+1 \\
+0
+\end{pmatrix}
++b\begin{pmatrix}
+0 \\
+1
+\end{pmatrix}
+=a\mathbf{i}+b\mathbf{j}
+$$
+The component form of the vector $\mathbf{v}$ is $\mathbf{v}=a\mathbf{i}+b\mathbf{j}$.
