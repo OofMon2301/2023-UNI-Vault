@@ -282,5 +282,5 @@ Note that $\mathbf{i,j,k}$ can also be written as row vectors.
 
 A vector $\mathbf{v}$ in $\mathbb{R}^{2}$, with magnitude $|\mathbf{v}|$ and direction $\theta$ measured anti-clockwise from the positive $x$-axis, has component form.
 $$
-\mathbf{v}=|\mathbf{v}| \cos \theta \mathbf{i}+|\mathbf{v}|\sin \theta \mathbf{j}
+\mathbf{v}=|\mathbf{v}| \cos \theta \mathbf{\underline{i}}+|\mathbf{v}|\sin \theta \mathbf{\underline{j}}
 $$

@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -199,8 +200,8 @@
   },
   "active": "bf62d76c302ff1c2",
   "lastOpenFiles": [
-    "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "2023/MATH1050/Vectors.md",
+    "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "Homepage.md",
     "2023/Definitions/MATH1050/Vector.md",
     "2023/MATH1061/Conditional Statements.md",
