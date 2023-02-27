@@ -291,4 +291,13 @@ If $\mathbf{v}=v_{1}\mathbf{\underline{i}}+0\mathbf{\underline{j}}$ or $\mathbf{
 If neither of $v_{1}$ not $v_{2}$ is zero, then calculate $\phi=\arctan (|\frac{v_{2}}{v_{1}}|)$. The value of $\phi$ will be between 0 and $\frac{\pi}{2}$.
 The value of $\theta$ will be one of $\phi,\pi-\phi,\pi+\phi,\text{or} \ 2\pi-\phi$. You can identify which it is from your sketch.
 
+## The Scalar Product
+
+Let $\mathbf{v}=\vec{OP}\neq 0$ and $\mathbf{w}-\vec{OQ}\neq 0$ be two vectors. Then the angle between $\mathbf{v}$ and $\mathbf{w}$ is the angle $\theta$ between $\vec{OP}$ and $\vec{OQ}$ at the origin, with $0\leq \theta \leq \pi-\pi$.
+
+The *scalar product* of two vectors $\mathbf{v}$ and $\mathbf{w}$ is:
+$$
+\mathbf{v} \coq
+$$
+
 
