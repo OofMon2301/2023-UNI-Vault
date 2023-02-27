@@ -202,4 +202,14 @@ v_{2} \\
 v_{3}
 \end{pmatrix}, \text{and} \
 |\mathbf{v}|=\sqrt{ v_{1}^{2}+v_{2}^{2}+v_{3}^{2} }$$
-Note that for most vectors $\mathbf{v}$ and $\mathbf{w}$, $|\mathbf{v}+\mathbf{w}\neq$
+Note that for most vectors $\mathbf{v}$ and $\mathbf{w}$, $|\mathbf{v}+\mathbf{w}|\neq |\mathbf{v}| +|\mathbf{w}|$.
+For any vector $\mathbf{v}$ and any real number $t$, $|t\mathbf{v}|=|t|+|\mathbf{v}|$.
+
+A vector with norm 1 is called a *unit* vector.
+The notation $\hat{\mathbf{v}}$ will be used to denote a unit vector having the same direction as the vector $\mathbf{v}$.
+
+For a given vector $\mathbf{v}$, with norm $|\mathbf{v}|$, the vector:
+$$
+\hat{\mathbf{v}}=\frac{1}{|\mathbf{v}|}\mathbf{v}
+$$
+is a unit vector in the direction of $\mathbf{v}$.
