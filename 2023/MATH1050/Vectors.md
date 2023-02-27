@@ -123,5 +123,8 @@ v_{2}
 \end{pmatrix}$$
 then:
 $$tv=\begin{pmatrix}
-1
+t 
 \end{pmatrix}$$
+$$
+
+$$
