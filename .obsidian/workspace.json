@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e524af5316be239d",
+        "id": "8d48198928ee80b1",
         "type": "tabs",
         "children": [
           {
-            "id": "6e1eba0307d6ffe8",
+            "id": "ed69db6ad6dafefd",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "5ab5b56317f469f9",
+            "id": "bf62d76c302ff1c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -197,7 +197,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5ab5b56317f469f9",
+  "active": "bf62d76c302ff1c2",
   "lastOpenFiles": [
     "Homepage.md",
     "2023/Definitions/MATH1050/Vector.md",

@@ -168,4 +168,25 @@ which can also be written as $\vec{OP}= (x_{P},y_{P},z_{P})$.
 The coordinates of the point $P$ are the components of position vector of $P$.
 
 ## The norm of a vector
-The *norm* (or *length* or *magnitude*) of the vector $\mathbf{v}$
+The *norm* (or *length* or *magnitude*) of the vector $\mathbf{v}=\vec{PQ}$ is the (shortest) distance between points $P$ and $Q$.
+
+The Norm of the vector $\mathbf{v}$ is denoted $||\mathbf{v||}$.
+
+In $\mathbb{R}^{2}$, if $P=(x_{P},y_{P})$ and $Q=(x_{Q},y_{Q})$, then:
+$$
+\mathbf{v}=\vec{PQ}=\begin{pmatrix}
+x_{Q}-x_{P} \\
+y_{Q}-y_{P}
+\end{pmatrix}
+=
+\begin{pmatrix}
+v_{1} \\
+v_{2} \\
+v_{3}
+\end{pmatrix}
+$$
+and:
+$$
+|\mathbf{v}| = \sqrt{ v_{1}^{2}+v_{2}^{2} }
+$$
+In $\mathbb{R}^{3}$, if $P=(x_{P},y_{P},z_{P})$ and $Q=(x_{Q},y-)$
