@@ -189,4 +189,17 @@ and:
 $$
 |\mathbf{v}| = \sqrt{ v_{1}^{2}+v_{2}^{2} }
 $$
-In $\mathbb{R}^{3}$, if $P=(x_{P},y_{P},z_{P})$ and $Q=(x_{Q},y-)$
+In $\mathbb{R}^{3}$, if $P=(x_{P},y_{P},z_{P})$ and $Q=(x_{Q},y_{Q},z_{Q})$, then:
+$$
+\mathbf{v}=\vec{PQ}=\begin{pmatrix}
+x_{Q}-x_{P} \\
+y_{Q}-y_{P} \\
+z_{Q}-z_{P}
+\end{pmatrix}
+= \begin{pmatrix}
+v_{1} \\
+v_{2} \\
+v_{3}
+\end{pmatrix}, \text{and} \
+|\mathbf{v}|=\sqrt{ v_{1}^{2}+v_{2}^{2}+v_{3}^{2} }$$
+Note that for most vectors $\mathbf{v}$ and $\mathbf{w}$, $|\mathbf{v}+\mathbf{w}\neq$
