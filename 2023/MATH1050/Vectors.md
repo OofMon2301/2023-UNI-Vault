@@ -110,3 +110,18 @@ $$\large v+w=\overrightarrow{PQ}+\overrightarrow{QR}=\overrightarrow{PR}=\overri
 ## Scalar Multiplication of Vectors
 
 ### Geometric scalar multiplication of vectors
+Given a vector $v$ and a real number $t$, we define the scalar multiple $tv$ to be the vector whose magnitude is $|t|$ times the magnitude of $v$, and whose direction is the same as $v$ if $t>0$ and opposite to $v$ if $t<0$.
+
+Note that if $t=0$, then the scalar multiple $tv$ is the zero vector.
+
+### Matrix scalar multiplication of vectors
+
+If $t$ is a real number and $v=$:
+$$v=\begin{pmatrix}
+v_{1} \\
+v_{2}
+\end{pmatrix}$$
+then:
+$$tv=\begin{pmatrix}
+1
+\end{pmatrix}$$
