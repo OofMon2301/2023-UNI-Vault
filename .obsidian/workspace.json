@@ -32,17 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9fc6386c05512052",
-            "type": "leaf",
-            "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,16 +193,17 @@
       "workspaces:Manage workspace layouts": false,
       "dbfolder:Create a new database table": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "graph:Open graph view": false
     }
   },
-  "active": "9fc6386c05512052",
+  "active": "4f6421f56d856bdb",
   "lastOpenFiles": [
     "2023/Definitions/MATH1050/Vector.md",
+    "2023/MATH1050/Vectors.md",
     "Homepage.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "2023/MATH1061/Conditional Statements.md",
-    "2023/MATH1050/Vectors.md",
     "2023/ENGG1300/Introduction to Electrical Engineering.md",
     "Excalidraw/Drawing 2023-02-24 15.30.49.excalidraw.md",
     "2023/MATH1061/Introduction to Logical Equivalence.md",
