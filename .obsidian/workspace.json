@@ -191,10 +191,10 @@
       "obsidian-projects:Open projects": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "workspaces:Manage workspace layouts": false,
-      "dbfolder:Create a new database table": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "graph:Open graph view": false
+      "graph:Open graph view": false,
+      "dbfolder:Create a new database table": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "5ab5b56317f469f9",

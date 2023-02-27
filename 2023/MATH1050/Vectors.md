@@ -123,8 +123,23 @@ v_{2}
 \end{pmatrix}$$
 then:
 $$tv=\begin{pmatrix}
-t 
+t \times v_{1} \\
+t \times v_{2}
 \end{pmatrix}$$
+Scalar multiplication of vectors in $\mathbb{R}^{3}$ is the same procedure.
 $$
-
+t\times \begin{pmatrix}
+w_{1} \\
+w_{2} \\
+w_{3}
+\end{pmatrix}=\begin{pmatrix}
+t \times w_{1} \\
+t \times w_{2} \\
+t \times w_{3}
+\end{pmatrix}
+$$
+Note that we usually write $-1\mathbf{v}$ as $-\mathbf{v}$.
+We can define *vector subtraction* as a combination of vector addition and scalar multiplication. If $\mathbf{v}$ and $\mathbf{w}$ are two vectors, then:
+$$
+\mathbf{v}-\mathbf{w}=\mathbf{v}+(\mathbf{-w})
 $$
