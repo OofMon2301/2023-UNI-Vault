@@ -253,3 +253,34 @@ b \\
 =a\mathbf{i}+b\mathbf{j}
 $$
 The component form of the vector $\mathbf{v}$ is $\mathbf{v}=a\mathbf{i}+b\mathbf{j}$.
+
+### Component form in 3-space
+In 3 space, there are three important unit vectors. In the $(x,y,z)$ plane, there are there important unit vectors. The unit vector in the direction of the $x$-axis is denoted $\mathbf{i}$, and the unit vector in the direction of the $y$-axis is denoted $\mathbf{j}$, and the unit vector in the direction of the $z$-axis is denoted $\mathbf{k}$, so:
+$$
+\mathbf{i}=\begin{pmatrix}
+1 \\
+0 \\
+0 \\
+
+\end{pmatrix}
+\
+\mathbf{j}=\begin{pmatrix}
+0 \\
+1 \\
+0 \\
+
+\end{pmatrix}
+\mathbf{k}=\begin{pmatrix}
+0 \\
+0 \\
+1
+\end{pmatrix}
+$$
+Note that $\mathbf{i,j,k}$ can also be written as row vectors.
+
+### Converting vectors from geometric to component form
+
+A vector $\mathbf{v}$ in $\mathbb{R}^{2}$, with magnitude $|\mathbf{v}|$ and direction $\theta$ measured anti-clockwise from the positive $x$-axis, has component form.
+$$
+\mathbf{v}=|\mathbf{v}| \cos \theta \mathbf{i}+|\mathbf{v}|\sin \theta \mathbf{j}
+$$
