@@ -143,3 +143,29 @@ We can define *vector subtraction* as a combination of vector addition and scala
 $$
 \mathbf{v}-\mathbf{w}=\mathbf{v}+(\mathbf{-w})
 $$
+## Position vectors
+Of all the geometric representations of a vector $\mathbf{v}$, the one with its tail at the origin is special.
+
+In $\mathbb{R}^{2}$, let $P$ be the point with coordinates $(x_{P},y_{P},z_{P})$. The vector $\vec{OP}$ with its tail at the origin $O$ and its head at $P$ is called the *position vector* of $P$.
+
+The matrix form of $\vec{OP}$ = $(x_{P},y_{P})$.
+Similarly, in $\mathbb{R}^{3}$, let $P$ be the point with coordinates $(x_{P},y_{P},z_{P})$. The vector $\vec{OP}$ with its tail at the origin $O$ and its head at $P$ is called the *position vector* of P, and the matrix form of $\vec{OP}$ is:
+$$
+\begin{pmatrix}
+x_{P}-0 \\
+y_{P}-0 \\
+z_{P}-0
+\end{pmatrix}
+=
+\begin{pmatrix}
+x_{P} \\
+y_{P} \\
+z_{P} \\
+\end{pmatrix}
+$$
+which can also be written as $\vec{OP}= (x_{P},y_{P},z_{P})$.
+
+The coordinates of the point $P$ are the components of position vector of $P$.
+
+## The norm of a vector
+The *norm* (or *length* or *magnitude*) of the vector $\mathbf{v}$

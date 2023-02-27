@@ -122,8 +122,8 @@
     "vector": {
       "vector": {
         "currentFile": {
-          "count": 6,
-          "lastUpdated": 1677074705663
+          "count": 7,
+          "lastUpdated": 1677534681408
         }
       }
     },
@@ -138,8 +138,8 @@
     "magnitude": {
       "magnitude": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1677075014591
+          "count": 3,
+          "lastUpdated": 1677534736540
         }
       }
     },
@@ -154,8 +154,8 @@
     "representation": {
       "representation": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1677072181273
+          "count": 3,
+          "lastUpdated": 1677534327545
         }
       }
     },
@@ -244,6 +244,14 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1677534053325
+        }
+      }
+    },
+    "position": {
+      "position": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677534680033
         }
       }
     }
