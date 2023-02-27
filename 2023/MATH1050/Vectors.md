@@ -61,7 +61,7 @@ The entries $v_{1}$ and $v_{2}$ are called the components of the [[vector]].
 ## Addition of Vectors
 ### Geometric addition of Vectors
 Given vectors $v$ and $w$, we define the sum $v+w$ by the triangle rule for [[vector]] addition.
- Let $P,Q$ and $R$ be points in $\mathbb{R}^{2}$ (or $\mathbb{R}^3$) such that $v=\overrightarrow{PQ}$ and $w=\overrightarrow{QR}$. Then $v+w=\overrightarrow{PR}$. 
+ Let $P,Q$ and $R$ be points in $\mathbb{R}^{2}$ (or $\mathbb{R}^3$) such that $\mathbf{v}=\overrightarrow{PQ}$ and $\mathbf{w}=\overrightarrow{QR}$. Then $\mathbf{v}+\mathbf{w}=\overrightarrow{PR}$. 
 
 Note that when adding vectors $v$ and $w$ geometrically you put the tail of $w$ at the head of $v$ and then draw the sum $v+w$ from the tail of $v$ to the head of $w$.
 
@@ -213,3 +213,8 @@ $$
 \hat{\mathbf{v}}=\frac{1}{|\mathbf{v}|}\mathbf{v}
 $$
 is a unit vector in the direction of $\mathbf{v}$.
+
+## Component form of a vector
+
+### Component form in 2-space
+In the $(x,y)$ plane, there are two important unit vectors. The unit vector in the direction of the $x$-axis is denoted $\mathbf{i}$
