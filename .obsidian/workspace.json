@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0defbc9d60d606e9",
+        "id": "e524af5316be239d",
         "type": "tabs",
         "children": [
           {
-            "id": "2a8a956cbc931035",
+            "id": "6e1eba0307d6ffe8",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "4f6421f56d856bdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/MATH1050/Vectors.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1050/Vectors.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -152,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +184,7 @@
       "graph:Open graph view": false
     }
   },
-  "active": "4f6421f56d856bdb",
+  "active": "6e1eba0307d6ffe8",
   "lastOpenFiles": [
     "2023/Definitions/MATH1050/Vector.md",
     "2023/MATH1050/Vectors.md",
