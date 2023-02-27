@@ -284,3 +284,9 @@ A vector $\mathbf{v}$ in $\mathbb{R}^{2}$, with magnitude $|\mathbf{v}|$ and dir
 $$
 \mathbf{v}=|\mathbf{v}| \cos \theta \mathbf{\underline{i}}+|\mathbf{v}|\sin \theta \mathbf{\underline{j}}
 $$
+### Converting vectors from component to geometric form
+
+If $\mathbf{v}=v_{1}\mathbf{\underline{i}}+0\mathbf{\underline{j}}$ or $\mathbf{v}=0\mathbf{\underline{i}}+v_{2}\mathbf{\underline{j}}$, then $\theta$ will be one of 0, $\frac{\pi}{2}$,$\pi,\text{or} \ \frac{3\pi}{2}$, and you can determine which it is from the sketch.
+
+If neither of $v_{1}$ not $v_{2}$ is zero, then calculate $\phi=\arctan (|\frac{v_{2}}{v_{1}}|)$. The value of $\phi$ will be between 0 and $\frac{\pi}{2}$.
+The value of $\theta$ will be one of $\phi,\pi-\phi,\pi+\phi,\text{or} \ 2\pi-\phi$. You can identify which it is from your sketch.

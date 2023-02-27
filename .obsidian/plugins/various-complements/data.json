@@ -162,8 +162,8 @@
     "geometric": {
       "geometric": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1677072233117
+          "count": 3,
+          "lastUpdated": 1677540188656
         }
       }
     },
@@ -274,8 +274,16 @@
     "\\theta": {
       "\\theta": {
         "currentFile": {
+          "count": 3,
+          "lastUpdated": 1677540541731
+        }
+      }
+    },
+    "sketch": {
+      "sketch": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1677539363861
+          "lastUpdated": 1677540594757
         }
       }
     }
