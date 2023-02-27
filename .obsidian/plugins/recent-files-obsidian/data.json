@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Homepage",
-      "path": "Homepage.md"
-    },
-    {
       "basename": "Vectors",
       "path": "2023/MATH1050/Vectors.md"
+    },
+    {
+      "basename": "Vector",
+      "path": "2023/Definitions/MATH1050/Vector.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
     },
     {
       "basename": "Logical Form and Logical Equivalence",
@@ -23,10 +27,6 @@
     {
       "basename": "Drawing 2023-02-24 15.30.49.excalidraw",
       "path": "Excalidraw/Drawing 2023-02-24 15.30.49.excalidraw.md"
-    },
-    {
-      "basename": "Vector",
-      "path": "2023/Definitions/MATH1050/Vector.md"
     },
     {
       "basename": "Drawing 2023-02-23 00.15.53.excalidraw",

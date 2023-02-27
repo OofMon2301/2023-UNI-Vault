@@ -107,3 +107,4 @@ $$\large v+w=\overrightarrow{PQ}+\overrightarrow{QR}=\overrightarrow{PR}=\overri
    $$u+(v+w)=(u+v)+w$$
 3.  $0+v=v+0=v$
    
+## Scalar Multipl
