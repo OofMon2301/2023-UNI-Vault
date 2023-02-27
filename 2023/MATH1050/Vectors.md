@@ -290,3 +290,5 @@ If $\mathbf{v}=v_{1}\mathbf{\underline{i}}+0\mathbf{\underline{j}}$ or $\mathbf{
 
 If neither of $v_{1}$ not $v_{2}$ is zero, then calculate $\phi=\arctan (|\frac{v_{2}}{v_{1}}|)$. The value of $\phi$ will be between 0 and $\frac{\pi}{2}$.
 The value of $\theta$ will be one of $\phi,\pi-\phi,\pi+\phi,\text{or} \ 2\pi-\phi$. You can identify which it is from your sketch.
+
+
