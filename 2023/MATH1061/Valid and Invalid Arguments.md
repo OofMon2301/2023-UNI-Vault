@@ -18,6 +18,17 @@ Therefore, I am wearing a pink shirt.
 Valid argument: The statement
 (Premise 1 $\land$ Premise 2 $\land$ $\dots$ $\land$ Last Premise) $\implies$ Conclusion is a [[2023/Definitions/Tautology|Tautology]]/Redundant
 
+Let $p$ represent the statement "today is Monday", and $q$ represent the statement "I am wearing a pink shirt".
+
+Then this argument can be written as:
+$$
+\begin{align}
+p \implies q  \\
+p \\
+therefore 
+\end{align}
+$$
+
 ### Proving an argument is valid (using rules of inference)
 
 **Premise 1**: $p \implies q$
@@ -32,6 +43,6 @@ Use the laws of logical equivalence and the rules of inference to show that this
 3. $p \lor \sim r$
 $$
 \begin{cases}
-
+(p \lor r) \land (p \lor \sim r) &  &  & \text{From 2. and 3. }
 \end{cases}
 $$
