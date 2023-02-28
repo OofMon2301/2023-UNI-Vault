@@ -274,8 +274,8 @@
     "\\theta": {
       "\\theta": {
         "currentFile": {
-          "count": 4,
-          "lastUpdated": 1677541112521
+          "count": 6,
+          "lastUpdated": 1677541372280
         }
       }
     },
@@ -298,8 +298,24 @@
     "product": {
       "product": {
         "currentFile": {
+          "count": 4,
+          "lastUpdated": 1677541407263
+        }
+      }
+    },
+    "calculate": {
+      "calculate": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1677541185807
+          "lastUpdated": 1677541437159
+        }
+      }
+    },
+    "\\cdot": {
+      "\\cdot": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677541591276
         }
       }
     }

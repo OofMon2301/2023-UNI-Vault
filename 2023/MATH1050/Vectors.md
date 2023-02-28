@@ -8,7 +8,7 @@ Topic:: Vectors
 # [[Vectors]]
 #MATH1050  
 
-## Vectors
+## 2.1 Vectors
 
 A *[[Vector|Vector]]* quantity is something whose specification requires **both** a magnitude and a direction.
 
@@ -58,7 +58,7 @@ $$
 The entries $v_{1}$ and $v_{2}$ are called the components of the [[vector]].
 
 ---
-## Addition of Vectors
+## 2.2 Addition of Vectors
 ### Geometric addition of Vectors
 Given vectors $v$ and $w$, we define the sum $v+w$ by the triangle rule for [[vector]] addition.
  Let $P,Q$ and $R$ be points in $\mathbb{R}^{2}$ (or $\mathbb{R}^3$) such that $\mathbf{v}=\overrightarrow{PQ}$ and $\mathbf{w}=\overrightarrow{QR}$. Then $\mathbf{v}+\mathbf{w}=\overrightarrow{PR}$. 
@@ -107,7 +107,7 @@ $$\large v+w=\overrightarrow{PQ}+\overrightarrow{QR}=\overrightarrow{PR}=\overri
    $$u+(v+w)=(u+v)+w$$
 3.  $0+v=v+0=v$
    
-## Scalar Multiplication of Vectors
+## 2.3 Scalar Multiplication of Vectors
 
 ### Geometric scalar multiplication of vectors
 Given a vector $v$ and a real number $t$, we define the scalar multiple $tv$ to be the vector whose magnitude is $|t|$ times the magnitude of $v$, and whose direction is the same as $v$ if $t>0$ and opposite to $v$ if $t<0$.
@@ -143,7 +143,7 @@ We can define *vector subtraction* as a combination of vector addition and scala
 $$
 \mathbf{v}-\mathbf{w}=\mathbf{v}+(\mathbf{-w})
 $$
-## Position vectors
+## 2.4 Position vectors
 Of all the geometric representations of a vector $\mathbf{v}$, the one with its tail at the origin is special.
 
 In $\mathbb{R}^{2}$, let $P$ be the point with coordinates $(x_{P},y_{P},z_{P})$. The vector $\vec{OP}$ with its tail at the origin $O$ and its head at $P$ is called the *position vector* of $P$.
@@ -167,7 +167,7 @@ which can also be written as $\vec{OP}= (x_{P},y_{P},z_{P})$.
 
 The coordinates of the point $P$ are the components of position vector of $P$.
 
-## The norm of a vector
+## 2.5 The norm of a vector
 The *norm* (or *length* or *magnitude*) of the vector $\mathbf{v}=\vec{PQ}$ is the (shortest) distance between points $P$ and $Q$.
 
 The Norm of the vector $\mathbf{v}$ is denoted $||\mathbf{v||}$.
@@ -214,7 +214,7 @@ $$
 $$
 is a unit vector in the direction of $\mathbf{v}$.
 
-## Component form of a vector
+## 2.6 Component form of a vector
 
 ### Component form in 2-space
 In the $(x,y)$ plane, there are two important unit vectors. The unit vector in the direction of the $x$-axis is denoted $\mathbf{i}$, and the unit vector in the direction of the $y$-axis is denoted $\mathbf{j}$, so:
@@ -291,13 +291,30 @@ If $\mathbf{v}=v_{1}\mathbf{\underline{i}}+0\mathbf{\underline{j}}$ or $\mathbf{
 If neither of $v_{1}$ not $v_{2}$ is zero, then calculate $\phi=\arctan (|\frac{v_{2}}{v_{1}}|)$. The value of $\phi$ will be between 0 and $\frac{\pi}{2}$.
 The value of $\theta$ will be one of $\phi,\pi-\phi,\pi+\phi,\text{or} \ 2\pi-\phi$. You can identify which it is from your sketch.
 
-## The Scalar Product
+## 2.7 The Scalar Product
 
 Let $\mathbf{v}=\vec{OP}\neq 0$ and $\mathbf{w}-\vec{OQ}\neq 0$ be two vectors. Then the angle between $\mathbf{v}$ and $\mathbf{w}$ is the angle $\theta$ between $\vec{OP}$ and $\vec{OQ}$ at the origin, with $0\leq \theta \leq \pi-\pi$.
 
 The *scalar product* of two vectors $\mathbf{v}$ and $\mathbf{w}$ is:
 $$
-\mathbf{v} \coq
+\mathbf{v} \cdot \mathbf{w}=\begin{cases}
+0  & \text{if}\ \mathbf{v}=0\ \text{or}\ \mathbf{w}=0 \\
+|\mathbf{v}|\ |\mathbf{w}| \cos \theta  & \text{otherwise.} 
+\end{cases}
 $$
+Where $\theta$ is the angle between $\mathbf{v}$ and $\mathbf{w}$.
+
+The scalar product is also called the *dot product* or *inner product*.
+
+If $\mathbf{v}$ and $\mathbf{w}$ are in matrix form, then the scalar product is easy to calculate. 
+If $\mathbf{v}=(v_{1},v_{2})$ and $\mathbf{w}=(w_{1},w_{2})$, then:
+$$
+\mathbf{v}\cdot \mathbf{w}=v_{1}w_{1}+v_{2}w_{2}
+$$
+If $\mathbf{v}=(v_{1},v_{2},v_{3})$ and $\mathbf{w}=(w_{1},w_{2},w_{3})$, then:
+$$
+\mathbf{v}\cdot \mathbf{w}=v_{1}w_{1}+v_{2}w_{2}+v_{3}w_{3}
+$$
+
 
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8d48198928ee80b1",
+        "id": "97a0ac8852e34668",
         "type": "tabs",
         "children": [
           {
-            "id": "ed69db6ad6dafefd",
+            "id": "1fab70d62dd394f3",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "9b6eb595e73e506a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/MATH1050/Vectors.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1050/Vectors.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -110,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -153,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +184,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9b6eb595e73e506a",
+  "active": "1fab70d62dd394f3",
   "lastOpenFiles": [
     "Homepage.md",
     "2023/MATH1050/Vectors.md",
