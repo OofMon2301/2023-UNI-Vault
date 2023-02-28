@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -199,10 +200,10 @@
   },
   "active": "88f0ddd7a58b8c11",
   "lastOpenFiles": [
-    "2023/MATH1050/Vectors.md",
     "Homepage.md",
-    "2023/Definitions/Vector.md",
     "2023/MATH1061/Valid and Invalid Arguments.md",
+    "2023/MATH1050/Vectors.md",
+    "2023/Definitions/Vector.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "2023/Definitions/Tautology.md",
     "2023/Definitions/Math1061/Argument.md",

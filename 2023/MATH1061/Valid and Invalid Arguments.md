@@ -37,6 +37,19 @@ Consider the following argument:
 - *If there is a depression, buying does not decrease.*
 - *Therefore, there is not a depression or wages are not raised.*
 
+Let $w$ represent the statement "wages are raised", $b$ represent the statement "buying increases", and $d$ represent the statement "there is a depression".
+
+If written in symbolic form:
+
+$$
+\begin{align}
+w \implies b \\
+d \implies \sim b \\
+\therefore \sim d \ \lor \sim w
+\end{align}
+$$
+
+
 ### Proving an argument is valid (using rules of inference)
 
 **Premise 1**: $p \implies q$
