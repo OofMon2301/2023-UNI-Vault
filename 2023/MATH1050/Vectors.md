@@ -109,12 +109,12 @@ $$\large v+w=\overrightarrow{PQ}+\overrightarrow{QR}=\overrightarrow{PR}=\overri
    
 ## 2.3 Scalar Multiplication of Vectors
 
-### Geometric scalar multiplication of vectors
+### Geometric Scalar Multiplication of Vectors
 Given a vector $v$ and a real number $t$, we define the scalar multiple $tv$ to be the vector whose magnitude is $|t|$ times the magnitude of $v$, and whose direction is the same as $v$ if $t>0$ and opposite to $v$ if $t<0$.
 
 Note that if $t=0$, then the scalar multiple $tv$ is the zero vector.
 
-### Matrix scalar multiplication of vectors
+### Matrix Scalar Multiplication of Vectors
 
 If $t$ is a real number and $v=$:
 $$v=\begin{pmatrix}
@@ -143,7 +143,7 @@ We can define *vector subtraction* as a combination of vector addition and scala
 $$
 \mathbf{v}-\mathbf{w}=\mathbf{v}+(\mathbf{-w})
 $$
-## 2.4 Position vectors
+## 2.4 Position Vectors
 Of all the geometric representations of a vector $\mathbf{v}$, the one with its tail at the origin is special.
 
 In $\mathbb{R}^{2}$, let $P$ be the point with coordinates $(x_{P},y_{P},z_{P})$. The vector $\vec{OP}$ with its tail at the origin $O$ and its head at $P$ is called the *position vector* of $P$.
@@ -167,7 +167,7 @@ which can also be written as $\vec{OP}= (x_{P},y_{P},z_{P})$.
 
 The coordinates of the point $P$ are the components of position vector of $P$.
 
-## 2.5 The norm of a vector
+## 2.5 The Norm of a Vector
 The *norm* (or *length* or *magnitude*) of the vector $\mathbf{v}=\vec{PQ}$ is the (shortest) distance between points $P$ and $Q$.
 
 The Norm of the vector $\mathbf{v}$ is denoted $||\mathbf{v||}$.
@@ -214,9 +214,9 @@ $$
 $$
 is a unit vector in the direction of $\mathbf{v}$.
 
-## 2.6 Component form of a vector
+## 2.6 Component Form of a Vector
 
-### Component form in 2-space
+### Component Form in 2-space
 In the $(x,y)$ plane, there are two important unit vectors. The unit vector in the direction of the $x$-axis is denoted $\mathbf{i}$, and the unit vector in the direction of the $y$-axis is denoted $\mathbf{j}$, so:
 $$
 \mathbf{i}=\begin{pmatrix}
@@ -254,7 +254,7 @@ b \\
 $$
 The component form of the vector $\mathbf{v}$ is $\mathbf{v}=a\mathbf{i}+b\mathbf{j}$.
 
-### Component form in 3-space
+### Component Form in 3-space
 In 3 space, there are three important unit vectors. In the $(x,y,z)$ plane, there are there important unit vectors. The unit vector in the direction of the $x$-axis is denoted $\mathbf{i}$, and the unit vector in the direction of the $y$-axis is denoted $\mathbf{j}$, and the unit vector in the direction of the $z$-axis is denoted $\mathbf{k}$, so:
 $$
 \mathbf{i}=\begin{pmatrix}
@@ -278,13 +278,13 @@ $$
 $$
 Note that $\mathbf{i,j,k}$ can also be written as row vectors.
 
-### Converting vectors from geometric to component form
+### Converting Vectors from Geometric to Component Form
 
 A vector $\mathbf{v}$ in $\mathbb{R}^{2}$, with magnitude $|\mathbf{v}|$ and direction $\theta$ measured anti-clockwise from the positive $x$-axis, has component form.
 $$
 \mathbf{v}=|\mathbf{v}| \cos \theta \mathbf{\underline{i}}+|\mathbf{v}|\sin \theta \mathbf{\underline{j}}
 $$
-### Converting vectors from component to geometric form
+### Converting Vectors from Component to Geometric Form
 
 If $\mathbf{v}=v_{1}\mathbf{\underline{i}}+0\mathbf{\underline{j}}$ or $\mathbf{v}=0\mathbf{\underline{i}}+v_{2}\mathbf{\underline{j}}$, then $\theta$ will be one of 0, $\frac{\pi}{2}$,$\pi,\text{or} \ \frac{3\pi}{2}$, and you can determine which it is from the sketch.
 

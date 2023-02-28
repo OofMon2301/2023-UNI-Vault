@@ -318,6 +318,22 @@
           "lastUpdated": 1677541591276
         }
       }
+    },
+    "conclusion": {
+      "conclusion": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677546412545
+        }
+      }
+    },
+    "premises": {
+      "premises": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677546419893
+        }
+      }
     }
   }
 }
