@@ -65,8 +65,29 @@ $$
 \begin{align}
 \text{Suppose all premises are true and the conclusion is false.} \\
 \begin{cases}
-\text{Since the conclusion is false,}  & q  &  
+\text{Since the conclusion is false,}  & q & \text{is false.} \\
+\text{Since 2. is true and}  & r & \text{is false, } 
 \end{cases}
 \end{align}
 
 $$
+
+
+Activity 6:
+
+**Premise 1**: $p \implies q$
+**Premise 2**: $p \lor r$
+**Premise 3**: $p \lor \sim r$
+**Conclusion**: $q$
+
+$$
+\begin{align}
+\text{Suppose all premises are true and the conclusion is false.} \\
+\begin{cases}
+\text{Since conclusion is false}, \ \ q  \text{ is false.} \\
+\text{Since 1. is true and}\ \ q   \text{ is false,} \ \ p \  \text{is false.} \\
+
+\end{cases}
+\end{align}
+$$
+
