@@ -30,8 +30,12 @@ p \\
 $$
 This is a valid argument, but it has a false conclusion.
 Note that the premise "If today is Tuesday, then I am wearing a pink shirt" is false.
+### Activity 1:
 
-
+Consider the following argument:
+- *If wages are raised, buying increases.*
+- *If there is a depression, buying does not decrease.*
+- *Therefore, there is not a depression or wages are not raised.*
 
 ### Proving an argument is valid (using rules of inference)
 
