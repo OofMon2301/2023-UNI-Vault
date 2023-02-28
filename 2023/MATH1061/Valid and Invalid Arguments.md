@@ -23,11 +23,15 @@ Let $p$ represent the statement "today is Monday", and $q$ represent the stateme
 Then this argument can be written as:
 $$
 \begin{align}
-p \implies q  \\
+p \implies q  & \\
 p \\
-therefore 
+\therefore q
 \end{align}
 $$
+This is a valid argument, but it has a false conclusion.
+Note that the premise "If today is Tuesday, then I am wearing a pink shirt" is false.
+
+
 
 ### Proving an argument is valid (using rules of inference)
 
@@ -45,4 +49,24 @@ $$
 \begin{cases}
 (p \lor r) \land (p \lor \sim r) &  &  & \text{From 2. and 3. }
 \end{cases}
+$$
+
+
+Activity 5:
+
+Proving an argument is valid (by checking if the argument is invalid):
+
+**Premise 1**: $p \implies q$
+**Premise 2**: $q \implies r$
+**Premise 3**: $\sim p \ \lor \sim q$
+**Conclusion**: $r$
+
+$$
+\begin{align}
+\text{Suppose all premises are true and the conclusion is false.} \\
+\begin{cases}
+\text{Since the conclusion is false,}  & q  &  
+\end{cases}
+\end{align}
+
 $$
