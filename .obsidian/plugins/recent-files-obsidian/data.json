@@ -5,6 +5,14 @@
       "path": "2023/MATH1061/Valid and Invalid Arguments.md"
     },
     {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
+      "basename": "Tautology",
+      "path": "2023/Definitions/Tautology.md"
+    },
+    {
       "basename": "Vectors",
       "path": "2023/MATH1050/Vectors.md"
     },
@@ -13,12 +21,8 @@
       "path": "2023/Definitions/Math1061/Argument.md"
     },
     {
-      "basename": "Homepage",
-      "path": "Homepage.md"
-    },
-    {
       "basename": "Argument",
-      "path": "2023/Definitions/MATH1061/Argument.md"
+      "path": "2023/Definitions/Argument.md"
     },
     {
       "basename": "Conditional Statements",
@@ -30,7 +34,7 @@
     },
     {
       "basename": "Vector",
-      "path": "2023/Definitions/MATH1050/Vector.md"
+      "path": "2023/Definitions/Vector.md"
     },
     {
       "basename": "Introduction to Electrical Engineering",

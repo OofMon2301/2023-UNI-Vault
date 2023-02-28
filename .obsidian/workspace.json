@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "35e8fc66eae871cc",
+            "id": "b12fe5f357694c48",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -197,16 +198,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "35e8fc66eae871cc",
+  "active": "b12fe5f357694c48",
   "lastOpenFiles": [
+    "Homepage.md",
+    "2023/Definitions/Tautology.md",
+    "2023/MATH1061/Valid and Invalid Arguments.md",
     "2023/MATH1050/Vectors.md",
     "2023/Definitions/Math1061/Argument.md",
-    "2023/MATH1061/Valid and Invalid Arguments.md",
-    "Homepage.md",
-    "2023/Definitions/MATH1061/Argument.md",
+    "2023/Definitions/Argument.md",
     "2023/MATH1061/Conditional Statements.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
-    "2023/Definitions/MATH1050/Vector.md",
+    "2023/Definitions/Vector.md",
     "2023/ENGG1300/Introduction to Electrical Engineering.md",
     "Excalidraw/Drawing 2023-02-24 15.30.49.excalidraw.md",
     "2023/MATH1061/Introduction to Logical Equivalence.md",

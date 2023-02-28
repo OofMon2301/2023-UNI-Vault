@@ -334,6 +334,30 @@
           "lastUpdated": 1677546419893
         }
       }
+    },
+    "Argument": {
+      "Argument": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1677546982050
+        }
+      }
+    },
+    "Premise": {
+      "Premise": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677546678735
+        }
+      }
+    },
+    "\\land": {
+      "\\land": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677546671807
+        }
+      }
     }
   }
 }
