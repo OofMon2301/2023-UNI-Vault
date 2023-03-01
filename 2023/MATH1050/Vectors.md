@@ -404,5 +404,8 @@ t(\mathbf{u}\times \mathbf{v})=(t\mathbf{u})\times \mathbf{v}=\mathbf{u}\times(t
 $$
 For vectors $\mathbf{u}$, $\mathbf{v}$, and $\mathbf{w}$,
 $$
-\mathbf
+\large
+\mathbf{u}\times(\mathbf{v}+\mathbf{w})=\mathbf{u}\times \mathbf{v}+\mathbf{u}\times \mathbf{w}, \ \ \text{and} \ \ (\mathbf{u}+\mathbf{v})\times \mathbf{w} = \mathbf{u} \times \mathbf{w}+\mathbf{v}\times \mathbf{w}
 $$
+
+We can use the properties of the vector product and the table of vector products of $\mathbf{i}$, $\mathbf{j}$, and $\mathbf{k}$ to calculate the vector product of any pair of vectors expressed in component form.

@@ -122,8 +122,8 @@
     "vector": {
       "vector": {
         "currentFile": {
-          "count": 10,
-          "lastUpdated": 1677539243640
+          "count": 11,
+          "lastUpdated": 1677682946186
         }
       }
     },
@@ -298,8 +298,8 @@
     "product": {
       "product": {
         "currentFile": {
-          "count": 4,
-          "lastUpdated": 1677541407263
+          "count": 6,
+          "lastUpdated": 1677682947251
         }
       }
     },
@@ -412,6 +412,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1677682348560
+        }
+      }
+    },
+    "\\text": {
+      "\\text": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677682872682
+        }
+      }
+    },
+    "properties": {
+      "properties": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677682937114
         }
       }
     }
