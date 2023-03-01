@@ -389,9 +389,20 @@ For two non-zero vectors $\mathbf{u}$ and $\mathbf{v}$, $\mid \mathbf{u}\times \
 $$
 \begin{gather*}
 \begin{aligned}
-\mid \mathbf{u}\times \mathbf{v}\mid = 0 &\iff \sin \theta 
+\mid \mathbf{u}\times \mathbf{v}\mid = 0 &\iff \sin \theta = 0, \\
+&\iff \theta=0 \ \ or \ \ \theta=\pi
 \end{aligned}
 \end{gather*}
 $$
+For any two vectors $\mathbf{u}$ and $\mathbf{v}$, $\mathbf{u}\times \mathbf{v}=-(\mathbf{v}\times \mathbf{u})$
 
-
+The vector product is not associative, so for most vectors, $\mathbf{u}$, $\mathbf{v}$, and $\mathbf{w}$, $\mathbf{u}\times(\mathbf{v}\times \mathbf{w})\neq(\mathbf{u}\times \mathbf{v})\times \mathbf{w}$.
+	For example, $(\mathbf{i}\times \mathbf{i})\times \mathbf{k}=0$ but $\mathbf{i}\times(\mathbf{i}\times \mathbf{k})=\mathbf{i}\times \mathbf{-j}=-\mathbf{k}$.
+For vectors $\mathbf{u}$ and $\mathbf{v}$ and any real number $t$,
+$$
+t(\mathbf{u}\times \mathbf{v})=(t\mathbf{u})\times \mathbf{v}=\mathbf{u}\times(t\mathbf{v})
+$$
+For vectors $\mathbf{u}$, $\mathbf{v}$, and $\mathbf{w}$,
+$$
+\mathbf
+$$
