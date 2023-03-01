@@ -64,7 +64,7 @@ Use the laws of logical equivalence and the rules of inference to show that this
 3. $p \lor \sim r$
 $$
 \begin{cases}
-(p \lor r) \land (p \lor \sim r) &  &  & \text{From 2. and 3. }
+(p \lor r) \land (p \lor \sim r) &  &  & \text{From 2. and 3 by conjunction. }
 \end{cases}
 $$
 
