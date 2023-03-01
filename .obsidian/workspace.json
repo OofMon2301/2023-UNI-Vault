@@ -32,9 +32,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1e6fcafe4355d822",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.reddit.com/r/LaTeX/comments/119zbb1/i_dont_understand_latex/"
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,9 +113,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2023/MATH1050/Vectors.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -153,7 +163,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +179,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,11 +206,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bf549b4de57aa60b",
+  "active": "1e6fcafe4355d822",
   "lastOpenFiles": [
+    "2023/MATH1050/Vectors.md",
     "Homepage.md",
     "2023/MATH1061/Valid and Invalid Arguments.md",
-    "2023/MATH1050/Vectors.md",
     "2023/Definitions/Vector.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "2023/Definitions/Tautology.md",

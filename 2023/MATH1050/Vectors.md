@@ -317,4 +317,14 @@ $$
 $$
 If we are given two vectors and $\mathbf{v}$ and $\mathbf{w}$ in matrix or component form, then we can use the scalar product to calculate the angle between $\mathbf{v}$ and $\mathbf{w}$.
 
+> [!example]+ Example 2.7.2
+> $$
+>  
+> $$
+
+
+
+
+
+
 
