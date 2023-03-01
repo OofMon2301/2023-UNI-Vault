@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ca9c3f4b1f308ed8",
+        "id": "37c4d6fe08057113",
         "type": "tabs",
         "children": [
           {
-            "id": "829326568cb30872",
+            "id": "4645fcc39fe41fab",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "88f0ddd7a58b8c11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/MATH1061/Valid and Invalid Arguments.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1061/Valid and Invalid Arguments.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -153,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1061/Valid and Invalid Arguments.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1061/Valid and Invalid Arguments.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +185,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "88f0ddd7a58b8c11",
+  "active": "4645fcc39fe41fab",
   "lastOpenFiles": [
     "Homepage.md",
     "2023/MATH1061/Valid and Invalid Arguments.md",
