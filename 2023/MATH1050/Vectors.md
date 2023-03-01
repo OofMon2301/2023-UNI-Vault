@@ -318,13 +318,13 @@ $$
 If we are given two vectors and $\mathbf{v}$ and $\mathbf{w}$ in matrix or component form, then we can use the scalar product to calculate the angle between $\mathbf{v}$ and $\mathbf{w}$.
 
 > [!example]+ Example 2.7.2
-> 
-
-
-$$
+> Calculate the angle (in both degrees and radians) between vectors $\mathbf{u}=(4,3,1)$ and $\mathbf{v}=(2,-3,-2)$.
+> $$
 \Large
 \begin{gather*}
-\underline{\mathbf{u}} \cdot \underline{\mathbf{v}} &=& |\mathbf{u}|\times|\mathbf{v}|\times \cos \theta
+\begin{aligned}
+\underline{\mathbf{u}} \cdot \underline{\mathbf{v}} &= |\mathbf{u}|\times|\mathbf{v}|\times \cos \theta
+\\
 \\
 \begin{pmatrix} 
 4 \\
@@ -336,15 +336,20 @@ $$
 -3 \\
 -2 \\
 \end{pmatrix} 
-&=& \sqrt{ 4^{2}+3^{2}+1^{2} }\times \sqrt{ 2^{2}+(-3)^{2}+(-2)^{2} }\times \cos \theta
+&= \sqrt{ 4^{2}+3^{2}+1^{2} }\times \sqrt{ 2^{2}+(-3)^{2}+(-2)^{2} }\times \cos \theta
 \\
-8+(-9)+(-2) &=&\sqrt{26 }\times \sqrt{ 17 }\times \cos \theta \\
--\frac{3}{\sqrt{ 26 }\sqrt{ 17 }}&=&\cos \theta \\
-\theta &=& \arccos\left( -\frac{3}{\sqrt{ 26 }\sqrt{ 17} } \right) \\
-\approx 98.2^\circ
-\end{gather*} 
-
+\\
+8+(-9)+(-2) &=\sqrt{26 }\times \sqrt{ 17 }\times \cos \theta \\
+-\frac{3}{\sqrt{ 26 }\sqrt{ 17 }}&=\cos \theta \\
+\theta &= \arccos\left( -\frac{3}{\sqrt{ 26 }\sqrt{ 17} } \right) \\ \\
+&\approx 98.2^\circ \\
+&\approx 1.71 \text{rad} 
+\end{aligned}
+\end{gather*}
 $$
+
+
+
 
 
 
