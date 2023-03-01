@@ -32,21 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1e6fcafe4355d822",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.reddit.com/r/LaTeX/comments/119zbb1/i_dont_understand_latex/"
-              },
-              "pinned": true
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2023/MATH1050/Vectors.md"
+              }
             }
           }
         ]
@@ -163,6 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2023/MATH1050/Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,6 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2023/MATH1050/Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +198,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1e6fcafe4355d822",
+  "active": "bf549b4de57aa60b",
   "lastOpenFiles": [
     "2023/MATH1050/Vectors.md",
     "Homepage.md",
