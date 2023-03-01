@@ -370,10 +370,28 @@ $$
 
 ```
 
+4. For vectors $\mathbf{u}$, $\mathbf{v}$, and $\mathbf{w}$, $(\mathbf{u}+\mathbf{v})\cdot \mathbf{w}=\mathbf{u}\cdot \mathbf{w}+\mathbf{v}\cdot \mathbf{w}$.
+5. For vectors $\mathbf{v}$ and $\mathbf{w}$, $\mathbf{v}\cdot \mathbf{w}=\mathbf{w}\cdot \mathbf{v}$.
+6.  For vectors $\mathbf{v}$ and $\mathbf{w}$ and any real number, $t$, $(t\mathbf{v})\cdot \mathbf{w}=t(\mathbf{v}\cdot \mathbf{w})$
 
+## 2.8 The Vector Product (Cross Product)
+![[Pasted image 20230302004650.png]]
+Type this later
 
+Note that in any diagram of 3-dimensional space, the arrangement of the axes must satisfy the right hand rule so that $\mathbf{i}\times \mathbf{j}=\mathbf{k}$.
 
+#### Properties of the vector product
 
+The vector product is a vector, *not* a scalar.
 
+For two non-zero vectors $\mathbf{u}$ and $\mathbf{v}$, $\mid \mathbf{u}\times \mathbf{v}\mid=0$ if and only if $\mathbf{u}$ and $\mathbf{v}$ are parallel or antiparallel.
+
+$$
+\begin{gather*}
+\begin{aligned}
+\mid \mathbf{u}\times \mathbf{v}\mid = 0 &\iff \sin \theta 
+\end{aligned}
+\end{gather*}
+$$
 
 
