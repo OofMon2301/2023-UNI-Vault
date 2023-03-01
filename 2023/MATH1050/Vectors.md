@@ -322,9 +322,10 @@ If we are given two vectors and $\mathbf{v}$ and $\mathbf{w}$ in matrix or compo
 
 
 $$
-\begin{gather*}
 \Large
-\underline{\mathbf{u}} \cdot \underline{\mathbf{v}} = |\mathbf{u}|\times|\mathbf{v}|\times \cos \theta
+\begin{gather*}
+\underline{\mathbf{u}} \cdot \underline{\mathbf{v}} &=& |\mathbf{u}|\times|\mathbf{v}|\times \cos \theta
+\\
 \begin{pmatrix} 
 4 \\
 3 \\
@@ -335,9 +336,12 @@ $$
 -3 \\
 -2 \\
 \end{pmatrix} 
-=\sqrt{ 4^{2}+3^{2}+1^{2} }\times \sqrt{ 2^{2}+(-3)^{2}+(-2)^{2} }\times \cos \theta
+&=& \sqrt{ 4^{2}+3^{2}+1^{2} }\times \sqrt{ 2^{2}+(-3)^{2}+(-2)^{2} }\times \cos \theta
 \\
-
+8+(-9)+(-2) &=&\sqrt{26 }\times \sqrt{ 17 }\times \cos \theta \\
+-\frac{3}{\sqrt{ 26 }\sqrt{ 17 }}&=&\cos \theta \\
+\theta &=& \arccos\left( -\frac{3}{\sqrt{ 26 }\sqrt{ 17} } \right) \\
+\approx 98.2^\circ
 \end{gather*} 
 
 $$
