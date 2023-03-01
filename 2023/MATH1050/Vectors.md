@@ -315,6 +315,6 @@ If $\mathbf{v}=(v_{1},v_{2},v_{3})$ and $\mathbf{w}=(w_{1},w_{2},w_{3})$, then:
 $$
 \mathbf{v}\cdot \mathbf{w}=v_{1}w_{1}+v_{2}w_{2}+v_{3}w_{3}
 $$
-
+If we are given two vectors and $\mathbf{v}$ and $\mathbf{w}$ in matrix or component form, then we can use the scalar product to calculate the angle between $\mathbf{v}$ and $\mathbf{w}$.
 
 
