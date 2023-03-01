@@ -318,10 +318,29 @@ $$
 If we are given two vectors and $\mathbf{v}$ and $\mathbf{w}$ in matrix or component form, then we can use the scalar product to calculate the angle between $\mathbf{v}$ and $\mathbf{w}$.
 
 > [!example]+ Example 2.7.2
-> $$
->  
-> $$
+> 
 
+
+$$
+\begin{gather*}
+\Large
+\underline{\mathbf{u}} \cdot \underline{\mathbf{v}} = |\mathbf{u}|\times|\mathbf{v}|\times \cos \theta
+\begin{pmatrix} 
+4 \\
+3 \\
+1 \\  
+\end{pmatrix} \cdot
+\begin{pmatrix} 
+2 \\
+-3 \\
+-2 \\
+\end{pmatrix} 
+=\sqrt{ 4^{2}+3^{2}+1^{2} }\times \sqrt{ 2^{2}+(-3)^{2}+(-2)^{2} }\times \cos \theta
+\\
+
+\end{gather*} 
+
+$$
 
 
 
