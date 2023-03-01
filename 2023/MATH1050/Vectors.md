@@ -349,6 +349,27 @@ If we are given two vectors and $\mathbf{v}$ and $\mathbf{w}$ in matrix or compo
 $$
 
 
+### Properties of the scalar product
+
+1. The scalar product of two vectors is a *scalar*, not a vector.
+2. $\mathbf{v} \cdot \mathbf{v} = |\mathbf{v}|^{2}$ since the angle between $\mathbf{v}$ and itself is 0 and $\cos 0=1$.
+3. $\mathbf{v} \cdot \mathbf{w}=0$ if and only if $\mathbf{v}$ and $\mathbf{w}$ are perpendicular.
+	(Perpendicular vectors are also called orthogonal vectors.)
+
+```ad-example 
+Proof if $\mathbf{v}\neq 0$ and $\mathbf{w}\neq 0$, then:
+$$
+\begin{gather*}
+\begin{aligned}
+\mathbf{v}\cdot \mathbf{w}=0 &\iff(\text{iff})\mid v\mid \mid w\mid \cos \theta=0 \\
+&\iff \cos \theta=0 \\
+&\iff \theta =\frac{\pi}{2}
+\end{aligned}
+\end{gather*}
+$$
+
+```
+
 
 
 
