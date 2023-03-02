@@ -32,9 +32,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b9513398257af989",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.desmos.com/scientific"
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,9 +113,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2023/MATH1050/Vectors.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -152,7 +162,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +178,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,10 +205,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "acfa305c99aa7427",
+  "active": "b9513398257af989",
   "lastOpenFiles": [
-    "2023/MATH1050/Week 2 Workshop - Vectors.md",
     "2023/MATH1050/Vectors.md",
+    "2023/MATH1050/Week 2 Workshop - Vectors.md",
     "Homepage.md",
     "2023/Definitions/Predicate.md",
     "2023/MATH1061/Quantified Statements.md",
