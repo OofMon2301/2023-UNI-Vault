@@ -430,6 +430,22 @@
           "lastUpdated": 1677682937114
         }
       }
+    },
+    "Predicate": {
+      "Predicate": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1677730412910
+        }
+      }
+    },
+    "statements": {
+      "statements": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677730528356
+        }
+      }
     }
   }
 }

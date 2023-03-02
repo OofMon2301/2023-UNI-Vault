@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
+                "file": "2023/MATH1061/Quantified Statements.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1050/Vectors.md"
+                "file": "2023/MATH1061/Quantified Statements.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
+                "file": "2023/MATH1061/Quantified Statements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
+                "file": "2023/MATH1061/Quantified Statements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,16 +199,18 @@
   },
   "active": "76ebd85753855d77",
   "lastOpenFiles": [
+    "2023/Definitions/Predicate.md",
+    "2023/MATH1061/Quantified Statements.md",
+    "2023/MATH1061/Conditional Statements.md",
+    "2023/MATH1050/Vectors.md",
     "2023/Definitions/Vector.md",
     "Homepage.md",
     "Attachment Folder/Pasted image 20230302004650.png",
-    "2023/MATH1050/Vectors.md",
     "2023/MATH1061/Valid and Invalid Arguments.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "2023/Definitions/Tautology.md",
     "2023/Definitions/Math1061/Argument.md",
     "2023/Definitions/Argument.md",
-    "2023/MATH1061/Conditional Statements.md",
     "2023/ENGG1300/Introduction to Electrical Engineering.md",
     "Excalidraw/Drawing 2023-02-24 15.30.49.excalidraw.md",
     "2023/MATH1061/Introduction to Logical Equivalence.md",
