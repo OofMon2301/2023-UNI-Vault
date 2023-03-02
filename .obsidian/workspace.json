@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7cb4b0b3879ac6f3",
+        "id": "b984df228d98b8c1",
         "type": "tabs",
         "children": [
           {
-            "id": "0ddbd571f05f0df4",
+            "id": "73ea2cfaed8d28ea",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "76ebd85753855d77",
+            "id": "73f20b60187e693a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/MATH1061/Quantified Statements.md",
+                "file": "2023/MATH1050/Week 2 Workshop - Vectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1061/Quantified Statements.md"
+                "file": "2023/MATH1050/Week 2 Workshop - Vectors.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1061/Quantified Statements.md",
+                "file": "2023/MATH1050/Week 2 Workshop - Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1061/Quantified Statements.md",
+                "file": "2023/MATH1050/Week 2 Workshop - Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,14 +197,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "76ebd85753855d77",
+  "active": "73f20b60187e693a",
   "lastOpenFiles": [
+    "2023/MATH1050/Vectors.md",
+    "2023/MATH1050/Week 2 Workshop - Vectors.md",
+    "Homepage.md",
     "2023/Definitions/Predicate.md",
     "2023/MATH1061/Quantified Statements.md",
     "2023/MATH1061/Conditional Statements.md",
-    "2023/MATH1050/Vectors.md",
     "2023/Definitions/Vector.md",
-    "Homepage.md",
     "Attachment Folder/Pasted image 20230302004650.png",
     "2023/MATH1061/Valid and Invalid Arguments.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
