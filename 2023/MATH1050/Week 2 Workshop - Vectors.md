@@ -9,4 +9,14 @@ Topic::
 #MATH1050
 # Notes
 
-# 
+# Vectors Summary
+
+- Geometric, matrix, component representations of a vector
+- Operations on Vectors
+	- Vector addition and subtraction
+	- Scalar Multiplication
+	- Scalar product
+	- Vector Product
+- Terms: Norm of a vector, unit vector, position vector
+
+
