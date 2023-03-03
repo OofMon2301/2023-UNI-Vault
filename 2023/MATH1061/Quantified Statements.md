@@ -57,3 +57,19 @@ $$
 \end{aligned}
 \end{gather*}
 $$
+
+### Quantified Statements
+
+The symbol $\forall$ means "for all".
+
+The symbol $\exists$ means "there exists."
+
+##### pre-class questions
+
+True or false? $\exists y \in \mathbb{Z}$ such that $y^2-y=0$.
+This statement is true as you only need one set of $f(y)$ to make the statement true. For example, $y=0$ or $y=1$ makes the statement true.
+
+True or false? $\forall x \in \mathbb{Z}$, if 6 is divisible by $x$, then $x=2$.
+This statement is false as you need all sets of numbers in the range of the integer to make the statement true. In this case, consider $x=3$. We have $3 \in \mathbb{Z}$, and 6 is divisible by 3, but $3\neq 2$.
+
+
