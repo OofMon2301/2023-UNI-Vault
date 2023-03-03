@@ -322,8 +322,8 @@
     "conclusion": {
       "conclusion": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677546412545
+          "count": 2,
+          "lastUpdated": 1677816930272
         }
       }
     },
@@ -444,6 +444,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1677730528356
+        }
+      }
+    },
+    "gather": {
+      "gather": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677817152043
+        }
+      }
+    },
+    "\\longleftrightarrow": {
+      "\\longleftrightarrow": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1677817380422
         }
       }
     }
