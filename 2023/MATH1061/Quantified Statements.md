@@ -36,6 +36,7 @@ $$
 $$
 \begin{gather*}
 \begin{aligned}
+\begin{gathered}
 \begin{cases}
 1. &q\implies p \\
 2. &\sim p \longleftrightarrow r \\
@@ -43,13 +44,16 @@ $$
 4. &\sim s
 \end{cases}
 \\
-\text{Goal: Get the conclusion} \sim r \\
+\\
+\text{Goal: Get the conclusion} \sim r \\ \\
 \begin{cases}
 5. &q & \text{from 3 and 4, using Modus Ponens} \\
 6. &p & \text{from 1 and 5 using Moddus Ponens} \\
 7. &\sim r &\text{from 6 and 2 by definition of bidirectional arrow} \longleftrightarrow \\
-
+8. &r \implies \sim p &\text{from 7 by specialisation} \\
+9. &\sim r &\text{from 8 and 6 by Modus Tollens (Double Negative Law)}
 \end{cases}
+\end{gathered}
 \end{aligned}
 \end{gather*}
 $$
