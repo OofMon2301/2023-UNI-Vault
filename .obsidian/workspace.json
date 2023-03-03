@@ -32,9 +32,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f8063f8b4dbb0219",
+            "type": "leaf",
+            "state": {
+              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,7 +206,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "acfa305c99aa7427",
+  "active": "f8063f8b4dbb0219",
   "lastOpenFiles": [
     "2023/MATH1061/Valid and Invalid Arguments.md",
     "2023/MATH1061/Quantified Statements.md",
