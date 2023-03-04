@@ -5,7 +5,7 @@ subject: MATH1050
 tags: lecture
 Topic:: Vectors
 ---
-# [[Vectors]]
+# [[Chapter 2 - Vectors]]
 #MATH1050  
 
 ## 2.1 Vectors
@@ -435,6 +435,7 @@ Let's start with some obvious things:
 >where $\mathbf{r}$ is the vector from the pivot point to the point where the force is applied, $\mathbf{F}$ is the force vector, and $\theta$ is the angle between $\mathbf{r}$ and $\mathbf{F}$.
 >
 >Equivalently, we can define $\uptau=\mathbf{r}\times \mathbf{F}$.
+
 
 
 

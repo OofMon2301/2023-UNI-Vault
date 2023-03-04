@@ -1,6 +1,8 @@
 {
   "strategy": "english-only",
+  "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "prefix",
+  "fuzzyMatch": true,
   "maxNumberOfSuggestions": 5,
   "maxNumberOfWordsAsPhrase": 3,
   "minNumberOfCharactersTriggered": 0,
@@ -10,6 +12,11 @@
   "disableSuggestionsDuringImeOn": false,
   "insertAfterCompletion": false,
   "firstCharactersDisableSuggestions": ":/^",
+  "useCommonPrefixCompletionOfSuggestion": false,
+  "patternsToSuppressTrigger": [
+    "^~~~.*",
+    "^```.*"
+  ],
   "showMatchStrategy": false,
   "showComplementAutomatically": false,
   "showIndexingStatus": false,
@@ -38,6 +45,12 @@
   "enableInternalLinkComplement": true,
   "suggestInternalLinkWithAlias": false,
   "excludeInternalLinkPathPrefixPatterns": "",
+  "updateInternalLinksOnSave": true,
+  "insertAliasTransformedFromDisplayedInternalLink": {
+    "enabled": false,
+    "beforeRegExp": "",
+    "after": ""
+  },
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
@@ -516,6 +529,38 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1677937685853
+        }
+      }
+    },
+    "problems": {
+      "problems": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677938323143
+        }
+      }
+    },
+    "mathematics": {
+      "mathematics": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677938334327
+        }
+      }
+    },
+    "vectors": {
+      "vectors": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677938337311
+        }
+      }
+    },
+    "quantities": {
+      "quantities": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677938363652
         }
       }
     }

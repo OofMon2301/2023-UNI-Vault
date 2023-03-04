@@ -27,22 +27,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
+                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "b671ea363dfa34cc",
-            "type": "leaf",
-            "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1050/Vectors.md"
+                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md"
               }
             }
           }
@@ -116,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -159,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
+                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1050/Vectors.md",
+                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,11 +195,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b671ea363dfa34cc",
+  "active": "5da6febe2bc7335d",
   "lastOpenFiles": [
+    "2023/MATH1050/Chapter 2 - Vectors.md",
+    "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
     "Homepage.md",
     "2023/Definitions/Torque.md",
-    "2023/MATH1050/Vectors.md",
     "2023/MATH1061/Valid and Invalid Arguments.md",
     "2023/MATH1061/Quantified Statements.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
