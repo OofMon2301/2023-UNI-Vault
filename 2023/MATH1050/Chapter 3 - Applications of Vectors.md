@@ -36,9 +36,11 @@ Let $\mathbf{p}=\vec{OP}, \mathbf{a}=\vec{OA} \ \text{and}\ \mathbf{b}=\vec{OB}$
 ![[Pasted image 20230305000731.png]]
 
 $$
-\begin{gather}
+\begin{gather*}
 \begin{aligned}
-\text{Now}\ \mathbf{a}+\vec{AB}=\mathbf{b} \ \text{so} \vec{AB} 
+&\text{Now}\ \mathbf{a}+\vec{AB}=\mathbf{b} \ \text{so} \vec{AB} = \mathbf{b}-\mathbf{a}. \ \ \text{Thus,} \\
+&\mathbf{p}=\mathbf{a}+\vec{AP}=\mathbf{a}+t\vec{AB}=\mathbf{a}+t(\mathbf{b}-\mathbf{a})=(1-t)\mathbf{a}+t\mathbf{b}, \\
+&\text{where}\ t\ \text{is the real number such that} \ \vec{AP}=t\vec{AB}.
 \end{aligned}
-\end{gather}
+\end{gather*}
 $$
