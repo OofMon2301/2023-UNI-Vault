@@ -420,3 +420,31 @@ The standard unit for torque is Newton metres $(\text{Nm})$. To obtain torque in
 
 Since $\sin \theta$ reaches its maximum at $\frac{\pi}{2}$ radians ($90^\circ$), the torque is a maximum when the angle between $\mathbf{f}$ and $\mathbf{r}$ is $\frac{\pi}{2}$ radians.
 
+#### Some tips on opening doors (obvious things)
+
+Let's start with some obvious things:
+ - The larger the force, the more effective it is opening the door (i.e., the harder you push, the more rapidly the door opens.)
+ - The point at which we push is crucial - if we push too close to the hinges, the door will open slowly, if at all.
+ - The direction in which we push is important. The most effective is perpendicular to the door - we push in this direction almost instinctively.
+
+> [!note] Torque: Definition
+> [[2023/Definitions/Torque|Torque]] is the rotational equivalent of a force. It is a measure of the effectiveness of a force in changing or accelerating a rotation (changing the angular velocity over a period of time).
+> 
+> In equation form, the magnitude of the torque is defined to be:
+>$$\mid \mid \uptau \mid \mid = \mid \mid \mathbf{r} \mid \mid \mid \mid \mathbf{F} \mid \mid \sin \theta = \mid \mid \mathbf{r} \times \mathbf{F} \mid \mid$$
+>where $\mathbf{r}$ is the vector from the pivot point to the point where the force is applied, $\mathbf{F}$ is the force vector, and $\theta$ is the angle between $\mathbf{r}$ and $\mathbf{F}$.
+>
+>Equivalently, we can define $\uptau=\mathbf{r}\times \mathbf{F}$.
+
+
+
+
+
+
+
+
+
+
+
+
+
