@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Drawing 2023-03-05 00.16.05.excalidraw",
-      "path": "Excalidraw/Drawing 2023-03-05 00.16.05.excalidraw.md"
-    },
-    {
       "basename": "Chapter 3 - Applications of Vectors",
       "path": "2023/MATH1050/Chapter 3 - Applications of Vectors.md"
     },
     {
-      "basename": "Week 2 Workshop - Vectors",
-      "path": "2023/MATH1050/Week 2 Workshop - Vectors.md"
-    },
-    {
       "basename": "Chapter 2 - Vectors",
       "path": "2023/MATH1050/Chapter 2 - Vectors.md"
+    },
+    {
+      "basename": "Drawing 2023-03-05 00.16.05.excalidraw",
+      "path": "Excalidraw/Drawing 2023-03-05 00.16.05.excalidraw.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
+      "basename": "Week 2 Workshop - Vectors",
+      "path": "2023/MATH1050/Week 2 Workshop - Vectors.md"
     },
     {
       "basename": "Quantified Statements",
@@ -23,10 +27,6 @@
     {
       "basename": "Logical Form and Logical Equivalence",
       "path": "2023/MATH1061/Logical Form and Logical Equivalence.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
     },
     {
       "basename": "Torque",

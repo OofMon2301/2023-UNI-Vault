@@ -30,10 +30,7 @@ Topics in this section are:
 Let $P$ be a point on the line through points $A$ and $B$. We can use vectors to describe the position vector of $P$ in terms of the position vectors of $A$ and $B$.
 
 Let $\mathbf{p}=\vec{OP}, \mathbf{a}=\vec{OA} \ \text{and}\ \mathbf{b}=\vec{OB}$.
-
-**Have picture here please**
-
-![[Pasted image 20230305000731.png]]
+![[Drawing 2023-03-05 00.16.05.excalidraw|center]]
 
 $$
 \begin{gather*}

@@ -6,7 +6,6 @@
       {
         "id": "9532fab90ad0cfef",
         "type": "tabs",
-        "dimension": 29.968203497615264,
         "children": [
           {
             "id": "f766815d3fa06f10",
@@ -36,23 +35,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "7b8c0484cf867b5a",
-        "type": "tabs",
-        "dimension": 70.03179650238474,
-        "children": [
-          {
-            "id": "5bbd504682eb97d9",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-03-05 00.16.05.excalidraw.md"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-03-05 00.16.05.excalidraw.md"
+                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md"
               }
             }
           }
@@ -168,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-03-05 00.16.05.excalidraw.md",
+                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-03-05 00.16.05.excalidraw.md",
+                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,16 +195,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5bbd504682eb97d9",
+  "active": "5da6febe2bc7335d",
   "lastOpenFiles": [
+    "2023/MATH1050/Chapter 2 - Vectors.md",
     "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
     "Excalidraw/Drawing 2023-03-05 00.16.05.excalidraw.md",
+    "Homepage.md",
+    "Excalidraw/Drawing 2023-03-05 00.16.05.excalidraw.png",
     "2023/MATH1050/Week 2 Workshop - Vectors.md",
-    "2023/MATH1050/Chapter 2 - Vectors.md",
     "2023/MATH1061/Quantified Statements.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "Attachment Folder/Pasted image 20230305000731.png",
-    "Homepage.md",
     "2023/Definitions/Torque.md",
     "2023/MATH1061/Valid and Invalid Arguments.md",
     "2023/MATH1061/Conditional Statements.md",
@@ -241,7 +224,6 @@
     "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md",
     "2023/MATH1050/Nice.md",
     "2023/MATH1061/MATH1061.md",
-    "2023/MATH1051/MATH1051.md",
-    "2023/MATH1050/MATH1050.md"
+    "2023/MATH1051/MATH1051.md"
   ]
 }
