@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "faad88b94eec8c80",
+        "id": "9532fab90ad0cfef",
         "type": "tabs",
         "children": [
           {
-            "id": "e5b80c59693dedbc",
+            "id": "f766815d3fa06f10",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,29 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "607d83af704c1c4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/MATH1061/Quantified Statements.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8063f8b4dbb0219",
-            "type": "leaf",
-            "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1061/Quantified Statements.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -161,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1061/Quantified Statements.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1061/Quantified Statements.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +185,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f8063f8b4dbb0219",
+  "active": "f766815d3fa06f10",
   "lastOpenFiles": [
     "2023/MATH1061/Valid and Invalid Arguments.md",
     "2023/MATH1061/Quantified Statements.md",
