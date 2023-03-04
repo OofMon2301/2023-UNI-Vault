@@ -349,7 +349,7 @@ If we are given two vectors and $\mathbf{v}$ and $\mathbf{w}$ in matrix or compo
 $$
 
 
-### Properties of the scalar product
+### 2.7.1 Properties of the scalar product
 
 1. The scalar product of two vectors is a *scalar*, not a vector.
 2. $\mathbf{v} \cdot \mathbf{v} = |\mathbf{v}|^{2}$ since the angle between $\mathbf{v}$ and itself is 0 and $\cos 0=1$.
@@ -409,3 +409,14 @@ $$
 $$
 
 We can use the properties of the vector product and the table of vector products of $\mathbf{i}$, $\mathbf{j}$, and $\mathbf{k}$ to calculate the vector product of any pair of vectors expressed in component form.
+
+### 2.8.1 Torque (extra)
+
+When you use a spanner to turn a nut, or use different gears while riding a bicycle, your choice of size of spanner or particular gear on the bike is based on a turning force called *torque*.
+
+The magnitude of the torque is given by $\mid \mid \mathbf{r} \times \mathbf{f} \mid \mid$ where $\mathbf{f}$ is the force and $\mathbf{r}$ is the vector from the point (or axis) about which the object is turning to the point of application of the force.
+
+The standard unit for torque is Newton metres $(\text{Nm})$. To obtain torque in $\text{Nm}$, $\mathbf{f}$ should be in newtons and $\mathbf{r}$ should be in metres.
+
+Since $\sin \theta$ reaches its maximum at $\frac{\pi}{2}$ radians ($90^\circ$), the torque is a maximum when the angle between $\mathbf{f}$ and $\mathbf{r}$ is $\frac{\pi}{2}$ radians.
+

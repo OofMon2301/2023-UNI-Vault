@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "791ea1fc42e75851",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/MATH1050/Vectors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -33,7 +46,6 @@
       {
         "id": "631fd72ade8ce58d",
         "type": "tabs",
-        "dimension": 58.55263157894737,
         "children": [
           {
             "id": "acfa305c99aa7427",
@@ -79,18 +91,15 @@
         ]
       },
       {
-        "id": "a14c5693f5463fc1",
+        "id": "ddefdf145db6c28b",
         "type": "tabs",
-        "dimension": 41.44736842105263,
         "children": [
           {
-            "id": "e3f77537e0ebace8",
+            "id": "612fabe84f73f004",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Homepage.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -140,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
+                "file": "2023/MATH1050/Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
+                "file": "2023/MATH1050/Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,11 +194,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f766815d3fa06f10",
+  "active": "791ea1fc42e75851",
   "lastOpenFiles": [
+    "Homepage.md",
     "2023/MATH1061/Valid and Invalid Arguments.md",
     "2023/MATH1061/Quantified Statements.md",
-    "Homepage.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "2023/MATH1061/Conditional Statements.md",
     "2023/MATH1050/Vectors.md",
