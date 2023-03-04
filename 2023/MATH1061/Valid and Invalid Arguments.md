@@ -30,7 +30,7 @@ p \\
 $$
 This is a valid argument, but it has a false conclusion.
 Note that the premise "If today is Tuesday, then I am wearing a pink shirt" is false.
-### Activity 1:
+## Activity 1:
 
 Consider the following argument:
 - *If wages are raised, buying increases.*
@@ -50,7 +50,7 @@ d \implies \sim b \\
 $$
 
 
-### Proving an argument is valid (using rules of inference)
+## Proving an Argument is Valid (using Rules of inference)
 
 **Premise 1**: $p \implies q$
 **Premise 2**: $p \lor r$

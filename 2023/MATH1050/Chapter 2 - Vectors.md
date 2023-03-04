@@ -349,7 +349,7 @@ If we are given two vectors and $\mathbf{v}$ and $\mathbf{w}$ in matrix or compo
 $$
 
 
-### 2.7.1 Properties of the scalar product
+### 2.7.1 Properties of the Scalar Product
 
 1. The scalar product of two vectors is a *scalar*, not a vector.
 2. $\mathbf{v} \cdot \mathbf{v} = |\mathbf{v}|^{2}$ since the angle between $\mathbf{v}$ and itself is 0 and $\cos 0=1$.
@@ -380,7 +380,7 @@ Type this later
 
 Note that in any diagram of 3-dimensional space, the arrangement of the axes must satisfy the right hand rule so that $\mathbf{i}\times \mathbf{j}=\mathbf{k}$.
 
-#### Properties of the vector product
+### Properties of the Vector Product
 
 The vector product is a vector, *not* a scalar.
 
@@ -420,7 +420,7 @@ The standard unit for torque is Newton metres $(\text{Nm})$. To obtain torque in
 
 Since $\sin \theta$ reaches its maximum at $\frac{\pi}{2}$ radians ($90^\circ$), the torque is a maximum when the angle between $\mathbf{f}$ and $\mathbf{r}$ is $\frac{\pi}{2}$ radians.
 
-#### Some tips on opening doors (obvious things)
+#### Some Tips on Opening Doors (obvious things)
 
 Let's start with some obvious things:
  - The larger the force, the more effective it is opening the door (i.e., the harder you push, the more rapidly the door opens.)

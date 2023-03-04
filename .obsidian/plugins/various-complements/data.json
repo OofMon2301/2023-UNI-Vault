@@ -311,8 +311,8 @@
     "product": {
       "product": {
         "currentFile": {
-          "count": 6,
-          "lastUpdated": 1677682947251
+          "count": 7,
+          "lastUpdated": 1677938419917
         }
       }
     },
@@ -551,8 +551,8 @@
     "vectors": {
       "vectors": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1677938337311
+          "count": 3,
+          "lastUpdated": 1677938417186
         }
       }
     },
@@ -561,6 +561,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1677938363652
+        }
+      }
+    },
+    "investigate": {
+      "investigate": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677938413317
         }
       }
     }

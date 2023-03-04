@@ -64,7 +64,7 @@ The symbol $\forall$ means "for all".
 
 The symbol $\exists$ means "there exists."
 
-##### pre-class questions
+#### Pre-class Questions
 
 True or false? $\exists y \in \mathbb{Z}$ such that $y^2-y=0$.
 This statement is true as you only need one set of $f(y)$ to make the statement true. For example, $y=0$ or $y=1$ makes the statement true.
