@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5832a5e2ed9b93bb",
+        "id": "b7c3e909c418dee4",
         "type": "tabs",
         "children": [
           {
-            "id": "ca45ac320330aec0",
+            "id": "a053383f2d8d0f89",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "d6132ecda38a110a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/MATH1050/Chapter 2 - Vectors.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1050/Chapter 2 - Vectors.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -150,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1050/Chapter 2 - Vectors.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1050/Chapter 2 - Vectors.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +182,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d6132ecda38a110a",
+  "active": "a053383f2d8d0f89",
   "lastOpenFiles": [
     "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
     "Homepage.md",
