@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9532fab90ad0cfef",
+        "id": "5832a5e2ed9b93bb",
         "type": "tabs",
         "children": [
           {
-            "id": "f766815d3fa06f10",
+            "id": "ca45ac320330aec0",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "5da6febe2bc7335d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -150,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +182,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5da6febe2bc7335d",
+  "active": "ca45ac320330aec0",
   "lastOpenFiles": [
     "2023/MATH1050/Chapter 2 - Vectors.md",
     "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
