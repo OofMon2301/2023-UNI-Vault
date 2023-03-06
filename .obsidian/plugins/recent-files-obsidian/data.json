@@ -5,12 +5,20 @@
       "path": "2023/MATH1050/Chapter 3 - Applications of Vectors.md"
     },
     {
+      "basename": "Logical Form and Logical Equivalence",
+      "path": "2023/MATH1061/Logical Form and Logical Equivalence.md"
+    },
+    {
       "basename": "Valid and Invalid Arguments",
       "path": "2023/MATH1061/Valid and Invalid Arguments.md"
     },
     {
-      "basename": "Logical Form and Logical Equivalence",
-      "path": "2023/MATH1061/Logical Form and Logical Equivalence.md"
+      "basename": "Quantified Statements",
+      "path": "2023/MATH1061/Quantified Statements.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
     },
     {
       "basename": "Predicate",
@@ -19,10 +27,6 @@
     {
       "basename": "Argument",
       "path": "2023/Definitions/Argument.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
     },
     {
       "basename": "Chapter 2 - Vectors",
@@ -35,10 +39,6 @@
     {
       "basename": "Week 2 Workshop - Vectors",
       "path": "2023/MATH1050/Week 2 Workshop - Vectors.md"
-    },
-    {
-      "basename": "Quantified Statements",
-      "path": "2023/MATH1061/Quantified Statements.md"
     },
     {
       "basename": "Torque",

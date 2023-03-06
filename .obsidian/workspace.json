@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b7c3e909c418dee4",
+        "id": "b8b63a98af8ecaee",
         "type": "tabs",
         "children": [
           {
-            "id": "a053383f2d8d0f89",
+            "id": "bf066cb2eb61d553",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "9159dc642c465cd6",
+            "id": "3cf54bcf9b629cc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -195,19 +195,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9159dc642c465cd6",
+  "active": "3cf54bcf9b629cc7",
   "lastOpenFiles": [
-    "2023/MATH1061/Valid and Invalid Arguments.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
+    "2023/MATH1061/Valid and Invalid Arguments.md",
+    "2023/MATH1061/Quantified Statements.md",
+    "Homepage.md",
     "2023/Definitions/Predicate.md",
     "2023/Definitions/Argument.md",
-    "Homepage.md",
     "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
     "2023/MATH1050/Chapter 2 - Vectors.md",
     "Excalidraw/Drawing 2023-03-05 00.16.05.excalidraw.md",
     "Excalidraw/Drawing 2023-03-05 00.16.05.excalidraw.png",
     "2023/MATH1050/Week 2 Workshop - Vectors.md",
-    "2023/MATH1061/Quantified Statements.md",
     "Attachment Folder/Pasted image 20230305000731.png",
     "2023/Definitions/Torque.md",
     "2023/MATH1061/Conditional Statements.md",
