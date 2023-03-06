@@ -60,54 +60,6 @@
   },
   "showLogAboutPerformanceInConsole": true,
   "selectionHistoryTree": {
-    "Special Relativity": {
-      "Special Relativity": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675424701403
-        }
-      }
-    },
-    "Theories of Thermodynamics": {
-      "Theories of Thermodynamics": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675424710675
-        }
-      }
-    },
-    "relativity": {
-      "relativity": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675424715501
-        }
-      }
-    },
-    "Time Dilation": {
-      "Time Dilation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1675424722574
-        }
-      }
-    },
-    "ENGG1100": {
-      "ENGG1100": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1675427825881
-        }
-      }
-    },
-    "Definitions": {
-      "Definitions": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675428163538
-        }
-      }
-    },
     "MATH1050": {
       "MATH1050": {
         "currentFile": {
@@ -569,6 +521,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1677938413317
+        }
+      }
+    },
+    "object": {
+      "object": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678144486367
         }
       }
     }

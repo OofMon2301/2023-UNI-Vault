@@ -41,3 +41,30 @@ $$
 \end{aligned}
 \end{gather*}
 $$
+---
+## 3.2 Forces
+
+A [[2023/Definitions/Forces|Force]] is an influence that can change the motion of an object and can be modelled as a vector.
+
+> [!note] Newton's Laws of Motion
+> **Newton's first law: the law of inertia**:
+> Newton's first law states that if a body is at rest or moving at a constand speed in a straight line, it will remain at rest or keep mobing in a straight line at constant speed unless it is acted upon by a force.
+> 
+> **Newton's second law**
+> $\vec{\mathbf{F}}=m\vec{a}$
+> 
+> **Newton's third law: Law of action and reaction**:
+> To every action there is an opposed force acting against it.
+
+The standard unit of measurement for forces is the newton, denoted $N$.
+
+### Weight
+This is the force due to gravity, and we will denote it by $\mathbf{W}$. the weight vector associated with an object of mass $m$ kilograms has magnitude $9m$ newtons and has the direction vertically downwards.
+
+### Tension
+
+### Normal reaction
+
+### Friction
+This is a force in the direction parallel to a surface. It is the force that counteracts an object sliding along a surface. We will denote it as $\mathbf{f}$.
+
