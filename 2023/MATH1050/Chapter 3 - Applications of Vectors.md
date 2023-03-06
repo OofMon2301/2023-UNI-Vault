@@ -68,3 +68,4 @@ This is the force due to gravity, and we will denote it by $\mathbf{W}$. the wei
 ### Friction
 This is a force in the direction parallel to a surface. It is the force that counteracts an object sliding along a surface. We will denote it as $\mathbf{f}$.
 
+If exactly three forces are acting on an object, and that object is at rest, then the three vectors representing the forces must sum to zero. Geometrically, this means that the three vectors must form a triangle, with the arrows pointing in a consistent direction around the triangle.
