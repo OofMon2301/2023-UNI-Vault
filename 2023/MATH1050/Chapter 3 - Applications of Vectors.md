@@ -70,3 +70,20 @@ This is a force in the direction parallel to a surface. It is the force that cou
 
 If exactly three forces are acting on an object, and that object is at rest, then the three vectors representing the forces must sum to zero. Geometrically, this means that the three vectors must form a triangle, with the arrows pointing in a consistent direction around the triangle.
 
+## 3.3 Displacement, Velocity, and momentum
+
+#### Example 3.3.1 
+$$
+\begin{gather*}
+\begin{aligned}
+
+&\text{A surveyor walks 200 metres due North. He then turns clockwise through an angle of}\\ \frac{2\pi}{3} \ &\text{radians and walks 100 metres. Finally he turns and walks 300 metres due West.}\\ &\text{Find his resulting Displacement, relative to his starting point.} \\
+\equation
+\begin{cases} 
+\vec{OR}=\vec{OP}+\vec{PQ}+\vec{QR} \\
+\vec{OP}=0\mathbf{i}+200\mathbf{j} \\
+
+\end{cases}
+\end{aligned}
+\end{gather*}
+$$
