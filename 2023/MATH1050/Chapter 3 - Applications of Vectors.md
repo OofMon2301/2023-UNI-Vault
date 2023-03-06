@@ -41,6 +41,3 @@ $$
 \end{aligned}
 \end{gather*}
 $$
-$$
-
-$$
