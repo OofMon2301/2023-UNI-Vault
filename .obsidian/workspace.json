@@ -27,14 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
+                "file": "2023/MATH1061/Direct Proofs and Counterexamples.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "4bb5a4252548f897",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.desmos.com/scientific"
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,16 +111,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -150,7 +161,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +177,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,10 +204,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3cf54bcf9b629cc7",
+  "active": "4bb5a4252548f897",
   "lastOpenFiles": [
-    "2023/MATH1050/Chapter 2 - Vectors.md",
+    "2023/MATH1061/Direct Proofs and Counterexamples.md",
     "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
+    "2023/MATH1050/Chapter 2 - Vectors.md",
     "Untitled.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "2023/MATH1061/Valid and Invalid Arguments.md",
@@ -224,7 +234,6 @@
     "2023/Definitions/MATH1061/Introduction to Logical Equivalence.md",
     "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md",
     "2023/MATH1050/Nice.md",
-    "2023/MATH1061/MATH1061.md",
-    "2023/MATH1051/MATH1051.md"
+    "2023/MATH1061/MATH1061.md"
   ]
 }
