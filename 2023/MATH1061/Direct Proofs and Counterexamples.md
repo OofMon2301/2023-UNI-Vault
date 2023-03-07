@@ -16,11 +16,15 @@ Activity 1:
 $$
 \begin{cases}
 \text{Let} \ x \in \mathbb{Z} \ \text{and suppose}\ x+6=4y\ \text{for same} \ y\in \mathbb{Z}. \\
-
+\text{So}\ x=4y-6  \\
+\frac{x}{2}=\frac{4y-6}{2}=2y-3=2y-2-1 \\
+=2(y-1)-1
 \end{cases}
-
-
 $$
+
+
+
+
 
 
 
