@@ -32,21 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4bb5a4252548f897",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.desmos.com/scientific"
-              },
-              "pinned": true
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,15 +99,16 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2023/MATH1061/Direct Proofs and Counterexamples.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -161,6 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2023/MATH1061/Direct Proofs and Counterexamples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,6 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2023/MATH1061/Direct Proofs and Counterexamples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,13 +195,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4bb5a4252548f897",
+  "active": "3cf54bcf9b629cc7",
   "lastOpenFiles": [
+    "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "2023/MATH1061/Direct Proofs and Counterexamples.md",
     "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
     "2023/MATH1050/Chapter 2 - Vectors.md",
     "Untitled.md",
-    "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "2023/MATH1061/Valid and Invalid Arguments.md",
     "2023/MATH1061/Quantified Statements.md",
     "Homepage.md",
