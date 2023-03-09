@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fa991470b0d55c14",
+        "id": "562997d4dddb18bf",
         "type": "tabs",
         "children": [
           {
-            "id": "d164cd2d12036a4d",
+            "id": "38cf0b281c29ea92",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "caa7677f472bd5c2",
+            "id": "ec3676287fe60e82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/ENGG1100/Seminar 2 - Power and Control Subsystem.md",
+                "file": "2023/MATH1050/Chapter 2 - Vectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/ENGG1100/Seminar 2 - Power and Control Subsystem.md"
+                "file": "2023/MATH1050/Chapter 2 - Vectors.md"
               }
             }
           }
@@ -108,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -151,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/ENGG1100/Seminar 2 - Power and Control Subsystem.md",
+                "file": "2023/MATH1050/Chapter 2 - Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/ENGG1100/Seminar 2 - Power and Control Subsystem.md",
+                "file": "2023/MATH1050/Chapter 2 - Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,15 +195,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "caa7677f472bd5c2",
+  "active": "ec3676287fe60e82",
   "lastOpenFiles": [
+    "Homepage.md",
     "Attachment Folder/Pasted image 20230309123643.png",
     "2023/ENGG1100/Seminar 2 - Power and Control Subsystem.md",
     "Attachment Folder/Pasted image 20230309123537.png",
     "Attachment Folder/Pasted image 20230309123005.png",
     "Attachment Folder/Pasted image 20230309122859.png",
     "Attachment Folder/Pasted image 20230309122857.png",
-    "Homepage.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "2023/MATH1061/Direct Proofs and Counterexamples.md",
     "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
