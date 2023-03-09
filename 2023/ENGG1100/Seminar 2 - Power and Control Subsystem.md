@@ -43,3 +43,14 @@ Fluid delivery and $z$ direction and motor can be used via pump, and lots of ser
 ![[Pasted image 20230309122859.png]]
 Server motor control 
 ![[Pasted image 20230309123005.png]]
+
+## 4. Controller Coding
+
+Arduino as an example. You can use ESP32, Raspberry pi, or no controller (hardwiring switches).
+
+![[Pasted image 20230309123537.png]]
+
+## 5. Examples for control subsystem
+![[Pasted image 20230309123643.png]]
+
+You may use TinkerCAD for Control systems Diagrams & Simulation
