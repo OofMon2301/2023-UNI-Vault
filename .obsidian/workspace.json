@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/MATH1050/Chapter 2 - Vectors.md",
+                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1050/Chapter 2 - Vectors.md"
+                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md"
               }
             }
           }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1050/Chapter 2 - Vectors.md",
+                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1050/Chapter 2 - Vectors.md",
+                "file": "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,6 +197,7 @@
   },
   "active": "ec3676287fe60e82",
   "lastOpenFiles": [
+    "2023/MATH1050/Chapter 2 - Vectors.md",
     "Homepage.md",
     "Attachment Folder/Pasted image 20230309123643.png",
     "2023/ENGG1100/Seminar 2 - Power and Control Subsystem.md",
@@ -207,7 +208,6 @@
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "2023/MATH1061/Direct Proofs and Counterexamples.md",
     "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
-    "2023/MATH1050/Chapter 2 - Vectors.md",
     "Untitled.md",
     "2023/MATH1061/Valid and Invalid Arguments.md",
     "2023/MATH1061/Quantified Statements.md",
