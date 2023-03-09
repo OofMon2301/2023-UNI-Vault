@@ -108,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -197,6 +198,9 @@
   },
   "active": "caa7677f472bd5c2",
   "lastOpenFiles": [
+    "Attachment Folder/Pasted image 20230309123005.png",
+    "Attachment Folder/Pasted image 20230309122859.png",
+    "Attachment Folder/Pasted image 20230309122857.png",
     "Homepage.md",
     "2023/ENGG1100/Seminar 2 - Power and Control Subsystem.md",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
@@ -224,7 +228,6 @@
     "2023/MATH1061/Untitled noteasldkfjh.md",
     "2023/MATH1061/Nice.md",
     "2023/Definitions/MATH1061/Introduction to Logical Equivalence.md",
-    "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md",
-    "2023/MATH1050/Nice.md"
+    "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md"
   ]
 }
