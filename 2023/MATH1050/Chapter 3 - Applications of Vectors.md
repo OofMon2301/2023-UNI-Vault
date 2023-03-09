@@ -80,3 +80,10 @@ $$
 \vec{OP}=0\mathbf{i}+200\mathbf{j} \\
 \end{equation*}
 $$
+In order to understand the movement of two objects after they collide, we need the concept of momentum.
+
+Momentum is a vector property of a moving object. It is a scalar multiple of the velocity of the object, and is given by momentum = mass times velocity.
+
+The standard unit for the magnitude of momentum is newton seconds, denoted Ns. To obtain momentum in Ns, your mass must be in kilograms and your velocity in metres per second.
+
+The important property of momentum is that it is conserved in collisions. That is, when objects collide, the total momentum before collision is equal to the total momentum after collision.
