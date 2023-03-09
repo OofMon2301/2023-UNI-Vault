@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b8b63a98af8ecaee",
+        "id": "386f58eb00a5086a",
         "type": "tabs",
         "children": [
           {
-            "id": "bf066cb2eb61d553",
+            "id": "d62213e5023eafc8",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "3cf54bcf9b629cc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/MATH1061/Direct Proofs and Counterexamples.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1061/Direct Proofs and Counterexamples.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -150,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1061/Direct Proofs and Counterexamples.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1061/Direct Proofs and Counterexamples.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +182,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3cf54bcf9b629cc7",
+  "active": "d62213e5023eafc8",
   "lastOpenFiles": [
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
     "2023/MATH1061/Direct Proofs and Counterexamples.md",

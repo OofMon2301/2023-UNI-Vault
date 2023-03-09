@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
       "basename": "Direct Proofs and Counterexamples",
       "path": "2023/MATH1061/Direct Proofs and Counterexamples.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "Quantified Statements",
       "path": "2023/MATH1061/Quantified Statements.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
     },
     {
       "basename": "Predicate",
