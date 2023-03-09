@@ -73,7 +73,7 @@ If exactly three forces are acting on an object, and that object is at rest, the
 ## 3.3 Displacement, Velocity, and momentum
 
 #### Example 3.3.1 
-$\text{A surveyor walks 200 metres due North. He then turns clockwise through an angle of} \frac{2\pi}{3} \text{radians and walks 100 metres. Finally he turns and walks 300 metres due West.}\text{Find his resulting Displacement, relative to his starting point.}$
+$\text{A surveyor walks 200 metres due North. He then turns clockwise through an angle of} \frac{2\pi}{3}  \text{radians and walks 100 metres. Finally he turns and walks 300 metres due West.}\text{Find his resulting Displacement, relative to his starting point.}$
 $$
 \begin{equation*}
 \vec{OR}=\vec{OP}+\vec{PQ}+\vec{QR} \\
