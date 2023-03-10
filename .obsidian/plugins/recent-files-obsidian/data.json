@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
       "basename": "Seminar 2 - Power and Control Subsystem",
       "path": "2023/ENGG1100/Seminar 2 - Power and Control Subsystem.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Chapter 2 - Vectors",
       "path": "2023/MATH1050/Chapter 2 - Vectors.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
     },
     {
       "basename": "Direct Proofs and Counterexamples",
