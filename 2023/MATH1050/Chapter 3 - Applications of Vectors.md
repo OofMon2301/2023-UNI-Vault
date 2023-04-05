@@ -3,10 +3,12 @@ date: 04-03-2023
 type: Lecture
 subject: MATH1050
 tags: lecture
-Topic:: 
+Topic:: Torque, Displacement, Velocity and Momentum
 ---
 # [[Chapter 3 - Applications of Vectors]]
 #MATH1050
+```toc
+```
 
 Now that we are familiar with the different representations of vectors, we can investigate some of the ways vectors are used to solve mathematical problems.
 

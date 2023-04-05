@@ -7,9 +7,9 @@
   "displayYAMLFrontmatter": false,
   "linkStrippingBehaviour": "text",
   "highDPIDiagrams": true,
-  "pandoc": "C:\\Users\\015653\\OneDrive - A.B. Paterson College\\Desktop\\Obsidian Vault\\OofMon's Vault\\.obsidian\\plugins\\obsidian-pandoc",
+  "pandoc": null,
   "pdflatex": null,
-  "outputFolder": "C:\\Users\\015653\\OneDrive - A.B. Paterson College\\Desktop\\Obsidian Vault",
+  "outputFolder": "C:\\Users\\jamie\\OneDrive\\Documents\\Obsidian Pandoc PDF's",
   "extraArguments": "",
   "exportFrom": "md"
 }

@@ -8,6 +8,9 @@ Topic:: Vectors
 # [[Chapter 2 - Vectors]]
 #MATH1050  
 
+```toc
+```
+
 ## 2.1 Vectors
 
 A *[[Vector|Vector]]* quantity is something whose specification requires **both** a magnitude and a direction.

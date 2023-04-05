@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fec28e5a53d676f9",
+        "id": "2bc330eb2c72587a",
         "type": "tabs",
         "children": [
           {
-            "id": "a6f79f390ba0c8de",
+            "id": "93d638624510237b",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "9542e6c0c95e81b5",
+            "id": "82059e52c6068d7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/MATH1061/Valid and Invalid Arguments.md",
+                "file": "2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1061/Valid and Invalid Arguments.md"
+                "file": "2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md"
               }
             }
           }
@@ -137,8 +137,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b2e398d710777b6e",
@@ -150,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1061/Valid and Invalid Arguments.md",
+                "file": "2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1061/Valid and Invalid Arguments.md",
+                "file": "2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,49 +185,52 @@
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "markdown-importer:Open format converter": false,
-      "obsidian-projects:Open projects": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "workspaces:Manage workspace layouts": false,
-      "homepage:Open homepage": false,
       "graph:Open graph view": false,
-      "dbfolder:Create a new database table": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "homepage:Open homepage": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "dbfolder:Create a new database table": false
     }
   },
-  "active": "9542e6c0c95e81b5",
+  "active": "82059e52c6068d7f",
   "lastOpenFiles": [
     "Homepage.md",
-    "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
+    "2023/MATH1061/Direct Proofs and Counterexamples.md",
+    "2023/MATH1061/Direct Proofs and Counterexamples1.md",
+    "2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md",
+    "2023/MATH1050/Chapter 5 - Matrices.md",
+    "2023/MATH1061/Valid and Invalid Arguments.md",
+    "Attachment Folder/Pasted image 20230403214435.png",
+    "Attachment Folder/Pasted image 20230403214205.png",
     "2023/MATH1050/Chapter 2 - Vectors.md",
+    "Attachment Folder/Pasted image 20230330124223.png",
+    "Attachment Folder/Pasted image 20230330122238.png",
+    "2023/ENGG1100/Seminar 5 - Story Telling and Reflective Writing - Angela Bushell.md",
+    "Attachment Folder/Pasted image 20230328074657.png",
+    "2023/ENGG1100/Seminar 4 - Teamwork and Communication.md",
+    "2023/MATH1050/Chapter 4 - Complex Numbers.md",
+    "Excalidraw/Drawing 2023-03-16 20.05.36.excalidraw.md",
+    "Attachment Folder/Pasted image 20230316122956.png",
+    "2023/Definitions/Pressure.md",
+    "2023/ENGG1100/Seminar 3 - Fluid Delivery Subsystem.md",
+    "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
+    "2023/MATH1061/Divisibility.md",
+    "Excalidraw/Drawing 2023-03-14 09.00.56.excalidraw.md",
+    "2023/MATH1050/Untitled.md",
     "Attachment Folder/Pasted image 20230309123643.png",
     "2023/ENGG1100/Seminar 2 - Power and Control Subsystem.md",
     "Attachment Folder/Pasted image 20230309123537.png",
     "Attachment Folder/Pasted image 20230309123005.png",
     "Attachment Folder/Pasted image 20230309122859.png",
-    "Attachment Folder/Pasted image 20230309122857.png",
     "2023/MATH1061/Logical Form and Logical Equivalence.md",
-    "2023/MATH1061/Direct Proofs and Counterexamples.md",
     "Untitled.md",
-    "2023/MATH1061/Valid and Invalid Arguments.md",
     "2023/MATH1061/Quantified Statements.md",
     "2023/Definitions/Predicate.md",
     "2023/Definitions/Argument.md",
     "Excalidraw/Drawing 2023-03-05 00.16.05.excalidraw.md",
-    "Excalidraw/Drawing 2023-03-05 00.16.05.excalidraw.png",
     "2023/MATH1050/Week 2 Workshop - Vectors.md",
-    "Attachment Folder/Pasted image 20230305000731.png",
-    "2023/Definitions/Torque.md",
-    "2023/MATH1061/Conditional Statements.md",
-    "2023/Definitions/Vector.md",
-    "Attachment Folder/Pasted image 20230302004650.png",
-    "2023/Definitions/Tautology.md",
-    "2023/Definitions/Math1061/Argument.md",
-    "2023/ENGG1300/Introduction to Electrical Engineering.md",
-    "Excalidraw/Drawing 2023-02-24 15.30.49.excalidraw.md",
-    "2023/MATH1061/Introduction to Logical Equivalence.md",
-    "2023/MATH1061/Untitled noteasldkfjh.md",
-    "2023/MATH1061/Nice.md",
-    "2023/Definitions/MATH1061/Introduction to Logical Equivalence.md",
-    "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md"
+    "2023/Definitions/Torque.md"
   ]
 }

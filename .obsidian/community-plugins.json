@@ -14,7 +14,6 @@
   "multi-column-markdown",
   "obsidian-outliner",
   "oz-image-plugin",
-  "obsidian-pandoc",
   "url-into-selection",
   "recent-files-obsidian",
   "settings-search",
@@ -36,5 +35,6 @@
   "quickadd",
   "obsidian-linter",
   "obsidian-view-mode-by-frontmatter",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-pandoc"
 ]

@@ -1,7 +1,7 @@
 {
   "commitMessage": "vault backup: {{date}}",
-  "commitDateFormat": "DD-MM-YYYY HH:mm:ss",
-  "autoSaveInterval": 10,
+  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "autoSaveInterval": 0,
   "autoPushInterval": 0,
   "autoPullInterval": 0,
   "autoPullOnBoot": false,
@@ -10,7 +10,7 @@
   "disablePopups": false,
   "listChangedFilesInMessageBody": false,
   "showStatusBar": true,
-  "updateSubmodules": true,
+  "updateSubmodules": false,
   "syncMethod": "merge",
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": false,
@@ -25,5 +25,5 @@
   "setLastSaveToLastCommit": false,
   "submoduleRecurseCheckout": false,
   "gitDir": "",
-  "autoCommitMessage": "Vault Backup: {{date}}"
+  "autoCommitMessage": "vault backup: {{date}}"
 }
