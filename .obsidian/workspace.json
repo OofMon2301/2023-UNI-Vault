@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2bc330eb2c72587a",
+        "id": "6cc5d5b73aef536a",
         "type": "tabs",
         "children": [
           {
-            "id": "93d638624510237b",
+            "id": "4af165bbd3577ad1",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "82059e52c6068d7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -149,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +181,7 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "82059e52c6068d7f",
+  "active": "4af165bbd3577ad1",
   "lastOpenFiles": [
     "Homepage.md",
     "2023/MATH1061/Direct Proofs and Counterexamples.md",
