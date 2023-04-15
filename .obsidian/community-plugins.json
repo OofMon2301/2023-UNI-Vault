@@ -36,5 +36,7 @@
   "obsidian-linter",
   "obsidian-view-mode-by-frontmatter",
   "obsidian-excalidraw-plugin",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "omnisearch",
+  "text-extractor"
 ]

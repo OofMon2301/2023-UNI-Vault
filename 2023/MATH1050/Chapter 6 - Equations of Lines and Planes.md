@@ -3,7 +3,7 @@ date: 03-04-2023
 type: Lecture
 subject: 
 tags: lecture
-Topic:: 
+Topic:: 3D Vectors
 ---
 # [[Chapter 6 - Equations of Lines and Planes]]
 #MATH1050
@@ -268,4 +268,25 @@ The equations
 $$
 x-5= \frac{y-1}{4}=\frac{z-3}{-2}
 $$
+are known as the symmetric equations of $L$.
 
+What these equations really are is a set of two non-identical, non-parallel planes.
+
+### Parallel and orthogonal Lines
+
+Two lines are parallel if, when written as $\mathbf{r}=\mathbf{r}_{0}+\lambda \mathbf{v}$, and $\mathbf{r}=\mathbf{s}_{0}+\mu \mathbf{u}$, the direction of vectors $\mathbf{u}$ and $\mathbf{v}$ are linear multiples of each other, i.e., $\mathbf{u}=k\mathbf{v}$ for some nonzero scalar $k$.
+
+Two lines are orthogonal if their direction vectors are orthogonal. An easy test for orthogonality is to take the dot product of the direction vectors if and only if this gives zero are the lines orthogonal.
+
+## 6.4 Vector Equation of a plane II
+
+There is a second type of vector equation of a plane, which is similar in form to the vector equation of a line. One fixes a point $P_{0}$ on the plane with corresponding position vector $\mathbf{r}_{0}$, but now not one, but two (non-parallel) vectors $\mathbf{u}$ and $\mathbf{v}$ parallel to the plane are required to fully determine the plane:
+$$
+\mathbf{r}=\mathbf{r}_{0}+\lambda \mathbf{u}+\mu \mathbf{v}, \quad \quad \lambda,\mu \in \mathbb{R}
+$$
+> [!note] Important Remark
+> In some sense the above vector equation of a plane is even less unique than the vector equation of a line. Again one can take $\mathbf{r}_{0}$ to be any point on the plane and one can multiply both $\mathbf{u}$ and $\mathbf{v}$ by non-zero constants. But unlike a line, we can also replace $\mathbf{u}$ and $\mathbf{v}$ by an other pair of independent vectors parallel to the plane. For example, $(x,y,z)=(1,0,1)+\lambda(0,1,2)+\mu(3,1,-1)$ and $(x,y,z)=(4,1,0)+\lambda(-1,0,1)+\mu(-3,1,5)$ are different vector representations of the same plane.
+
+### 6.4.1 Distance from a Point to a plane
+
+A common problem that arises in applications is to find the distance from a point to a plane, where, by **distance**, we always mean **minimum distance**.

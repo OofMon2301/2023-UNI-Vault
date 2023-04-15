@@ -82,8 +82,8 @@
     "position": {
       "position": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1679628927699
+          "count": 4,
+          "lastUpdated": 1680698766160
         }
       }
     },
@@ -127,14 +127,6 @@
         }
       }
     },
-    "where": {
-      "where": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1678743061451
-        }
-      }
-    },
     "mathematics": {
       "mathematics": {
         "currentFile": {
@@ -146,56 +138,8 @@
     "vectors": {
       "vectors": {
         "currentFile": {
-          "count": 4,
-          "lastUpdated": 1678145154952
-        }
-      }
-    },
-    "object": {
-      "object": {
-        "currentFile": {
-          "count": 5,
-          "lastUpdated": 1678368059769
-        }
-      }
-    },
-    "representations": {
-      "representations": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1678743710613
-        }
-      }
-    },
-    "triangle": {
-      "triangle": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678145174156
-        }
-      }
-    },
-    "momentum": {
-      "momentum": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1678368063652
-        }
-      }
-    },
-    "velocity": {
-      "velocity": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678368002519
-        }
-      }
-    },
-    "collide": {
-      "collide": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678368069042
+          "count": 6,
+          "lastUpdated": 1680698622335
         }
       }
     },
@@ -207,43 +151,11 @@
         }
       }
     },
-    "-4ac\\geq": {
-      "-4ac\\geq": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1678743220962
-        }
-      }
-    },
     "equation": {
       "equation": {
         "currentFile": {
-          "count": 6,
-          "lastUpdated": 1680565747926
-        }
-      }
-    },
-    "Chapter 4 - Complex Numbers": {
-      "Chapter 4 - Complex Numbers": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1678743511496
-        }
-      }
-    },
-    "Pressure": {
-      "Pressure": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1678932974244
-        }
-      }
-    },
-    "energy": {
-      "energy": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678933023793
+          "count": 8,
+          "lastUpdated": 1680698436870
         }
       }
     },
@@ -530,8 +442,8 @@
     "representation": {
       "representation": {
         "currentFile": {
-          "count": 4,
-          "lastUpdated": 1680565239422
+          "count": 5,
+          "lastUpdated": 1681554266908
         }
       }
     },
@@ -570,8 +482,8 @@
     "\\lambda": {
       "\\lambda": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1680565756969
+          "count": 3,
+          "lastUpdated": 1680698811587
         }
       }
     },
@@ -602,8 +514,80 @@
     "Direct Proofs and Counterexamples1": {
       "Direct Proofs and Counterexamples1": {
         "internalLink": {
+          "count": 3,
+          "lastUpdated": 1680698614760
+        }
+      }
+    },
+    "orthogonal": {
+      "orthogonal": {
+        "currentFile": {
           "count": 2,
-          "lastUpdated": 1680568554496
+          "lastUpdated": 1680698616958
+        }
+      }
+    },
+    "non-parallel": {
+      "non-parallel": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1680698780724
+        }
+      }
+    },
+    "distance": {
+      "distance": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681554419990
+        }
+      }
+    },
+    "temperature": {
+      "temperature": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681554582505
+        }
+      }
+    },
+    "describes": {
+      "describes": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681554796332
+        }
+      }
+    },
+    "population": {
+      "population": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681554799127
+        }
+      }
+    },
+    "function": {
+      "function": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681554802136
+        }
+      }
+    },
+    "Introduction": {
+      "Introduction": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681554920876
+        }
+      }
+    },
+    "Function": {
+      "Function": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681554922453
         }
       }
     }
