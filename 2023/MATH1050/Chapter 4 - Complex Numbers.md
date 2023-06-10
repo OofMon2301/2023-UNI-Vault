@@ -129,7 +129,7 @@ The modulus of a complex number $z$ is the length of the position vector corresp
 Suppose that the complex number $z=a+bi$ is represented as a point in the complex plane.
 
 - The modulus of $z$ gives the distance from $z$ to the origin.
-- The *argument* of $z$ $\arg(z)$, is the angle that the position vector of $z$ makes with the positive Real axis. Note that there can be many different arguments for a non-zero complex number $z$, since the angle $\theta$ is equivalent to the angle $\theta$ plus or minus any multiple of $2\pi$ radians.
+- The *argument* of $z$,  $\arg(z)$, is the angle that the position vector of $z$ makes with the positive Real axis. Note that there can be many different arguments for a non-zero complex number $z$, since the angle $\theta$ is equivalent to the angle $\theta$ plus or minus any multiple of $2\pi$ radians.
 - Note that positive angles are in an anti-clockwise direction and negative angles are in a clockwise direction from the positive Real axis.
 - We call the argument of $z$ that lies in the interval $(-\pi,\pi]$ the *principal argument* of $z$, denoted $\arg(z)$.
 - If $z=a+bi$ then $\arg(z)=\theta$ where $\tan \theta=\frac{b}{a}$. Always draw a sketch to help you choose the correct value of $\theta$. 

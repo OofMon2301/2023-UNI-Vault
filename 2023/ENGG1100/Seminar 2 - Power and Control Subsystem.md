@@ -23,7 +23,7 @@ Topic::
 All different types of pumps and power supply have different voltage and current requirements.
 
 ### Arduino 5v Pin with DC Motors
- Carful with connecting DC motor directly to the arduino using the 5v pins on pin 10 & 11, they will fry the arduino due to over current (with the arduino only handling 200mA.)
+ Carful with connecting DC motor directly to the Arduino using the 5v pins on pin 10 & 11, they will fry the arduino due to over current (with the arduino only handling 200mA.)
 
 
 ## 3. Control Design and Linkage to other 

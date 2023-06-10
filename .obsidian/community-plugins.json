@@ -38,5 +38,14 @@
   "obsidian-excalidraw-plugin",
   "obsidian-pandoc",
   "omnisearch",
-  "text-extractor"
+  "text-extractor",
+  "remember-cursor-position",
+  "obsidian-excel-to-markdown-table",
+  "tag-wrangler",
+  "obsidian-collapse-all-plugin",
+  "breadcrumbs",
+  "lapel",
+  "influx",
+  "metadata-menu",
+  "cm-typewriter-scroll-obsidian"
 ]

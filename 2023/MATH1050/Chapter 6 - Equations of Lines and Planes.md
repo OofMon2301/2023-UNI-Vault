@@ -152,7 +152,7 @@ Our understanding of normal vectors allows us to compute angles between planes.
 
 #### Example 6.2.2
 
-Find the agnel between the planes $x+4y-3z=1$ and $-3x +6y+7z=0$.
+Find the angle between the planes $x+4y-3z=1$ and $-3x +6y+7z=0$.
 $$
 \begin{align}
 n_{1}=\begin{pmatrix}
@@ -290,3 +290,6 @@ $$
 ### 6.4.1 Distance from a Point to a plane
 
 A common problem that arises in applications is to find the distance from a point to a plane, where, by **distance**, we always mean **minimum distance**.
+
+
+

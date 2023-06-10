@@ -63,379 +63,19 @@
   "disableOnMobile": false,
   "showLogAboutPerformanceInConsole": true,
   "selectionHistoryTree": {
-    "vector": {
-      "vector": {
-        "currentFile": {
-          "count": 12,
-          "lastUpdated": 1679628928933
-        }
-      }
-    },
-    "multiplication": {
-      "multiplication": {
-        "currentFile": {
-          "count": 6,
-          "lastUpdated": 1680520328761
-        }
-      }
-    },
-    "position": {
-      "position": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1680698766160
-        }
-      }
-    },
-    "\\theta": {
-      "\\theta": {
-        "currentFile": {
-          "count": 15,
-          "lastUpdated": 1679632215015
-        }
-      }
-    },
-    "Argument": {
-      "Argument": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1679629371149
-        }
-      }
-    },
-    "\\text": {
-      "\\text": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1680521080824
-        }
-      }
-    },
-    "gather": {
-      "gather": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1679953640445
-        }
-      }
-    },
-    "perpendicular": {
-      "perpendicular": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1680564317547
-        }
-      }
-    },
-    "mathematics": {
-      "mathematics": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1679631421465
-        }
-      }
-    },
-    "vectors": {
-      "vectors": {
-        "currentFile": {
-          "count": 6,
-          "lastUpdated": 1680698622335
-        }
-      }
-    },
-    "solutions": {
-      "solutions": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1679353615183
-        }
-      }
-    },
-    "equation": {
-      "equation": {
-        "currentFile": {
-          "count": 8,
-          "lastUpdated": 1680698436870
-        }
-      }
-    },
     "polynomial": {
       "polynomial": {
         "currentFile": {
-          "count": 4,
-          "lastUpdated": 1679633759094
-        }
-      }
-    },
-    "Lecture": {
-      "Lecture": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1680563495201
-        }
-      }
-    },
-    "information": {
-      "information": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679356212867
-        }
-      }
-    },
-    "Alexandra": {
-      "Alexandra": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679537041478
-        }
-      }
-    },
-    "Environmet": {
-      "Environmet": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679537099646
-        }
-      }
-    },
-    "Environmental": {
-      "Environmental": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1679537486549
-        }
-      }
-    },
-    "Representations": {
-      "Representations": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679628068043
-        }
-      }
-    },
-    "corresponds": {
-      "corresponds": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679628512449
-        }
-      }
-    },
-    "modulus": {
-      "modulus": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679628915385
-        }
-      }
-    },
-    "corresponding": {
-      "corresponding": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1679631103236
-        }
-      }
-    },
-    "\\large": {
-      "\\large": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1679629409391
-        }
-      }
-    },
-    "n\\theta": {
-      "n\\theta": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679631324878
-        }
-      }
-    },
-    "mathematician": {
-      "mathematician": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679631422710
-        }
-      }
-    },
-    "moivre": {
-      "moivre": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679631541412
-        }
-      }
-    },
-    "Moivre": {
-      "Moivre": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1679631568214
-        }
-      }
-    },
-    "theorem": {
-      "theorem": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679632364192
-        }
-      }
-    },
-    "matrix": {
-      "matrix": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1679955842643
-        }
-      }
-    },
-    "example": {
-      "example": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679955819040
-        }
-      }
-    },
-    "operation": {
-      "operation": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679955840162
-        }
-      }
-    },
-    "\\dots": {
-      "\\dots": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1679956268079
-        }
-      }
-    },
-    "\\vdots": {
-      "\\vdots": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1679956237563
-        }
-      }
-    },
-    "matrices": {
-      "matrices": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1680520332121
-        }
-      }
-    },
-    "identity": {
-      "identity": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679958410136
-        }
-      }
-    },
-    "non-singular": {
-      "non-singular": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679958528950
-        }
-      }
-    },
-    "Letter": {
-      "Letter": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679959328772
-        }
-      }
-    },
-    "ad-bc": {
-      "ad-bc": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679959545113
-        }
-      }
-    },
-    "\\Delta": {
-      "\\Delta": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679959591328
-        }
-      }
-    },
-    "there": {
-      "there": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1679960291630
-        }
-      }
-    },
-    "aligned": {
-      "aligned": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1680520384941
-        }
-      }
-    },
-    "simultaneous": {
-      "simultaneous": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1680521424509
-        }
-      }
-    },
-    "\\mathbb": {
-      "\\mathbb": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1680521975454
+          "count": 12,
+          "lastUpdated": 1681641539386
         }
       }
     },
     "vertical": {
       "vertical": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1680522000314
-        }
-      }
-    },
-    "arbitrary": {
-      "arbitrary": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1680522387441
-        }
-      }
-    },
-    "\\therefore": {
-      "\\therefore": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1680564308545
-        }
-      }
-    },
-    "represent": {
-      "represent": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1680564529720
+          "count": 2,
+          "lastUpdated": 1681557971428
         }
       }
     },
@@ -444,94 +84,6 @@
         "currentFile": {
           "count": 5,
           "lastUpdated": 1681554266908
-        }
-      }
-    },
-    "parallel": {
-      "parallel": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1680565250108
-        }
-      }
-    },
-    "equivalently": {
-      "equivalently": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1680565490401
-        }
-      }
-    },
-    "parametric": {
-      "parametric": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1680565746319
-        }
-      }
-    },
-    "passing": {
-      "passing": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1680565537937
-        }
-      }
-    },
-    "\\lambda": {
-      "\\lambda": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1680698811587
-        }
-      }
-    },
-    "eliminating": {
-      "eliminating": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1680565754122
-        }
-      }
-    },
-    "integer": {
-      "integer": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1680567994747
-        }
-      }
-    },
-    "composite": {
-      "composite": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1680567979245
-        }
-      }
-    },
-    "Direct Proofs and Counterexamples1": {
-      "Direct Proofs and Counterexamples1": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1680698614760
-        }
-      }
-    },
-    "orthogonal": {
-      "orthogonal": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1680698616958
-        }
-      }
-    },
-    "non-parallel": {
-      "non-parallel": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1680698780724
         }
       }
     },
@@ -562,16 +114,16 @@
     "population": {
       "population": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681554799127
+          "count": 2,
+          "lastUpdated": 1681640281778
         }
       }
     },
     "function": {
       "function": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681554802136
+          "count": 23,
+          "lastUpdated": 1683858259984
         }
       }
     },
@@ -588,6 +140,414 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1681554922453
+        }
+      }
+    },
+    "radius": {
+      "radius": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681557611105
+        }
+      }
+    },
+    "degree": {
+      "degree": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1681640335883
+        }
+      }
+    },
+    "number": {
+      "number": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681640312065
+        }
+      }
+    },
+    "horizontal": {
+      "horizontal": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1683261315417
+        }
+      }
+    },
+    "defines": {
+      "defines": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681640555107
+        }
+      }
+    },
+    "formula": {
+      "formula": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1683261932473
+        }
+      }
+    },
+    "quadratic": {
+      "quadratic": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681640695483
+        }
+      }
+    },
+    "shape": {
+      "shape": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681640729118
+        }
+      }
+    },
+    "cubic": {
+      "cubic": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681640736363
+        }
+      }
+    },
+    "absolute": {
+      "absolute": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681641425505
+        }
+      }
+    },
+    "value": {
+      "value": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681641428165
+        }
+      }
+    },
+    "Untitled": {
+      "Untitled": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1681641556320
+        }
+      }
+    },
+    "specified": {
+      "specified": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681641590333
+        }
+      }
+    },
+    "professional": {
+      "professional": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1681956850728
+        }
+      }
+    },
+    "engineer": {
+      "engineer": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1682562968569
+        }
+      }
+    },
+    "engineering": {
+      "engineering": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1682562961712
+        }
+      }
+    },
+    "development": {
+      "development": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681957118150
+        }
+      }
+    },
+    "Sustainable Practices": {
+      "Sustainable Practices": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1681957196267
+        }
+      }
+    },
+    "product": {
+      "product": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1681957662671
+        }
+      }
+    },
+    "non-conforming": {
+      "non-conforming": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681957529336
+        }
+      }
+    },
+    "Direct Proofs and Counterexamples": {
+      "Direct Proofs and Counterexamples": {
+        "internalLink": {
+          "count": 4,
+          "lastUpdated": 1681965180386
+        }
+      }
+    },
+    "divisor": {
+      "divisor": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681965282820
+        }
+      }
+    },
+    "divisible": {
+      "divisible": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1681965629524
+        }
+      }
+    },
+    "Definition": {
+      "Definition": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1681968242753
+        }
+      }
+    },
+    "Counterexample": {
+      "Counterexample": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681967726477
+        }
+      }
+    },
+    "congruent": {
+      "congruent": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1681968295383
+        }
+      }
+    },
+    "effectively": {
+      "effectively": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1682561978951
+        }
+      }
+    },
+    "infromations": {
+      "infromations": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1682562459422
+        }
+      }
+    },
+    "environment": {
+      "environment": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1682562962919
+        }
+      }
+    },
+    "qualified": {
+      "qualified": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1682562966505
+        }
+      }
+    },
+    "asymptote": {
+      "asymptote": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1683261316460
+        }
+      }
+    },
+    "logarithmic": {
+      "logarithmic": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1683261439061
+        }
+      }
+    },
+    "\\infty": {
+      "\\infty": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683261450082
+        }
+      }
+    },
+    "Inequalities": {
+      "Inequalities": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683261510045
+        }
+      }
+    },
+    "inequalities": {
+      "inequalities": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1683261546314
+        }
+      }
+    },
+    "similar": {
+      "similar": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683261515438
+        }
+      }
+    },
+    "multiply": {
+      "multiply": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683261808309
+        }
+      }
+    },
+    "trigonometric": {
+      "trigonometric": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1683262140090
+        }
+      }
+    },
+    "corresponds": {
+      "corresponds": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683262129685
+        }
+      }
+    },
+    "element": {
+      "element": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683262453042
+        }
+      }
+    },
+    "domain": {
+      "domain": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683262458106
+        }
+      }
+    },
+    "particular": {
+      "particular": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683262464659
+        }
+      }
+    },
+    "arbitrarily": {
+      "arbitrarily": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683262662834
+        }
+      }
+    },
+    "sides": {
+      "sides": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683262680437
+        }
+      }
+    },
+    "approach": {
+      "approach": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683263518367
+        }
+      }
+    },
+    "continuous": {
+      "continuous": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1683857979722
+        }
+      }
+    },
+    "derivative": {
+      "derivative": {
+        "currentFile": {
+          "count": 7,
+          "lastUpdated": 1683889718838
+        }
+      }
+    },
+    "calcualte": {
+      "calcualte": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683858252342
+        }
+      }
+    },
+    "calculate": {
+      "calculate": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683858255120
+        }
+      }
+    },
+    "differentiation": {
+      "differentiation": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1683889800477
+        }
+      }
+    },
+    "respect": {
+      "respect": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1683889698116
         }
       }
     }

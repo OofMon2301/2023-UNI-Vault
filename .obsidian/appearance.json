@@ -1,5 +1,5 @@
 {
-  "accentColor": "",
+  "accentColor": "#d81818",
   "enabledCssSnippets": [
     "dashboard-readable-line-length",
     "dashboard"
@@ -8,5 +8,5 @@
   "cssTheme": "Origami",
   "nativeMenus": false,
   "translucency": false,
-  "baseFontSize": 19
+  "baseFontSize": 17
 }
