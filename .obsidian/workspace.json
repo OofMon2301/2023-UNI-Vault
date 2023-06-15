@@ -232,7 +232,6 @@
       "dbfolder:Create a new database table": false,
       "obsidian-projects:Open projects": false,
       "homepage:Open homepage": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "omnisearch:Omnisearch": false
     }
