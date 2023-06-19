@@ -231,9 +231,10 @@
       "graph:Open graph view": false,
       "dbfolder:Create a new database table": false,
       "obsidian-projects:Open projects": false,
-      "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "homepage:Open homepage": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
   "active": "15a8b94abf44d01b",
