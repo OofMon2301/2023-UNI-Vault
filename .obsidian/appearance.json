@@ -1,11 +1,11 @@
 {
-  "accentColor": "#d81818",
+  "accentColor": "",
   "enabledCssSnippets": [
     "dashboard-readable-line-length",
     "dashboard"
   ],
   "theme": "obsidian",
-  "cssTheme": "Origami",
+  "cssTheme": "Things",
   "nativeMenus": false,
   "translucency": false,
   "baseFontSize": 17

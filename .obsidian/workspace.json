@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/MATH1050/Chapter 9 - Integration.md",
+                "file": "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/MATH1050/Chapter 9 - Integration.md"
+                "file": "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md"
               }
             }
           }
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/MATH1050/Chapter 9 - Integration.md",
+                "file": "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/MATH1050/Chapter 9 - Integration.md",
+                "file": "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,44 +230,45 @@
       "workspaces:Manage workspace layouts": false,
       "graph:Open graph view": false,
       "dbfolder:Create a new database table": false,
-      "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "omnisearch:Omnisearch": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false,
       "homepage:Open homepage": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "15a8b94abf44d01b",
+  "active": "acfa305c99aa7427",
   "lastOpenFiles": [
+    "2023/Semester 1 2023/MATH1050/Chapter 9 - Integration.md",
+    "2023/Semester 2 2023",
     "Homepage.md",
-    "2023/MATH1050/Chapter 9 - Integration.md",
-    "2023/MATH1050/Chapter 8 - Differentiation.md",
-    "2023/MATH1050/Chapter 7 - Functions.md",
-    "2023/MATH1050/Chapter 5 - Matrices.md",
-    "2023/MATH1050/Chapter 4 - Complex Numbers.md",
-    "2023/MATH1050/Chapter 3 - Applications of Vectors.md",
-    "2023/MATH1050/Chapter 2 cont. - Vectors.md",
-    "2023/MATH1050/Chapter 2 - Vectors.md",
-    "2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md",
+    "2023/Semester 1 2023",
+    "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
+    "2023/Semester 1 2023/MATH1050/Chapter 7 - Functions.md",
+    "2023/Semester 1 2023/MATH1050/Chapter 5 - Matrices.md",
+    "2023/Semester 1 2023/MATH1050/Chapter 4 - Complex Numbers.md",
+    "2023/Semester 1 2023/MATH1050/Chapter 3 - Applications of Vectors.md",
+    "2023/Semester 1 2023/MATH1050/Chapter 2 cont. - Vectors.md",
+    "2023/Semester 1 2023/MATH1050/Chapter 2 - Vectors.md",
+    "2023/Semester 1 2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md",
     "Random Stuff/Final Exam Timetable.md",
-    "2023/MATH1061/Valid and Invalid Arguments.md",
-    "2023/ENGG1100/Seminar 7 - Ethical Conduct and Integrity.md",
-    "2023/ENGG1100/Seminar 8 - Sustainability - Ted Simmonds - Senior Manager, Infrastructure and Facilities, Faculty of Science.md",
-    "2023/ENGG1100/Seminar 9 - Employability and Professional Practice -.md",
-    "2023/ENGG1100/Seminar 2 - Power and Control Subsystem.md",
+    "2023/Semester 1 2023/MATH1061/Valid and Invalid Arguments.md",
+    "2023/Semester 1 2023/ENGG1100/Seminar 7 - Ethical Conduct and Integrity.md",
+    "2023/Semester 1 2023/ENGG1100/Seminar 8 - Sustainability - Ted Simmonds - Senior Manager, Infrastructure and Facilities, Faculty of Science.md",
+    "2023/Semester 1 2023/ENGG1100/Seminar 9 - Employability and Professional Practice -.md",
+    "2023/Semester 1 2023/ENGG1100/Seminar 2 - Power and Control Subsystem.md",
     "Untitled.md",
-    "2023/MATH1050/Week 2 Workshop - Vectors.md",
-    "2023/ENGG1100/Seminar 3 - Fluid Delivery Subsystem.md",
-    "2023/ENGG1100/Seminar 4 - Teamwork and Communication.md",
-    "2023/ENGG1100/Seminar 5 - Story Telling and Reflective Writing - Angela Bushell.md",
+    "2023/Semester 1 2023/MATH1050/Week 2 Workshop - Vectors.md",
+    "2023/Semester 1 2023/ENGG1100/Seminar 3 - Fluid Delivery Subsystem.md",
+    "2023/Semester 1 2023/ENGG1100/Seminar 4 - Teamwork and Communication.md",
+    "2023/Semester 1 2023/ENGG1100/Seminar 5 - Story Telling and Reflective Writing - Angela Bushell.md",
     "2023/ENGG1100/~syncthing~Seminar 9 - Employability and Professional Practice.md.tmp",
     "2023/ENGG1100/Seminar 9 - Employability and Professional Practice.sync-conflict-20230427-141335-QLUKNDS.md",
     "Attachment Folder/Recording 20230427122434.webm",
     "Context/spacesLastSync.log",
-    "2023/MATH1061/Direct Proofs and Counterexamples.md",
-    "2023/MATH1061/Quantified Statements.md",
-    "2023/MATH1061/Modular Arithmetic.md",
-    "2023/MATH1061/Logical Form and Logical Equivalence.md",
+    "2023/Semester 1 2023/MATH1061/Direct Proofs and Counterexamples.md",
+    "2023/Semester 1 2023/MATH1061/Quantified Statements.md",
+    "2023/Semester 1 2023/MATH1061/Modular Arithmetic.md",
     "Attachment Folder/Pasted image 20230403214435.png",
     "Attachment Folder/Pasted image 20230403214205.png",
     "Attachment Folder/Pasted image 20230330124223.png",
