@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
       "basename": "Seminar Homepage",
       "path": "2023/Semester 1 2023/ENGG1100/Seminar Homepage.md"
     },
@@ -79,10 +83,6 @@
     {
       "basename": "Chapter 2 - Vectors",
       "path": "2023/Semester 1 2023/MATH1050/Chapter 2 - Vectors.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
     },
     {
       "basename": "Introduction to Electrical Engineering",
