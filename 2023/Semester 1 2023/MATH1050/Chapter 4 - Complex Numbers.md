@@ -6,7 +6,7 @@ tags: lecture
 Topic:: Complex Numbers
 ---
 # [[Chapter 4 - Complex Numbers]]
-#MATH1050
+#MATH1050 #ComplexNumbers
 
 Number systems evolved from a basic need to count and to measure. As the need arose to solve more sophisticated problems, less intuitive (but very useful) number systems were introduced.
 

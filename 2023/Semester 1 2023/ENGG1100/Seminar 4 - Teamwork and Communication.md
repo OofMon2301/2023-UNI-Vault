@@ -6,7 +6,7 @@ tags: lecture
 Topic:: 
 ---
 # [[Seminar 4 - Teamwork and Communication]]
-#ENGG1100
+#ENGG1100 #Seminar 
 # Notes
 
 Alexandra Kennedy-Clark

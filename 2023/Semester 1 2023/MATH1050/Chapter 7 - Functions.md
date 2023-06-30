@@ -6,7 +6,7 @@ tags: lecture
 Topic:: 
 ---
 # [[Chapter 7 - Functions]]
-#MATH1050
+#MATH1050 #Functions
 # Notes
 
 A function is a rule that associates a unique output to each input.

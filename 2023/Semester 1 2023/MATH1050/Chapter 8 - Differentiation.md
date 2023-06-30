@@ -6,7 +6,7 @@ tags: lecture
 Topic:: 
 ---
 # [[Chapter 8 - Differentiation]]
-#MATH1050
+#MATH1050 #Calculus
 # Notes
 
 In many applications of mathematics, it is very important to be able to calculate the gradient, or slope, of the graph of a function at a particular point.

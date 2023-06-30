@@ -6,7 +6,7 @@ tags: lecture
 Topic:: 3D Vectors
 ---
 # [[Chapter 6 - Equations of Lines and Planes]]
-#MATH1050
+#MATH1050 #LinesPlanes
 
 In Chapters 2 and 3, we learned about vectors and how to use them to solve problems in physics and engineering. In this chapter, we use vectors to describe lines and planes in space.
 

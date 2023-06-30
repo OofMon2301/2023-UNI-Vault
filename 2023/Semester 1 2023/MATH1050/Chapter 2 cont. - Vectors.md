@@ -6,7 +6,7 @@ tags: lecture
 Topic:: 
 ---
 # [[Chapter 2 cont. - Vectors]]
-#MATH1050
+#MATH1050 #Vectors
 # Notes
 
 

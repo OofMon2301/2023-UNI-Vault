@@ -6,7 +6,7 @@ tags: lecture
 Topic:: 
 ---
 # [[Seminar 2 - Power and Control Subsystem]]
-#ENGG1100
+#ENGG1100 #Seminar
 
 ## 1. Key Aspects for Power Supply in Your Project
 

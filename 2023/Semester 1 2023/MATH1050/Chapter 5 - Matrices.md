@@ -6,7 +6,7 @@ tags: lecture
 Topic:: 
 ---
 # [[Chapter 5 - Matrices]]
-#MATH1050
+#MATH1050 #Matrices
 
 Matrices represent a structured way of storing and using groups of data in mathematically valid ways.
 They were initially developed for solving systems of simultaneous equations, such as 

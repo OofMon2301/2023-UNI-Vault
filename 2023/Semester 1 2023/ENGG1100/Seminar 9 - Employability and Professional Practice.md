@@ -5,8 +5,8 @@ subject: MATH1050
 tags: lecture
 Topic:: 
 ---
-# [[Seminar 9 - Employability and Professional Practice -]]
-#ENGG1100
+# [[Seminar 9 - Employability and Professional Practice]]
+#ENGG1100 #Seminar 
 # Notes
 ## Logistics
 

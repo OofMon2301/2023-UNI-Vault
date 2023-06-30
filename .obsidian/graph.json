@@ -1,10 +1,10 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
     {
@@ -34,18 +34,46 @@
         "a": 1,
         "rgb": 5431378
       }
+    },
+    {
+      "query": "Attachment Folder",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "ENGG1300",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "CSSE1001",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.9999999999999949,
-  "close": true
+  "textFadeMultiplier": 0.2,
+  "nodeSizeMultiplier": 1.22291666666667,
+  "lineSizeMultiplier": 1.00173611111111,
+  "collapse-forces": false,
+  "centerStrength": 0.340277777777778,
+  "repelStrength": 7.5,
+  "linkStrength": 0.399305555555556,
+  "linkDistance": 267,
+  "scale": 0.9999999999999934,
+  "close": false
 }

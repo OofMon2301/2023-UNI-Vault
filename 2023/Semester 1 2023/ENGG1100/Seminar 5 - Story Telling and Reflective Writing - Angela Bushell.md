@@ -6,7 +6,7 @@ tags: lecture
 Topic:: 
 ---
 # [[Seminar 5 - Story Telling and Reflective Writing - Angela Bushell]]
-#ENGG1100
+#ENGG1100 #Seminar 
 # Notes
 
 “Stories constitute the single most powerful weapon in a leader’s arsenal.” – Dr. Howard Gardner, Professor, Harvard University

@@ -6,7 +6,7 @@ tags: lecture
 Topic:: Torque, Displacement, Velocity and Momentum
 ---
 # [[Chapter 3 - Applications of Vectors]]
-#MATH1050
+#MATH1050 #Vectors
 ```toc
 ```
 

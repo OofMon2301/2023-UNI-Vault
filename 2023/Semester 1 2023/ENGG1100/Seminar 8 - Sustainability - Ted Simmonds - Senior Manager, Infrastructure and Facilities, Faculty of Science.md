@@ -6,7 +6,7 @@ tags: lecture
 Topic: 
 ---
 # [[Seminar 8 - Sustainability - Ted Simmonds - Senior Manager, Infrastructure and Facilities, Faculty of Science]]
-#ENGG1100
+#ENGG1100 #Seminar 
 # Notes
 
 ## Professional or Technician

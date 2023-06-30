@@ -6,7 +6,7 @@ tags: lecture
 Topic:: Vectors
 ---
 # [[Chapter 2 - Vectors]]
-#MATH1050  
+#MATH1050  #Vectors
 
 ```toc
 ```

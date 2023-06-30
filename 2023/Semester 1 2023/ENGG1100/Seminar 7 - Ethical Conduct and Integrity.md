@@ -6,7 +6,7 @@ tags: lecture
 Topic:: 
 ---
 # [[Seminar 7 - Ethical Conduct and Integrity]]
-#ENGG1100
+#ENGG1100 #Seminar 
 # Notes
 
 CRICOS code 00025B  

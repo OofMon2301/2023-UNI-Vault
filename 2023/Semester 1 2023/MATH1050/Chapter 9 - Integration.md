@@ -6,7 +6,7 @@ tags: lecture
 Topic: Integration
 ---
 # [[Chapter 9 - Integration]]
-#MATH1050
+#MATH1050 #Calculus
 
 ## 9.1 Antiderivatives and indefinite integrals
 
