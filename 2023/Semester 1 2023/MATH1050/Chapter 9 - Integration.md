@@ -7,6 +7,7 @@ Topic: Integration
 ---
 # [[Chapter 9 - Integration]]
 #MATH1050 #Calculus
+*This chapter is not fully complete yet and might remain as is.*
 
 ## 9.1 Antiderivatives and indefinite integrals
 
