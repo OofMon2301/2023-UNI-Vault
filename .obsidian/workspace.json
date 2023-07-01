@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Semester 1 2023/MATH1050/Chapter 9 - Integration.md",
+                "file": "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Semester 1 2023/MATH1050/Chapter 9 - Integration.md"
+                "file": "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md"
               }
             }
           }
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 1 2023/MATH1050/Chapter 9 - Integration.md",
+                "file": "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 1 2023/MATH1050/Chapter 9 - Integration.md",
+                "file": "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,8 +233,8 @@
   },
   "active": "29bddb9c3491c505",
   "lastOpenFiles": [
-    "2023/Semester 1 2023/MATH1050/Chapter 3 - Applications of Vectors.md",
     "2023/Semester 1 2023/MATH1050/Chapter 9 - Integration.md",
+    "2023/Semester 1 2023/MATH1050/Chapter 3 - Applications of Vectors.md",
     "Homepage.md",
     "2023/Semester 1 2023/ENGG1100/Seminar Homepage.md",
     "2023/Semester 1 2023/MATH1061/Conditional Statements.md",

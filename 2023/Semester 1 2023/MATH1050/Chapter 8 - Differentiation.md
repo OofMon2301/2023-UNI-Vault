@@ -8,7 +8,7 @@ Topic::
 # [[Chapter 8 - Differentiation]]
 #MATH1050 #Calculus
 # Notes
-
+*This chapter is not complete and might remain so.*
 In many applications of mathematics, it is very important to be able to calculate the gradient, or slope, of the graph of a function at a particular point.
 
 This gradient is called the derivative of the function at the point and it measures the rate of change of the function at that point.
