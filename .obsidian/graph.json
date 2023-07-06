@@ -1,10 +1,10 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
   "colorGroups": [
     {
@@ -25,7 +25,7 @@
       "query": "MATH1051",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 16741959
       }
     },
     {
@@ -64,16 +64,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0.2,
   "nodeSizeMultiplier": 1.22291666666667,
   "lineSizeMultiplier": 1.00173611111111,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.340277777777778,
   "repelStrength": 7.5,
   "linkStrength": 0.399305555555556,
   "linkDistance": 267,
-  "scale": 0.9999999999999934,
-  "close": false
+  "scale": 0.9999999999999927,
+  "close": true
 }

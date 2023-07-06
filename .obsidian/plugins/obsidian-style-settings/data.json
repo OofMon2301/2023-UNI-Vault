@@ -61,5 +61,9 @@
   "o-theme-settings@@ul-square-tab-tops": false,
   "o-theme-settings@@ul-left-collapse-btn-disable": false,
   "o-theme-settings@@ul-radius": "var(--radius-m)",
-  "o-theme-settings@@o-border": "none"
+  "o-theme-settings@@o-border": "none",
+  "Components@@tab-title-bar-fixed": true,
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-default",
+  "Plugin@@Surfing-bookmark-bar-hide": true,
+  "Editor@@heading-indicator-off": true
 }

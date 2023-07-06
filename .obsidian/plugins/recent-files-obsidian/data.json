@@ -1,20 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "Chapter 8 - Differentiation",
-      "path": "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md"
+      "basename": "Chapter 2 - Vectors",
+      "path": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md"
+    },
+    {
+      "basename": "Chapter 2 - Vectors",
+      "path": "2023/Semester 1 2023/MATH1050/Chapter 2 - Vectors.md"
+    },
+    {
+      "basename": "Chapter 1 - Complex Numbers",
+      "path": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 1 - Complex Numbers.md"
+    },
+    {
+      "basename": "Magnitude",
+      "path": "2023/Definitions/Magnitude.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
+      "basename": "Valid and Invalid Arguments",
+      "path": "2023/Semester 1 2023/MATH1061/Valid and Invalid Arguments.md"
+    },
+    {
+      "basename": "Divisibility",
+      "path": "2023/Semester 1 2023/MATH1061/Divisibility.md"
+    },
+    {
+      "basename": "Modular Arithmetic",
+      "path": "2023/Semester 1 2023/MATH1061/Modular Arithmetic.md"
+    },
+    {
+      "basename": "Quantified Statements",
+      "path": "2023/Semester 1 2023/MATH1061/Quantified Statements.md"
+    },
+    {
+      "basename": "Conditional Statements",
+      "path": "2023/Semester 1 2023/MATH1061/Conditional Statements.md"
+    },
+    {
+      "basename": "Direct Proofs and Counterexamples",
+      "path": "2023/Semester 1 2023/MATH1061/Direct Proofs and Counterexamples.md"
+    },
+    {
+      "basename": "MATH1061 Homepage",
+      "path": "2023/Semester 1 2023/MATH1061/MATH1061 Homepage.md"
     },
     {
       "basename": "Chapter 9 - Integration",
       "path": "2023/Semester 1 2023/MATH1050/Chapter 9 - Integration.md"
     },
     {
-      "basename": "Chapter 3 - Applications of Vectors",
-      "path": "2023/Semester 1 2023/MATH1050/Chapter 3 - Applications of Vectors.md"
+      "basename": "MATH1050 Homepage",
+      "path": "2023/Semester 1 2023/MATH1050/MATH1050 Homepage.md"
     },
     {
-      "basename": "Homepage",
-      "path": "Homepage.md"
+      "basename": "Chapter 8 - Differentiation",
+      "path": "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md"
+    },
+    {
+      "basename": "Chapter 3 - Applications of Vectors",
+      "path": "2023/Semester 1 2023/MATH1050/Chapter 3 - Applications of Vectors.md"
     },
     {
       "basename": "Seminar Homepage",
@@ -81,40 +129,16 @@
       "path": "2023/Semester 1 2023/MATH1050/Chapter 2 cont. - Vectors.md"
     },
     {
-      "basename": "Chapter 2 - Vectors",
-      "path": "2023/Semester 1 2023/MATH1050/Chapter 2 - Vectors.md"
-    },
-    {
       "basename": "Introduction to Electrical Engineering",
       "path": "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md"
-    },
-    {
-      "basename": "Valid and Invalid Arguments",
-      "path": "2023/Semester 1 2023/MATH1061/Valid and Invalid Arguments.md"
     },
     {
       "basename": "Untitled",
       "path": "Untitled.md"
     },
     {
-      "basename": "Modular Arithmetic",
-      "path": "2023/Semester 1 2023/MATH1061/Modular Arithmetic.md"
-    },
-    {
-      "basename": "Direct Proofs and Counterexamples",
-      "path": "2023/Semester 1 2023/MATH1061/Direct Proofs and Counterexamples.md"
-    },
-    {
-      "basename": "Quantified Statements",
-      "path": "2023/Semester 1 2023/MATH1061/Quantified Statements.md"
-    },
-    {
       "basename": "Logical Form and Logical Equivalence",
       "path": "2023/Semester 1 2023/MATH1061/Logical Form and Logical Equivalence.md"
-    },
-    {
-      "basename": "Divisibility",
-      "path": "2023/Semester 1 2023/MATH1061/Divisibility.md"
     },
     {
       "basename": "Sustainable Practices",
@@ -153,10 +177,6 @@
       "path": "2023/Definitions/Torque.md"
     },
     {
-      "basename": "Conditional Statements",
-      "path": "2023/Semester 1 2023/MATH1061/Conditional Statements.md"
-    },
-    {
       "basename": "Vector",
       "path": "2023/Definitions/Vector.md"
     },
@@ -179,22 +199,6 @@
     {
       "basename": "Introduction to Electrical Systems",
       "path": "2023/Engg1100/Introduction to Electrical Systems.md"
-    },
-    {
-      "basename": "getParagraph",
-      "path": "Random Stuff/textgenerator/prompts/default/getParagraph.md"
-    },
-    {
-      "basename": "getOutline",
-      "path": "Random Stuff/textgenerator/prompts/default/getOutline.md"
-    },
-    {
-      "basename": "Banners",
-      "path": "Random Stuff/Banners.md"
-    },
-    {
-      "basename": "getEmailPos",
-      "path": "Random Stuff/textgenerator/prompts/default/getEmailPos.md"
     }
   ],
   "omittedPaths": [],

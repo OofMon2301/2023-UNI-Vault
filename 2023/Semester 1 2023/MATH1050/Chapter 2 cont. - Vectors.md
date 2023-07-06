@@ -15,7 +15,7 @@ Topic::
 1. The scalar product of two vectors is a *scalar*, not a vector.
 2. $\mathbf{v} \cdot \mathbf{v} = |\mathbf{v}|^{2}$ since the angle between $\mathbf{v}$ and itself is 0 and $\cos 0=1$.
 3. $\mathbf{v} \cdot \mathbf{w}=0$ if and only if $\mathbf{v}$ and $\mathbf{w}$ are perpendicular.
-	(Perpendicular vectors are also called orthogonal vectors.)
+	(Perpendicular vectors are also called orthogonal vectors.) ^1a8b4c
 
 ```ad-example 
 Proof if $\mathbf{v}\neq 0$ and $\mathbf{w}\neq 0$, then:

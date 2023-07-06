@@ -209,9 +209,9 @@ Note that for most vectors $\mathbf{v}$ and $\mathbf{w}$, $|\mathbf{v}+\mathbf{w
 For any vector $\mathbf{v}$ and any real number $t$, $|t\mathbf{v}|=|t|+|\mathbf{v}|$.
 
 A vector with norm 1 is called a *unit* vector.
-The notation $\hat{\mathbf{v}}$ will be used to denote a unit vector having the same direction as the vector $\mathbf{v}$.
+The notation $\hat{\mathbf{v}}$ will be used to denote a unit vector having the same direction as the vector $\mathbf{v}$. ^4b2905
 
-For a given vector $\mathbf{v}$, with norm $|\mathbf{v}|$, the vector:
+For a given vector $\mathbf{v}$, with norm $|\mathbf{v}|$, the vector: ^24eeaa
 $$
 \hat{\mathbf{v}}=\frac{1}{|\mathbf{v}|}\mathbf{v}
 $$
@@ -220,7 +220,7 @@ is a unit vector in the direction of $\mathbf{v}$.
 ## 2.6 Component Form of a Vector
 
 ### Component Form in 2-space
-In the $(x,y)$ plane, there are two important unit vectors. The unit vector in the direction of the $x$-axis is denoted $\mathbf{i}$, and the unit vector in the direction of the $y$-axis is denoted $\mathbf{j}$, so:
+In the $(x,y)$ plane, there are two important unit vectors. The unit vector in the direction of the $x$-axis is denoted $\mathbf{i}$, and the unit vector in the direction of the $y$-axis is denoted $\mathbf{j}$, so: ^76010d
 $$
 \mathbf{i}=\begin{pmatrix}
 1 \\

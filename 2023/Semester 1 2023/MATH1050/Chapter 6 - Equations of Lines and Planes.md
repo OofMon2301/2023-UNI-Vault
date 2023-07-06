@@ -276,7 +276,7 @@ What these equations really are is a set of two non-identical, non-parallel plan
 
 Two lines are parallel if, when written as $\mathbf{r}=\mathbf{r}_{0}+\lambda \mathbf{v}$, and $\mathbf{r}=\mathbf{s}_{0}+\mu \mathbf{u}$, the direction of vectors $\mathbf{u}$ and $\mathbf{v}$ are linear multiples of each other, i.e., $\mathbf{u}=k\mathbf{v}$ for some nonzero scalar $k$.
 
-Two lines are orthogonal if their direction vectors are orthogonal. An easy test for orthogonality is to take the dot product of the direction vectors if and only if this gives zero are the lines orthogonal.
+Two lines are orthogonal if their direction vectors are orthogonal. An easy test for orthogonality is to take the dot product of the direction vectors if and only if this gives zero are the lines orthogonal. ^29eed1
 
 ## 6.4 Vector Equation of a plane II
 
