@@ -1,0 +1,12 @@
+{
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "dashboard-readable-line-length",
+    "dashboard"
+  ],
+  "theme": "obsidian",
+  "cssTheme": "Origami",
+  "nativeMenus": false,
+  "translucency": false,
+  "baseFontSize": 17
+}

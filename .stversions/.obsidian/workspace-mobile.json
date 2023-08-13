@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/ENGG1100/Seminar 9 - Employability and Professional Practice.md",
-                "mode": "source",
+                "file": "Homepage.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "2023/ENGG1100/Seminar 9 - Employability and Professional Practice.md",
+            "file": "Homepage.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "2023/ENGG1100/Seminar 9 - Employability and Professional Practice.md",
+            "file": "Homepage.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "2023/ENGG1100/Seminar 9 - Employability and Professional Practice.md"
+            "file": "Homepage.md"
           }
         }
       },
@@ -165,6 +165,8 @@
   },
   "active": "bfe11e2d03d29459",
   "lastOpenFiles": [
+    "2023/Definitions/Tautology.md",
+    "Homepage.md",
     "2023/ENGG1100/Seminar 9 - Employability and Professional Practice.sync-conflict-20230427-141335-QLUKNDS.md"
   ]
 }
