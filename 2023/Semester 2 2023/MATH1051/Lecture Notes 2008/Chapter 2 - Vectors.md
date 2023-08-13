@@ -207,3 +207,24 @@ $$
 $$
 where $\theta$ is the angle between $\mathbf{v}$ and $\mathbf{w}$.
 If $\mathbf{v},\mathbf{w}\neq 0$ and $\mathbf{v}\cdot \mathbf{w}=0$ then $\mathbf{v}$ and $\mathbf{w}$ are said to be *[[Chapter 6 - Equations of Lines and Planes#^29eed1|orthogonal]]* or *[[Chapter 2 cont. - Vectors#^1a8b4c|perpendicular]]*.
+
+If $\mathbf{v}=v_{1}\mathbf{i}+v_{2}\mathbf{j}+v_{3}\mathbf{k}$ and $\mathbf{w}=w_{1}\mathbf{i}+w_{2}\mathbf{j}+w_{3}\mathbf{k}$ are two vectors, then $\mathbf{v}\cdot \mathbf{w}$ is given by:
+$$
+\mathbf{v}\cdot \mathbf{w}=v_{1}w_{1}+v_{2}w_{2}+v_{3}w_{3}
+$$
+In particular, for $\mathbf{v}\in\mathbb{R}^{3}$,
+$$
+||\mathbf{v}||^{2}=\mathbf{v}\cdot \mathbf{v}=v_{1}^{2}+v_{2}^{2}+v_{3}^{2}
+$$
+### 2.1.9 The Projection Formula
+
+Fix a vector $\mathbf{v}$. Given another vector $\mathbf{w}$ we can write it as
+$$
+\mathbf{w}=\mathbf{w}_{1}+\mathbf{w}_{2}
+$$
+where $\mathbf{w}_{1}$ is in the direction of $\mathbf{v}$ and $\mathbf{w}_{2}$ is perpendicular to $\mathbf{v}$.
+
+Then we have the *[[2023/Definitions/Projection Formula|projection formula]]*:
+$$
+\mathbf{w}_{1}=\frac{((\mathbf{w})\cdot \mathbf{v})}{||\mathbf{v}||^{2}}\mathbf{v}\quad , \quad \mathbf{w}_{2}=\mathbf{w}-\frac{((\mathbf{w})\cdot \mathbf{v})}{||\mathbf{v}||^{2}}\mathbf{v}
+$$

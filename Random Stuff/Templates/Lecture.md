@@ -6,7 +6,7 @@ tags: lecture
 Topic:: 
 ---
 # [[<% tp.file.title %>]]
-#<% tp.file.folder(true).split('/').pop() %>
+#<% tp.file.folder(true).split('/')[2] %>
 # Notes
 
 

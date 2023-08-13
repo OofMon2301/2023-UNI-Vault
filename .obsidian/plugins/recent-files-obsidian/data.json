@@ -1,24 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "Chapter 2 - Vectors",
-      "path": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md"
+      "basename": "Sequences",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md"
     },
     {
-      "basename": "Chapter 2 - Vectors",
-      "path": "2023/Semester 1 2023/MATH1050/Chapter 2 - Vectors.md"
+      "basename": "Continuity",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
+      "basename": "Limits",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md"
+    },
+    {
+      "basename": "Functions",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md"
+    },
+    {
+      "basename": "Chapter 4 - Complex Numbers",
+      "path": "2023/Semester 1 2023/MATH1050/Chapter 4 - Complex Numbers.md"
+    },
+    {
+      "basename": "Chapter 6 - Equations of Lines and Planes",
+      "path": "2023/Semester 1 2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md"
     },
     {
       "basename": "Chapter 1 - Complex Numbers",
       "path": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 1 - Complex Numbers.md"
     },
     {
-      "basename": "Magnitude",
-      "path": "2023/Definitions/Magnitude.md"
+      "basename": "Chapter 2 - Vectors",
+      "path": "2023/Semester 1 2023/MATH1050/Chapter 2 - Vectors.md"
     },
     {
-      "basename": "Homepage",
-      "path": "Homepage.md"
+      "basename": "Numbers",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 1/Numbers.md"
+    },
+    {
+      "basename": "Introduction to MATLAB",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 0/Introduction to MATLAB.md"
+    },
+    {
+      "basename": "Introduction to Computing",
+      "path": "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md"
+    },
+    {
+      "basename": "Introduction to Electrical Engineering",
+      "path": "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md"
+    },
+    {
+      "basename": "Lecture",
+      "path": "Random Stuff/Templates/Lecture.md"
+    },
+    {
+      "basename": "Definitions",
+      "path": "Random Stuff/Templates/Definitions.md"
+    },
+    {
+      "basename": "Welcome to MATH1051",
+      "path": "2023/Semester 2 2023/MATH1051/Welcome to MATH1051.md"
+    },
+    {
+      "basename": "Chapter 3 - Matrices and Linear Transformations",
+      "path": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 3 - Matrices and Linear Transformations.md"
+    },
+    {
+      "basename": "Chapter 2 - Vectors",
+      "path": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md"
+    },
+    {
+      "basename": "Projection Formula",
+      "path": "2023/Definitions/Projection Formula.md"
+    },
+    {
+      "basename": "Magnitude",
+      "path": "2023/Definitions/Magnitude.md"
     },
     {
       "basename": "Valid and Invalid Arguments",
@@ -73,14 +133,6 @@
       "path": "2023/Semester 1 2023/ENGG1100/Seminar 9 - Employability and Professional Practice.md"
     },
     {
-      "basename": "Lecture",
-      "path": "Random Stuff/Templates/Lecture.md"
-    },
-    {
-      "basename": "Definitions",
-      "path": "Random Stuff/Templates/Definitions.md"
-    },
-    {
       "basename": "Seminar 8 - Sustainability - Ted Simmonds - Senior Manager, Infrastructure and Facilities, Faculty of Science",
       "path": "2023/Semester 1 2023/ENGG1100/Seminar 8 - Sustainability - Ted Simmonds - Senior Manager, Infrastructure and Facilities, Faculty of Science.md"
     },
@@ -113,24 +165,12 @@
       "path": "2023/Semester 1 2023/MATH1050/Chapter 7 - Functions.md"
     },
     {
-      "basename": "Chapter 6 - Equations of Lines and Planes",
-      "path": "2023/Semester 1 2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md"
-    },
-    {
       "basename": "Chapter 5 - Matrices",
       "path": "2023/Semester 1 2023/MATH1050/Chapter 5 - Matrices.md"
     },
     {
-      "basename": "Chapter 4 - Complex Numbers",
-      "path": "2023/Semester 1 2023/MATH1050/Chapter 4 - Complex Numbers.md"
-    },
-    {
       "basename": "Chapter 2 cont. - Vectors",
       "path": "2023/Semester 1 2023/MATH1050/Chapter 2 cont. - Vectors.md"
-    },
-    {
-      "basename": "Introduction to Electrical Engineering",
-      "path": "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md"
     },
     {
       "basename": "Untitled",
@@ -159,46 +199,6 @@
     {
       "basename": "Drawing 2023-03-14 09.00.56.excalidraw",
       "path": "Excalidraw/Drawing 2023-03-14 09.00.56.excalidraw.md"
-    },
-    {
-      "basename": "Predicate",
-      "path": "2023/Definitions/Predicate.md"
-    },
-    {
-      "basename": "Argument",
-      "path": "2023/Definitions/Argument.md"
-    },
-    {
-      "basename": "Drawing 2023-03-05 00.16.05.excalidraw",
-      "path": "Excalidraw/Drawing 2023-03-05 00.16.05.excalidraw.md"
-    },
-    {
-      "basename": "Torque",
-      "path": "2023/Definitions/Torque.md"
-    },
-    {
-      "basename": "Vector",
-      "path": "2023/Definitions/Vector.md"
-    },
-    {
-      "basename": "Tautology",
-      "path": "2023/Definitions/Tautology.md"
-    },
-    {
-      "basename": "Argument",
-      "path": "2023/Definitions/Math1061/Argument.md"
-    },
-    {
-      "basename": "Drawing 2023-02-24 15.30.49.excalidraw",
-      "path": "Excalidraw/Drawing 2023-02-24 15.30.49.excalidraw.md"
-    },
-    {
-      "basename": "Drawing 2023-02-23 00.15.53.excalidraw",
-      "path": "Excalidraw/Drawing 2023-02-23 00.15.53.excalidraw.md"
-    },
-    {
-      "basename": "Introduction to Electrical Systems",
-      "path": "2023/Engg1100/Introduction to Electrical Systems.md"
     }
   ],
   "omittedPaths": [],

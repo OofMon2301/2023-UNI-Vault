@@ -22,31 +22,19 @@
             }
           },
           {
-            "id": "29bddb9c3491c505",
+            "id": "4873e21f5e87ac21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 1 - Complex Numbers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6d165fd4233f4ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "squeeze",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md"
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md"
               }
             }
           }
@@ -130,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 353.5
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -196,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,27 +217,53 @@
   "left-ribbon": {
     "hiddenItems": {
       "graph:Open graph view": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-projects:Open projects": false,
       "dbfolder:Create a new database table": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "workspaces:Manage workspace layouts": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "obsidian-projects:Open projects": false,
+      "omnisearch:Omnisearch": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "homepage:Open homepage": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e6d165fd4233f4ff",
+  "active": "4873e21f5e87ac21",
   "lastOpenFiles": [
-    "2023/Semester 1 2023/MATH1050/Chapter 2 - Vectors.md",
-    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
-    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 1 - Complex Numbers.md",
-    "2023/Definitions/Magnitude.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
     "Homepage.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
+    "Attachment Folder/Pasted image 20230731090857.png",
+    "2023/Semester 1 2023/MATH1050/Chapter 4 - Complex Numbers.md",
+    "2023/Semester 1 2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md",
+    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 1 - Complex Numbers.md",
+    "2023/Semester 1 2023/MATH1050/Chapter 2 - Vectors.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 1/Numbers.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 0/Introduction to MATLAB.md",
+    "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md",
+    "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md",
+    "2023/Semester 2 2023/CSSE1001",
+    "Random Stuff/Templates/Lecture.md",
+    "Random Stuff/Templates/Definitions.md",
+    "2023/Semester 2 2023/MATH1051/Welcome to MATH1051.md",
+    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 3 - Matrices and Linear Transformations.md",
+    "2023/Semester 2 2023/MATH1051/Revision",
+    "2023/Semester 2 2023/MATH1051/Chapter 17",
+    "2023/Semester 2 2023/MATH1051/Chapter 16",
+    "2023/Semester 2 2023/MATH1051/Chapter 15",
+    "2023/Semester 2 2023/MATH1051/Chapter 14",
+    "2023/Semester 2 2023/MATH1051/Chapter 13",
+    "2023/Semester 2 2023/MATH1051/Chapter 12",
+    "2023/Semester 2 2023/MATH1051/Chapter 11",
+    "2023/Semester 2 2023/MATH1051/Chapter 10",
+    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
+    "2023/Definitions/Projection Formula.md",
+    "2023/Definitions/Magnitude.md",
     "Attachment Folder/Pasted image 20230703084721.png",
     "2023/Semester 1 2023/MATH1061/Valid and Invalid Arguments.md",
     "2023/Semester 1 2023/MATH1061/Divisibility.md",
@@ -258,27 +271,6 @@
     "2023/Semester 1 2023/MATH1061/Quantified Statements.md",
     "2023/Semester 1 2023/MATH1061/Conditional Statements.md",
     "2023/Semester 1 2023/MATH1061/Direct Proofs and Counterexamples.md",
-    "2023/Semester 1 2023/MATH1061/MATH1061 Homepage.md",
-    "2023/Semester 1 2023/MATH1050/Chapter 9 - Integration.md",
-    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Untitled.md",
-    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008",
-    "2023/Semester 1 2023/MATH1050/MATH1050 Homepage.md",
-    "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
-    "2023/Semester 1 2023/MATH1050/Chapter 3 - Applications of Vectors.md",
-    "2023/Semester 1 2023/ENGG1100/Seminar Homepage.md",
-    "Random Stuff/Final Exam Timetable.md",
-    "2023/Definitions/Professional Engineering.md",
-    "2023/Semester 1 2023/ENGG1100/Seminar 9 - Employability and Professional Practice.md",
-    "Random Stuff/Templates/Lecture.md",
-    "Random Stuff/Templates/Definitions.md",
-    "2023/Semester 1 2023/ENGG1100/Seminar 8 - Sustainability - Ted Simmonds - Senior Manager, Infrastructure and Facilities, Faculty of Science.md",
-    "2023/Semester 1 2023/ENGG1100/Seminar 7 - Ethical Conduct and Integrity.md",
-    "2023/Semester 1 2023/ENGG1100/Seminar 5 - Story Telling and Reflective Writing - Angela Bushell.md",
-    "2023/Semester 2 2023",
-    "2023/Semester 1 2023",
-    "2023/ENGG1100/~syncthing~Seminar 9 - Employability and Professional Practice.md.tmp",
-    "Attachment Folder/Recording 20230427122434.webm",
-    "Context/spacesLastSync.log",
     "Attachment Folder/Pasted image 20230403214435.png",
     "Attachment Folder/Pasted image 20230403214205.png",
     "Attachment Folder/Pasted image 20230330124223.png",
@@ -286,7 +278,6 @@
     "Attachment Folder/Pasted image 20230328074657.png",
     "Attachment Folder/Pasted image 20230316122956.png",
     "Attachment Folder/Pasted image 20230309123643.png",
-    "Attachment Folder/Pasted image 20230309123537.png",
-    "Attachment Folder/Pasted image 20230309123005.png"
+    "Attachment Folder/Pasted image 20230309123537.png"
   ]
 }

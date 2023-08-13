@@ -1,11 +1,9 @@
 {
-  "readableLineLength": true,
+  "readableLineLength": false,
   "attachmentFolderPath": "Attachment Folder",
   "showInlineTitle": false,
   "spellcheck": true,
-  "spellcheckLanguages": [
-    "en-AU"
-  ],
+  "spellcheckLanguages": null,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,

@@ -1,0 +1,1 @@
+{"path":".obsidian/plugins/text-extractor/cache/13767b7c61d64420d0abd82f6a30bcdd.json","text":"include <Servo.h> — tdefine servol_pin 2 fservo myservot; —_— Py Function Servot_increase; oid setup(){ yservol attach(servol_pin); tmm—— - Servot_angle=90; Servol_increase=5; myservot wiite(Servo1_angle)// move servos to center position -> 90° —","libVersion":"0.2.2","langs":"eng"}
