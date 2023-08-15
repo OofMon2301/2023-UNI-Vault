@@ -27,14 +27,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
+                "file": "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "f5623d1e732ea682",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,9 +117,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,7 +189,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +205,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,15 +231,17 @@
       "omnisearch:Omnisearch": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "4873e21f5e87ac21",
+  "active": "f5623d1e732ea682",
   "lastOpenFiles": [
-    "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
     "Homepage.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md",
+    "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md",
     "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md",
     "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
     "Attachment Folder/Pasted image 20230731090857.png",
     "2023/Semester 1 2023/MATH1050/Chapter 4 - Complex Numbers.md",
@@ -244,7 +250,6 @@
     "2023/Semester 1 2023/MATH1050/Chapter 2 - Vectors.md",
     "2023/Semester 2 2023/MATH1051/Chapter 1/Numbers.md",
     "2023/Semester 2 2023/MATH1051/Chapter 0/Introduction to MATLAB.md",
-    "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md",
     "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md",
     "2023/Semester 2 2023/CSSE1001",
     "Random Stuff/Templates/Lecture.md",

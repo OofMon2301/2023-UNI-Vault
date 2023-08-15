@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
+      "basename": "Introduction to Computing",
+      "path": "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md"
+    },
+    {
       "basename": "Sequences",
       "path": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md"
     },
     {
       "basename": "Continuity",
       "path": "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
     },
     {
       "basename": "Limits",
@@ -43,10 +47,6 @@
     {
       "basename": "Introduction to MATLAB",
       "path": "2023/Semester 2 2023/MATH1051/Chapter 0/Introduction to MATLAB.md"
-    },
-    {
-      "basename": "Introduction to Computing",
-      "path": "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md"
     },
     {
       "basename": "Introduction to Electrical Engineering",
