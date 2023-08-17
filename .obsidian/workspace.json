@@ -231,8 +231,7 @@
       "omnisearch:Omnisearch": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "f5623d1e732ea682",
