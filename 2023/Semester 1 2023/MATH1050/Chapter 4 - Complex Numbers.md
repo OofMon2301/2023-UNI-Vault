@@ -124,7 +124,7 @@ The point corresponding to $\bar{z}$ is the reflection of the point correspondin
 
 The modulus of a complex number $z$ is the length of the position vector corresponding to $z$
 
-## 4.2 Complex numbers in polar form
+## 4.2 Complex Numbers in Polar Form
 
 Suppose that the complex number $z=a+bi$ is represented as a point in the complex plane.
 
@@ -174,7 +174,7 @@ e^{i\theta}z &= e^{i\theta} \times re^{i\phi} \\
 \end{aligned}
 \end{gather*}
 $$
-## 4.3 Powers of complex numbers
+## 4.3 Powers of Complex Numbers
 
 *De Moivre's Theorem* states that if $z=r(\cos \theta + i \sin \theta)$ and $n$ is a natural number, then
 $$
@@ -200,7 +200,7 @@ z^{\frac{1}{n}} = r^\left( \frac{1}{n} \right) cis \left( \frac{\theta +2k\pi}{n
 $$
 for $k \in \mathbb{Z}$.
 
-## 4.4 The  Fundamental Theorem of Algebra
+## 4.4 The Fundamental Theorem of Algebra
 
 A polynomial in the variable $z$ is an expression where $n \in \mathbb{N}$ is the degree (highest power) of the polynomial, are the coefficients of $z$, and $a_{n}\neq 0$.
 

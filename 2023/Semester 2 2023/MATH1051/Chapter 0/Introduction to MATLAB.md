@@ -9,7 +9,7 @@ Topic::
 #Chapter 0
 # Notes
 
-## 0.1 Introduction to MATLAB
+## 0.1 Introduction to Matlab
 
 ### 0.1.1 Getting Started
 

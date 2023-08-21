@@ -47,14 +47,14 @@ Origin Energy: General Manager CTO asset and General Manager
 	- Engineering support
 - Decommission and rehabilitation
 
-### Creating High Performing teams
+### Creating High Performing Teams
 - Have a clear purpose /objective
 - Define roles, responsibilities and accountabilities
 - Develop rules of engagement / charter
 -  Set cadence / rhythm
 - Track and measure progress
 - Make decision / identify key milestones
-- Cerate a safe space to learn, ask for help and try new things
+- Create a safe space to learn, ask for help and try new things
 - Challenge each other
 - Play to strengths
 - Leadership

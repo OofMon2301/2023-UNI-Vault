@@ -24,7 +24,7 @@ The notation $d\mid n$ is used to represent the predicate "$d$ divides $n$".
 
 If $n$ is not divisible by $d$, we write $d\nmid n$.
 
-#### Example:
+## Example:
 
 $4 \mid 8$ and $3 \mid 21$
 
@@ -41,14 +41,14 @@ $d \mid 0$ for every nonzero integer $d$ since $k=0$ gives $0=d \times 0$.
 $1 \mid n$ and $n$ mid n (if $n=0$) for every integer $n$.
 
 
-### Theorem
+# Theorem
 Every integer $n>1$ can be written as a product of primes.
 
 Suppose the theorem is false. Then there exists an integer $n>1$ that is not a product of primes.
 Choose the smallest such number $n$.
 Either $n$ is prime or $n$ is composite.
 
-### Unique Factorisation Theorem for the Integers:
+# Unique Factorisation Theorem for the Integers:
 
 Given any integer $n>1$, there exists:
 - a positive integer $k$
@@ -58,7 +58,7 @@ such that:
 $$n = p_{1}^{e_{1}}p_{2}^{e_{2 }}p_{3}^{e_{3}}\dots p_{k}^{e_{k}}$$
 and any other expression of $n$ as a product of primes is identical to this, except perhaps for the order in which the terms are written.
 
-### Application of unique factorisation
+# Application of Unique Factorisation
 
 We know $168=2^{3} \times 3 \times 7$
 The complete list of all positive divisors of 168 is:

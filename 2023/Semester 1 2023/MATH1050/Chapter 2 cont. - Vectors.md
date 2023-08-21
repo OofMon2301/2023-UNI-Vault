@@ -10,7 +10,7 @@ Topic::
 # Notes
 
 
-### 2.7.1 Properties of the Scalar Product
+## 2.7.1 Properties of the Scalar Product
 
 1. The scalar product of two vectors is a *scalar*, not a vector.
 2. $\mathbf{v} \cdot \mathbf{v} = |\mathbf{v}|^{2}$ since the angle between $\mathbf{v}$ and itself is 0 and $\cos 0=1$.
@@ -35,11 +35,11 @@ $$
 5. For vectors $\mathbf{v}$ and $\mathbf{w}$, $\mathbf{v}\cdot \mathbf{w}=\mathbf{w}\cdot \mathbf{v}$.
 6.  For vectors $\mathbf{v}$ and $\mathbf{w}$ and any real number, $t$, $(t\mathbf{v})\cdot \mathbf{w}=t(\mathbf{v}\cdot \mathbf{w})$
 
-## 2.8 The Vector Product (Cross Product)
+# 2.8 The Vector Product (Cross Product)
 ![[Pasted image 20230302004650.png]]
 Note that in any diagram of 3-dimensional space, the arrangement of the axes must satisfy the right hand rule so that $\mathbf{i}\times \mathbf{j}=\mathbf{k}$.
 
-### Properties of the Vector Product
+## Properties of the Vector Product
 
 The vector product is a vector, *not* a scalar.
 
@@ -69,7 +69,7 @@ $$
 
 We can use the properties of the vector product and the table of vector products of $\mathbf{i}$, $\mathbf{j}$, and $\mathbf{k}$ to calculate the vector product of any pair of vectors expressed in component form.
 
-### 2.8.1 Torque (extra)
+## 2.8.1 Torque (extra)
 
 When you use a spanner to turn a nut, or use different gears while riding a bicycle, your choice of size of spanner or particular gear on the bike is based on a turning force called *torque*.
 
@@ -79,7 +79,7 @@ The standard unit for torque is Newton metres $(\text{Nm})$. To obtain torque in
 
 Since $\sin \theta$ reaches its maximum at $\frac{\pi}{2}$ radians ($90^\circ$), the torque is a maximum when the angle between $\mathbf{f}$ and $\mathbf{r}$ is $\frac{\pi}{2}$ radians.
 
-#### Some Tips on Opening Doors (obvious things)
+### Some Tips on Opening Doors (obvious things)
 
 Let's start with some obvious things:
  - The larger the force, the more effective it is opening the door (i.e., the harder you push, the more rapidly the door opens.)

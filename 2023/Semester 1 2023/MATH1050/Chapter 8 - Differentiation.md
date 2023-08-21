@@ -41,7 +41,7 @@ Another way of writing the slope of the tangent line to $f(x)$ at $x=a$ is to le
 $$
 \lim_{ h \to 0 } \frac{f(a+h)-f(a)}{a+h-a}=\lim_{ h \to 0 } \frac{f(a+h)-f(a)}{h}
 $$
-## 8.2 The derivative of a function
+## 8.2 The Derivative of a Function
 
 The derivative of a function $f$ at the number $a$, denoted by $f'(a)$ is 
 $$
@@ -67,7 +67,7 @@ y' \quad \frac{dy}{dx} \quad \frac{df}{dx} \quad \frac{d}{dx}f(x)
 $$
 A function $f$ is said to be differentiable at $a$ if $f'(a)$ exists.
 
-## 8.3 Differentiation rules
+## 8.3 Differentiation Rules
 
 Determining derivatives from the definition can be time-consuming. Luckily there are some rules for differentiation that speed up the process. The proofs of these rules can be found in most calculus textbooks, but you do not need to know the proofs for this course.
 
@@ -77,24 +77,24 @@ The derivative of a constant function is zero.
 
 If $f(x)=x^n$, then $f'(x)=nx^{n-1}$ for $n \in \mathbb{R}$.
 
-#### Constant Multiple Rule
+### Constant Multiple Rule
 If $c$ is a constant and $f$ is a differentiable function, then
 $$
 \frac{d}{dx}(cf(x))=c \frac{d}{dx}f(x)
 $$
-#### Sum Rule
+### Sum Rule
 If $f$ and $g$ are both differentiable functions, then
 $$
 \frac{d}{dx}(f(x)+g(x))=\frac{d}{dx}f(x)+\frac{d}{dx}g(x)
 $$
 This rule can also be written as $(f+g)'=f'+g'$.
 
-#### Product Rule
+### Product Rule
 If $f$ and $g$ are both differentiable functions, then
 $$
 \frac{d}{dx}\left( \frac{f(x)}{g(x)} \right)=\frac{\left( g(x) \frac{d}{dx}f(x)-f(x) \frac{d}{dx}g(x) \right)}{(g(x))^2}
 $$
-#### Chain Rule (Composite Function Rule)
+### Chain Rule (Composite Function Rule)
 If $f$ and $g$ are both differentiable functions, then
 $$
 (f\circ g)'(x)=f'(g(x))g'(x)
@@ -133,7 +133,7 @@ So the derivative of $y$ with respect to $x$, where $y$ is defined in terms of $
 
 ---
 
-#### Derivatives of trigonometric functions
+### Derivatives of Trigonometric Functions
 
 Note that when we use the trigonometric functions, such as $f(x)=\sin x$, all angles are measured in radians.
 
@@ -145,7 +145,7 @@ The proofs of these limits can be found in most calculus textbooks, but we won't
 
 If $f(x)=\sin x$ then $f'(x)=\cos x$.
 
-##### Proof
+#### Proof
 $$
 \begin{align}
 f'(x) &= \lim_{ h \to 0 } \frac{\sin (x+h)-\sin x}{h}  \\
@@ -187,7 +187,7 @@ Thus, on the graph of $f(x)=e^{ x }$, the slope of the tangent line at each poin
 
 If $f(x)=\ln x$, then $f'(x)=\frac{1}{x}$. Note that here $x>0$ since the domain of $f(x)=\ln x$ is $x>0$.
 
-## 8.4 Critical points and curve sketching
+## 8.4 Critical Points and Curve Sketching
 
 A function $f$ has a *global maximum* at $c$ if $f(c)\geq f(x)$ for all $x$ in the domain of $f$. The number $f(c)$ is called the maximum value of $f$ on its domain. A global maximum is also called an *absolute maximum*.
 
@@ -209,7 +209,7 @@ If $f'(x)>0$ on an interval, then $f$ is strictly increasing on that interval.
 If $f'(x)<0$ on an interval, then $f$ is strictly decreasing on that interval.
 If $f'(x)=0$ on an interval, then $f$ is constant on that interval.
 
-#### First derivative test
+### First Derivative Test
 
 Suppose that the function $f$ has a critical point at $x=c$. Then
 
@@ -217,7 +217,7 @@ If $f'$ changes sign from positive to negative at $c$, then $f$ has a local maxi
 If $f'$ changes sign from negative to positive at $c$, then $f$ has a local minimum at $c$.
 If $f'$ does not change sign at $c$, then $f$ has neither a local maximum nor a local minimum at $c$.
 
-#### The second derivative
+### The Second Derivative
 
 The *second derivative* of a function $f$ is the derivative of the derived function $f'$. The second derivative of $f$ is denoted $f"$.
 
@@ -227,7 +227,7 @@ If the graph of $f$ lies above all of its tangent lines on an interval, then it 
 
 If $f"(x)>0$ for all $x$ in an interval, then the graph of $f$ is concave up on that interval. If $f"(x)<0$ for all $x$ in an interval, then the graph of $f$ is concave down on that interval.
 
-#### Second Derivative Test
+### Second Derivative Test
 
 Suppose $f"$ is a continuous function near a point $c$.
 
@@ -235,7 +235,7 @@ If $f'(c)=0$ and $f"(c)>0$, then $f$ has a local minimum (concave up) at $c$.
 If $f'(c)=0$ and $f"(c)<0$, then $f$ has a local maximum (concave down) at $c$.
 If $f"(c)=0$, then this test is inconclusive.
 
-#### Curve Sketching
+### Curve Sketching
 
 To sketch the curve of a function $y=f(x)$:
 
@@ -247,9 +247,9 @@ To sketch the curve of a function $y=f(x)$:
 - Determine $f"$ and identify the intervals on which $f$ is concave up and the intervals on which $f$ is concave down.
 - Sketch the graph.
 
-## 8.5 Applications of differentiation
+## 8.5 Applications of Differentiation
 
-#### Rates of Change
+### Rates of Change
 
 Rates of change have important applications in many areas. The derivative of a function $f$ with respect to a variable $x$ gives the rate of change of $f$ with respect to $x$.
 

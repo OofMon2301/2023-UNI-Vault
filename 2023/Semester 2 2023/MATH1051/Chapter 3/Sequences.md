@@ -33,7 +33,7 @@ A direct representation is a formula for $a_{n}$ in terms of $n$. A recursive de
 
 Often in the recursive case the value of $a_{n}$ will only depend on the previous 1 or two terms, such as $a_{n}=f(a_{n-1},a_{n-2})$ or $a_{n}=g(a_{n-1})$.
 
-## 3.3 Limits 
+## 3.3 Limits
 
 Let $\{a_{n}\}^\infty_{n=0}$ be a sequence. Then
 $$
@@ -66,13 +66,13 @@ $$
 \end{align}
 $$
 
-## 3.5 Useful sequences to remember
+## 3.5 Useful Sequences to Remember
 
 ![[Pasted image 20230731090857.png]]
 
 Take care with inequalities and limits. For example $\frac{1}{n}>0$ for all $n$ but $\lim_{ n \to \infty } \frac{1}{n}=0$. In general, even if $a_{n}>b_{n}$ for all $n$, we can only conclude $\lim_{ n \to \infty }a_{n}\geq \lim_{ n \to \infty }b_{n}$. Note the $\geq$.
 
-## 3.6 Theorem: Squeeze 
+## 3.6 Theorem: Squeeze
 
 If $a_{n}\leq b_{n}\leq c_{n}$ for $n\geq n_{0}$ for some $n_{0} \in \mathbb{N}$ and $\lim_{ n \to \infty }a_{n}=\lim_{ n \to \infty }c_{n}=\ell$, then
 $$

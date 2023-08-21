@@ -32,7 +32,7 @@ An integer is composite if and only if $n>1$ and $n=rs$ for some positive intege
 
 To show $\exists x \in D$ such that $P(x)$ is true, iot is enough to find one example of an element $x \in D$ for which $P(x)$ is true.
 
-#### Example:
+### Example:
 There exists a positive integer $x$ such that $x>30$ and $x$ is composite.
 
 $$

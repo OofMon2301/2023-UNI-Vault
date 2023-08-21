@@ -99,7 +99,7 @@ $$0=\begin{pmatrix}
 \end{pmatrix}$$
 The zero [[Vector]] has zero magnitude and unspecified direction, so can be represented geometrically as a point.
 
-### Properties of Vector Addition
+### Properties of Vector addition
 1. [[Vector]] addition is *commutative* ($v+w=w+v$).
 	1. To illustrate the commutativity of addition geometrically, consider four points $P,Q,R,S$, arranged in 2-space so that:
 $$v=\overrightarrow{PQ}=\overrightarrow{SR} \space\text{and}\space w=\overrightarrow{PS}=\overrightarrow{QR}$$

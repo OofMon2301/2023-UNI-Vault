@@ -12,7 +12,7 @@ Topic::
 Presenter: Remo (soCE)
 Marine renewable energy and environmental engineering
 
-## Fluid Delivery - The fire triangle
+## Fluid Delivery - the Fire Triangle
 
 A fire can be prevented or extinguished by removing any one of the elements in the fire triangle:
 - Oxygen
@@ -57,7 +57,7 @@ Positive Displacement Pumps is a reciprocating or rotary motion of pistons, plun
 
 
 
-### Things to know
+### Things to Know
 
 Know the technical specifications of your pumps (components)
 
@@ -69,7 +69,7 @@ Know the technical specifications of your pumps (components)
 ![[Pasted image 20230316122956.png]]
 
 
-## Other components to think about
+## Other Components to Think about
 
 ### Resovioir
 

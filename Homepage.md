@@ -7,7 +7,7 @@ obsidianUIMode: preview
 #Homepage 
 
 ---
-# ENGG1100
+# Engg1100
 ```dataview
 Table file.name, file.size, Topic
 from "2023/ENGG1100" and #ENGG1100
@@ -18,7 +18,7 @@ where file.size>1
 - Definitions `$=dv.list(dv.pages('"2023/Definitions"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
 
 
-# MATH1050
+# Math1050
 ```dataview
 Table file.name, file.size, Topic
 from #MATH1050
@@ -27,7 +27,7 @@ where file.size>500
 - Lectures `$=dv.list(dv.pages('"2023/MATH1050"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
 - Definitions `$=dv.list(dv.pages('"2023/Definitions"and"#MATH1050"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
 
-# MATH1051
+# Math1051
 ```dataview
 Table file.name, file.size, Topic
 from #MATH1051
@@ -36,7 +36,7 @@ where file.size>500
 - Lectures `$=dv.list(dv.pages('"2023/MATH1051"').sort(f=>f.file.mtime.ts,"desc").limit(5).file.link)`
 - Definitions `$=dv.list(dv.pages('"2023/Definitions"and"#MATH1051"').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
 
-# MATH1061
+# Math1061
 ```dataview
 Table file.name, file.size, Topic
 from #MATH1061

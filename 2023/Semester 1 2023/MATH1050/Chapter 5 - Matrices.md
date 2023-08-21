@@ -118,7 +118,7 @@ Two matrices can be added or subtracted provided that they have the same size. T
 
 *Matrix addition*: Let $A=(a_{ij})$ and $B=(b_{ij})$ be $m \times n$ matrices. Then $A+B=C=(c_{ij})$ is the $m \times n$ matrix with $c_{ij}=a_{ij}-b_{ij}$.
 
-## 5.3 Scalar Multiplication of matrices
+## 5.3 Scalar Multiplication of Matrices
 
 It is possible to multiply any matrix by any scalar (number); this is called *scalar multiplication*.
 
@@ -128,7 +128,7 @@ Scalar multiplication of a matrix $A$ by a positive integer $k$ is the same as a
 
 We usually write $-A$ for $(-1)A$. Note that matrix subtraction is just a combination of matrix addition and scalar multiplication since $A=B=A+(-B)$.
 
-## Multiplying matrices
+## Multiplying Matrices
 
 The product AB of matrices $A$ and $B$ exists if and only if the number of columns in $A$ equals the number of rows in $B$.
 
@@ -150,7 +150,7 @@ Repeat the above procedure until the second row of your new matrix (AB) is compl
 
 Repeat (a)-(e) until all rows are completed.
 
-### Properties of matrix multiplication
+### Properties of Matrix Multiplication
 
 For matrices of appropriate sizes:
 
@@ -159,7 +159,7 @@ $A(B+C)=AB+AC \quad \text{and} \quad (A+B)C=AC+BC \quad \text{distributive}$
 
 The order of multiplication is important. Matrix multiplication is not commutative, so in general $AB\neq BA$.
 
-## The transpose of a matrix
+## The Transpose of a Matrix
 
 Informally, the transpose of an $m \times n$ matrix is the $n \times m$ matrix obtained by exchanging the rows and columns of $A$.
 
@@ -170,7 +170,7 @@ $$
 The transpose of $A$ is usually denoted by $A^T$.
 
 
-## 5.6 Identity and inverse matrices
+## 5.6 Identity and Inverse Matrices
 
 In the multiplication of real numbers, the number 1 plays a special role because $1 \cdot k=k\cdot 1 = k$ for all real numbers $k$. In matrix multiplication, this role is played by the identity matrix.
 
@@ -195,7 +195,7 @@ When dealing with matrix powers, if $A$ is an $m \times m$ matrix, we define $A^
 The identity matrix is an example of a *diagonal matrix*. 
 A square matrix $A=(a_{ij})$ is a *diagonal matrix* if and only if $a_{ij}=0$ whenever $i\neq j$.
 
-### The inverse of a square matrix
+### The Inverse of a Square Matrix
 
 A square matrix $A$ is *non-singular* if there exists a matrix $B$ such that $AB=BA=I$. The matrix $B$ is called the *inverse of $A$*, and is denoted $A^{-1}$.
 
@@ -236,13 +236,13 @@ c & d \\
 \end{aligned}
 \end{gather*}
 $$
-### Properties of matrix inverses
+### Properties of Matrix Inverses
 If $A$ and $B$ are non-singular $n \times n$ matrices, then:
 -  $(A^{-1})^{-1}=A$
 - $(AB)^{-1}=B^{-1}A^{-1}$
 - $(A^{T})^{-1}=(A^{-1})^T$
 
-### The inverse of a 2 x 2 matrix
+### The Inverse of a 2 X 2 Matrix
 
  Consider the $2 \times 2$ matrix:
  $$
@@ -345,7 +345,7 @@ B&=C  \\
 &\therefore \text{A has at most one inverse}.
 \end{align}
 $$
-## 5.7 The determinant of a square matrix
+## 5.7 The Determinant of a Square Matrix
 
 With each square matrix $A$ we associate a number called *the determinant* of $A$, denoted $\det(A)$ or $|A|$.
 
@@ -384,7 +384,7 @@ Memorise the formula for the determinant of a $2 \times 2$ matrix.
 
 For a $3 \times 3$  (or larger) matrix, understand the following method for calculating determinants.
 
-### Calculating the determinant of a square matrix
+### Calculating the Determinant of a Square Matrix
 
 For the element $a_{ij}$ in a matrix $A$, define the $cofactor$ of $a_{ij}$ to be $(-1)^{i+j}$ times the determinant of the matrix obtained from $A$ by deleting row $i$ and column $j$.
 
@@ -402,7 +402,7 @@ $$\LARGE
 $$
 so if you remember this pattern, you don't need to work out $(-1)^{i+j}$ each time you calculate a cofactor.
 
-## 5.8 Vector Product - Part 2
+## 5.8 Vector Product - part 2
 
 In the previous chapter we saw how to calculate a vector product in $\mathbb{R}_{3}$ using the vector products of the unit vectors, $\mathbf{i},\mathbf{j}$ and $\mathbf{k}$. Although this method works, it can be a bit tedious. We now illustrate a shortcut using determinant notation.
 
@@ -428,7 +428,7 @@ v_{1} & v_{2} & v_{3}
 $$
 Where the determinant must be expanded along its top row.
 
-### Area of a triangle
+### Area of a Triangle
 
 The area of a triangle withy base length $b$ and height $h$ is given by $\frac{1}{2}bh$.
 
@@ -438,7 +438,7 @@ Thus, the area of the triangle formed by vectors $\mathbf{v}$ and $\mathbf{w}$ i
 $$
 \text{Area}=\frac{1}{2}|\mathbf{v}||\mathbf{w}|\sin \theta = \frac{1}{2}|\mathbf{v}\times \mathbf{w}|
 $$
-## 5.9 solving systems of linear equations
+## 5.9 Solving Systems of Linear Equations
 
 Consider the following pair of simultaneous linear equations in two unknowns.
 

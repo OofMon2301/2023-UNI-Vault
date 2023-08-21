@@ -8,7 +8,7 @@ Topic::
 # [[Functions]]
 #MATH1051
 
-## 2.1 Definition: Function, domain, range
+## 2.1 Definition: Function, Domain, Range
 
 Let $X$ and $Y$ be subsets of $\mathbb{R}$. A function $f:X \to Y$ is a rule which assigns to every element $x\in X$ *exactly one* element $f(x)\in Y$ called the value of $f$ at $x$. Here $X$ is called the *domain* of $f$ and 
 $$
@@ -26,13 +26,13 @@ We can represent a function by drawing its *graphs* which is the set of all poin
 
 An expression like "the function $y=\sqrt{ 1-x^{2} }$" means the function $f$ with $y=f(x)=\sqrt{ 1-x^{2} }$. When the domain is not specified it is taken to be the largest subset of $\mathbb{R}$ on which the rule is defined (and gives a real output). In this example, the domain would be $[-1,1]$.
 
-## 2.4 Vertical line test
+## 2.4 Vertical line Test
 
 Not every curve represents the graph of a function. The crucial function property states that for each value $x$ in the domain there must correspond *exactly one* value $y$ in the range. Thus in the graph of a function, any vertical line $x=$ constant must cut the graph in *at most one point.*
 
 The graph for the circle $x^{2}+y^{2}=1$, we can say that the vertical line intersects the circle at two points. In this case, the two $y$ values are given by $y=\pm \sqrt{ 1-x^{2} }$. Therefore $x^{2}+y^{2}=1$ does not give rise to a function on any domain intersecting $(-1,1)$.
 
-## 2.5 Exponential functions
+## 2.5 Exponential Functions
 
 An exponential function is one of the form $f(x)=a^{x}$, where the *base* $a$ us a positive constant, and $x$ is said to be the *exponent* or *power*. One very common exponential function which we shall see often in this course is given by $f(x)=e^x$. It cuts the $y-$axis at $y=1.$
 
@@ -50,7 +50,7 @@ f(x)=2^x
 ```
 Exponential functions are very useful for modelling many natural phenomena such as population growth (base $a>1$) and radioactive decay (base $0<a<1$).
 
-## 2.7 One-to-one functions
+## 2.7 One-to-one Functions
 
 A function $f:X\to Y$ is said to be *one-to-one* or *injective* if $\forall x_{1},x_{2}\in X$.
 
@@ -99,7 +99,7 @@ So $f^{-1}(y)=x \iff y=f(x).$
 
 The inverse function reverses the direction of the mapping.
 
-## 2.9 How to find $f^{-1}$
+## 2.9 How to Find $f^{-1}$
 
 $f(x)=y\implies f^{-1}(y)=x$
 $\therefore$ To find $f^{-1}$ solve for $x$ in terms of $y$.
@@ -145,7 +145,7 @@ a^{\log_{a}x} & = x  &  \forall x > 0.
 \end{align}
 $$
 
-## 2.11 Natural logarithm
+## 2.11 Natural Logarithm
 
 Now we set $a=e$ (Euler's number $=2.71828\dots$) The inverse function of $f(x)=e^x$ is:
 $$
@@ -165,7 +165,7 @@ y=exp(x)
 y=log(x)
 ```
 
-## 2.12 Inverse Trigonometric functions
+## 2.12 Inverse Trigonometric Functions
 
 The function $y=\sin x$ is 1-1 if we just define it over the interval $\left[\frac{\pi}{2} , \frac{\pi}{2} \right]$. The inverse function for this part of $\sin x$ is denoted $\arcsin x$. Thus $\arcsin x$ is defined on the interval $[-1,1]$ and takes values in the range $\left[ -\frac{\pi}{2}, \frac{\pi}{2} \right]$. The graph can easily be obtained by reflecting the graph of $\sin x$ about the line $y=x$ over the appropriate interval.
 

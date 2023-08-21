@@ -22,11 +22,11 @@ Topic::
 #### Device Specification
 All different types of pumps and power supply have different voltage and current requirements.
 
-### Arduino 5v Pin with DC Motors
+### Arduino 5v Pin with Dc Motors
  Carful with connecting DC motor directly to the Arduino using the 5v pins on pin 10 & 11, they will fry the arduino due to over current (with the arduino only handling 200mA.)
 
 
-## 3. Control Design and Linkage to other 
+## 3. Control Design and Linkage to other
 
 Develop a high level design that explores the control and the input $\to$ output to your vehicle.
 
@@ -50,7 +50,7 @@ Arduino as an example. You can use ESP32, Raspberry pi, or no controller (hardwi
 
 ![[Pasted image 20230309123537.png]]
 
-## 5. Examples for control subsystem
+## 5. Examples for Control Subsystem
 ![[Pasted image 20230309123643.png]]
 
 You may use TinkerCAD for Control systems Diagrams & Simulation

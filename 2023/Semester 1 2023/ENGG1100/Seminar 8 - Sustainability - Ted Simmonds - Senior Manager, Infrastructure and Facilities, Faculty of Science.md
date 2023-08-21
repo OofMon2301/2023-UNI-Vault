@@ -35,14 +35,14 @@ In QLD, if you are not a registered professional engineer, it is an offence to c
 > 		(i) is not, or will not be, safe, or
 > 		(ii) does not, or will not, comply with the relevant regulatory provision, or
 > 	(b) the product does not perform, or is not capable of performing, for the use to the standard it is represented to perform by or for a person in the chain of responsibility for the product.
-## Top tips
+## Top Tips
 
 1. Be humble and ready to be constantly learning. This is a trained mindset, not a natural state of being.
 2. Communication is a **major** part of being an engineer. That includes anticipating how you will communicate now with future generations.
 3. Get comfortable with navigating ambiguity and not having a 'firm' answer. These are the questions your clients are paying you to solve.
 
 
-### Audio Transcription 
+### Audio Transcription
  Particular room, you're gonna bang into a lot of stuff. That's exactly what a firefighter is experiencing, and you've gotta recognize that they're experiencing that on the clock, they've got about four, I think it's something like 40 minutes of air, maybe a little bit less in their tank on the back. And if they get disorientated and stuck, guess what happens when that runs out?
 
  They've got no air, they're gonna asphyxiate like anybody in this space. Right, and that is a very, very serious consequence sometimes of these decisions that are made through the code or through to choice. In engineering design, it's a classic in your not so high rise buildings around your eight stories and below that you won't actually have a stair pressurization system.

@@ -9,7 +9,7 @@ Topic: Integration
 #MATH1050 #Calculus
 *This chapter is not fully complete yet and might remain as is.*
 
-## 9.1 Antiderivatives and indefinite integrals
+## 9.1 Antiderivatives and Indefinite Integrals
 
 A function $F$ is called an *antiderivative* of $f$ on an interval $I$ if $F'(x)=f(x)$ for all $x \in I$.
 

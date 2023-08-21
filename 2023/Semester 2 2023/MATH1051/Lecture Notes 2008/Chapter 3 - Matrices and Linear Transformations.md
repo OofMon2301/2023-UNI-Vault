@@ -9,7 +9,7 @@ Topic::
 #Lecture Notes 2008
 # Matrices and Linear Transformations
 
-## 3.1 2 x 2 matrices
+## 3.1 2 X 2 Matrices
 
 Recall that a $2 \times 2$ array of numbers
 $$
@@ -53,7 +53,7 @@ A\mathbf{v} & =\begin{pmatrix}
 \end{pmatrix}
 \end{align}
 $$
-## 3.2 Transformations of the plane
+## 3.2 Transformations of the Plane
 
 In computer graphics there is often a need to transform a set of points, or a figure, that appears on the screen. For example, moving the figure to another part of the screen, rotating the figure about a central point, reflecting the figure in a line, scaling the figure to a new size, or shooting at moving things.
 
@@ -65,7 +65,7 @@ A linear transformation of the $(x,y)-$plane can be represented by a $2 \times 2
 
 Transformations of the plane have important applications in computer graphics and other areas.
 
-### 3.2.1 Transformations of the plane
+### 3.2.1 Transformations of the Plane
 
 A *transformation* of the $(x,y)-$plane is an operation (function) that maps each point of the $(x,y)-$plane to some other point of the $(x,y)-$plane.
 

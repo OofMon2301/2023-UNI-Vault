@@ -16,7 +16,7 @@ Irrational numbers are real numbers which cannot be represented as a ratio of in
 > [!NOTE] Note:
 > Proving Rationality or Irrationality of a given number can be quite subtle.
 
-## 1.2 Real Number Line and Ordering of $\mathbb{R}$
+## 1.2 Real Number line and Ordering of $\mathbb{R}$
 
 The real number system can be visualised by imagining each real number as a point on a line, with the positive direction being to the right, and an arbitrary origin being chosen to represent 0.
 
@@ -54,7 +54,7 @@ x,  & \text{if }x\geq 0 \\
 \end{cases}
 $$
 
-### 1.4.3 Convention for $\sqrt{  }$
+### 1.4.3 Convention for $\sqrt{ }$
 
 For $a>0$, $\sqrt{  a}$ always denotes the positive solution of $x^{2}=a$. Thus $\sqrt{ 4 }=2$ and so on. This means that we can now solve $x^{2}=a$. For $a>0$, solutions to $x^{2}=a$ are $x=\pm \sqrt{ a }$.
 

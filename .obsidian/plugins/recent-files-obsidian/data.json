@@ -1,28 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Homepage",
-      "path": "Homepage.md"
+      "basename": "Derivatives",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md"
     },
     {
-      "basename": "Functions",
-      "path": "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md"
+      "basename": "Chapter 8 - Differentiation",
+      "path": "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md"
+    },
+    {
+      "basename": "Chapter 7 - Functions",
+      "path": "2023/Semester 1 2023/MATH1050/Chapter 7 - Functions.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
     },
     {
       "basename": "Introduction to Computing",
       "path": "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md"
     },
     {
-      "basename": "Sequences",
-      "path": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md"
-    },
-    {
       "basename": "Continuity",
       "path": "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md"
     },
     {
+      "basename": "Functions",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md"
+    },
+    {
       "basename": "Limits",
       "path": "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md"
+    },
+    {
+      "basename": "Sequences",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md"
     },
     {
       "basename": "Chapter 4 - Complex Numbers",
@@ -117,10 +129,6 @@
       "path": "2023/Semester 1 2023/MATH1050/MATH1050 Homepage.md"
     },
     {
-      "basename": "Chapter 8 - Differentiation",
-      "path": "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md"
-    },
-    {
       "basename": "Chapter 3 - Applications of Vectors",
       "path": "2023/Semester 1 2023/MATH1050/Chapter 3 - Applications of Vectors.md"
     },
@@ -161,10 +169,6 @@
       "path": "2023/Semester 1 2023/MATH1050/Week 2 Workshop - Vectors.md"
     },
     {
-      "basename": "Chapter 7 - Functions",
-      "path": "2023/Semester 1 2023/MATH1050/Chapter 7 - Functions.md"
-    },
-    {
       "basename": "Chapter 5 - Matrices",
       "path": "2023/Semester 1 2023/MATH1050/Chapter 5 - Matrices.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pressure",
       "path": "2023/Definitions/Pressure.md"
-    },
-    {
-      "basename": "Drawing 2023-03-14 09.00.56.excalidraw",
-      "path": "Excalidraw/Drawing 2023-03-14 09.00.56.excalidraw.md"
     }
   ],
   "omittedPaths": [],

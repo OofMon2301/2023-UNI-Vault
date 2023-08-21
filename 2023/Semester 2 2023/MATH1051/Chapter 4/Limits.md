@@ -60,7 +60,7 @@ $$
 means that the values of $f(x)$ can be made arbitrarily large negatively by taking $x$ sufficiently close to $a$, but not equal to $a$.
 In these cases, we say that $f(x)$ *diverges* to $\pm \infty$. We also say that the limit does not exist in these cases. Note that the limit properties in [[#^f5589e|Section 4.2]] do not necessarily apply if the limits diverge.
 
-## 4.3 One-sided limits
+## 4.3 One-sided Limits
 
 Consider the piecewise function
 $$
@@ -82,7 +82,7 @@ $$
 $$
 In general, for $\lim_{ x \to a^+ }f(x)=\ell,$ just consider $x$ with $x>a$ and similarly for $\lim_{ x \to a^- }f(x)=\ell$, consider only $x<a$.
 
-## 4.6 Some important limits
+## 4.6 Some Important Limits
 
 The following limits are fundamental. We omit the proofs. Combined with the properties given in [[#4.2 Properties]] and the Squeeze Principle in 4.4, these will enable you to compute a range of other limits.
 $$

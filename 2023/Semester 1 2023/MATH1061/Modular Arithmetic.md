@@ -15,7 +15,7 @@ Definition: Given any $x \in \mathbb{R}$, the floor of $x$, denoted $\lfloor x \
 
 Definition: Given any $x \in \mathbb{R}$, the ceiling of $x$, denoted $\lceil x \rceil$, is the unique integer $n$ such that $n-1<x\leq n$.
 
-#### Examples
+### Examples
 
 Prove the following statements or give a counterexample.
 

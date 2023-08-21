@@ -45,7 +45,7 @@ y_{p}
 
 See: [[2023/Definitions/Magnitude|Magnitude Definition]]
 
-### 2.1.3 Vector Addition
+### 2.1.3 Vector addition
 
 We add vectors by the triangle rule.
 
