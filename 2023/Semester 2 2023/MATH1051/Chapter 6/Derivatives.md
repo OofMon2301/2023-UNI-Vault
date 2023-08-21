@@ -135,3 +135,26 @@ Note $f'(c)$ is the slope of $y=f(x)$ at $x=c$ and $\frac{f(b)-f(a)}{b-a}$ is th
 Suppose that $f$ is continuous on $[a,b]$ and differentiable on $(a,b)$.
 
 ![[Chapter 8 - Differentiation#8.4 Critical Points and Curve Sketching]]
+
+## 6.11 Local Maxima and Minima
+
+A function $f$ has a *local maximum* at $a$ if 
+$$
+f(a)\geq f(x)
+$$
+for all $x$ in some open interval containing $a$.
+
+Similarly, $f$ has *local minimum* at $b$ if 
+$$
+f(b)\geq f(x)
+$$
+for all $x$ in some open interval containing $b$.
+
+### 6.11.1 Critical Points
+
+A function $f$ is said to have a *critical point* at $x=a$, $a \in \text{dom}(f)$ if $f'(a)=0$ or if $f'(a)$ does not exist.
+
+### 6.11.2 Global Maximum and Minimum
+
+![[Chapter 8 - Differentiation#^16e6b7]]
+![[Chapter 8 - Differentiation#^f4176d]]

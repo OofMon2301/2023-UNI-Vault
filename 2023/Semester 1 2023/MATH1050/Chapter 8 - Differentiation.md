@@ -195,9 +195,9 @@ If $f(x)=\ln x$, then $f'(x)=\frac{1}{x}$. Note that here $x>0$ since the domain
 
 ## 8.4 Critical Points and Curve Sketching
 
-A function $f$ has a *global maximum* at $c$ if $f(c)\geq f(x)$ for all $x$ in the domain of $f$. The number $f(c)$ is called the maximum value of $f$ on its domain. A global maximum is also called an *absolute maximum*.
+A function $f$ has a *global maximum* at $c$ if $f(c)\geq f(x)$ for all $x$ in the domain of $f$. The number $f(c)$ is called the maximum value of $f$ on its domain. A global maximum is also called an *absolute maximum*. ^16e6b7
 
-A function $f$ has a *global minimum* at $c$ if  if $f(c)\leq f(x)$ for all $x$ in the domain of $f$. The number $f(c)$ is called the minimum value of $f$ on its domain. A global minimum is also called an *absolute minimum*.
+A function $f$ has a *global minimum* at $c$ if  if $f(c)\leq f(x)$ for all $x$ in the domain of $f$. The number $f(c)$ is called the minimum value of $f$ on its domain. A global minimum is also called an *absolute minimum*. ^f4176d
 
 A function $f$ has a *local maximum* at $c$ if $f(c)\geq f(x)$ for all $x$ near $c$.
 
