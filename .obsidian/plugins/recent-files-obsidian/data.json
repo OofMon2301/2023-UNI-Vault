@@ -5,6 +5,10 @@
       "path": "Homepage.md"
     },
     {
+      "basename": "Functions",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md"
+    },
+    {
       "basename": "Introduction to Computing",
       "path": "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Limits",
       "path": "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md"
-    },
-    {
-      "basename": "Functions",
-      "path": "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md"
     },
     {
       "basename": "Chapter 4 - Complex Numbers",
