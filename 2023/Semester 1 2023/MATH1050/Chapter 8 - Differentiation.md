@@ -6,6 +6,9 @@ tags: lecture
 Topic:: 
 ---
 # [[Chapter 8 - Differentiation]]
+
+^140362
+
 #MATH1050 #Calculus
 # Notes
 *This chapter is not complete and might remain so.*
@@ -21,7 +24,7 @@ We will apply our knowledge of derivatives to sketch the graphs of functions and
 
 Topics in this section are:
 -  Tangent Lines
-- The derivative of a function
+- The derivative of a function ^ee6555
 - Differentiation rules
 - Critical points and curve sketching
 - Applications of differentiation.
