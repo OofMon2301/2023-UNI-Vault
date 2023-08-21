@@ -95,6 +95,9 @@ $$
 \frac{d}{dx}\left( \frac{f(x)}{g(x)} \right)=\frac{\left( g(x) \frac{d}{dx}f(x)-f(x) \frac{d}{dx}g(x) \right)}{(g(x))^2}
 $$
 ### Chain Rule (Composite Function Rule)
+
+^59e87f
+
 If $f$ and $g$ are both differentiable functions, then
 $$
 (f\circ g)'(x)=f'(g(x))g'(x)
@@ -103,7 +106,7 @@ If $y=f(u)$ and $u=g(x)$, then this rule can be written as
 $$
 \frac{dy}{dx}=\frac{dy}{du} \frac{du}{dx}.
 $$
-To apply the chain rule, think about starting with the outside function and working your way in. 
+To apply the chain rule, think about starting with the outside function and working your way in.  ^1b528e
 
 ---
 

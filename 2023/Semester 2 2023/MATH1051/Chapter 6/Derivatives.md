@@ -45,4 +45,4 @@ f'(x) & =\lim_{ h \to 0 } \frac{f(x+h)-f(x)}{h} \\
 $$
 ## 6.4 Chain Rule
 
-[[Chapter 8 - Differentiation]]
+![[Chapter 8 - Differentiation#^59e87f]]
