@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Mid-Semester Exam",
-      "path": "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md"
+      "basename": "Series",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md"
     },
     {
       "basename": "Derivatives",
       "path": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md"
     },
     {
-      "basename": "Chapter 8 - Differentiation",
-      "path": "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md"
-    },
-    {
       "basename": "Homepage",
       "path": "Homepage.md"
+    },
+    {
+      "basename": "Mid-Semester Exam",
+      "path": "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md"
+    },
+    {
+      "basename": "Chapter 8 - Differentiation",
+      "path": "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md"
     },
     {
       "basename": "Chapter 7 - Functions",
@@ -195,10 +199,6 @@
     {
       "basename": "Professional Engineering",
       "path": "2023/Definitions/Professional Engineering.md"
-    },
-    {
-      "basename": "Drawing 2023-03-16 20.05.36.excalidraw",
-      "path": "Excalidraw/Drawing 2023-03-16 20.05.36.excalidraw.md"
     }
   ],
   "omittedPaths": [],
