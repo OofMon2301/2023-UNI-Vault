@@ -158,3 +158,4 @@ A function $f$ is said to have a *critical point* at $x=a$, $a \in \text{dom}(f)
 
 ![[Chapter 8 - Differentiation#^16e6b7]]
 ![[Chapter 8 - Differentiation#^f4176d]]
+
