@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "49f2068fb2f4a2d6",
+            "id": "85b210ad3ca1c651",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
-                "mode": "source",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md"
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md"
               }
             }
           }
@@ -185,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,11 +233,11 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "49f2068fb2f4a2d6",
+  "active": "85b210ad3ca1c651",
   "lastOpenFiles": [
-    "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
     "Homepage.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
     "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
     "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
     "2023/Semester 2 2023/ENGG1300/Untitled.md",
