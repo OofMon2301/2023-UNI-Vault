@@ -135,4 +135,25 @@ The alternating series test can only be used to show convergence, not divergence
 A series $\sum_{n=0}^\infty a_{n}$ is called *absolutely convergent* if the series $\sum_{n=0}^\infty |a_{n}|$ is convergent.
 A series $\sum_{n=0}^\infty a_{n}$ is called *conditionally convergent* if it is convergent, but not absolutely convergent.
 
+### 7.11.1 Example
+
+Are the following series conditionally or absolutely convergent?
+
+$$
+\sum_{n=1}^\infty (-1)^n \frac{1}{n}
+$$
+
+$\sum_{n=1}^\infty (-1)^n \frac{1}{n}$ is an alternating series with $b_{n} = \frac{1}{n}$. Since $b_{n}>b_{n+1}$, for all $n \geq 1$, and $\lim_{ n \to \infty }b_{n}=0$, then by the alternating series test, this series converges.
+
+Now let $a_{n}=(-1)^n \frac{1}{n}$ for $n \geq 1$. Then
+$$
+\sum_{n=1}^\infty|a_{n}| = \sum_{n=1}^\infty \frac{1}{n},
+$$
+and this series is divergent ($p$-series with $p=1$.)
+
+Consequently, the series is conditionally convergent.
+
+
 ## 7.12 The Ratio Test
+
+

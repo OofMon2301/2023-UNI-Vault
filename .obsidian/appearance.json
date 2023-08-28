@@ -8,7 +8,7 @@
   "cssTheme": "Border",
   "nativeMenus": false,
   "translucency": false,
-  "baseFontSize": 20,
+  "baseFontSize": 22,
   "textFontFamily": "CMU Serif",
   "monospaceFontFamily": "Cascadia Mono"
 }

@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "70c538e7364112c3",
+            "id": "acf873e4f0b4765a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md"
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md"
               }
             }
           }
@@ -185,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,22 +229,21 @@
       "omnisearch:Omnisearch": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "70c538e7364112c3",
+  "active": "acf873e4f0b4765a",
   "lastOpenFiles": [
     "Homepage.md",
+    "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
+    "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
     "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
     "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
-    "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
-    "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
     "2023/Semester 2 2023/ENGG1300/Untitled.md",
     "2023/Semester 1 2023/MATH1050/Chapter 7 - Functions.md",
     "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md",
     "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
     "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md",
     "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
     "Attachment Folder/Pasted image 20230731090857.png",
