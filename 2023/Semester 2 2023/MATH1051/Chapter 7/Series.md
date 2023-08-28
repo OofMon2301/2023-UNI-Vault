@@ -153,7 +153,14 @@ and this series is divergent ($p$-series with $p=1$.)
 
 Consequently, the series is conditionally convergent.
 
-
 ## 7.12 The Ratio Test
 
+A powerful test for convergence of series is the ratio test. We will use it extensively in the following sections.
 
+If $\lim_{ n \to \infty }\mid \frac{a_{n+1}}{a_{n}}\mid = L<1$, then the series $\sum_{n=1}^\infty a_{n}$ is absolutely convergent (and therefore convergent).
+
+If $\lim_{ n \to \infty }\mid \frac{a_{n+1}}{a_{n}}\mid = L>1$ or $\lim_{ n \to \infty }\mid \frac{a_{n+1}}{a_{n}}\mid = \infty$, then the series $\sum_{n=1}^\infty a_{n}$ is divergent.
+
+If $\lim_{ n \to \infty }\mid \frac{a_{n+1}}{a_{n}}\mid = 1$, then the ratio test is inconclusive.
+
+If $\lim_{ n \to \infty }\mid \frac{a_{n+1}}{a_{n}}\mid$ is not defined, then the ratio test is inconclusive.
