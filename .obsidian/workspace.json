@@ -118,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5,
-    "collapsed": true
+    "width": 353.5
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -229,8 +228,7 @@
       "omnisearch:Omnisearch": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "acf873e4f0b4765a",
