@@ -1,32 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Series",
-      "path": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md"
+      "basename": "Derivatives",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md"
+    },
+    {
+      "basename": "Sequences",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md"
     },
     {
       "basename": "Homepage",
       "path": "Homepage.md"
     },
     {
-      "basename": "Chapter 8 - Differentiation",
-      "path": "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md"
+      "basename": "Continuity",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md"
+    },
+    {
+      "basename": "Limits",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md"
+    },
+    {
+      "basename": "Series",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md"
     },
     {
       "basename": "Functions",
       "path": "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md"
     },
     {
+      "basename": "Chapter 8 - Differentiation",
+      "path": "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md"
+    },
+    {
       "basename": "Mid-Semester Exam",
       "path": "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md"
-    },
-    {
-      "basename": "Derivatives",
-      "path": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md"
-    },
-    {
-      "basename": "Continuity",
-      "path": "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md"
     },
     {
       "basename": "Chapter 7 - Functions",
@@ -35,14 +43,6 @@
     {
       "basename": "Introduction to Computing",
       "path": "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md"
-    },
-    {
-      "basename": "Limits",
-      "path": "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md"
-    },
-    {
-      "basename": "Sequences",
-      "path": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md"
     },
     {
       "basename": "Chapter 4 - Complex Numbers",

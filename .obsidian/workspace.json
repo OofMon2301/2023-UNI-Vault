@@ -22,19 +22,29 @@
             }
           },
           {
-            "id": "acf873e4f0b4765a",
+            "id": "9ad3717f0b6b7722",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "d583d7a36283193c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -64,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "squeeze",
+                "query": "Continuous Extension",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +107,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "a14c5693f5463fc1",
@@ -110,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md"
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md"
               }
             }
           }
@@ -184,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,20 +242,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "acf873e4f0b4765a",
+  "active": "d583d7a36283193c",
   "lastOpenFiles": [
-    "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
     "Homepage.md",
-    "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
-    "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
     "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
+    "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
+    "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
     "2023/Semester 2 2023/ENGG1300/Untitled.md",
     "2023/Semester 1 2023/MATH1050/Chapter 7 - Functions.md",
     "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
     "Attachment Folder/Pasted image 20230731090857.png",
     "2023/Semester 1 2023/MATH1050/Chapter 4 - Complex Numbers.md",
     "2023/Semester 1 2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md",
