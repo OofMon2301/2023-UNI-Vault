@@ -8,10 +8,6 @@ Topic::
 # [[Functions]]
 #MATH1051
 
-```toc
-```
-
-
 ## 2.1 Definition: Function, Domain, Range
 
 Let $X$ and $Y$ be subsets of $\mathbb{R}$. A function $f:X \to Y$ is a rule which assigns to every element $x\in X$ *exactly one* element $f(x)\in Y$ called the value of $f$ at $x$. Here $X$ is called the *domain* of $f$ and 

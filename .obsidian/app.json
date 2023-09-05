@@ -10,11 +10,11 @@
   "showFrontmatter": false,
   "strictLineBreaks": true,
   "pdfExportSettings": {
-    "includeName": false,
+    "includeName": true,
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 90
+    "downscalePercent": 75
   },
   "rightToLeft": false,
   "showLineNumber": true

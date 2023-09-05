@@ -7,11 +7,6 @@ Topic::
 ---
 # [[Continuity]]
 #MATH1051 
-
-```toc
-```
-
-
 ## 5.1 Definition of Continuity
 We say that a function $f$ is *continuous at* $a$ if $f(a)$ is defined, $\lim_{ x \to a }f(x)$ exists and $\lim_{ x \to a }f(x)=f(a)$. ^cde39d
 
@@ -59,26 +54,12 @@ Suppose that $f$ is continuous on the closed interval $[a,b]$ and let $N$ be any
 
 ### 5.4.1 Example
 
-You want to show that there is at least one real solution for a function. Say, for example, show that the equation  $3x+2\cos x+5=0$ has one real solution for $x$.
-
-First, you can just test out any two numbers in between the function that would make sense. Since we have a cosine ($\cos x$), we will use $-\pi$ or $\pi$ for one of our $x$.
-$$
-f(0) = 0+2+\cos(0)+5
-$$
-$$
-f(0)=7,\quad 7>0
-$$
-Now that we shown that this $x$ bound is too big, we go for a smaller number, say $-\pi$.
-$$
-f(-\pi) = -3\pi+2\cos(-\pi)+5
-$$
-$$
-f(-\pi)=-3\pi-2+5
-$$
-$$
-f(-\pi) = 3(-\pi+1), \quad 3(-\pi+1)<0
-$$
-Since the higher bound of $x$ and the lower bound of $x$ are between 0, that means that there will be a real solution for $x$ at some point in between.
+Suppose that a function $f$ is continuous everywhere and that $f(-2)=3,f(-1)=-1,f(0)=-4,f(1)=1$, and $f(2)=5$. Does the Intermediate Value Theorem guarantee that $f$ has a root on the following intervals?
+1. $[-2,-1]$ - Yes
+2. $[-1,0]$ - No
+3. $[-1,1]$ - Yes
+4. $[0,2]$ - Yes
+5. $[1,3]$ - No
 
 ## 5.5 Application of the IVT (Bisection Method)
 The *bisection method* is a procedure for approximating the zeros of a continuous function. It first cuts the interval $[a,b]$ in half (say, at a point $c$) and then decides in which of the smaller intervals ($[a,c]$, or $[c,b]$) the zero lies. This process is repeated until the interval is small enough to give a significant approximation of the zero itself.

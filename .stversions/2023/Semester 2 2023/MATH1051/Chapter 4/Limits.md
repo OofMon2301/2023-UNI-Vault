@@ -7,11 +7,6 @@ Topic::
 ---
 # [[Limits]]
 #MATH1051
-
-```toc
-```
-
-
 # Notes
 
 Limits arise when we want to find the tangent to the curve or the velocity of an object, for example. Once we understand limits, we can proceed to studying continuity and calculus in general. You should be aware that limits are a fundamental notion to calculus, so it is important to understand them well.

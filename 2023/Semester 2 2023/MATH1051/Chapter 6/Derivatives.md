@@ -7,6 +7,10 @@ Topic::
 ---
 # [[Derivatives]]
 #MATH1051
+
+```toc
+```
+
 # Derivatives
 
 Finding the instantaneous velocity of a moving object and other problems involving *rates of change* are situations where derivatives can be used as a powerful tool. All rates of change can be interpreted as *slopes* of appropriate tangents. Therefore we shall consider the tangent problem and how it leads to a precise definition of the derivative.

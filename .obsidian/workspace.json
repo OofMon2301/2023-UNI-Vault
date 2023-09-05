@@ -27,24 +27,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
+                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "d583d7a36283193c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.5"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,8 +97,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a14c5693f5463fc1",
@@ -121,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md"
+                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md"
               }
             }
           }
@@ -129,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 353.5,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -195,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
+                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
+                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,15 +229,22 @@
       "omnisearch:Omnisearch": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "d583d7a36283193c",
+  "active": "9ad3717f0b6b7722",
   "lastOpenFiles": [
-    "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
-    "Homepage.md",
     "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
+    "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
     "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
+    "2023/Semester 2 2023/MATH1051/Revision/REVISION DOCUMENT FOR MIDSEM.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.sync-conflict-20230905-212624-IT5FHVH.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 6/~syncthing~Derivatives.sync-conflict-20230905-212624-IT5FHVH.md.tmp",
+    "2023/Semester 2 2023/MATH1051/Revision/~syncthing~REVISION DOCUMENT FOR MIDSEM.md.tmp",
+    "2023/Semester 2 2023/MATH1051/Chapter 2/~syncthing~Functions.md.tmp",
+    "Homepage.md",
     "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md",
     "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
     "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
@@ -275,12 +272,6 @@
     "2023/Semester 2 2023/MATH1051/Chapter 15",
     "2023/Semester 2 2023/MATH1051/Chapter 14",
     "2023/Semester 2 2023/MATH1051/Chapter 13",
-    "2023/Semester 2 2023/MATH1051/Chapter 12",
-    "2023/Semester 2 2023/MATH1051/Chapter 11",
-    "2023/Semester 2 2023/MATH1051/Chapter 10",
-    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
-    "2023/Definitions/Projection Formula.md",
-    "2023/Definitions/Magnitude.md",
     "Attachment Folder/Pasted image 20230703084721.png",
     "Attachment Folder/Pasted image 20230403214435.png",
     "Attachment Folder/Pasted image 20230403214205.png",

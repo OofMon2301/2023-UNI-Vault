@@ -7,11 +7,6 @@ Topic::
 ---
 # [[Sequences]]
 #MATH1051
-
-```toc
-```
-
-
 # 3 Sequences
 
 A sequence $\{a_{n}\}$ is an ordered list of numbers
@@ -25,6 +20,10 @@ A sequence can contain a finite number of terms or may continue forever.
 More formally, a sequence is a function, with domain being $\{0,1,2,3,\dots\}$. We can also take the domain as $\{1,2,3,\dots\}$ and start the sequence at $a_{1}$ rather than $a_{0}$.
 
 If $a:\{0,1,2,\dots\}\to \mathbb{R}$ is a function, viewed as a sequence, then we write $a_{0}$ instead of $a(0)$, $a_{1}$ instead of $a(1)$, etc.
+
+### 3.1.1 Motivation
+
+Infinite sequences of numbers are useful in many applications. The sequence might represent approximations to the solution of a problem such as the bisection method. Or the sequence might represent a *time series*, where the numbers represent the population each year. Mathematically, we are interested in how the sequence behaves as the number of terms becomes large: does it converge to a solution, or how fast does the population grow? Sequences can also appear from the partial sums in an *infinite series*, which comprises our next major topic.
 
 ## 3.2 Representations
 
