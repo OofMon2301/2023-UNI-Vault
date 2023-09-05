@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -118,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5,
-    "collapsed": true
+    "width": 353.5
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -185,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,10 +231,10 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "9ad3717f0b6b7722",
+  "active": "04c44a456f92b0a1",
   "lastOpenFiles": [
-    "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
     "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
     "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
     "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
     "2023/Semester 2 2023/MATH1051/Revision/REVISION DOCUMENT FOR MIDSEM.md",

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
       "basename": "Revision Doc - Mid-Semester Exam",
       "path": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Derivatives",
       "path": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
     },
     {
       "basename": "Limits",
