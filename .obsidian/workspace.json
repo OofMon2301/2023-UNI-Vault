@@ -33,7 +33,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage.md"
+                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md"
               }
             }
           }
@@ -183,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
+                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
+                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,18 +232,18 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "04c44a456f92b0a1",
+  "active": "9ad3717f0b6b7722",
   "lastOpenFiles": [
+    "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
+    "Homepage.md",
     "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
     "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
     "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
     "2023/Semester 2 2023/MATH1051/Revision/REVISION DOCUMENT FOR MIDSEM.md",
     "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.sync-conflict-20230905-212624-IT5FHVH.md",
     "2023/Semester 2 2023/MATH1051/Chapter 6/~syncthing~Derivatives.sync-conflict-20230905-212624-IT5FHVH.md.tmp",
     "2023/Semester 2 2023/MATH1051/Revision/~syncthing~REVISION DOCUMENT FOR MIDSEM.md.tmp",
     "2023/Semester 2 2023/MATH1051/Chapter 2/~syncthing~Functions.md.tmp",
-    "Homepage.md",
     "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md",
     "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
     "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
