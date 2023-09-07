@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Series",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
+      "basename": "Revision Doc - Mid-Semester Exam",
+      "path": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md"
+    },
+    {
       "basename": "Derivatives",
       "path": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md"
     },
@@ -9,24 +21,12 @@
       "path": "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md"
     },
     {
-      "basename": "Revision Doc - Mid-Semester Exam",
-      "path": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
-    },
-    {
       "basename": "Sequences",
       "path": "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md"
     },
     {
       "basename": "Limits",
       "path": "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md"
-    },
-    {
-      "basename": "Series",
-      "path": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md"
     },
     {
       "basename": "Functions",
