@@ -167,7 +167,8 @@
       "obsidian-plugin-update-tracker:Plugin Update Tracker": false,
       "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
   "active": "bfe11e2d03d29459",
