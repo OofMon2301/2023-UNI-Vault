@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Integration",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md"
+    },
+    {
       "basename": "Revision Doc - Mid-Semester Exam",
       "path": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Logical Form and Logical Equivalence",
       "path": "2023/Semester 1 2023/MATH1061/Logical Form and Logical Equivalence.md"
-    },
-    {
-      "basename": "Sustainable Practices",
-      "path": "2023/Definitions/Sustainable Practices.md"
     }
   ],
   "omittedPaths": [],

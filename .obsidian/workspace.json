@@ -27,24 +27,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "63b59c62c6cf5bf6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.11"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +97,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "a14c5693f5463fc1",
@@ -120,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md"
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md"
               }
             }
           }
@@ -128,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 353.5,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -204,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,17 +237,21 @@
       "dbfolder:Create a new database table": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-projects:Open projects": false,
-      "omnisearch:Omnisearch": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "63b59c62c6cf5bf6",
+  "active": "9ad3717f0b6b7722",
   "lastOpenFiles": [
+    "Attachment Folder/Pasted image 20230912120643.png",
+    "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 8/Power Series and Taylor Series.md",
     "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
     "Homepage.md",
-    "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
     "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
     "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
     "2023/Semester 2 2023/MATH1051/Revision/REVISION DOCUMENT FOR MIDSEM.md",
@@ -281,9 +277,6 @@
     "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md",
     "2023/Semester 2 2023/CSSE1001",
     "Random Stuff/Templates/Lecture.md",
-    "Random Stuff/Templates/Definitions.md",
-    "2023/Semester 2 2023/MATH1051/Welcome to MATH1051.md",
-    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 3 - Matrices and Linear Transformations.md",
     "2023/Semester 2 2023/MATH1051/Revision",
     "2023/Semester 2 2023/MATH1051/Chapter 17",
     "2023/Semester 2 2023/MATH1051/Chapter 16",
