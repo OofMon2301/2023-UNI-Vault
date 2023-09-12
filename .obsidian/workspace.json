@@ -32,9 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "63b59c62c6cf5bf6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.11"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,6 +180,16 @@
               "type": "copilot-chat-view",
               "state": {}
             }
+          },
+          {
+            "id": "f520a335b8168777",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -228,11 +248,10 @@
       "omnisearch:Omnisearch": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9ad3717f0b6b7722",
+  "active": "63b59c62c6cf5bf6",
   "lastOpenFiles": [
     "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
     "Homepage.md",
