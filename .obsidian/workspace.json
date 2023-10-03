@@ -22,11 +22,15 @@
             }
           },
           {
-            "id": "c76e1545000fd1ff",
+            "id": "94dfe4b96f0c0947",
             "type": "leaf",
             "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Random Stuff/Templates/Lecture.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -60,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Continuous Extension",
+                "query": "tag:lecture",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +97,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "a14c5693f5463fc1",
@@ -106,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md"
+                "file": "Homepage.md"
               }
             }
           }
@@ -168,7 +173,7 @@
             }
           },
           {
-            "id": "f520a335b8168777",
+            "id": "560a3d59af6ed902",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -176,9 +181,19 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "8e7c0e323b82cc91",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Homepage.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       },
       {
         "id": "b2e398d710777b6e",
@@ -190,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,23 +244,23 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-projects:Open projects": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "omnisearch:Omnisearch": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false,
-      "dbfolder:Create a new database table": false
+      "dbfolder:Create a new database table": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-projects:Open projects": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "c76e1545000fd1ff",
+  "active": "9086fba33c94ae1b",
   "lastOpenFiles": [
+    "Homepage.md",
     "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
     "Attachment Folder/Pasted image 20230912120643.png",
     "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
     "2023/Semester 2 2023/MATH1051/Chapter 8/Power Series and Taylor Series.md",
     "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
-    "Homepage.md",
     "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
     "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
     "2023/Semester 2 2023/MATH1051/Revision/REVISION DOCUMENT FOR MIDSEM.md",

@@ -7,6 +7,5 @@ Topic::
 ---
 # [[<% tp.file.title %>]]
 #<% tp.file.folder(true).split('/')[2] %>
-# Notes
 
 

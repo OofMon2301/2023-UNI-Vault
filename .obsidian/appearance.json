@@ -5,10 +5,10 @@
     "dashboard"
   ],
   "theme": "obsidian",
-  "cssTheme": "Border",
+  "cssTheme": "Spectrum",
   "nativeMenus": false,
   "translucency": false,
-  "baseFontSize": 22,
+  "baseFontSize": 16,
   "textFontFamily": "CMU Serif",
   "monospaceFontFamily": "Cascadia Mono"
 }
