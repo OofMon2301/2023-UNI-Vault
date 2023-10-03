@@ -5,7 +5,7 @@
     "dashboard"
   ],
   "theme": "obsidian",
-  "cssTheme": "Spectrum",
+  "cssTheme": "Sanctum",
   "nativeMenus": false,
   "translucency": false,
   "baseFontSize": 16,

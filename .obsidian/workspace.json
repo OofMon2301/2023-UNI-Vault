@@ -22,19 +22,31 @@
             }
           },
           {
-            "id": "94dfe4b96f0c0947",
+            "id": "bafe0e580478286e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://github.com/jrymk/restore-tab-key"
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "ea29bd35cfe981df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random Stuff/Templates/Lecture.md",
+                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,8 +109,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a14c5693f5463fc1",
@@ -111,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage.md"
+                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md"
               }
             }
           }
@@ -188,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Homepage.md"
+                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md"
               }
             }
           }
@@ -205,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
+                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
+                "file": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,9 +264,10 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "9086fba33c94ae1b",
+  "active": "ea29bd35cfe981df",
   "lastOpenFiles": [
     "Homepage.md",
+    "Random Stuff/Templates/Lecture.md",
     "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
     "Attachment Folder/Pasted image 20230912120643.png",
     "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
@@ -285,7 +297,6 @@
     "2023/Semester 2 2023/MATH1051/Chapter 0/Introduction to MATLAB.md",
     "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md",
     "2023/Semester 2 2023/CSSE1001",
-    "Random Stuff/Templates/Lecture.md",
     "2023/Semester 2 2023/MATH1051/Revision",
     "2023/Semester 2 2023/MATH1051/Chapter 17",
     "2023/Semester 2 2023/MATH1051/Chapter 16",
