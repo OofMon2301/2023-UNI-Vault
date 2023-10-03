@@ -1,7 +1,7 @@
 ---
 cssclass: dashboard
 banner: "![[wallhaven-57o619.png]]"
-banner_y: 0.44133
+banner_y: 0.51467
 obsidianUIMode: preview
 banner_x: 0.5
 ---
