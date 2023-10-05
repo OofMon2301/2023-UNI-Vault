@@ -1,0 +1,4 @@
+.CodeMirror-cursor,
+.cm-s-obsidian .cm-cursor {
+  transition: all 80ms;
+}

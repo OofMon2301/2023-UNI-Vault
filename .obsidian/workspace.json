@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "0f817f5b80272497",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage.md"
+                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md"
               }
             }
           }
@@ -174,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Homepage.md"
+                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md"
               }
             }
           }
@@ -191,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
+                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
+                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,14 +248,14 @@
       "omnisearch:Omnisearch": false,
       "dbfolder:Create a new database table": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-projects:Open projects": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "04c44a456f92b0a1",
+  "active": "0f817f5b80272497",
   "lastOpenFiles": [
-    "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
     "Homepage.md",
+    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
     "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
     "Random Stuff/Templates/Lecture.md",
     "Attachment Folder/Pasted image 20230912120643.png",

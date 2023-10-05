@@ -2,7 +2,8 @@
   "accentColor": "",
   "enabledCssSnippets": [
     "dashboard-readable-line-length",
-    "dashboard"
+    "dashboard",
+    "smoothcursor"
   ],
   "theme": "obsidian",
   "cssTheme": "Sanctum",
