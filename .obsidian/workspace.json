@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "0f817f5b80272497",
+            "id": "7c1b2f26b2adfdee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
-                "mode": "source",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:lecture",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +97,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "a14c5693f5463fc1",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md"
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md"
               }
             }
           }
@@ -187,7 +188,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md"
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md"
               }
             }
           }
@@ -204,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,7 +252,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "0f817f5b80272497",
+  "active": "7c1b2f26b2adfdee",
   "lastOpenFiles": [
     "Homepage.md",
     "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
