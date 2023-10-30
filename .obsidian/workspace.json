@@ -32,9 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8cb97fe15155f44e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,8 +107,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a14c5693f5463fc1",
@@ -252,7 +261,7 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "7c1b2f26b2adfdee",
+  "active": "8cb97fe15155f44e",
   "lastOpenFiles": [
     "Homepage.md",
     "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
