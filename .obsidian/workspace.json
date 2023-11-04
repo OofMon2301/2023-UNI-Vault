@@ -27,24 +27,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "8cb97fe15155f44e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md"
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md"
               }
             }
           }
@@ -197,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md"
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md"
               }
             }
           }
@@ -214,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,14 +248,16 @@
       "omnisearch:Omnisearch": false,
       "dbfolder:Create a new database table": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "8cb97fe15155f44e",
+  "active": "7c1b2f26b2adfdee",
   "lastOpenFiles": [
     "Homepage.md",
-    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
     "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
     "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
     "Random Stuff/Templates/Lecture.md",
     "Attachment Folder/Pasted image 20230912120643.png",
@@ -279,7 +271,6 @@
     "2023/Semester 2 2023/MATH1051/Revision/~syncthing~REVISION DOCUMENT FOR MIDSEM.md.tmp",
     "2023/Semester 2 2023/MATH1051/Chapter 2/~syncthing~Functions.md.tmp",
     "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
     "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
     "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
     "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
