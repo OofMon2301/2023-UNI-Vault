@@ -248,8 +248,7 @@
       "omnisearch:Omnisearch": false,
       "dbfolder:Create a new database table": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-projects:Open projects": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "obsidian-projects:Open projects": false
     }
   },
   "active": "7c1b2f26b2adfdee",
