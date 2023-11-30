@@ -3,30 +3,61 @@
   "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "prefix",
   "fuzzyMatch": true,
+  "minFuzzyMatchScore": 0.3,
   "matchingWithoutEmoji": true,
   "treatAccentDiacriticsAsAlphabeticCharacters": false,
   "maxNumberOfSuggestions": 5,
-  "maxNumberOfWordsAsPhrase": 3,
-  "minNumberOfCharactersTriggered": 0,
+  "maxNumberOfWordsAsPhrase": 2,
+  "minNumberOfCharactersTriggered": 1,
   "minNumberOfWordsTriggeredPhrase": 1,
   "complementAutomatically": true,
   "delayMilliSeconds": 0,
   "disableSuggestionsDuringImeOn": false,
-  "insertAfterCompletion": false,
+  "insertAfterCompletion": true,
   "firstCharactersDisableSuggestions": ":/^",
-  "useCommonPrefixCompletionOfSuggestion": false,
   "patternsToSuppressTrigger": [
     "^~~~.*",
     "^```.*"
   ],
-  "showMatchStrategy": false,
+  "phrasePatternsToSuppressTrigger": [],
+  "noAutoFocusUntilCycle": false,
+  "showMatchStrategy": true,
   "showComplementAutomatically": false,
-  "showIndexingStatus": false,
+  "showIndexingStatus": true,
   "descriptionOnSuggestion": "Full",
-  "selectSuggestionKeys": "Tab",
-  "additionalCycleThroughSuggestionsKeys": "None",
-  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
-  "openSourceFileKey": "None",
+  "hotkeys": {
+    "select": [
+      {
+        "modifiers": [],
+        "key": "Tab",
+        "hideHotkeyGuide": false
+      }
+    ],
+    "up": [
+      {
+        "modifiers": [],
+        "key": "ArrowUp"
+      }
+    ],
+    "down": [
+      {
+        "modifiers": [],
+        "key": "ArrowDown"
+      }
+    ],
+    "select 1st": [],
+    "select 2nd": [],
+    "select 3rd": [],
+    "select 4th": [],
+    "select 5th": [],
+    "select 6th": [],
+    "select 7th": [],
+    "select 8th": [],
+    "select 9th": [],
+    "open": [],
+    "completion": [],
+    "insert as text": []
+  },
   "propagateEsc": false,
   "enableCurrentFileComplement": true,
   "currentFileMinNumberOfCharacters": 0,
@@ -53,503 +84,22 @@
     "beforeRegExp": "",
     "after": ""
   },
+  "frontMatterKeyForExclusionInternalLink": "",
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
   "intelligentSuggestionPrioritization": {
+    "enabled": true,
+    "historyFilePath": "",
     "maxDaysToKeepHistory": 30,
     "maxNumberOfHistoryToKeep": 0
   },
   "disableOnMobile": false,
   "showLogAboutPerformanceInConsole": true,
-  "selectionHistoryTree": {
-    "polynomial": {
-      "polynomial": {
-        "currentFile": {
-          "count": 12,
-          "lastUpdated": 1681641539386
-        }
-      }
-    },
-    "vertical": {
-      "vertical": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1681557971428
-        }
-      }
-    },
-    "representation": {
-      "representation": {
-        "currentFile": {
-          "count": 5,
-          "lastUpdated": 1681554266908
-        }
-      }
-    },
-    "distance": {
-      "distance": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681554419990
-        }
-      }
-    },
-    "temperature": {
-      "temperature": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681554582505
-        }
-      }
-    },
-    "describes": {
-      "describes": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681554796332
-        }
-      }
-    },
-    "population": {
-      "population": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1681640281778
-        }
-      }
-    },
-    "function": {
-      "function": {
-        "currentFile": {
-          "count": 23,
-          "lastUpdated": 1683858259984
-        }
-      }
-    },
-    "Introduction": {
-      "Introduction": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681554920876
-        }
-      }
-    },
-    "Function": {
-      "Function": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681554922453
-        }
-      }
-    },
-    "radius": {
-      "radius": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681557611105
-        }
-      }
-    },
-    "degree": {
-      "degree": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1681640335883
-        }
-      }
-    },
-    "number": {
-      "number": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681640312065
-        }
-      }
-    },
-    "horizontal": {
-      "horizontal": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1683261315417
-        }
-      }
-    },
-    "defines": {
-      "defines": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681640555107
-        }
-      }
-    },
-    "formula": {
-      "formula": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1683261932473
-        }
-      }
-    },
-    "quadratic": {
-      "quadratic": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681640695483
-        }
-      }
-    },
-    "shape": {
-      "shape": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681640729118
-        }
-      }
-    },
-    "cubic": {
-      "cubic": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681640736363
-        }
-      }
-    },
-    "absolute": {
-      "absolute": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681641425505
-        }
-      }
-    },
-    "value": {
-      "value": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681641428165
-        }
-      }
-    },
-    "Untitled": {
-      "Untitled": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1681641556320
-        }
-      }
-    },
-    "specified": {
-      "specified": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681641590333
-        }
-      }
-    },
-    "professional": {
-      "professional": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1681956850728
-        }
-      }
-    },
-    "engineer": {
-      "engineer": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1682562968569
-        }
-      }
-    },
-    "engineering": {
-      "engineering": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1682562961712
-        }
-      }
-    },
-    "development": {
-      "development": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681957118150
-        }
-      }
-    },
-    "Sustainable Practices": {
-      "Sustainable Practices": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1681957196267
-        }
-      }
-    },
-    "product": {
-      "product": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1681957662671
-        }
-      }
-    },
-    "non-conforming": {
-      "non-conforming": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681957529336
-        }
-      }
-    },
-    "Direct Proofs and Counterexamples": {
-      "Direct Proofs and Counterexamples": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1681965180386
-        }
-      }
-    },
-    "divisor": {
-      "divisor": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681965282820
-        }
-      }
-    },
-    "divisible": {
-      "divisible": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1681965629524
-        }
-      }
-    },
-    "Definition": {
-      "Definition": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1681968242753
-        }
-      }
-    },
-    "Counterexample": {
-      "Counterexample": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681967726477
-        }
-      }
-    },
-    "congruent": {
-      "congruent": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1681968295383
-        }
-      }
-    },
-    "effectively": {
-      "effectively": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1682561978951
-        }
-      }
-    },
-    "infromations": {
-      "infromations": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1682562459422
-        }
-      }
-    },
-    "environment": {
-      "environment": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1682562962919
-        }
-      }
-    },
-    "qualified": {
-      "qualified": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1682562966505
-        }
-      }
-    },
-    "asymptote": {
-      "asymptote": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1683261316460
-        }
-      }
-    },
-    "logarithmic": {
-      "logarithmic": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1683261439061
-        }
-      }
-    },
-    "\\infty": {
-      "\\infty": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683261450082
-        }
-      }
-    },
-    "Inequalities": {
-      "Inequalities": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683261510045
-        }
-      }
-    },
-    "inequalities": {
-      "inequalities": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1683261546314
-        }
-      }
-    },
-    "similar": {
-      "similar": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683261515438
-        }
-      }
-    },
-    "multiply": {
-      "multiply": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683261808309
-        }
-      }
-    },
-    "trigonometric": {
-      "trigonometric": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1683262140090
-        }
-      }
-    },
-    "corresponds": {
-      "corresponds": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683262129685
-        }
-      }
-    },
-    "element": {
-      "element": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683262453042
-        }
-      }
-    },
-    "domain": {
-      "domain": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683262458106
-        }
-      }
-    },
-    "particular": {
-      "particular": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683262464659
-        }
-      }
-    },
-    "arbitrarily": {
-      "arbitrarily": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683262662834
-        }
-      }
-    },
-    "sides": {
-      "sides": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683262680437
-        }
-      }
-    },
-    "approach": {
-      "approach": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683263518367
-        }
-      }
-    },
-    "continuous": {
-      "continuous": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1683857979722
-        }
-      }
-    },
-    "derivative": {
-      "derivative": {
-        "currentFile": {
-          "count": 7,
-          "lastUpdated": 1683889718838
-        }
-      }
-    },
-    "calcualte": {
-      "calcualte": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683858252342
-        }
-      }
-    },
-    "calculate": {
-      "calculate": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683858255120
-        }
-      }
-    },
-    "differentiation": {
-      "differentiation": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1683889800477
-        }
-      }
-    },
-    "respect": {
-      "respect": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1683889698116
-        }
-      }
-    }
-  }
+  "selectionHistoryTree": {},
+  "useCommonPrefixCompletionOfSuggestion": false,
+  "selectSuggestionKeys": "Tab",
+  "additionalCycleThroughSuggestionsKeys": "None",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "openSourceFileKey": "None"
 }

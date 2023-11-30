@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "d979e9f2fd5a4a17",
+            "id": "78e26e46c4fc37bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -249,14 +249,16 @@
       "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "dbfolder:Create a new database table": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "d979e9f2fd5a4a17",
+  "active": "78e26e46c4fc37bb",
   "lastOpenFiles": [
-    "Homepage.md",
-    "2023/Summer Semester/MATH1052/Week 1/Lecture Notes.md",
     "2023/Definitions/ODE.md",
+    "2023/Summer Semester/MATH1052/Week 1/Lecture Notes.md",
+    "Homepage.md",
+    "Random Stuff/Templates/Lecture.md",
     "2023/Summer Semester/MATH1052/Week 1/Lecture 1.md",
     "2023/Summer Semester/MATH1052/Lecture 1 Week 1.md",
     "2023/Summer Semester/MATH1052/Week 1",
@@ -267,7 +269,6 @@
     "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
     "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
     "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
-    "Random Stuff/Templates/Lecture.md",
     "Attachment Folder/Pasted image 20230912120643.png",
     "2023/Semester 2 2023/MATH1051/Chapter 8/Power Series and Taylor Series.md",
     "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",

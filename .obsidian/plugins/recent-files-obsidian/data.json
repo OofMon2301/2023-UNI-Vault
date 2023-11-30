@@ -5,12 +5,16 @@
       "path": "2023/Summer Semester/MATH1052/Week 1/Lecture Notes.md"
     },
     {
+      "basename": "ODE",
+      "path": "2023/Definitions/ODE.md"
+    },
+    {
       "basename": "Homepage",
       "path": "Homepage.md"
     },
     {
-      "basename": "ODE",
-      "path": "2023/Definitions/ODE.md"
+      "basename": "Lecture",
+      "path": "Random Stuff/Templates/Lecture.md"
     },
     {
       "basename": "Integration",
@@ -27,10 +31,6 @@
     {
       "basename": "Revision Doc - Mid-Semester Exam",
       "path": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md"
-    },
-    {
-      "basename": "Lecture",
-      "path": "Random Stuff/Templates/Lecture.md"
     },
     {
       "basename": "Derivatives",
