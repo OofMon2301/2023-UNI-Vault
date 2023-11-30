@@ -6,7 +6,7 @@
   "classFilesPath": null,
   "isAutosuggestEnabled": true,
   "fileClassAlias": "fileClass",
-  "settingsVersion": 3,
+  "settingsVersion": "5.0",
   "firstDayOfWeek": 1,
   "enableLinks": true,
   "enableTabHeader": true,
@@ -15,7 +15,17 @@
   "enableStarred": true,
   "enableFileExplorer": true,
   "enableSearch": true,
+  "enableProperties": true,
   "buttonIcon": "clipboard-list",
   "tableViewMaxRecords": 100,
-  "frontmatterListDisplay": "asArray"
+  "frontmatterListDisplay": "asArray",
+  "fileClassExcludedFolders": [],
+  "showIndexingStatusInStatusBar": true,
+  "fileIndexingExcludedFolders": [],
+  "fileIndexingExcludedExtensions": [
+    ".excalidraw.md"
+  ],
+  "fileIndexingExcludedRegex": [],
+  "frontmatterOnly": false,
+  "showFileClassSelectInModal": true
 }

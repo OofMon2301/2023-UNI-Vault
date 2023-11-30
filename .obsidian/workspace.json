@@ -22,13 +22,13 @@
             }
           },
           {
-            "id": "7c1b2f26b2adfdee",
+            "id": "c2667cff5f15682d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
-                "mode": "preview",
+                "file": "2023/Summer Semester/MATH1052/Week 1/Lecture Notes.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md"
+                "file": "2023/Summer Semester/MATH1052/Week 1/Lecture Notes.md"
               }
             }
           }
@@ -187,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md"
+                "file": "2023/Summer Semester/MATH1052/Week 1/Lecture Notes.md"
               }
             }
           }
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
+                "file": "2023/Summer Semester/MATH1052/Week 1/Lecture Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
+                "file": "2023/Summer Semester/MATH1052/Week 1/Lecture Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,16 +244,21 @@
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "homepage:Open homepage": false,
-      "omnisearch:Omnisearch": false,
       "dbfolder:Create a new database table": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-projects:Open projects": false
+      "breadcrumbs:Breadcrumbs Visualisation": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "7c1b2f26b2adfdee",
+  "active": "c2667cff5f15682d",
   "lastOpenFiles": [
     "Homepage.md",
+    "2023/Summer Semester/MATH1052/Week 1/Lecture Notes.md",
+    "2023/Summer Semester/MATH1052/Week 1/Lecture 1.md",
+    "2023/Summer Semester/MATH1052/Lecture 1 Week 1.md",
+    "2023/Summer Semester/MATH1052/Week 1",
+    "Untitled.md",
+    "2023/Summer Semester/MATH1052",
+    "2023/Summer Semester",
     "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
     "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
     "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
@@ -280,17 +285,10 @@
     "2023/Semester 1 2023/MATH1050/Chapter 4 - Complex Numbers.md",
     "2023/Semester 1 2023/MATH1050/Chapter 6 - Equations of Lines and Planes.md",
     "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 1 - Complex Numbers.md",
-    "2023/Semester 1 2023/MATH1050/Chapter 2 - Vectors.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 1/Numbers.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 0/Introduction to MATLAB.md",
-    "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md",
     "2023/Semester 2 2023/CSSE1001",
     "2023/Semester 2 2023/MATH1051/Revision",
     "2023/Semester 2 2023/MATH1051/Chapter 17",
     "2023/Semester 2 2023/MATH1051/Chapter 16",
-    "2023/Semester 2 2023/MATH1051/Chapter 15",
-    "2023/Semester 2 2023/MATH1051/Chapter 14",
-    "2023/Semester 2 2023/MATH1051/Chapter 13",
     "Attachment Folder/Pasted image 20230703084721.png",
     "Attachment Folder/Pasted image 20230403214435.png",
     "Attachment Folder/Pasted image 20230403214205.png",
