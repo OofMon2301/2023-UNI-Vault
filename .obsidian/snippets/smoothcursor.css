@@ -12,7 +12,7 @@
 .theme-light .x-cursor {
   background: black;
   width: 1px;
-  transition: all 175ms !important;
+  transition: all 150ms !important;
   transition: opacity;
   top: calc(-2.5px - var(--header-height));
   ;

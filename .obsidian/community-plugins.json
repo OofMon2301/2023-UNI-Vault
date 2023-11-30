@@ -10,7 +10,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "find-unlinked-files",
   "obsidian-latex-environments",
-  "obsidian-latex-suite",
   "multi-column-markdown",
   "obsidian-outliner",
   "oz-image-plugin",
@@ -52,5 +51,7 @@
   "obsidian-functionplot",
   "restore-tab-key",
   "buttons",
-  "ninja-cursor"
+  "ninja-cursor",
+  "cm-typewriter-scroll-obsidian",
+  "obsidian-latex-suite"
 ]
