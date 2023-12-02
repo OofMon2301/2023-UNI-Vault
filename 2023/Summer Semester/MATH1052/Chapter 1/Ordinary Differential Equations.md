@@ -47,7 +47,7 @@ collapse: open
 
 A *solution* of an ODE is a function $y(x)$ that satisfies the ODE for all $x$ in some (real) domain.
 
-A solution	 to an $n$-th order ODE contains up to $n$ arbitrary constnants.
+A solution	 to an $n$-th order ODE contains up to $n$ arbitrary constants.
 ```
 
 #### Initial Value Problem (IVP)
@@ -93,5 +93,22 @@ Show that $y=y(x)=A\exp(x^{2}/2)$ is a solution to the ODE $y'=xy$.
 $$
 \text{We need to show that }y=A\exp (x^{2}/2) \text{ satisfies the ODE.}
 $$$$
-\text{Calculate LHS}
+\begin{aligned}
+\text{Calculate LHS}\\
+\\
+y'&=\frac{d}{dx}\left(A\exp x^{2}/2 \right)\\ \\
+&= Ax\exp x^{2}/2 = xy \\
+&\therefore \text{ RHS as required}
+\end{aligned}
 $$
+When asked to *solve* an ODE, you are expected to **find all possible solutions**. 
+
+Solving [[ODE]] of various forms. For an [[ODE]] that involves only the unknown function $y$ and its first [[Derivatives]], the general solution will involve *one* arbitrary constant.
+
+###### Example
+Find the general solution to the differential equation $y' = x^{2}$.
+$$
+\frac{dy}{dx}=x^{2} \implies y=\int x^{2} \, dx =\frac{x^{3}}{3}+c
+
+$$
+This is the general solution for this [[ODE]].

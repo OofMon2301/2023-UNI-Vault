@@ -5,6 +5,10 @@
       "path": "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md"
     },
     {
+      "basename": "Derivatives",
+      "path": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md"
+    },
+    {
       "basename": "Homepage",
       "path": "Homepage.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Revision Doc - Mid-Semester Exam",
       "path": "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md"
-    },
-    {
-      "basename": "Derivatives",
-      "path": "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md"
     },
     {
       "basename": "Continuity",
@@ -195,10 +195,6 @@
     {
       "basename": "Week 2 Workshop - Vectors",
       "path": "2023/Semester 1 2023/MATH1050/Week 2 Workshop - Vectors.md"
-    },
-    {
-      "basename": "Chapter 5 - Matrices",
-      "path": "2023/Semester 1 2023/MATH1050/Chapter 5 - Matrices.md"
     }
   ],
   "omittedPaths": [],
