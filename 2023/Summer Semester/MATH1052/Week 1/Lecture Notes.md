@@ -39,7 +39,7 @@ A solution	 to an $n$-th order ODE contains up to $n$ arbitrary constnants.
 ```
 
 #### Initial Value Problem (IVP)
-An [[2023/Definitions/IVP|IVP]] is the problem of finding a solution of a differential equation that satisfies one or more *inital conditions*. 
+An [[2023/Definitions/IVP|IVP]] is the problem of finding a solution of a differential equation that satisfies one or more *initial conditions*. 
 
 Imposing initial conditions will usually fix (some of) the arbitrary constants appearing in the general solution to the differential equation.
 
@@ -59,5 +59,5 @@ There are two types of DE's:
 - Ordinary Differential Equations ([[ODE]]), where the unknown function is a function of only one variable
 - Partial Differential Equations (PDE), where the unknown function is a function of more than one variable. We will not consider PDEs in this course. 
 
-##### 1.1.1 Examples of ODEs
+#### 1.1.1 Examples of ODEs
 Unbounded population growth: $P'(t)$

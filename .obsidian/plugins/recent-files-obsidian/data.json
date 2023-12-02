@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Ordinary Differential Equations",
+      "path": "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
       "basename": "Lecture Notes",
       "path": "2023/Summer Semester/MATH1052/Week 1/Lecture Notes.md"
     },
     {
       "basename": "ODE",
       "path": "2023/Definitions/ODE.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
     },
     {
       "basename": "Lecture",
@@ -195,10 +199,6 @@
     {
       "basename": "Chapter 5 - Matrices",
       "path": "2023/Semester 1 2023/MATH1050/Chapter 5 - Matrices.md"
-    },
-    {
-      "basename": "Chapter 2 cont. - Vectors",
-      "path": "2023/Semester 1 2023/MATH1050/Chapter 2 cont. - Vectors.md"
     }
   ],
   "omittedPaths": [],

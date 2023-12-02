@@ -106,7 +106,7 @@ if this limit exits,
 $$
 =1.
 $$
-## 6.7 Continuous extension of sequences
+## 6.7 Continuous Extension of Sequences
 
 Sometimes L'Hopital's rule can be used to evaluate limits of sequences. Let $f$ be a function on the real numbers such that $\lim_{ x \to \infty }f(x)$ exists. Let $f(n)=a_{n}$ for natural numbers $n$. Then:
 $$
@@ -134,7 +134,7 @@ for some $c$, where $a<c<b$.
 
 Note $f'(c)$ is the slope of $y=f(x)$ at $x=c$ and $\frac{f(b)-f(a)}{b-a}$ is the slope of the chord joining $A=(a,f(a))$ to $B=(b,f(b))$.
 
-## 6.9 Increasing/Decreasing test
+## 6.9 Increasing/Decreasing Test
 
 Suppose that $f$ is continuous on $[a,b]$ and differentiable on $(a,b)$.
 

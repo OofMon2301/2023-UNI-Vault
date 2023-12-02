@@ -16,7 +16,7 @@ If the series has a finite sum, we say it *converges*.
 
 *Whether or not a series converges is not obvious.*
 
-## 7.1 Infinite sums (notation)
+## 7.1 Infinite Sums (notation)
 
 If we have an infinite sum we write:
 $$
@@ -68,7 +68,7 @@ $$
 $$
 The number $s$ is called the *sum* of the series. Otherwise the series is said to be *divergent*.
 
-## 7.5 The p-test
+## 7.5 The P-test
 
 For $p \in \mathbb{R}$, the $p-$series $\sum_{n=1}^\infty \frac{1}{n^p}$ is convergent if $p>1$ and divergent if $p\leq 1$
 
@@ -77,13 +77,13 @@ $$
 \sum_{n=1}^\infty \frac{1}{n^p} = \sum_{n=0}^\infty \frac{1}{(n+1)^p}
 $$
 
-## 7.6 The Divergence Test (also called the nth term test)
+## 7.6 The Divergence Test (also Called the Nth Term test)
 
 If $\sum_{n=0}^\infty a_{n}$ is convergent then $\lim_{ n \to \infty }a_{n}=0.$
 
 The divergence test is if $\lim_{ n \to \infty }a_{n} \neq 0$ then the series is divergent.
 
-## 7.7 Geometric series
+## 7.7 Geometric Series
 
 The series
 $$
@@ -130,7 +130,7 @@ $$
 then the series is convergent.
 The alternating series test can only be used to show convergence, not divergence.
 
-## 7.11 Absolute and conditional convergence
+## 7.11 Absolute and Conditional Convergence
 
 A series $\sum_{n=0}^\infty a_{n}$ is called *absolutely convergent* if the series $\sum_{n=0}^\infty |a_{n}|$ is convergent.
 A series $\sum_{n=0}^\infty a_{n}$ is called *conditionally convergent* if it is convergent, but not absolutely convergent.

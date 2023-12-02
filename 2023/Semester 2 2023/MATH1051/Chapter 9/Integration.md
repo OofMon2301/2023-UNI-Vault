@@ -21,7 +21,7 @@ $$
 
 Suppose $f(x)$ is positive and continuous on $[a,b]$. By rotating the graph of $f(x)$ above $[a,b]$ about the $x$-axis, we obtain a cylindrical solid. What is the volume of such a solid? This is what we call a *volume of revolution*.
 
-### 9.5.1 Formula for the volume of revolution
+### 9.5.1 Formula for the Volume of Revolution
 
 Suppose $f(x)\geq 0$ and continuous on $[a,b]$. The volume of revolution of the solid obtained by rotating the graph $y=f(x)$ above $[a,b]$ about the $x$-axis is:
 $$

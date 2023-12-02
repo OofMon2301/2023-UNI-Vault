@@ -1,6 +1,41 @@
 {
   "version": 2,
-  "projects": [],
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "2023/Summer Semester/MATH1052",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "cdfc48ee-6ff3-4b3d-b513-7fd567d9dd22",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "acb77286-46a5-4380-8c08-3dd4644bfac7",
+      "name": "MATH1052"
+    }
+  ],
   "archives": [],
   "preferences": {
     "projectSizeLimit": 1000,

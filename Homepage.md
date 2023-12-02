@@ -8,7 +8,7 @@ banner_x: 0.5
 #Homepage 
 
 ---
-## Semester
+# Semester
 
 ```dataviewjs
 var a = moment("2023-06-01");

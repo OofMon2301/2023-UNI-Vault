@@ -3643,9 +3643,6 @@ var Templater = class {
     const doc = editor.getDoc();
     const oldSelections = doc.listSelections();
     doc.replaceSelection(output_content);
-    if (active_view) {
-      await active_view.save();
-    }
     app.workspace.trigger("templater:template-appended", {
       view: active_view,
       editor: active_editor,
@@ -5597,8 +5594,8 @@ var TemplaterPlugin = class extends import_obsidian17.Plugin {
       this.templater.execute_startup_scripts();
     });
   }
-  async unload() {
-    await this.templater.functions_generator.teardown();
+  onunload() {
+    this.templater.functions_generator.teardown();
   }
   async save_settings() {
     await this.saveData(this.settings);
