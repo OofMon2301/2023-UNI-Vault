@@ -249,8 +249,7 @@
       "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "dbfolder:Create a new database table": false,
-      "homepage:Open homepage": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "homepage:Open homepage": false
     }
   },
   "active": "78e26e46c4fc37bb",

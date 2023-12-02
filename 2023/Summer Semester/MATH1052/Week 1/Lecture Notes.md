@@ -57,4 +57,7 @@ $$
 There are two types of DE's:
 
 - Ordinary Differential Equations ([[ODE]]), where the unknown function is a function of only one variable
-- Partial Differential Equations 
+- Partial Differential Equations (PDE), where the unknown function is a function of more than one variable. We will not consider PDEs in this course. 
+
+##### 1.1.1 Examples of ODEs
+Unbounded population growth: $P'(t)$
