@@ -118,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 266.5
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -237,10 +236,11 @@
   },
   "active": "0cc192896338d716",
   "lastOpenFiles": [
-    "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
     "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
-    "2023/Summer Semester/MATH1052/Chapter 1/sd.md",
+    "2023/Definitions/IVP.md",
     "Homepage.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
+    "2023/Summer Semester/MATH1052/Chapter 1/sd.md",
     "2023/Summer Semester/MATH1052/Chapter 1/sdsd",
     "2023/Summer Semester/MATH1052/Week 1/Lecture Notes.md",
     "2023/Summer Semester/MATH1052/Chapter 1/Untitled.md",
@@ -271,7 +271,6 @@
     "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
     "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
     "2023/Semester 2 2023/ENGG1300/Untitled.md",
-    "2023/Semester 1 2023/MATH1050/Chapter 7 - Functions.md",
     "Attachment Folder/Pasted image 20230731090857.png",
     "2023/Semester 2 2023/CSSE1001",
     "2023/Semester 2 2023/MATH1051/Revision",

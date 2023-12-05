@@ -105,10 +105,45 @@ When asked to *solve* an ODE, you are expected to **find all possible solutions*
 
 Solving [[ODE]] of various forms. For an [[ODE]] that involves only the unknown function $y$ and its first [[Derivatives]], the general solution will involve *one* arbitrary constant.
 
-###### Example
+##### Example
 Find the general solution to the differential equation $y' = x^{2}$.
 $$
 \frac{dy}{dx}=x^{2} \implies y=\int x^{2} \, dx =\frac{x^{3}}{3}+c
 
 $$
 This is the general solution for this [[ODE]].
+
+#### 1.1.4 Initial value problems
+
+An [[2023/Definitions/IVP|Initial Value Problem]] (IVP) is the problem of solving an ODE subject to some initial conditions of the form $y(t_{0})=a, \ y'(t_{0})=b$, etc.
+
+The solution to an initial value problem no longer contains arbitrary constants from the general solution to the [[ODE]] - these are determined by the inital conditions.
+
+##### Example
+> [!help]+ Question
+> A flow-meter in a pipeline measures flow-through as $2+\sin t$ litres/second.
+How much fluid passes through the pipeline from time zero up to time $T$?
+
+> [!success]+
+> As Flow-through time is volume/unit time, the general solution would be $\frac{dv}{dt}=2+\sin t\implies v(t) =2t-\cos t+c$
+> $v(0)=2\times_{0}-\cos 0+c = c-1 = 0 \implies c=1$ and that means 
+> $v(T)=2T-\cos T+1$
+
+#### 1.1.5 The order of an ODE
+The highest order [[Derivatives]] in an [[ODE]] defines the order of the [[ODE]].
+
+That would mean that first derivative, e.g. $\dot{x}$ would have a higher order of the [[ODE]] than $\ddot{x}$ and so on.
+
+#### 1.1.6 Riding your bike at constant speed
+Find the position of your bike (at time $t$) if you are travelling at a constant speed	 of 60km/h along a perfectly straight road.
+
+If $x=x(t)$ is the distance you have travelled at time $t$ then the corresponding [[ODE]] is
+$$
+\frac{dx}{dt}=60.
+$$
+This yields the general solution to the [[ODE]]
+$$
+x(t)= 60t+C
+$$
+To determine the constant $C$ we need more info, such as the initial position at time 0, in which that would be IVP.
+
