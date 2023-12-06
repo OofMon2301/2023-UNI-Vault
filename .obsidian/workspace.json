@@ -231,7 +231,9 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-projects:Open projects": false,
       "dbfolder:Create a new database table": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "0a58713e9d138201",
@@ -276,4 +278,11 @@
     "2023/Semester 2 2023/MATH1051/Revision",
     "Attachment Folder/Pasted image 20230703084721.png",
     "Attachment Folder/Pasted image 20230403214435.png",
-    "Attac
+    "Attachment Folder/Pasted image 20230403214205.png",
+    "Attachment Folder/Pasted image 20230330124223.png",
+    "Attachment Folder/Pasted image 20230330122238.png",
+    "Attachment Folder/Pasted image 20230328074657.png",
+    "Attachment Folder/Pasted image 20230316122956.png",
+    "Attachment Folder/Pasted image 20230309123643.png"
+  ]
+}

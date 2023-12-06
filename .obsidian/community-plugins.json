@@ -38,11 +38,11 @@
   "various-complements",
   "copy-as-latex",
   "obsidian-latex-environments",
-  "obsidian-latex-suite",
   "buttons",
   "lapel",
   "obsidian-linter",
   "obsidian-functionplot",
   "obsidian-outliner",
-  "obsidian-dynamic-toc"
+  "obsidian-dynamic-toc",
+  "obsidian-latex-suite"
 ]
