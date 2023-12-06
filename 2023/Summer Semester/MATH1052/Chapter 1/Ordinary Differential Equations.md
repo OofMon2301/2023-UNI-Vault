@@ -10,19 +10,6 @@ tags:
 
 # Contents
 
-- [Just Some Basic Information To Know:](#Just%20Some%20Basic%20Information%20To%20Know:)
-	- [Rough Course Outline:](#Rough%20Course%20Outline:)
-- [Introductory Comments on Lectures on ODE's](#Introductory%20Comments%20on%20Lectures%20on%20ODE's)
-	- [Ordinary Differential Equations (ODEs)](#Ordinary%20Differential%20Equations%20(ODEs))
-		- [Initial Value Problem (IVP)](#Initial%20Value%20Problem%20(IVP))
-		- [Common Notation](#Common%20Notation)
-- [1 Ordinary Differential Equations](#1%20Ordinary%20Differential%20Equations)
-	- [1.1 Introduction](#1.1%20Introduction)
-			- [1.1.1 Examples of ODEs](#1.1.1%20Examples%20of%20ODEs)
-			- [1.1.3 Solution to an ODE](#1.1.3%20Solution%20to%20an%20ODE)
-				- [Example:](#Example:)
-
-# Ordinary Differential Equations
 ## Just Some Basic Information To Know:
 
 ### Rough Course Outline:
@@ -95,8 +82,7 @@ $$
 $$$$
 \begin{aligned}
 \text{Calculate LHS}\\
-\\
-y'&=\frac{d}{dx}\left(A\exp x^{2}/2 \right)\\ \\
+y'&=\frac{d}{dx}\left(A\exp x^{2}/2 \right)\\ 
 &= Ax\exp x^{2}/2 = xy \\
 &\therefore \text{ RHS as required}
 \end{aligned}
@@ -146,4 +132,85 @@ $$
 x(t)= 60t+C
 $$
 To determine the constant $C$ we need more info, such as the initial position at time 0, in which that would be IVP.
+
+For different vales of $C$ we get different solutions, and below we graph some of these. If $C=0$ then $y=60t$. All the other solutions are parallel to this line.
+
+The curves $y=60t+C$ are called *solution curves* to the [[ODE]] ($*$). Note that in this particular case all curves are straight lines with slope 60.
+
+#### 1.1.7 Motion of Projectiles
+In this case, we can consider finding an expression for gravity.
+
+##### Example
+> [!help]+ Question
+> Consider  an apple falling under gravity. Find an expression for the height $y$ of the apple at time $t$.
+
+[[2023/Definitions/Newton's 2nd law of motion|Newton's 2nd law of motion]] is $F=ma$. The velocity of the apple is $\dot{y}$, and the acceleration of the apple would be $\ddot{y}$.
+
+The force exerted on the apple is $F=-mg$.
+$$
+\implies F=-mg =\ddot{m}y
+$$
+$$
+\implies \ddot{y}=-g
+$$
+Integrating this, $\dot{y}=-gt+c$ and $y=-\frac{gt^{2}}{2}+ct+d$
+
+#### 1.1.8 Extra Reading: Realistic Models
+
+For realistic objects, a projectile motion includes air resistance.
+
+Most moving objects of a good model deal with air resistance proportional to the square of the velocity:
+$$\frac{d^2y}{dt^2} = -g - f\frac{dy}{dt} \left|\frac{dy}{dt}\right|$$
+For slower objects, a good model has air resistance proportional to velocity:
+
+Realistic models may also include the fact that gravity diminishes as you move away from the earth's surface (Newton's inverse square law).
+
+##### Example
+Consider the motion of a ball subject to air resistance proportional to the square of the speed. Note that the air resistance vector is always directed against the direction of motion.
+
+Decompose the coordinates to $x$ and $y$ directions and again apply [[Newton's 2nd law of motion]].
+
+Note that 
+$$
+\sin \theta = \frac{\dot{y}}{\sqrt{ \dot{x}^{2} + \dot{y}^{2}}} \quad \text{and } \quad \cos \theta = \frac{\dot{x}}{\sqrt{ \dot{x}^{2}+\dot{y}^{2} }}
+$$
+Hence $F=ma$ in the $y$ directions gives 
+$$
+\begin{align}
+&\quad \ \ m\ddot{y}=-mg -F_{D}\sin \theta \\
+& \Rightarrow m \ddot{y} = -mg -kv^{2} \sin \theta \\
+& \Rightarrow m \ddot{y} = -mg-k(\dot{x}^{2}+\dot{y}^{2}) \times \frac{\dot{y}}{\sqrt{ \dot{x}^{2}+\dot{y}^{2} }} \\
+& \Rightarrow \ddot{y} = -g -\frac{k}{m}\dot{y}\sqrt{ \dot{x}^{2}+\dot{y}^{2} }
+\end{align}
+$$
+In much of the same way:
+$$
+\ddot{x} = -\frac{k}{m}\dot{x}\sqrt{ \dot{x}^{2}+\dot{y}^{2} }
+$$
+This is a coupled system of [[ODE]] which is extremely difficult to solve analytically. However, numerical solutions are easy to obtain.
+
+#### 1.1.9 Analytical and numerical solutions
+To solve an [[ODE]] (or [[IVP]]) analytically means to give a solution curve in terms of continuous functions defined over a specific interval, where the solution is obtained exactly by analytic means (e.g., by integration). The solutions satisfies the [[ODE]] (and initial conditions) on direct substitution.
+
+To solve an [[ODE]] or IVP *numerically* means to use an algorithm to generate a sequence of points which approximates a solution curve.
+
+```ad-info
+title: Important Remark
+collapse: open
+
+As we have already seen, the ODE
+$$
+\frac{dy}{dt}=f(t)
+$$ 
+can be solved analytically. The *solution* simply is 
+
+$$
+y=\int f(t) \, dt 
+$$
+
+```
+
+### 1.2 Slope Fields and Equilibrium Solutions
+
+
 

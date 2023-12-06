@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "0cc192896338d716",
+            "id": "9050fd12e15ce961",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,14 +90,15 @@
             }
           },
           {
-            "id": "8349ee484b937e08",
+            "id": "3b26cba45b873758",
             "type": "leaf",
             "state": {
               "type": "surfing-tab-tree",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "a14c5693f5463fc1",
@@ -118,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 266.5,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -176,7 +178,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "b2e398d710777b6e",
@@ -229,16 +231,15 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-projects:Open projects": false,
       "dbfolder:Create a new database table": false,
-      "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "omnisearch:Omnisearch": false
+      "homepage:Open homepage": false
     }
   },
-  "active": "0cc192896338d716",
+  "active": "0a58713e9d138201",
   "lastOpenFiles": [
-    "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
-    "2023/Definitions/IVP.md",
     "Homepage.md",
+    "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+    "2023/Definitions/Newton's 2nd law of motion.md",
+    "2023/Definitions/IVP.md",
     "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
     "2023/Summer Semester/MATH1052/Chapter 1/sd.md",
     "2023/Summer Semester/MATH1052/Chapter 1/sdsd",
@@ -270,17 +271,9 @@
     "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
     "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
     "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
-    "2023/Semester 2 2023/ENGG1300/Untitled.md",
     "Attachment Folder/Pasted image 20230731090857.png",
     "2023/Semester 2 2023/CSSE1001",
     "2023/Semester 2 2023/MATH1051/Revision",
     "Attachment Folder/Pasted image 20230703084721.png",
     "Attachment Folder/Pasted image 20230403214435.png",
-    "Attachment Folder/Pasted image 20230403214205.png",
-    "Attachment Folder/Pasted image 20230330124223.png",
-    "Attachment Folder/Pasted image 20230330122238.png",
-    "Attachment Folder/Pasted image 20230328074657.png",
-    "Attachment Folder/Pasted image 20230316122956.png",
-    "Attachment Folder/Pasted image 20230309123643.png"
-  ]
-}
+    "Attac

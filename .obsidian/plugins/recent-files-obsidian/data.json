@@ -5,12 +5,16 @@
       "path": "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md"
     },
     {
-      "basename": "IVP",
-      "path": "2023/Definitions/IVP.md"
-    },
-    {
       "basename": "Homepage",
       "path": "Homepage.md"
+    },
+    {
+      "basename": "Newton's 2nd law of motion",
+      "path": "2023/Definitions/Newton's 2nd law of motion.md"
+    },
+    {
+      "basename": "IVP",
+      "path": "2023/Definitions/IVP.md"
     },
     {
       "basename": "Derivatives",
