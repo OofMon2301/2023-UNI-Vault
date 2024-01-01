@@ -213,4 +213,3 @@ $$
 ### 1.2 Slope Fields and Equilibrium Solutions
 
 
-

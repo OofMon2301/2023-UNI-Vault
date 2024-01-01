@@ -9,7 +9,6 @@
   "url-into-selection",
   "obsidian-style-settings",
   "obsidian-plugin-update-tracker",
-  "obsidian-banners",
   "templater-obsidian",
   "obsidian-git",
   "obsidian-auto-link-title",
@@ -37,5 +36,6 @@
   "obsidian-outliner",
   "obsidian-dynamic-toc",
   "obsidian-latex-suite",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "obsidian-desmos"
 ]
