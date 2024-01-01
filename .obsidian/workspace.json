@@ -71,14 +71,6 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "3b26cba45b873758",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {}
-            }
           }
         ]
       },
@@ -92,9 +84,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Homepage.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -155,9 +145,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Homepage.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -210,8 +198,6 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-projects:Open projects": false,
-      "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false
     }
   },

@@ -61,7 +61,7 @@
   "o-theme-settings@@ul-left-collapse-btn-disable": false,
   "o-theme-settings@@ul-radius": "var(--radius-m)",
   "o-theme-settings@@o-border": "none",
-  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-default",
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-darker",
   "Plugin@@Surfing-bookmark-bar-hide": true,
   "Editor@@heading-indicator-off": true,
   "obsidian-prism-theme@@color-scheme-style-dt": "pt-color-scheme-style-border-dt",
@@ -84,5 +84,6 @@
   "anuppuccin-theme-settings@@anp-tooltip-toggle": false,
   "anuppuccin-theme-settings@@anp-decoration-toggle": true,
   "anuppuccin-theme-settings@@anp-header-color-toggle": true,
-  "anuppuccin-theme-settings@@anp-header-margin-toggle": true
+  "anuppuccin-theme-settings@@anp-header-margin-toggle": true,
+  "Appearance-dark@@card-layout-open-dark": false
 }

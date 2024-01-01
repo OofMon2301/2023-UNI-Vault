@@ -1,14 +1,12 @@
 {
   "accentColor": "",
   "enabledCssSnippets": [
-    "dashboard-readable-line-length",
-    "dashboard",
     "smoothcursor"
   ],
   "theme": "obsidian",
   "cssTheme": "Minimal",
   "nativeMenus": false,
-  "translucency": false,
+  "translucency": true,
   "baseFontSize": 18,
   "textFontFamily": "CMU Serif",
   "monospaceFontFamily": "Cascadia Mono"
