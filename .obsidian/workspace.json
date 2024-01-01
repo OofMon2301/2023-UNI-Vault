@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "6f053e2bf2188e65",
+            "id": "d6d1c74c06bf400a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+                "file": "ztemplate/Template/lecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md"
+                "file": "ztemplate/Template/lecture.md"
               }
             }
           }
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+                "file": "ztemplate/Template/lecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+                "file": "ztemplate/Template/lecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,49 +187,50 @@
       "switcher:Open quick switcher": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "markdown-importer:Open format converter": true
+      "markdown-importer:Open format converter": true,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "6f053e2bf2188e65",
+  "active": "d6d1c74c06bf400a",
   "lastOpenFiles": [
+    "ztemplate/Template/assignment.md",
+    "ztemplate/Snippets/newlecture.md",
+    "2023/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
+    "$SUBJECT.md",
+    "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+    "2023/Summer Semester/MATH1052/Chapter 1/Fun.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "2023/Summer Semester/MATH1052/Chapter 1/New Thing.md",
+    "New THing.md",
+    "ztemplate/Snippets/newdefinition.md",
+    "ztemplate/Snippets/newcallout.md",
+    "Gaussian Elimination.md",
+    "Definitions/null.md",
+    "Lecture Notes/null/null.md",
+    "Definitions",
+    "Lecture Notes/null",
+    "Lecture Notes",
+    "ztemplate/Template/subject.md",
+    "ztemplate/Template/lecture.md",
+    "ztemplate/Template/definition.md",
+    "ztemplate/Template/callout.md",
+    "ztemplate/Template",
+    "ztemplate/Snippets",
+    "ztemplate",
     "preamble.sty",
     "New Text Document.txt",
     "Random Stuff/Templates/Lecture.md",
     "Random Stuff/Templates/Definitions.md",
-    "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
-    "Untitled.md",
     "This is.md",
     "Homepage.md",
     "2023/Definitions/Newton's 2nd law of motion.md",
     "2023/Definitions/IVP.md",
     "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
-    "2023/Summer Semester/MATH1052/Chapter 1/sd.md",
     "2023/Summer Semester/MATH1052/Chapter 1/sdsd",
-    "2023/Summer Semester/MATH1052/Week 1/Lecture Notes.md",
-    "2023/Summer Semester/MATH1052/Chapter 1/Untitled.md",
     "2023/Summer Semester/MATH1052/Chapter 1",
-    "2023/Definitions/ODE.md",
-    "2023/Summer Semester/MATH1052/Week 1/Lecture 1.md",
-    "2023/Summer Semester/MATH1052/Lecture 1 Week 1.md",
-    "2023/Summer Semester/MATH1052/Week 1",
-    "2023/Summer Semester/MATH1052",
-    "2023/Summer Semester",
-    "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
-    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
-    "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
     "Attachment Folder/Pasted image 20230912120643.png",
-    "2023/Semester 2 2023/MATH1051/Chapter 8/Power Series and Taylor Series.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
-    "2023/Semester 2 2023/MATH1051/Revision/REVISION DOCUMENT FOR MIDSEM.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.sync-conflict-20230905-212624-IT5FHVH.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 6/~syncthing~Derivatives.sync-conflict-20230905-212624-IT5FHVH.md.tmp",
-    "2023/Semester 2 2023/MATH1051/Revision/~syncthing~REVISION DOCUMENT FOR MIDSEM.md.tmp",
-    "2023/Semester 2 2023/MATH1051/Chapter 2/~syncthing~Functions.md.tmp",
-    "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md",
     "Attachment Folder/Pasted image 20230731090857.png",
-    "2023/Semester 2 2023/CSSE1001",
     "Attachment Folder/Pasted image 20230703084721.png",
     "Attachment Folder/Pasted image 20230403214435.png",
     "Attachment Folder/Pasted image 20230403214205.png",

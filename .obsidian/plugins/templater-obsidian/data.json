@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "",
+  "templates_folder": "ztemplate/Template",
   "templates_pairs": [
     [
       "",
@@ -13,20 +13,14 @@
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "2023",
-      "template": "Random Stuff/Templates/Lecture.md"
-    },
-    {
-      "folder": "2023/Definitions",
-      "template": "Random Stuff/Templates/Definitions.md"
-    }
-  ],
+  "folder_templates": [],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    ""
+    "ztemplate/Snippets/newlecture.md",
+    "ztemplate/Snippets/newcallout.md",
+    "ztemplate/Snippets/newdefinition.md",
+    "ztemplate/Template/lecture.md"
   ],
   "startup_templates": [
     ""

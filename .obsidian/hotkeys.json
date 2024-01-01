@@ -7,5 +7,23 @@
       ],
       "key": "O"
     }
+  ],
+  "templater-obsidian:ztemplate/Snippets/newlecture.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-checklist-status": [],
+  "editor:delete-paragraph": [],
+  "templater-obsidian:ztemplate/Template/lecture.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
   ]
 }
