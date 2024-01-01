@@ -25,7 +25,6 @@
   "restore-tab-key",
   "ninja-cursor",
   "obsidian-plugin-toc",
-  "cm-typewriter-scroll-obsidian",
   "various-complements",
   "copy-as-latex",
   "obsidian-latex-environments",
@@ -37,5 +36,6 @@
   "obsidian-dynamic-toc",
   "obsidian-latex-suite",
   "obsidian-minimal-settings",
-  "obsidian-desmos"
+  "obsidian-desmos",
+  "obsidian-latex"
 ]

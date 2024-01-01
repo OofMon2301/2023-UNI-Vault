@@ -17,5 +17,7 @@
     "downscalePercent": 75
   },
   "rightToLeft": false,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "livePreview": true,
+  "propertiesInDocument": "source"
 }

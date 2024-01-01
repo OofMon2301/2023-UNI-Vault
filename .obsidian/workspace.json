@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#MATH1052",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,17 +107,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0b26a3995e309d89",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
             "id": "d88819423420f4ac",
             "type": "leaf",
             "state": {
@@ -135,6 +124,17 @@
             "state": {
               "type": "Strange New Worlds",
               "state": {}
+            }
+          },
+          {
+            "id": "970c0ebe784733ad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
             }
           }
         ]
@@ -187,14 +187,17 @@
       "switcher:Open quick switcher": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "markdown-importer:Open format converter": true,
-      "workspaces:Manage workspace layouts": true
+      "markdown-importer:Open format converter": true
     }
   },
   "active": "6f053e2bf2188e65",
   "lastOpenFiles": [
-    "Untitled.md",
+    "preamble.sty",
+    "New Text Document.txt",
+    "Random Stuff/Templates/Lecture.md",
+    "Random Stuff/Templates/Definitions.md",
     "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+    "Untitled.md",
     "This is.md",
     "Homepage.md",
     "2023/Definitions/Newton's 2nd law of motion.md",
@@ -206,7 +209,6 @@
     "2023/Summer Semester/MATH1052/Chapter 1/Untitled.md",
     "2023/Summer Semester/MATH1052/Chapter 1",
     "2023/Definitions/ODE.md",
-    "Random Stuff/Templates/Lecture.md",
     "2023/Summer Semester/MATH1052/Week 1/Lecture 1.md",
     "2023/Summer Semester/MATH1052/Lecture 1 Week 1.md",
     "2023/Summer Semester/MATH1052/Week 1",
@@ -226,11 +228,8 @@
     "2023/Semester 2 2023/MATH1051/Revision/~syncthing~REVISION DOCUMENT FOR MIDSEM.md.tmp",
     "2023/Semester 2 2023/MATH1051/Chapter 2/~syncthing~Functions.md.tmp",
     "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
-    "2023/Semester 1 2023/MATH1050/Chapter 8 - Differentiation.md",
     "Attachment Folder/Pasted image 20230731090857.png",
     "2023/Semester 2 2023/CSSE1001",
-    "2023/Semester 2 2023/MATH1051/Revision",
     "Attachment Folder/Pasted image 20230703084721.png",
     "Attachment Folder/Pasted image 20230403214435.png",
     "Attachment Folder/Pasted image 20230403214205.png",
