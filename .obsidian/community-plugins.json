@@ -8,12 +8,9 @@
   "oz-image-plugin",
   "url-into-selection",
   "recent-files-obsidian",
-  "settings-search",
   "obsidian-style-settings",
   "obsidian-projects",
-  "dbfolder",
   "obsidian-plugin-update-tracker",
-  "homepage",
   "obsidian-banners",
   "templater-obsidian",
   "obsidian-git",
@@ -42,5 +39,6 @@
   "obsidian-functionplot",
   "obsidian-outliner",
   "obsidian-dynamic-toc",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "obsidian-minimal-settings"
 ]
