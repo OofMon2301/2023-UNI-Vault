@@ -27,70 +27,317 @@ __export(main_exports, {
   default: () => TabKeyPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian = require("obsidian");
+var import_language = require("@codemirror/language");
 var import_state = require("@codemirror/state");
 var import_view = require("@codemirror/view");
+
+// localization.ts
+var localization = {
+  title: {
+    "en-US": "Obsidian Restore Tab Key Plugin",
+    "zh-CN": "\u9ED1\u66DC\u77F3\u7B14\u8BB0 \u6062\u5FA9\u5236\u8868\u952E\u884C\u4E3A\u63D2\u4EF6",
+    "zh-TW": "\u9ED1\u66DC\u77F3\u7B46\u8A18 \u6062\u5FA9\u5236\u8868\u9375\u884C\u70BA\u63D2\u4EF6"
+  },
+  description: {
+    "en-US": "Restore tab key behavior: tab key inserts a tab, the way it should be.",
+    "zh-CN": "\u56DE\u5FA9 Tab \u952E\u884C\u4E3A\uFF0C\u672C\u8BE5\u5982\u6B64\uFF01",
+    "zh-TW": "\u56DE\u5FA9 Tab \u9375\u884C\u70BA\uFF0C\u672C\u8A72\u5982\u6B64\uFF01"
+  },
+  tabOrSpace: {
+    "en-US": "Tab or Space Settings",
+    "zh-CN": "Tab \u6216\u7A7A\u683C\u8BBE\u5B9A",
+    "zh-TW": "Tab \u6216\u7A7A\u683C\u8A2D\u5B9A"
+  },
+  useSpacesInsteadOfTab: {
+    "en-US": "Use spaces instead of tab",
+    "zh-CN": "\u4EE5\u7A7A\u683C\u53D6\u4EE3 Tab",
+    "zh-TW": "\u4EE5\u7A7A\u683C\u53D6\u4EE3 Tab"
+  },
+  useSpacesInsteadOfTabDesc: {
+    "en-US": "false(default): Insert tab (\\t) when tab key is pressed. true: Insert spaces (\xA0\xA0\xA0\xA0) when tab key is pressed. (configurable)",
+    "zh-CN": "\u5173\u95ED(\u9ED8\u8BA4)\uFF1A\u5728 Tab \u952E\u88AB\u6309\u4E0B\u65F6\u63D2\u5165\u8868\u683C\u7B26\u53F7 (Tab)\uFF1B\u5F00\u542F\uFF1A\u5728 Tab \u952E\u88AB\u6309\u4E0B\u65F6\u63D2\u5165\u7A7A\u767D\u7B26\u53F7\uFF08\u53EF\u4EE5\u81EA\u8BA2\u4E49\uFF09",
+    "zh-TW": "\u95DC\u9589(\u9810\u8A2D)\uFF1A\u5728 Tab \u9375\u88AB\u6309\u4E0B\u6642\u63D2\u5165\u8868\u683C\u7B26\u865F (Tab)\uFF1B\u958B\u555F\uFF1A\u5728 Tab \u9375\u88AB\u6309\u4E0B\u6642\u63D2\u5165\u7A7A\u767D\u7B26\u865F\uFF08\u53EF\u4EE5\u81EA\u8A02\u7FA9\uFF09"
+  },
+  useHardSpaces: {
+    "en-US": "Use hard spaces",
+    "zh-CN": "\u4F7F\u7528\u786C\u7A7A\u683C\u5B57\u5143",
+    "zh-TW": "\u4F7F\u7528\u786C\u7A7A\u683C\u5B57\u5143"
+  },
+  useHardSpacesDesc: {
+    "en-US": `If "Indent using tabs" is false, space will be used to indent. If "Use hard spaces" is off, normal space characters will be used. Notice that with Markdown, repeated normal spaces will be rendered as one. Turn this option on to use hard spaces (U+00A0), which will not be truncated after Markdown render. To indent stuff in the processed Markdown output, move your cursor to the begin and press tab (indenting won't insert hard spaces)`,
+    "zh-CN": "\u5047\u5982\u300C\u4EE5 Tab \u7F29\u8FDB\u300D\u8BBE\u5B9A\u4E3A\u5173\u95ED\uFF0C\u7A7A\u683C\u4F1A\u88AB\u7528\u6765\u7F29\u6392\u3002\u5982\u679C\u300C\u4F7F\u7528\u786C\u7A7A\u683C\u300D\u88AB\u5173\u95ED\uFF0C\u5219\u4F1A\u4F7F\u7528\u6570\u4E2A\u666E\u901A\u7684\u7A7A\u683C\u7B26\u53F7\u3002\u8BF7\u6CE8\u610F\uFF1A\u5728 Markdown \u4E0B\uFF0C\u91CD\u8907\u7684\u7A7A\u683C\u4F1A\u88AB\u6E32\u67D3\u4E3A\u4E00\u4E2A\u3002\u5F00\u542F\u6B64\u9009\u9879\u540E\uFF0C\u786C\u7A7A\u683C (U+00A0) \u5C06\u4F1A\u53D6\u4EE3\u7A7A\u767D\u5B57\u5143\u5F53\u4F5C Tab\uFF0C\u5728\u6E32\u67D3\u540E\u4E0D\u4F1A\u88AB\u5220\u51CF\u3002\u82E5\u8981\u4F7F\u7528\u786C\u7A7A\u683C\u8FDB\u884C\u7F29\u6392\uFF0C\u8BF7\u624B\u52A8\u5C06\u5149\u6807\u79FB\u81F3\u884C\u5934\u5E76\u6309\u4E0B Tab \u952E\uFF08\u7F29\u6392\u4E0D\u4F1A\u4F7F\u7528\u786C\u7A7A\u683C\uFF09",
+    "zh-TW": "\u5047\u5982\u300C\u4EE5 Tab \u7E2E\u6392\u300D\u8A2D\u5B9A\u70BA\u95DC\u9589\uFF0C\u7A7A\u683C\u6703\u88AB\u7528\u4F86\u7E2E\u6392\u3002\u5982\u679C\u300C\u4F7F\u7528\u786C\u7A7A\u683C\u300D\u88AB\u95DC\u9589\uFF0C\u5247\u6703\u4F7F\u7528\u6578\u500B\u666E\u901A\u7684\u7A7A\u683C\u7B26\u865F\u3002\u8ACB\u6CE8\u610F\uFF1A\u5728 Markdown \u4E0B\uFF0C\u91CD\u8907\u7684\u7A7A\u683C\u6703\u88AB\u6E32\u67D3\u70BA\u4E00\u500B\u3002\u958B\u555F\u6B64\u9078\u9805\u5F8C\uFF0C\u786C\u7A7A\u683C (U+00A0) \u5C07\u6703\u53D6\u4EE3\u7A7A\u767D\u5B57\u5143\u7576\u4F5C Tab\uFF0C\u5728\u6E32\u67D3\u5F8C\u4E0D\u6703\u88AB\u522A\u6E1B\u3002\u82E5\u8981\u4F7F\u7528\u786C\u7A7A\u683C\u9032\u884C\u7E2E\u6392\uFF0C\u8ACB\u624B\u52D5\u5C07\u6E38\u6A19\u79FB\u81F3\u884C\u982D\u4E26\u6309\u4E0B Tab \u9375\uFF08\u7E2E\u6392\u4E0D\u6703\u4F7F\u7528\u786C\u7A7A\u683C\uFF09"
+  },
+  spaceCount: {
+    "en-US": "Space count",
+    "zh-CN": "\u7A7A\u683C\u6570\u91CF",
+    "zh-TW": "\u7A7A\u683C\u6578\u91CF"
+  },
+  spaceCountDesc: {
+    "en-US": "The number of spaces or hard spaces inserted when tab key is pressed. default: 4",
+    "zh-CN": "\u4F7F\u7528\u51E0\u4E2A\u7A7A\u683C\u5B57\u7B26\u53D6\u4EE3\u4E00\u4E2A Tab \u5B57\u7B26\uFF1F\u9ED8\u8BA4\uFF1A4\u4E2A",
+    "zh-TW": "\u4F7F\u7528\u5E7E\u500B\u7A7A\u683C\u7B26\u865F\u53D6\u4EE3\u4E00\u500B Tab \u5B57\u5143\uFF1F\u9810\u8A2D\uFF1A4\u500B"
+  },
+  alignSpaces: {
+    "en-US": "Align spaces (just like how tabs behave)",
+    "zh-CN": "\u5BF9\u9F50\u7A7A\u683C",
+    "zh-TW": "\u5C0D\u9F4A\u7A7A\u683C"
+  },
+  alignSpacesDesc: {
+    "en-US": 'At space count of 4, pressing tab after "abc" inserts one space, "abcde" inserts 3, so the end position after pressing tab is always an integer multiple of the space count.',
+    "zh-CN": '\u5047\u8BBE\u300C\u7A7A\u683C\u6570\u91CF\u300D\u8BBE\u4E3A 4\uFF0C\u5219\u5728"abc"\u6700\u540E\u6309\u4E0B Tab \u952E\u4F1A\u63D2\u5165\u4E00\u4E2A\u7A7A\u767D\uFF0C"abcde"\u5219\u4E3A\u4E09\u4E2A\uFF0C\u4F7F\u5F97\u6309\u4E0B Tab \u63D2\u5165\u7A7A\u683C\u540E\u7684\u5149\u6807\u4F4D\u7F6E\u4E3A\u7A7A\u683C\u6570\u91CF\u7684\u6574\u6570\u500D',
+    "zh-TW": '\u5047\u8A2D\u300C\u7A7A\u683C\u6578\u91CF\u300D\u8A2D\u70BA 4\uFF0C\u5247\u5728"abc"\u6700\u5F8C\u6309\u4E0B Tab \u9375\u6703\u63D2\u5165\u4E00\u500B\u7A7A\u767D\uFF0C"abcde"\u5247\u70BA\u4E09\u500B\uFF0C\u4F7F\u5F97\u6309\u4E0B Tab \u63D2\u5165\u7A7A\u683C\u5F8C\u7684\u6E38\u6A19\u4F4D\u7F6E\u70BA\u7A7A\u683C\u6578\u91CF\u7684\u6574\u6578\u500D'
+  },
+  tabKeyBehavior: {
+    "en-US": "Tab Key Behavior",
+    "zh-CN": "Tab \u952E\u884C\u4E3A",
+    "zh-TW": "Tab \u9375\u884C\u70BA"
+  },
+  indentWhenSelectionNotEmpty: {
+    "en-US": "Indents when selection is not empty",
+    "zh-CN": "\u5728\u6709\u6587\u5B57\u88AB\u9009\u53D6\u65F6\u9032\u884C\u7F29\u6392",
+    "zh-TW": "\u5728\u6709\u6587\u5B57\u88AB\u9078\u53D6\u6642\u9032\u884C\u7E2E\u6392"
+  },
+  indentWhenSelectionNotEmptyDesc: {
+    "en-US": "true(default): Select some text and press tab key will indent the selected lines. Same behavior as most IDEs. \nfalse: Selection will be replaced with one tab",
+    "zh-CN": "\u5F00\u542F\uFF08\u9ED8\u8BA4\uFF09\uFF1A\u9009\u53D6/\u53CD\u767D\u4E00\u4E9B\u6587\u5B57\u540E\u6309\u4E0B Tab \u952E\u4F1A\u7F29\u8FDB\u8BE5\u51E0\u884C\u6587\u5B57\u3002\u6B64\u884C\u4E3A\u548C\u591A\u6570 IDE \u76F8\u540C\uFF1B\u5173\u95ED\uFF1A\u9009\u53D6\u7684\u6587\u5B57\u4F1A\u88AB\u53D6\u4EE3\u4E3A\u4E00\u4E2A Tab",
+    "zh-TW": "\u958B\u555F\uFF08\u9810\u8A2D\uFF09\uFF1A\u9078\u53D6/\u53CD\u767D\u4E00\u4E9B\u6587\u5B57\u5F8C\u6309\u4E0B Tab \u9375\u6703\u7E2E\u6392\u8A72\u5E7E\u884C\u6587\u5B57\u3002\u6B64\u884C\u70BA\u548C\u591A\u6578 IDE \u76F8\u540C\uFF1B\u95DC\u9589\uFF1A\u9078\u53D6\u7684\u6587\u5B57\u6703\u88AB\u53D6\u4EE3\u70BA\u4E00\u500B Tab"
+  },
+  indentOnlySelectionMultipleLine: {
+    "en-US": "Indents only when selection contains multiple lines",
+    "zh-CN": "\u4EC5\u5728\u9009\u53D6\u591A\u884C\u65F6\u8FDB\u884C\u7F29\u8FDB",
+    "zh-TW": "\u50C5\u5728\u9078\u53D6\u591A\u884C\u6642\u9032\u884C\u7E2E\u6392"
+  },
+  indentOnlySelectionMultipleLineDesc: {
+    "en-US": "true(default): If the selection lies within one line, a tab (or spaces) will replace the selection instead",
+    "zh-CN": "\u5F00\u542F\uFF08\u9ED8\u8BA4\uFF09\uFF1A\u5982\u679C\u4EC5\u6709\u4E00\u884C\u6587\u5B57\u88AB\u9009\u53D6\uFF0C\u5219\u9009\u53D6\u7684\u6587\u5B57\u4F1A\u88AB\u53D6\u4EE3\u4E3A\u4E00\u4E2A Tab",
+    "zh-TW": "\u958B\u555F\uFF08\u9810\u8A2D\uFF09\uFF1A\u5982\u679C\u50C5\u6709\u4E00\u884C\u6587\u5B57\u88AB\u9078\u53D6\uFF0C\u5247\u9078\u53D6\u7684\u6587\u5B57\u6703\u88AB\u53D6\u4EE3\u70BA\u4E00\u500B Tab"
+  },
+  allowException: {
+    "en-US": "Allow exceptions for indenting",
+    "zh-CN": "\u5141\u8BB8\u5BF9\u7F29\u8FDB\u8FDB\u884C\u4F8B\u5916\u5904\u7406",
+    "zh-TW": "\u5C0D\u7E2E\u6392\u9032\u884C\u4F8B\u5916\u8655\u7406"
+  },
+  onlyInCodeBlocks: {
+    "en-US": "Only activate in code blocks",
+    "zh-CN": "\u4EC5\u5728\u4EE3\u7801\u533A\u5757\u5185\u6FC0\u6D3B",
+    "zh-TW": "\u50C5\u5728\u7A0B\u5F0F\u78BC\u5340\u584A\u5167\u555F\u7528"
+  },
+  onlyInCodeBlocksDesc: {
+    "en-US": "Will do nothing if the cursor is not in a code block and use default behavior (indent, or other plugins that uses the tab key, like Obsidian Tabout)",
+    "zh-CN": "\u5F53\u5149\u6807\u4E0D\u5728\u4EE3\u7801\u533A\u5757\u5185\u7684\u8BDD\uFF0C\u4F7F\u7528\u9ED8\u8BA4 Tab \u952E\u884C\u4E3A\uFF08\u7F29\u8FDB\uFF0C\u6216\u8005\u5176\u4ED6\u4F7F\u7528 Tab \u952E\u7684\u63D2\u4EF6\uFF0C\u5982 Obsidian Tabout\uFF09",
+    "zh-TW": "\u7576\u6E38\u6A19\u4E0D\u5728\u7A0B\u5F0F\u78BC\u5340\u584A\u5167\u7684\u8A71\uFF0C\u4F7F\u7528\u9810\u8A2D Tab \u9375\u884C\u70BA\uFF08\u7E2E\u6392\uFF0C\u6216\u8005\u5176\u4ED6\u4F7F\u7528 Tab \u9375\u7684\u63D2\u4EF6\uFF0C\u5982 Obsidian Tabout\uFF09"
+  },
+  allowExceptionDesc: {
+    "en-US": "Indent line even when the selection is empty when the line matches the regex (For example, when cursor is on an empty list bullet)",
+    "zh-CN": "\u82E5\u5149\u6807\u6240\u5728\u7684\u90A3\u884C\u5339\u914D\u4EE5\u4E0B\u8868\u8FBE\u5F0F\u65F6\uFF0C\u4ECD\u7136\u8FDB\u884C\u7F29\u8FDB\uFF08\u5982\u8BE5\u884C\u4E3A\u7A7A\u767D\u7684\u6E05\u5355\u5217\u8868\uFF09",
+    "zh-TW": "\u82E5\u6E38\u6A19\u6240\u5728\u7684\u90A3\u884C\u7B26\u5408\u4EE5\u4E0B\u8868\u9054\u5F0F\u6642\uFF0C\u4ECD\u7136\u9032\u884C\u7E2E\u6392\uFF08\u5982\u8A72\u884C\u70BA\u7A7A\u767D\u7684\u6E05\u55AE\u5217\u8868\uFF09"
+  },
+  exceptionRegex: {
+    "en-US": "Exception regex",
+    "zh-CN": "\u4F8B\u5916\u7684\u6B63\u5219\u8868\u8FBE\u5F0F",
+    "zh-TW": "\u4F8B\u5916\u7684\u6B63\u898F\u8868\u9054\u5F0F"
+  },
+  exceptionRegexDesc: {
+    "en-US": "default: Indents regardless in empty list entries (zero or more whitespaces, followed by - or number. then optionally a checkbox and then a space). Remove the trailing $ to enable indentation in non-empty lists",
+    "zh-CN": "\u9ED8\u8BA4\uFF1A\u5728\u8BE5\u884C\u4E3A\u6E05\u5355\u5217\u8868\u9879\u76EE\u65F6\uFF08\u96F6\u4E2A\u6216\u4EE5\u4E0A\u4E2A\u7A7A\u767D\uFF0C\u52A0\u4E0A\u4E00\u4E2A\u6570\u5B57\uFF0C\u4E5F\u8BB8\u518D\u52A0\u4E0A\u4E00\u4E2A\u8907\u9009\u6846\uFF0C\u7136\u540E\u518D\u4E00\u4E2A\u7A7A\u767D\uFF09\u3002\u5220\u9664\u7ED3\u5C3E\u7684 $ \u7B26\u53F7\uFF0C\u53EF\u4EE5\u8BA9\u6B64\u8868\u8FBE\u5F0F\u5339\u914D\u975E\u7A7A\u767D\u7684\u6E05\u5355\u9879\u76EE\u3002",
+    "zh-TW": "\u9810\u8A2D\uFF1A\u5728\u8A72\u884C\u70BA\u6E05\u55AE\u5217\u8868\u9805\u76EE\u6642\uFF08\u96F6\u500B\u6216\u4EE5\u4E0A\u500B\u7A7A\u767D\uFF0C\u52A0\u4E0A\u4E00\u500B\u6578\u5B57\uFF0C\u4E5F\u8A31\u518D\u52A0\u4E0A\u4E00\u500B\u8907\u9078\u6846\uFF0C\u7136\u5F8C\u518D\u4E00\u500B\u7A7A\u767D\uFF09\u3002\u522A\u9664\u7D50\u5C3E\u7684 $ \u7B26\u865F\uFF0C\u53EF\u4EE5\u8B93\u6B64\u8868\u9054\u5F0F\u5339\u914D\u975E\u7A7A\u767D\u7684\u6E05\u55AE\u9805\u76EE\u3002"
+  },
+  pluginCompatibility: {
+    "en-US": "Compatibility",
+    "zh-CN": "\u517C\u5BB9\u6027",
+    "zh-TW": "\u517C\u5BB9\u6027"
+  },
+  obsidianTableEditor: {
+    "en-US": "Use with the native Obsidian Table Editor",
+    "zh-CN": "\u548C\u9ED1\u66DC\u77F3\u539F\u751F\u8868\u683C\u7F16\u8F91\u5668\u4E00\u8D77\u4F7F\u7528",
+    "zh-TW": "\u548C\u9ED1\u66DC\u77F3\u539F\u751F\u8868\u683C\u7DE8\u8F2F\u5668\u4E00\u8D77\u4F7F\u7528"
+  },
+  obsidianTableEditorDesc: {
+    "en-US": `Do not capture tab key if cursor is on an Obsidian table editor in "Live Preview" mode, so you can go to next cell with the tab key. This setting does not apply to "Source" mode. Also, it is recommended to uninstall/unbind tab in Advanced Tables plugin if you mainly work in live preview mode, because Advanced Tables currently doesn't work as well as the native editor does.`,
+    "zh-CN": "\u5728\u9884\u89C8\u6A21\u5F0F\u4E0B\u4E0D\u5BF9 Tab \u952E\u8FDB\u884C\u5904\u7406\uFF0C\u4EA4\u7ED9\u9ED1\u66DC\u77F3\u539F\u751F\u8868\u683C\u7F16\u8F91\u5668\u3002\u82E5\u4F60\u5E38\u5728\u9884\u89C8\u6A21\u5F0F\u4E0B\u5DE5\u4F5C\uFF0C\u6211\u5EFA\u8BAE\u5C06 Advanced Tables plugin \u9AD8\u7EA7\u8868\u683C\u63D2\u4EF6\u505C\u7528\u6216\u5C06\u5176 Tab \u952E\u89E3\u7ED1\uFF0C\u56E0\u4E3A\u5B83\u6CA1\u6709\u6BD4\u8868\u683C\u7F16\u8F91\u5668\u597D\u7528\u3002",
+    "zh-TW": "\u5728\u9810\u89BD\u6A21\u5F0F\u4E0B\u4E0D\u5C0D Tab \u9375\u9032\u884C\u8655\u7406\uFF0C\u4EA4\u7D66\u9ED1\u66DC\u77F3\u539F\u751F\u8868\u683C\u7DE8\u8F2F\u5668\u3002\u82E5\u4F60\u5E38\u5728\u9810\u89BD\u6A21\u5F0F\u4E0B\u5DE5\u4F5C\uFF0C\u6211\u5EFA\u8B70\u5C07 Advanced Tables plugin \u9032\u968E\u8868\u683C\u63D2\u4EF6\u505C\u7528\u6216\u5C07\u5176 Tab \u9375\u89E3\u7D81\uFF0C\u56E0\u70BA\u5B83\u6C92\u6709\u6BD4\u8868\u683C\u7DE8\u8F2F\u5668\u597D\u7528\u3002"
+  },
+  advancedTables: {
+    "en-US": "Use with Advanced Tables plugin",
+    "zh-CN": "\u548C Advanced Tables plugin \u9AD8\u7EA7\u8868\u683C\u63D2\u4EF6\u4E00\u8D77\u4F7F\u7528",
+    "zh-TW": "\u548C Advanced Tables plugin \u9032\u968E\u8868\u683C\u63D2\u4EF6\u4E00\u8D77\u4F7F\u7528"
+  },
+  advancedTablesDesc: {
+    "en-US": 'Creates a new table or go to next cell when cursor is in a table. Requires disabling "Bind tab to table navigation" in the Advanced Tables plugin (and restart Obsidian). I recommend leaving that setting on and this off, and leave tab key binding to Advanced Tables plugin in a table environment, it does the exact same thing.',
+    "zh-CN": "\u5F53\u5149\u6807\u5728\u4E00\u4E2A\u8868\u683C\u5185\u65F6\u6309\u4E0B Tab \u4F1A\u521B\u5EFA\u65B0\u8868\u683C\u6216\u8DF3\u5230\u4E0B\u4E00\u4E2A\u5355\u5143\u683C\u3002\u9700\u8981\u5728\u9AD8\u7EA7\u8868\u683C\u63D2\u4EF6\u4E2D\u5173\u95ED\u300CBind tab to table navigation\u300D\u5E76\u91CD\u542F\u9ED1\u66DC\u77F3\u7B14\u8BB0\u3002\u5EFA\u8BAE\u7EF4\u6301\u539F\u6837\uFF0C\u5728\u8868\u683C\u73AF\u5883\u5185\u4EA4\u7ED9\u9AD8\u7EA7\u8868\u683C\u63D2\u4EF6\u5904\u7406 Tab \u952E\u7ED1\u5B9A\u3002",
+    "zh-TW": "\u7576\u6E38\u6A19\u5728\u4E00\u500B\u8868\u683C\u5167\u6642\u6309\u4E0B Tab \u6703\u5275\u5EFA\u65B0\u8868\u683C\u6216\u8DF3\u5230\u4E0B\u4E00\u500B\u5132\u5B58\u683C\u3002\u9700\u8981\u5728\u9032\u968E\u8868\u683C\u63D2\u4EF6\u4E2D\u95DC\u9589\u300CBind tab to table navigation\u300D\u4E26\u91CD\u555F\u9ED1\u66DC\u77F3\u7B46\u8A18\u3002\u5EFA\u8B70\u7DAD\u6301\u539F\u6A23\uFF0C\u5728\u8868\u683C\u74B0\u5883\u5167\u4EA4\u7D66\u9032\u968E\u8868\u683C\u63D2\u4EF6\u8655\u7406 Tab \u9375\u7D81\u5B9A\u3002"
+  },
+  outliner: {
+    "en-US": "Use with Obsidian Outliner plugin",
+    "zh-CN": "\u548C Obsidian Outliner plugin \u5927\u7EB2\u63D2\u4EF6\u4E00\u8D77\u4F7F\u7528",
+    "zh-TW": "\u548C Obsidian Outliner plugin \u5927\u7DB1\u63D2\u4EF6\u4E00\u8D77\u4F7F\u7528"
+  },
+  outlinerDesc: {
+    "en-US": "Try execute Outliner indent operation when tab is pressed, if nothing changed, use default Restore Tab Key plugin behavior. Basically, if the selection is empty and cursor is on a list item, it will indent the item if Tab is pressed, unless it can't, in that case a tab will be inserted. A list item can't be indented if it is already one level deeper than the item above. This plugin can also indent everything under the selected item recursively, and relabel numbered lists.",
+    "zh-CN": "\u5C1D\u8BD5\u6267\u884C Outliner \u7684\u7F29\u6392\u6307\u4EE4\uFF0C\u5982\u679C\u6CA1\u6709\u4EFB\u4F55\u66F4\u6539\u5219\u5957\u7528\u672C\u63D2\u4EF6\u7684\u8BBE\u5B9A\u3002\u57FA\u672C\u4E0A\u5F53\u6309\u4E0B Tab \u952E\uFF0C\u4E14\u6CA1\u6709\u6587\u5B57\u88AB\u9009\u53D6\uFF0C\u4E14\u5149\u6807\u5728\u6E05\u5355\u5217\u8868\u4E0A\u7684\u8BDD\uFF0C\u4F1A\u76F4\u63A5\u5C06\u8BE5\u6E05\u5355\u5217\u8868\u7B49\u7EA7",
+    "zh-TW": "\u5617\u8A66\u57F7\u884C Outliner \u7684\u7E2E\u6392\u6307\u4EE4\uFF0C\u5982\u679C\u6C92\u6709\u4EFB\u4F55\u8B8A\u5316\u7684\u8A71\u5247\u5957\u7528\u672C\u63D2\u4EF6\u7684\u8A2D\u5B9A\u3002\u57FA\u672C\u4E0A\u7576\u6309\u4E0B Tab \u9375\uFF0C\u4E14\u6C92\u6709\u6587\u5B57\u88AB\u9078\u53D6\uFF0C\u4E14\u6E38\u6A19\u5728\u6E05\u55AE\u5217\u8868\u4E0A\u7684\u8A71\uFF0C\u6703\u76F4\u63A5\u5C07\u8A72\u6E05\u55AE\u5217\u8868\u7B49\u7D1A"
+  },
+  additional: {
+    "en-US": "Additional Options",
+    "zh-CN": "\u5176\u4ED6\u9009\u9879",
+    "zh-TW": "\u5176\u4ED6\u9078\u9805"
+  },
+  customHotkey: {
+    "en-US": "Custom hotkey",
+    "zh-CN": "\u81EA\u5B9A\u4E49\u70ED\u952E",
+    "zh-TW": "\u81EA\u5B9A\u7FA9\u71B1\u9375"
+  },
+  customHotkeyDesc: {
+    "en-US": `Tab doesn't work for you? Try "Ctrl-Alt-Space", or "Shift-F6"? (Reload required. Go to "Community plugins" and disable then enable this plugin will do)`,
+    "zh-CN": '\u4E0D\u60F3\u7528 Tab \u952E\uFF1F\u8BD5\u8BD5 "Ctrl-Alt-Space" \u6216\u8005 "Shift-F6"\uFF1F\uFF08\u9700\u8981\u91CD\u65B0\u542F\u52A8\u63D2\u4EF6\uFF0C\u5230\u300C\u7B2C\u4E09\u65B9\u63D2\u4EF6\u300D\u5173\u95ED\u6B64\u63D2\u4EF6\u540E\u518D\u5F00\u542F\u5373\u53EF\uFF09',
+    "zh-TW": '\u4E0D\u60F3\u7528 Tab \u9375\uFF1F\u8A66\u8A66 "Ctrl-Alt-Space" \u6216\u8005 "Shift-F6"\uFF1F\uFF08\u9700\u8981\u91CD\u65B0\u555F\u52D5\u63D2\u4EF6\uFF0C\u5230\u300C\u7B2C\u4E09\u65B9\u63D2\u4EF6\u300D\u95DC\u9589\u6B64\u63D2\u4EF6\u5F8C\u518D\u958B\u555F\u5373\u53EF\uFF09'
+  },
+  language: {
+    "en-US": "Settings page interface language",
+    "zh-CN": "\u8BBE\u5B9A\u9875\u663E\u793A\u8BED\u8A00",
+    "zh-TW": "\u8A2D\u5B9A\u9801\u986F\u793A\u8A9E\u8A00"
+  },
+  languageDesc: {
+    "en-US": "Would Chinese be better?",
+    "zh-CN": "\u82F1\u6587\u4F1A\u66F4\u9002\u5408\u5417\uFF1F",
+    "zh-TW": "\u82F1\u6587\u6703\u66F4\u9069\u5408\u55CE\uFF1F"
+  },
+  developerMode: {
+    "en-US": "Developer Mode",
+    "zh-CN": "\u5F00\u53D1\u8005\u6A21\u5F0F",
+    "zh-TW": "\u958B\u767C\u8005\u6A21\u5F0F"
+  },
+  developerModeDesc: {
+    "en-US": "Enable debug on the Obsidian Developer Console, accessible by pressing Ctrl+Shift+I and selecting the Console tab, and show hidden, deprecated settings",
+    "zh-CN": "\u5F00\u542F\u4FA6\u9519\u4FE1\u606F\uFF0C\u5E76\u663E\u793A\u88AB\u9690\u85CF\u3001\u9000\u5F79\u7684\u8BBE\u5B9A\u4EEC\u3002\u7EC8\u7AEF\u53EF\u4EE5\u900F\u8FC7\u6309\u4E0B Ctrl+Shift+I \u540E\u9009\u62E9 Console \u5206\u9875",
+    "zh-TW": "\u958B\u555F\u5075\u932F\u8A0A\u606F\uFF0C\u4E26\u986F\u793A\u88AB\u96B1\u85CF\u3001\u9000\u5F79\u7684\u8A2D\u5B9A\u5011\u3002\u7D42\u7AEF\u53EF\u4EE5\u900F\u904E\u6309\u4E0B Ctrl+Shift+I \u5F8C\u9078\u64C7 Console \u5206\u9801"
+  }
+};
+
+// main.ts
+var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
+  activateOnlyOnCodeBlocks: false,
   indentsIfSelection: true,
   indentsIfSelectionOnlyForMultipleLines: true,
   useSpaces: false,
-  alignSpaces: false,
-  useHardSpace: true,
+  alignSpaces: true,
+  useHardSpace: false,
   spacesCount: 4,
   allowException: true,
   exceptionRegex: "^[\\s\xA0]*(-|\\d+\\.)( \\[ \\])?\\s*$",
-  useAdvancedTables: true,
-  useOutlinerBetterTab: true
+  useAdvancedTables: false,
+  obsidianTableEditor: true,
+  useOutlinerBetterTab: true,
+  hotkey: "Tab",
+  language: "en-US",
+  developerMode: false
 };
 var TabKeyPlugin = class extends import_obsidian.Plugin {
+  constructor() {
+    super(...arguments);
+    this.getToken = (state) => {
+      const ast = (0, import_language.syntaxTree)(state);
+      return ast.resolveInner(state.selection.main.head, -1).type.name;
+    };
+  }
   async onload() {
     await this.loadSettings();
     this.addSettingTab(new SettingTab(this.app, this));
     let outlinerIndenting = false;
-    this.registerEditorExtension(import_state.Prec.highest(import_view.keymap.of([{
-      key: "Tab",
-      run: () => {
-        if (outlinerIndenting)
-          return false;
-        const view = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
-        if (!view)
-          return false;
-        let editor = view.editor;
-        let cursorFrom = editor.getCursor("from");
-        let cursorTo = editor.getCursor("to");
-        let somethingSelected = cursorFrom.line != cursorTo.line || cursorFrom.ch != cursorTo.ch;
-        const app = this.app;
-        if (this.settings.useOutlinerBetterTab && RegExp("^[\\s]*(-|\\d+\\.)", "u").test(editor.getLine(cursorFrom.line))) {
-          let prevLine = editor.getLine(cursorFrom.line);
-          outlinerIndenting = true;
-          app.commands.executeCommandById("obsidian-outliner:indent-list");
-          outlinerIndenting = false;
-          if (prevLine != editor.getLine(cursorFrom.line)) {
-            return true;
+    this.registerEditorExtension(import_state.Prec.highest(import_view.keymap.of([
+      {
+        key: this.settings.hotkey,
+        run: () => {
+          if (this.settings.developerMode)
+            console.log("[restore tab] Tab key event triggered");
+          if (outlinerIndenting) {
+            if (this.settings.developerMode)
+              console.log("[restore tab] Failed to execute: Outliner recursive call blocked");
+            return false;
           }
-        }
-        if (this.settings.useAdvancedTables && RegExp(`^\\|`, "u").test(editor.getLine(cursorFrom.line))) {
-          app.commands.executeCommandById("table-editor-obsidian:next-cell");
-          return true;
-        }
-        if (somethingSelected && this.settings.indentsIfSelection && (!this.settings.indentsIfSelectionOnlyForMultipleLines || cursorTo.line != cursorFrom.line)) {
-          editor.exec("indentMore");
-        } else {
-          let cursorFrom2 = editor.getCursor("from");
-          let tabStr = this.settings.useSpaces ? (this.settings.useHardSpace ? "\xA0" : " ").repeat(this.settings.alignSpaces ? this.settings.spacesCount - cursorFrom2.ch % this.settings.spacesCount : this.settings.spacesCount) : "	";
-          if (!somethingSelected && this.settings.allowException) {
-            if (RegExp(this.settings.exceptionRegex, "u").test(editor.getLine(cursorFrom2.line))) {
-              editor.exec("indentMore");
+          const view = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
+          if (!view) {
+            if (this.settings.developerMode)
+              console.log("[restore tab] Failed to execute: Cannot get editor view");
+            return false;
+          }
+          const editor = view.editor;
+          const sourceMode = view.getState().source;
+          const token = this.getToken(editor.cm.state);
+          if (this.settings.developerMode)
+            console.log("[restore tab] Current token: " + token);
+          if (this.settings.activateOnlyOnCodeBlocks && !token.startsWith("hmd-codeblock")) {
+            if (this.settings.developerMode)
+              console.log("[restore tab] Did not execute: Not a code block");
+            return false;
+          }
+          const cursorFrom = editor.getCursor("from");
+          const cursorTo = editor.getCursor("to");
+          const somethingSelected = cursorFrom.line != cursorTo.line || cursorFrom.ch != cursorTo.ch;
+          const app = this.app;
+          if (this.settings.useOutlinerBetterTab && RegExp("^[\\s]*(-|\\d+\\.)", "u").test(editor.getLine(cursorFrom.line))) {
+            const prevLine = editor.getLine(cursorFrom.line);
+            outlinerIndenting = true;
+            if (this.settings.developerMode)
+              console.log("[restore tab] Trying Outliner indent");
+            app.commands.executeCommandById("obsidian-outliner:indent-list");
+            outlinerIndenting = false;
+            if (prevLine != editor.getLine(cursorFrom.line)) {
+              if (this.settings.developerMode)
+                console.log("[restore tab] Did not execute: Handled by Outliner");
               return true;
             }
           }
-          editor.replaceSelection(tabStr);
-          editor.setCursor({ line: cursorFrom2.line, ch: cursorFrom2.ch + tabStr.length });
-        }
-        return true;
-      },
-      preventDefault: true
-    }])));
+          if (RegExp(`^\\|`, "u").test(editor.getLine(cursorFrom.line))) {
+            if (!sourceMode) {
+              if (this.settings.developerMode)
+                console.log("[restore tab] Table environment in Live Preview mode");
+              if (this.settings.obsidianTableEditor) {
+                if (this.settings.developerMode)
+                  console.log("[restore tab] Did not execute: Handled by Obsidian Table Editor");
+                return false;
+              }
+            } else {
+              if (this.settings.developerMode)
+                console.log("[restore tab] Table environment in Source mode");
+              if (this.settings.useAdvancedTables) {
+                app.commands.executeCommandById("table-editor-obsidian:next-cell");
+                if (this.settings.developerMode)
+                  console.log("[restore tab] Did not execute: Handled by Advanced Table");
+                return true;
+              }
+            }
+          }
+          if (somethingSelected && this.settings.indentsIfSelection && (!this.settings.indentsIfSelectionOnlyForMultipleLines || cursorTo.line != cursorFrom.line)) {
+            editor.exec("indentMore");
+            if (this.settings.developerMode)
+              console.log("[restore tab] Indented");
+          } else {
+            const cursorFrom2 = editor.getCursor("from");
+            const tabStr = this.settings.useSpaces ? (this.settings.useHardSpace ? "\xA0" : " ").repeat(this.settings.alignSpaces ? this.settings.spacesCount - cursorFrom2.ch % this.settings.spacesCount : this.settings.spacesCount) : "	";
+            if (!somethingSelected && this.settings.allowException) {
+              if (RegExp(this.settings.exceptionRegex, "u").test(editor.getLine(cursorFrom2.line))) {
+                editor.exec("indentMore");
+                if (this.settings.developerMode)
+                  console.log("[restore tab] Indented (regex exception)");
+                return true;
+              }
+            }
+            editor.replaceSelection(tabStr);
+            editor.setCursor({
+              line: cursorFrom2.line,
+              ch: cursorFrom2.ch + tabStr.length
+            });
+            if (this.settings.developerMode)
+              console.log("[restore tab] Tab inserted");
+          }
+          return true;
+        },
+        preventDefault: false
+      }
+    ])));
   }
   createKeymapRunCallback() {
     return (view) => {
@@ -114,63 +361,114 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    containerEl.createEl("h5", { text: "Obsidian Tab Key Plugin" });
-    containerEl.createEl("i", { text: "Restore tab key behaviour: tab key inserts a tab, the way it should be." });
+    containerEl.createEl("h3", {
+      text: localization["title"][this.plugin.settings.language]
+    });
+    containerEl.createEl("i", {
+      text: localization["description"][this.plugin.settings.language]
+    });
     containerEl.createEl("br");
     containerEl.createEl("br");
-    containerEl.createEl("h2", { text: "Tab or Space Settings" });
-    new import_obsidian.Setting(containerEl).setName("Use spaces instead of tab").setDesc("false(default): Insert tab (\\t) when tab key is pressed. true: Insert spaces (\xA0\xA0\xA0\xA0) when tab key is pressed.").addToggle((toggle) => toggle.setValue(this.plugin.settings.useSpaces).onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName(localization["language"][this.plugin.settings.language]).setDesc(localization["languageDesc"][this.plugin.settings.language]).addDropdown((toggle) => toggle.addOptions({
+      "en-US": "English (US)",
+      "zh-CN": "\u7B80\u4F53\u4E2D\u6587",
+      "zh-TW": "\u7E41\u9AD4\u4E2D\u6587"
+    }).setValue(this.plugin.settings.language).onChange(async (value) => {
+      this.plugin.settings.language = value;
+      await this.plugin.saveSettings();
+      this.display();
+    }));
+    containerEl.createEl("h5", {
+      text: localization["tabOrSpace"][this.plugin.settings.language]
+    });
+    new import_obsidian.Setting(containerEl).setName(localization["useSpacesInsteadOfTab"][this.plugin.settings.language]).setDesc(localization["useSpacesInsteadOfTabDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.useSpaces).onChange(async (value) => {
       this.plugin.settings.useSpaces = value;
       this.display();
       await this.plugin.saveSettings();
     }));
     if (this.plugin.settings.useSpaces) {
-      new import_obsidian.Setting(containerEl).setName("Use hard spaces").setDesc(`If "Indent using tabs" is false, space will be used to indent. If "Use hard spaces" is off, a normal space character will be used. Notice that with Markdown, repeated normal spaces will be rendered as one. Turn this option on to use hard spaces (U+00A0), which will not be truncated after Markdown render. To indent stuff in the processed Markdown output, move your cursor to the begin and press tab (indenting won't insert hard spaces)`).addToggle((toggle) => toggle.setValue(this.plugin.settings.useHardSpace).onChange(async (value) => {
-        this.plugin.settings.useHardSpace = value;
-        await this.plugin.saveSettings();
-      }));
-      new import_obsidian.Setting(containerEl).setName("Space count").setDesc("The number of spaces or hard spaces inserted when tab key is pressed. default: 4").addSlider((slider) => slider.setValue(this.plugin.settings.spacesCount).setLimits(2, 8, 1).setDynamicTooltip().onChange(async (value) => {
+      new import_obsidian.Setting(containerEl).setName(localization["spaceCount"][this.plugin.settings.language]).setDesc(localization["spaceCountDesc"][this.plugin.settings.language]).addSlider((slider) => slider.setValue(this.plugin.settings.spacesCount).setLimits(2, 8, 1).setDynamicTooltip().onChange(async (value) => {
         this.plugin.settings.spacesCount = value;
         await this.plugin.saveSettings();
       }));
-      new import_obsidian.Setting(containerEl).setName("Align spaces (just like how tabs behave)").setDesc('At space count of 4, pressing tab after "abc" inserts one space, "abcde" inserts 3, so the end position after pressing tab is always an integer multiple of the space count.').addToggle((toggle) => toggle.setValue(this.plugin.settings.alignSpaces).onChange(async (value) => {
+      new import_obsidian.Setting(containerEl).setName(localization["alignSpaces"][this.plugin.settings.language]).setDesc(localization["alignSpacesDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.alignSpaces).onChange(async (value) => {
         this.plugin.settings.alignSpaces = value;
         await this.plugin.saveSettings();
       }));
+      new import_obsidian.Setting(containerEl).setName(localization["useHardSpaces"][this.plugin.settings.language]).setDesc(localization["useHardSpacesDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.useHardSpace).onChange(async (value) => {
+        this.plugin.settings.useHardSpace = value;
+        await this.plugin.saveSettings();
+      }));
     }
-    containerEl.createEl("h2", { text: "Tab Key Behaviour" });
-    new import_obsidian.Setting(containerEl).setName("Indents when selection is not empty").setDesc("true(default): Select some text and press tab key will indent the selected lines. Same behaviour as most IDEs. \nfalse: Selection will be replaced with one tab").addToggle((toggle) => toggle.setValue(this.plugin.settings.indentsIfSelection).onChange(async (value) => {
+    containerEl.createEl("h5", {
+      text: localization["tabKeyBehavior"][this.plugin.settings.language]
+    });
+    new import_obsidian.Setting(containerEl).setName(localization["onlyInCodeBlocks"][this.plugin.settings.language]).setDesc(localization["onlyInCodeBlocksDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.activateOnlyOnCodeBlocks).onChange(async (value) => {
+      this.plugin.settings.activateOnlyOnCodeBlocks = value;
+      this.display();
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(containerEl).setName(localization["indentWhenSelectionNotEmpty"][this.plugin.settings.language]).setDesc(localization["indentWhenSelectionNotEmptyDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.indentsIfSelection).onChange(async (value) => {
       this.plugin.settings.indentsIfSelection = value;
+      this.display();
       await this.plugin.saveSettings();
     }));
     if (this.plugin.settings.indentsIfSelection) {
-      new import_obsidian.Setting(containerEl).setName("Indents only when selection contains multiple lines").setDesc("true(default): If the selection lies within one line, a tab (or spaces) will replace the selection instead").addToggle((toggle) => toggle.setValue(this.plugin.settings.indentsIfSelectionOnlyForMultipleLines).onChange(async (value) => {
+      new import_obsidian.Setting(containerEl).setName(localization["indentOnlySelectionMultipleLine"][this.plugin.settings.language]).setDesc(localization["indentOnlySelectionMultipleLineDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.indentsIfSelectionOnlyForMultipleLines).onChange(async (value) => {
         this.plugin.settings.indentsIfSelectionOnlyForMultipleLines = value;
         await this.plugin.saveSettings();
       }));
     }
-    new import_obsidian.Setting(containerEl).setName("Allow exceptions for indenting").setDesc("Indent line even when the selection is empty when the line matches the regex").addToggle((toggle) => toggle.setValue(this.plugin.settings.allowException).onChange(async (value) => {
-      this.plugin.settings.allowException = value;
-      this.display();
-      await this.plugin.saveSettings();
-    }));
-    if (this.plugin.settings.allowException) {
-      new import_obsidian.Setting(containerEl).setName("Exception regex").setDesc("Default: Indents regardless in lists (zero or more whitespaces, followed by - or number. then optionally a checkbox and then a space). Remove the trailing $ to enable indentation in non-empty lists").addText((textbox) => textbox.setValue(this.plugin.settings.exceptionRegex).setPlaceholder("Regex").onChange(async (value) => {
-        this.plugin.settings.exceptionRegex = value;
-        await this.plugin.saveSettings();
-      })).addExtraButton((button) => button.setIcon("rotate-ccw").onClick(async () => {
-        this.plugin.settings.exceptionRegex = "^[\\s\xA0]*(-|\\d+\\.)( \\[ \\])?\\s*$";
+    if (this.plugin.settings.developerMode || !this.plugin.settings.activateOnlyOnCodeBlocks) {
+      new import_obsidian.Setting(containerEl).setName(localization["allowException"][this.plugin.settings.language]).setDesc(localization["allowExceptionDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.allowException).onChange(async (value) => {
+        this.plugin.settings.allowException = value;
         this.display();
         await this.plugin.saveSettings();
       }));
+      if (this.plugin.settings.allowException) {
+        new import_obsidian.Setting(containerEl).setName(localization["exceptionRegex"][this.plugin.settings.language]).setDesc(localization["exceptionRegexDesc"][this.plugin.settings.language]).addText((textbox) => textbox.setValue(this.plugin.settings.exceptionRegex).setPlaceholder("Regex").onChange(async (value) => {
+          this.plugin.settings.exceptionRegex = value;
+          await this.plugin.saveSettings();
+        })).addExtraButton((button) => button.setIcon("rotate-ccw").onClick(async () => {
+          this.plugin.settings.exceptionRegex = "^[\\s\xA0]*(-|\\d+\\.)( \\[ \\])?\\s*$";
+          this.display();
+          await this.plugin.saveSettings();
+        }));
+      }
     }
-    containerEl.createEl("h2", { text: "Plugin Compatibility" });
-    new import_obsidian.Setting(containerEl).setName("Use with Advanced Tables plugin").setDesc("Creates a new table or go to next cell when cursor is in a table").addToggle((toggle) => toggle.setValue(this.plugin.settings.useAdvancedTables).onChange(async (value) => {
-      this.plugin.settings.useAdvancedTables = value;
+    if (this.plugin.settings.developerMode || !this.plugin.settings.activateOnlyOnCodeBlocks) {
+      containerEl.createEl("h5", {
+        text: localization["pluginCompatibility"][this.plugin.settings.language]
+      });
+      new import_obsidian.Setting(containerEl).setName(localization["obsidianTableEditor"][this.plugin.settings.language]).setDesc(localization["obsidianTableEditorDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.obsidianTableEditor).onChange(async (value) => {
+        this.plugin.settings.obsidianTableEditor = value;
+        await this.plugin.saveSettings();
+      }));
+      if (this.plugin.settings.developerMode) {
+        new import_obsidian.Setting(containerEl).setName(localization["advancedTables"][this.plugin.settings.language]).setDesc(localization["advancedTablesDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.useAdvancedTables).onChange(async (value) => {
+          this.plugin.settings.useAdvancedTables = value;
+          await this.plugin.saveSettings();
+        }));
+      }
+      new import_obsidian.Setting(containerEl).setName(localization["outliner"][this.plugin.settings.language]).setDesc(localization["outlinerDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.useOutlinerBetterTab).onChange(async (value) => {
+        this.plugin.settings.useOutlinerBetterTab = value;
+        await this.plugin.saveSettings();
+      }));
+    }
+    containerEl.createEl("h5", {
+      text: localization["additional"][this.plugin.settings.language]
+    });
+    new import_obsidian.Setting(containerEl).setName(localization["customHotkey"][this.plugin.settings.language]).setDesc(localization["customHotkeyDesc"][this.plugin.settings.language]).addText((textbox) => textbox.setValue(this.plugin.settings.hotkey).setPlaceholder("Ctrl-Alt-Space").onChange(async (value) => {
+      this.plugin.settings.hotkey = value;
+      await this.plugin.saveSettings();
+    })).addExtraButton((button) => button.setIcon("rotate-ccw").onClick(async () => {
+      this.plugin.settings.hotkey = "Tab";
+      this.display();
       await this.plugin.saveSettings();
     }));
-    new import_obsidian.Setting(containerEl).setName("Use with Obsidian Outliner plugin").setDesc("Try execute Outliner indent operation when tab is pressed, if nothing changed, use default Restore Tab Key plugin behavior").addToggle((toggle) => toggle.setValue(this.plugin.settings.useOutlinerBetterTab).onChange(async (value) => {
-      this.plugin.settings.useOutlinerBetterTab = value;
+    new import_obsidian.Setting(containerEl).setName(localization["developerMode"][this.plugin.settings.language]).setDesc(localization["developerModeDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.developerMode).onChange(async (value) => {
+      this.plugin.settings.developerMode = value;
+      this.display();
       await this.plugin.saveSettings();
     }));
   }

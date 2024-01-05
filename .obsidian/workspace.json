@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ztemplate/Template/lecture.md",
+                "file": "Definitions/null.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ztemplate/Template/lecture.md"
+                "file": "Definitions/null.md"
               }
             }
           }
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ztemplate/Template/lecture.md",
+                "file": "Definitions/null.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ztemplate/Template/lecture.md",
+                "file": "Definitions/null.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,16 +183,16 @@
   "left-ribbon": {
     "hiddenItems": {
       "graph:Open graph view": true,
-      "omnisearch:Omnisearch": true,
       "switcher:Open quick switcher": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "markdown-importer:Open format converter": true,
-      "templater-obsidian:Templater": false
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "d6d1c74c06bf400a",
   "lastOpenFiles": [
+    "ztemplate/Template/lecture.md",
     "ztemplate/Template/assignment.md",
     "ztemplate/Snippets/newlecture.md",
     "2023/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
@@ -212,7 +212,6 @@
     "Lecture Notes/null",
     "Lecture Notes",
     "ztemplate/Template/subject.md",
-    "ztemplate/Template/lecture.md",
     "ztemplate/Template/definition.md",
     "ztemplate/Template/callout.md",
     "ztemplate/Template",
