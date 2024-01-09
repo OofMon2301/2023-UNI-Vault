@@ -16,16 +16,46 @@
         "chooseWhenCreatingNote": true,
         "createInSameFolderAsActiveFile": false
       },
-      "appendLink": false,
+      "appendLink": true,
       "openFileInNewTab": {
         "enabled": false,
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default",
       "setFileExistsBehavior": true,
       "fileExistsMode": "Increment the file name"
+    },
+    {
+      "id": "31c84671-f907-432f-be95-f14fe867c18e",
+      "name": "New Definition",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Random Stuff/Templates/Definitions.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "2024/Definitions"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [],

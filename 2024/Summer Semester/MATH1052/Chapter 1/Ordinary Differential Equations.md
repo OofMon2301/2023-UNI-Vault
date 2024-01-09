@@ -79,7 +79,8 @@ Show that $y=y(x)=A\exp(x^{2}/2)$ is a solution to the ODE $y'=xy$.
 
 $$
 \text{We need to show that }y=A\exp (x^{2}/2) \text{ satisfies the ODE.}
-$$$$
+$$
+$$
 \begin{aligned}
 \text{Calculate LHS}\\
 y'&=\frac{d}{dx}\left(A\exp x^{2}/2 \right)\\ 
@@ -218,3 +219,17 @@ $$
 $$
 Either way, we note that at $(t,y)=(a,b)$ the slope of $y(t)$ is $f(a,b)$. So what one can do is as follows:
 
+```ad-info
+title: Ways to Solve General Form ODEs
+
+- In the $ty$-plane, at $(t,y) = (a,b)$, draw a small straight line with slope $f(a,b)$.
+- Repeat the process for many different values of $(a,b)$.
+- The resulting diagram is called the *slope field.*
+```
+
+> [!faq]+ Note
+> The slope field can be generated without having to solve the [[ODE]].
+
+![[Pasted image 20240109161030.png]]
+
+From the slope field of $y'(t)=2y$, we can see that $y=0$ is one of the solution curves. It is a constant or [[equilibrium solution]][[he]].

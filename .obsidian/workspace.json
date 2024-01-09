@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md"
+                "file": "2023/Definitions/he.md"
               }
             }
           }
@@ -150,7 +150,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +166,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,10 +189,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e6b9ce356dfd81c0",
+  "active": "acfa305c99aa7427",
   "lastOpenFiles": [
-    "2024/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
+    "2023/Definitions",
+    "2023",
     "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+    "2023/Definitions/he.md",
+    "2023/Definitions/equilibrium solution.md",
+    "2024/Summer Semester/MATH1052/fun.md",
+    "Attachment Folder/Pasted image 20240109161030.png",
+    "2024/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
     "Random Stuff/Templates/Lecture.md",
     "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
     "2023/Semester 2 2023/MATH1051/Chapter 0/Introduction to MATLAB.md",
@@ -215,20 +219,14 @@
     "New THing.md",
     "ztemplate/Snippets/newdefinition.md",
     "ztemplate/Snippets/newcallout.md",
-    "Gaussian Elimination.md",
-    "Lecture Notes/null/null.md",
     "Definitions",
     "Lecture Notes/null",
     "Lecture Notes",
-    "ztemplate/Template/subject.md",
-    "ztemplate/Template/definition.md",
     "ztemplate/Template",
     "ztemplate/Snippets",
     "ztemplate",
     "preamble.sty",
     "New Text Document.txt",
-    "2023/Summer Semester/MATH1052/Chapter 1/sdsd",
-    "2023/Summer Semester/MATH1052/Chapter 1",
     "Attachment Folder/Pasted image 20230912120643.png",
     "Attachment Folder/Pasted image 20230731090857.png",
     "Attachment Folder/Pasted image 20230703084721.png",
@@ -237,7 +235,6 @@
     "Attachment Folder/Pasted image 20230330124223.png",
     "Attachment Folder/Pasted image 20230330122238.png",
     "Attachment Folder/Pasted image 20230328074657.png",
-    "Attachment Folder/Pasted image 20230316122956.png",
-    "Attachment Folder/Pasted image 20230309123643.png"
+    "Attachment Folder/Pasted image 20230316122956.png"
   ]
 }

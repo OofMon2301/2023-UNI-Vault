@@ -13,8 +13,14 @@
       "id": "quickadd:choice:0e908f6f-46dd-4395-b8a4-c9fb4702adfa",
       "icon": "plus",
       "name": "New Lecture",
-      "mode": "any",
+      "mode": "aa0e12c53c803103",
       "color": "#ffffff"
+    },
+    {
+      "id": "quickadd:choice:31c84671-f907-432f-be95-f14fe867c18e",
+      "icon": "bookmark-plus",
+      "name": "QuickAdd: New Definition",
+      "mode": "any"
     }
   ],
   "macros": [],

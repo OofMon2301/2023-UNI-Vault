@@ -209,9 +209,49 @@ var localization = {
     "zh-TW": "\u958B\u767C\u8005\u6A21\u5F0F"
   },
   developerModeDesc: {
-    "en-US": "Enable debug on the Obsidian Developer Console, accessible by pressing Ctrl+Shift+I and selecting the Console tab, and show hidden, deprecated settings",
-    "zh-CN": "\u5F00\u542F\u4FA6\u9519\u4FE1\u606F\uFF0C\u5E76\u663E\u793A\u88AB\u9690\u85CF\u3001\u9000\u5F79\u7684\u8BBE\u5B9A\u4EEC\u3002\u7EC8\u7AEF\u53EF\u4EE5\u900F\u8FC7\u6309\u4E0B Ctrl+Shift+I \u540E\u9009\u62E9 Console \u5206\u9875",
-    "zh-TW": "\u958B\u555F\u5075\u932F\u8A0A\u606F\uFF0C\u4E26\u986F\u793A\u88AB\u96B1\u85CF\u3001\u9000\u5F79\u7684\u8A2D\u5B9A\u5011\u3002\u7D42\u7AEF\u53EF\u4EE5\u900F\u904E\u6309\u4E0B Ctrl+Shift+I \u5F8C\u9078\u64C7 Console \u5206\u9801"
+    "en-US": 'Enable debug on the Obsidian Developer Console, accessible by pressing Ctrl+Shift+I and selecting the Console tab, and show hidden, deprecated settings. If you encounter problems with the plugin, please open an issue on Github. If the plugin is not working properly, check if the console shows that the tab key event is triggered. If not, either the hotkey is configured wrong, you may try other keys that are less likely to have a conflict, like "F6". If the tab key is not triggering, it is most likely that other plugins have acquired the tab key event. Lastly, you may try testing in a new vault (accessible at the bottom left toolbar).',
+    "zh-CN": '\u5F00\u542F\u4FA6\u9519\u4FE1\u606F\uFF0C\u5E76\u663E\u793A\u88AB\u9690\u85CF\u3001\u9000\u5F79\u7684\u8BBE\u5B9A\u4EEC\u3002\u7EC8\u7AEF\u53EF\u4EE5\u900F\u8FC7\u6309\u4E0B Ctrl+Shift+I \u540E\u9009\u62E9 Console \u5206\u9875\u3002\u82E5\u9047\u5230\u95EE\u9898\uFF0C\u8BF7\u5728 Github \u53D1\u8D77 issue\u3002\u8BF7\u5148\u68C0\u67E5 Console \u662F\u5426\u5728\u6309\u4E0B Tab \u952E\u540E\u663E\u793A "[restore tab] Tab key event triggered"\u3002\u82E5\u5426\uFF0C\u5C1D\u8BD5\u5C06\u81EA\u5B9A\u4E49\u70ED\u952E\u6539\u4E3A\u6BD4\u5982\u51B2\u7A81\u6982\u7387\u8F83\u4F4E\u7684 "F6"\u3002\u82E5 Tab \u952E\u65E0\u6CD5\u89E6\u53D1\uFF0C\u6700\u6709\u53EF\u80FD\u7684\u662F\u5176\u4ED6\u63D2\u4EF6\u5C06 Tab \u952E\u4E8B\u4EF6\u62FF\u8D70\u4E86\u3002\u6700\u540E\uFF0C\u4F60\u8FD8\u53EF\u4EE5\u5F00\u542F\u65B0\u7684\u50A8\u5B58\u5E93\uFF08\u5DE6\u4E0B\u5DE5\u5177\u5217\uFF09\u8FDB\u884C\u6D4B\u8BD5\u3002',
+    "zh-TW": '\u958B\u555F\u5075\u932F\u8A0A\u606F\uFF0C\u4E26\u986F\u793A\u88AB\u96B1\u85CF\u3001\u9000\u5F79\u7684\u8A2D\u5B9A\u5011\u3002\u7D42\u7AEF\u53EF\u4EE5\u900F\u904E\u6309\u4E0B Ctrl+Shift+I \u5F8C\u9078\u64C7 Console \u5206\u9801\u3002\u82E5\u9047\u5230\u554F\u984C\uFF0C\u8ACB\u5728 Github \u767C\u8D77 issue\u3002\u8ACB\u5148\u6AA2\u67E5 Console \u662F\u5426\u5728\u6309\u4E0B Tab \u9375\u5F8C\u986F\u793A "[restore tab] Tab key event triggered"\u3002\u82E5\u5426\uFF0C\u5617\u8A66\u5C07\u81EA\u5B9A\u7FA9\u71B1\u9375\u6539\u70BA\u6BD4\u5982\u885D\u7A81\u6A5F\u7387\u8F03\u4F4E\u7684 "F6"\u3002\u82E5 Tab \u9375\u7121\u6CD5\u89F8\u767C\uFF0C\u6700\u6709\u53EF\u80FD\u7684\u662F\u5176\u4ED6\u63D2\u4EF6\u5C07 Tab \u9375\u4E8B\u4EF6\u62FF\u8D70\u4E86\u3002\u6700\u5F8C\uFF0C\u4F60\u9084\u53EF\u4EE5\u958B\u555F\u65B0\u7684\u5132\u5B58\u5EAB\uFF08\u5DE6\u4E0B\u5DE5\u5177\u5217\uFF09\u9032\u884C\u6E2C\u8A66\u3002'
+  },
+  auto: {
+    "en-US": "Auto",
+    "zh-CN": "\u81EA\u52A8",
+    "zh-TW": "\u81EA\u52D5"
+  },
+  bracesAutoIndent: {
+    "en-US": "Braces Auto Indent",
+    "zh-CN": "\u62EC\u5F27\u81EA\u52A8\u7F29\u8FDB",
+    "zh-TW": "\u62EC\u5F27\u81EA\u52D5\u7E2E\u6392"
+  },
+  enableBracesAutoIndent: {
+    "en-US": "Enable braces auto indent",
+    "zh-CN": "\u542F\u7528\u62EC\u5F27\u81EA\u52A8\u7F29\u8FDB",
+    "zh-TW": "\u555F\u7528\u62EC\u5F27\u81EA\u52D5\u7E2E\u6392"
+  },
+  enableBracesAutoIndentDesc: {
+    "en-US": "When the cursor is next to a brace character, pressing the Enter key will duplicate the indentation from the current line and then add an additional indent according to Obsidian settings",
+    "zh-CN": "\u7576\u5149\u6A19\u5728\u62EC\u5F27\u5B57\u5143\u65C1\u908A\u6642\uFF0C\u6309\u4E0B Enter \u9375\u6703\u8907\u88FD\u7576\u884C\u7684\u7E2E\u9032\uFF0C\u4E26\u518D\u52A0\u4E00\u500B\u7E2E\u9032",
+    "zh-TW": "\u7576\u6E38\u6A19\u5728\u62EC\u5F27\u5B57\u5143\u65C1\u908A\u6642\uFF0C\u6309\u4E0B Enter \u9375\u6703\u8907\u88FD\u7576\u884C\u7684\u7E2E\u6392\uFF0C\u4E26\u518D\u52A0\u4E00\u500B\u7E2E\u6392"
+  },
+  braceRegex: {
+    "en-US": "Brace regex (within code blocks)",
+    "zh-CN": "\u62EC\u5F27\u6B63\u5219\u8868\u8FBE\u5F0F\uFF08\u5728\u4EE3\u7801\u533A\u5757\u5185\u65F6\uFF09",
+    "zh-TW": "\u62EC\u5F27\u6B63\u898F\u8868\u9054\u5F0F\uFF08\u5728\u7A0B\u5F0F\u78BC\u5340\u584A\u5167\u6642\uFF09"
+  },
+  braceRegexDesc: {
+    "en-US": 'If the substring before the cursor matches this regex, it will be considered "next to a brace character". \ndefault: any character between [ and ]$, including braces, brackets, parentheses and quotes',
+    "zh-CN": "\u82E5\u5149\u6807\u4EE5\u5DE6\u7684\u5B50\u5B57\u4E32\u548C\u8868\u8FBE\u5F0F\u5339\u914D\u5219\u4F1A\u4FA6\u6D4B\u4E3A\u62EC\u5F27\u3002\u9ED8\u8BA4\uFF1A\u5728 [ \u548C ]$ \u4E4B\u95F4\u7684\u5B57\u5143",
+    "zh-TW": "\u82E5\u6E38\u6A19\u4EE5\u5DE6\u7684\u5B50\u5B57\u4E32\u548C\u8868\u9054\u5F0F\u5339\u914D\u5247\u6703\u5075\u6E2C\u70BA\u62EC\u5F27\u3002\u9810\u8A2D\uFF1A\u5728 [ \u548C ]$ \u4E4B\u9593\u7684\u5B57\u5143"
+  },
+  braceRegexOutsideCodeBlocks: {
+    "en-US": "Brace regex (outside code blocks)",
+    "zh-CN": "\u62EC\u5F27\u6B63\u5219\u8868\u8FBE\u5F0F\uFF08\u4E0D\u5728\u4EE3\u7801\u533A\u5757\u5185\u65F6\uFF09",
+    "zh-TW": "\u62EC\u5F27\u6B63\u898F\u8868\u9054\u5F0F\uFF08\u4E0D\u5728\u7A0B\u5F0F\u78BC\u5340\u584A\u5167\u6642\uFF09"
+  },
+  braceRegexOutsideCodeBlocksDesc: {
+    "en-US": "Same thing but when cursor is not in a code block. Note that indenting doesn't get rendered in Markdown.",
+    "zh-CN": "\u548C\u524D\u8005\u4E00\u6837\uFF0C\u4F46\u5728\u5149\u6807\u4E0D\u5728\u4EE3\u7801\u533A\u5757\u5185\u65F6\u3002\u6CE8\u610F\uFF1A\u7F29\u8FDB\u4E0D\u4F1A\u88AB Markdown \u6E32\u67D3\u51FA\u6765",
+    "zh-TW": "\u548C\u524D\u8005\u4E00\u6A23\uFF0C\u4F46\u5728\u6E38\u6A19\u4E0D\u5728\u7A0B\u5F0F\u78BC\u5340\u584A\u5167\u6642\u3002\u6CE8\u610F\uFF1A\u7E2E\u6392\u4E0D\u6703\u88AB Markdown \u6E32\u67D3\u51FA\u4F86"
   }
 };
 
@@ -231,8 +271,12 @@ var DEFAULT_SETTINGS = {
   obsidianTableEditor: true,
   useOutlinerBetterTab: true,
   hotkey: "Tab",
-  language: "en-US",
-  developerMode: false
+  language: "auto",
+  developerMode: false,
+  enableBracesAutoIndent: true,
+  braceRegex: "[{[(\"'`]$",
+  braceRegexOutsideCodeBlocks: "[{[(\"'`]$",
+  indentCharacters: " 	"
 };
 var TabKeyPlugin = class extends import_obsidian.Plugin {
   constructor() {
@@ -240,6 +284,10 @@ var TabKeyPlugin = class extends import_obsidian.Plugin {
     this.getToken = (state) => {
       const ast = (0, import_language.syntaxTree)(state);
       return ast.resolveInner(state.selection.main.head, -1).type.name;
+    };
+    this.log = (msg) => {
+      if (this.settings.developerMode)
+        console.log("[restore tab] " + msg);
     };
   }
   async onload() {
@@ -250,28 +298,32 @@ var TabKeyPlugin = class extends import_obsidian.Plugin {
       {
         key: this.settings.hotkey,
         run: () => {
-          if (this.settings.developerMode)
-            console.log("[restore tab] Tab key event triggered");
+          this.log("Tab key event triggered");
           if (outlinerIndenting) {
-            if (this.settings.developerMode)
-              console.log("[restore tab] Failed to execute: Outliner recursive call blocked");
+            this.log("Failed to execute: Outliner recursive call blocked");
             return false;
           }
           const view = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
           if (!view) {
-            if (this.settings.developerMode)
-              console.log("[restore tab] Failed to execute: Cannot get editor view");
+            this.log("Failed to execute: Cannot get editor view");
             return false;
           }
           const editor = view.editor;
           const sourceMode = view.getState().source;
           const token = this.getToken(editor.cm.state);
-          if (this.settings.developerMode)
-            console.log("[restore tab] Current token: " + token);
-          if (this.settings.activateOnlyOnCodeBlocks && !token.startsWith("hmd-codeblock")) {
-            if (this.settings.developerMode)
-              console.log("[restore tab] Did not execute: Not a code block");
-            return false;
+          this.log("Current token: " + token);
+          if (!token.includes("hmd-codeblock")) {
+            if (this.settings.activateOnlyOnCodeBlocks) {
+              this.log("Did not execute: Not a code block");
+              return false;
+            }
+          } else {
+            if (!this.settings.developerMode) {
+              this.settings.allowException = false;
+              this.settings.useAdvancedTables = false;
+              this.settings.obsidianTableEditor = false;
+              this.settings.useOutlinerBetterTab = false;
+            }
           }
           const cursorFrom = editor.getCursor("from");
           const cursorTo = editor.getCursor("to");
@@ -280,48 +332,40 @@ var TabKeyPlugin = class extends import_obsidian.Plugin {
           if (this.settings.useOutlinerBetterTab && RegExp("^[\\s]*(-|\\d+\\.)", "u").test(editor.getLine(cursorFrom.line))) {
             const prevLine = editor.getLine(cursorFrom.line);
             outlinerIndenting = true;
-            if (this.settings.developerMode)
-              console.log("[restore tab] Trying Outliner indent");
+            this.log("Trying Outliner indent");
             app.commands.executeCommandById("obsidian-outliner:indent-list");
             outlinerIndenting = false;
             if (prevLine != editor.getLine(cursorFrom.line)) {
-              if (this.settings.developerMode)
-                console.log("[restore tab] Did not execute: Handled by Outliner");
+              this.log("Did not execute: Handled by Outliner");
               return true;
             }
           }
           if (RegExp(`^\\|`, "u").test(editor.getLine(cursorFrom.line))) {
             if (!sourceMode) {
-              if (this.settings.developerMode)
-                console.log("[restore tab] Table environment in Live Preview mode");
+              this.log("Table environment in Live Preview mode");
               if (this.settings.obsidianTableEditor) {
-                if (this.settings.developerMode)
-                  console.log("[restore tab] Did not execute: Handled by Obsidian Table Editor");
+                this.log("Did not execute: Handled by Obsidian Table Editor");
                 return false;
               }
             } else {
-              if (this.settings.developerMode)
-                console.log("[restore tab] Table environment in Source mode");
+              this.log("Table environment in Source mode");
               if (this.settings.useAdvancedTables) {
                 app.commands.executeCommandById("table-editor-obsidian:next-cell");
-                if (this.settings.developerMode)
-                  console.log("[restore tab] Did not execute: Handled by Advanced Table");
+                this.log("Did not execute: Handled by Advanced Table");
                 return true;
               }
             }
           }
           if (somethingSelected && this.settings.indentsIfSelection && (!this.settings.indentsIfSelectionOnlyForMultipleLines || cursorTo.line != cursorFrom.line)) {
             editor.exec("indentMore");
-            if (this.settings.developerMode)
-              console.log("[restore tab] Indented");
+            this.log("Indented");
           } else {
             const cursorFrom2 = editor.getCursor("from");
             const tabStr = this.settings.useSpaces ? (this.settings.useHardSpace ? "\xA0" : " ").repeat(this.settings.alignSpaces ? this.settings.spacesCount - cursorFrom2.ch % this.settings.spacesCount : this.settings.spacesCount) : "	";
             if (!somethingSelected && this.settings.allowException) {
               if (RegExp(this.settings.exceptionRegex, "u").test(editor.getLine(cursorFrom2.line))) {
                 editor.exec("indentMore");
-                if (this.settings.developerMode)
-                  console.log("[restore tab] Indented (regex exception)");
+                this.log("Indented (regex exception)");
                 return true;
               }
             }
@@ -330,12 +374,58 @@ var TabKeyPlugin = class extends import_obsidian.Plugin {
               line: cursorFrom2.line,
               ch: cursorFrom2.ch + tabStr.length
             });
-            if (this.settings.developerMode)
-              console.log("[restore tab] Tab inserted");
+            this.log("Tab inserted");
           }
           return true;
         },
         preventDefault: false
+      },
+      {
+        key: "Enter",
+        run: () => {
+          this.log("Enter key event triggered");
+          if (!this.settings.enableBracesAutoIndent)
+            return false;
+          const view = this.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
+          if (!view) {
+            this.log("Failed to execute: Cannot get editor view");
+            return false;
+          }
+          const editor = view.editor;
+          if (editor.getCursor("from").line != editor.getCursor("to").line || editor.getCursor("from").ch != editor.getCursor("to").ch)
+            return false;
+          const cursor = editor.getCursor("from");
+          const line = editor.getLine(cursor.line);
+          const token = this.getToken(editor.cm.state);
+          if (this.settings.developerMode) {
+            this.log("Current token: " + token);
+            this.log("which is" + (token.includes("hmd-codeblock") ? " " : " not ") + "a code block, matching regex: " + (token.includes("hmd-codeblock") ? this.settings.braceRegex : this.settings.braceRegexOutsideCodeBlocks));
+          }
+          if (RegExp(token.includes("hmd-codeblock") ? this.settings.braceRegex : this.settings.braceRegexOutsideCodeBlocks, "u").test(line.substring(0, cursor.ch))) {
+            this.log("Code Auto Indent: Brace regex match");
+            let indentPrefixLen = 0;
+            while (this.settings.indentCharacters.includes(line[indentPrefixLen]))
+              indentPrefixLen++;
+            editor.exec("newlineAndIndent");
+            if (cursor.ch == line.length) {
+              this.log("Pressed enter without closing pair to the right of the cursor");
+            } else if (editor.getLine(cursor.line + 1).length && !this.settings.indentCharacters.includes(editor.getLine(cursor.line + 1).charAt(editor.getLine(cursor.line + 1).length - 1))) {
+              this.log("Closing pair or whatever was to the right of the cursor is still here, entering one more time");
+              editor.exec("newlineAndIndent");
+            } else {
+              this.log("Closing pair was automatically moved one extra line down");
+            }
+            editor.setLine(cursor.line + 1, line.substring(0, indentPrefixLen));
+            if (line.substring(cursor.ch)) {
+              editor.setLine(cursor.line + 2, line.substring(0, indentPrefixLen) + line.substring(cursor.ch));
+            }
+            editor.setCursor(cursor.line + 1, editor.getLine(cursor.line + 1).length);
+            editor.exec("indentMore");
+            editor.setCursor(cursor.line + 1, editor.getLine(cursor.line + 1).length);
+            return true;
+          }
+          return false;
+        }
       }
     ])));
   }
@@ -359,17 +449,22 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
     this.plugin = plugin;
   }
   display() {
+    const appLang = window.localStorage.getItem("language");
+    this.plugin.log("Detected application language: " + appLang + (appLang == null ? " (aka English)" : ""));
+    const lang = this.plugin.settings.language == "auto" ? appLang == "zh-TW" ? "zh-TW" : appLang == "zh" ? "zh-CN" : "en-US" : this.plugin.settings.language;
+    this.plugin.log("Using localization: " + lang);
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h3", {
-      text: localization["title"][this.plugin.settings.language]
+      text: localization["title"][lang]
     });
     containerEl.createEl("i", {
-      text: localization["description"][this.plugin.settings.language]
+      text: localization["description"][lang]
     });
     containerEl.createEl("br");
     containerEl.createEl("br");
-    new import_obsidian.Setting(containerEl).setName(localization["language"][this.plugin.settings.language]).setDesc(localization["languageDesc"][this.plugin.settings.language]).addDropdown((toggle) => toggle.addOptions({
+    new import_obsidian.Setting(containerEl).setName(localization["language"][lang]).setDesc(localization["languageDesc"][lang]).addDropdown((toggle) => toggle.addOptions({
+      auto: localization["auto"][lang],
       "en-US": "English (US)",
       "zh-CN": "\u7B80\u4F53\u4E2D\u6587",
       "zh-TW": "\u7E41\u9AD4\u4E2D\u6587"
@@ -379,94 +474,128 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
       this.display();
     }));
     containerEl.createEl("h5", {
-      text: localization["tabOrSpace"][this.plugin.settings.language]
+      text: localization["tabOrSpace"][lang]
     });
-    new import_obsidian.Setting(containerEl).setName(localization["useSpacesInsteadOfTab"][this.plugin.settings.language]).setDesc(localization["useSpacesInsteadOfTabDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.useSpaces).onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName(localization["useSpacesInsteadOfTab"][lang]).setDesc(localization["useSpacesInsteadOfTabDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.useSpaces).onChange(async (value) => {
       this.plugin.settings.useSpaces = value;
       this.display();
       await this.plugin.saveSettings();
     }));
     if (this.plugin.settings.useSpaces) {
-      new import_obsidian.Setting(containerEl).setName(localization["spaceCount"][this.plugin.settings.language]).setDesc(localization["spaceCountDesc"][this.plugin.settings.language]).addSlider((slider) => slider.setValue(this.plugin.settings.spacesCount).setLimits(2, 8, 1).setDynamicTooltip().onChange(async (value) => {
+      new import_obsidian.Setting(containerEl).setName(localization["spaceCount"][lang]).setDesc(localization["spaceCountDesc"][lang]).addSlider((slider) => slider.setValue(this.plugin.settings.spacesCount).setLimits(2, 8, 1).setDynamicTooltip().onChange(async (value) => {
         this.plugin.settings.spacesCount = value;
         await this.plugin.saveSettings();
       }));
-      new import_obsidian.Setting(containerEl).setName(localization["alignSpaces"][this.plugin.settings.language]).setDesc(localization["alignSpacesDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.alignSpaces).onChange(async (value) => {
+      new import_obsidian.Setting(containerEl).setName(localization["alignSpaces"][lang]).setDesc(localization["alignSpacesDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.alignSpaces).onChange(async (value) => {
         this.plugin.settings.alignSpaces = value;
         await this.plugin.saveSettings();
       }));
-      new import_obsidian.Setting(containerEl).setName(localization["useHardSpaces"][this.plugin.settings.language]).setDesc(localization["useHardSpacesDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.useHardSpace).onChange(async (value) => {
+      new import_obsidian.Setting(containerEl).setName(localization["useHardSpaces"][lang]).setDesc(localization["useHardSpacesDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.useHardSpace).onChange(async (value) => {
         this.plugin.settings.useHardSpace = value;
         await this.plugin.saveSettings();
       }));
     }
     containerEl.createEl("h5", {
-      text: localization["tabKeyBehavior"][this.plugin.settings.language]
+      text: localization["tabKeyBehavior"][lang]
     });
-    new import_obsidian.Setting(containerEl).setName(localization["onlyInCodeBlocks"][this.plugin.settings.language]).setDesc(localization["onlyInCodeBlocksDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.activateOnlyOnCodeBlocks).onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName(localization["onlyInCodeBlocks"][lang]).setDesc(localization["onlyInCodeBlocksDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.activateOnlyOnCodeBlocks).onChange(async (value) => {
       this.plugin.settings.activateOnlyOnCodeBlocks = value;
       this.display();
       await this.plugin.saveSettings();
     }));
-    new import_obsidian.Setting(containerEl).setName(localization["indentWhenSelectionNotEmpty"][this.plugin.settings.language]).setDesc(localization["indentWhenSelectionNotEmptyDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.indentsIfSelection).onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName(localization["indentWhenSelectionNotEmpty"][lang]).setDesc(localization["indentWhenSelectionNotEmptyDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.indentsIfSelection).onChange(async (value) => {
       this.plugin.settings.indentsIfSelection = value;
       this.display();
       await this.plugin.saveSettings();
     }));
     if (this.plugin.settings.indentsIfSelection) {
-      new import_obsidian.Setting(containerEl).setName(localization["indentOnlySelectionMultipleLine"][this.plugin.settings.language]).setDesc(localization["indentOnlySelectionMultipleLineDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.indentsIfSelectionOnlyForMultipleLines).onChange(async (value) => {
+      new import_obsidian.Setting(containerEl).setName(localization["indentOnlySelectionMultipleLine"][lang]).setDesc(localization["indentOnlySelectionMultipleLineDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.indentsIfSelectionOnlyForMultipleLines).onChange(async (value) => {
         this.plugin.settings.indentsIfSelectionOnlyForMultipleLines = value;
         await this.plugin.saveSettings();
       }));
     }
     if (this.plugin.settings.developerMode || !this.plugin.settings.activateOnlyOnCodeBlocks) {
-      new import_obsidian.Setting(containerEl).setName(localization["allowException"][this.plugin.settings.language]).setDesc(localization["allowExceptionDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.allowException).onChange(async (value) => {
+      new import_obsidian.Setting(containerEl).setName(localization["allowException"][lang]).setDesc(localization["allowExceptionDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.allowException).onChange(async (value) => {
         this.plugin.settings.allowException = value;
         this.display();
         await this.plugin.saveSettings();
       }));
       if (this.plugin.settings.allowException) {
-        new import_obsidian.Setting(containerEl).setName(localization["exceptionRegex"][this.plugin.settings.language]).setDesc(localization["exceptionRegexDesc"][this.plugin.settings.language]).addText((textbox) => textbox.setValue(this.plugin.settings.exceptionRegex).setPlaceholder("Regex").onChange(async (value) => {
+        new import_obsidian.Setting(containerEl).setName(localization["exceptionRegex"][lang]).setDesc(localization["exceptionRegexDesc"][lang]).addText((textbox) => textbox.setValue(this.plugin.settings.exceptionRegex).setPlaceholder("Regex").onChange(async (value) => {
           this.plugin.settings.exceptionRegex = value;
           await this.plugin.saveSettings();
         })).addExtraButton((button) => button.setIcon("rotate-ccw").onClick(async () => {
-          this.plugin.settings.exceptionRegex = "^[\\s\xA0]*(-|\\d+\\.)( \\[ \\])?\\s*$";
+          this.plugin.settings.exceptionRegex = DEFAULT_SETTINGS.exceptionRegex;
           this.display();
           await this.plugin.saveSettings();
         }));
       }
     }
+    containerEl.createEl("h5", {
+      text: localization["bracesAutoIndent"][lang]
+    });
+    new import_obsidian.Setting(containerEl).setName(localization["enableBracesAutoIndent"][lang]).setDesc(localization["enableBracesAutoIndentDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.enableBracesAutoIndent).onChange(async (value) => {
+      this.plugin.settings.enableBracesAutoIndent = value;
+      this.display();
+      await this.plugin.saveSettings();
+    }));
+    if (this.plugin.settings.enableBracesAutoIndent) {
+      new import_obsidian.Setting(containerEl).setName(localization["braceRegex"][lang]).setDesc(localization["braceRegexDesc"][lang]).addText((textbox) => textbox.setValue(this.plugin.settings.braceRegex).setPlaceholder(DEFAULT_SETTINGS.braceRegex).onChange(async (value) => {
+        this.plugin.settings.braceRegex = value;
+        await this.plugin.saveSettings();
+      })).addExtraButton((button) => button.setIcon("rotate-ccw").onClick(async () => {
+        this.plugin.settings.braceRegex = DEFAULT_SETTINGS.braceRegex;
+        this.display();
+        await this.plugin.saveSettings();
+      })).addExtraButton((button) => button.setIcon("ban").onClick(async () => {
+        this.plugin.settings.braceRegex = "disabled^";
+        this.display();
+        await this.plugin.saveSettings();
+      }));
+      new import_obsidian.Setting(containerEl).setName(localization["braceRegexOutsideCodeBlocks"][lang]).setDesc(localization["braceRegexOutsideCodeBlocksDesc"][lang]).addText((textbox) => textbox.setValue(this.plugin.settings.braceRegexOutsideCodeBlocks).setPlaceholder(DEFAULT_SETTINGS.braceRegexOutsideCodeBlocks).onChange(async (value) => {
+        this.plugin.settings.braceRegexOutsideCodeBlocks = value;
+        await this.plugin.saveSettings();
+      })).addExtraButton((button) => button.setIcon("rotate-ccw").onClick(async () => {
+        this.plugin.settings.braceRegexOutsideCodeBlocks = DEFAULT_SETTINGS.braceRegexOutsideCodeBlocks;
+        this.display();
+        await this.plugin.saveSettings();
+      })).addExtraButton((button) => button.setIcon("ban").onClick(async () => {
+        this.plugin.settings.braceRegexOutsideCodeBlocks = "disabled^";
+        this.display();
+        await this.plugin.saveSettings();
+      }));
+    }
     if (this.plugin.settings.developerMode || !this.plugin.settings.activateOnlyOnCodeBlocks) {
       containerEl.createEl("h5", {
-        text: localization["pluginCompatibility"][this.plugin.settings.language]
+        text: localization["pluginCompatibility"][lang]
       });
-      new import_obsidian.Setting(containerEl).setName(localization["obsidianTableEditor"][this.plugin.settings.language]).setDesc(localization["obsidianTableEditorDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.obsidianTableEditor).onChange(async (value) => {
+      new import_obsidian.Setting(containerEl).setName(localization["obsidianTableEditor"][lang]).setDesc(localization["obsidianTableEditorDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.obsidianTableEditor).onChange(async (value) => {
         this.plugin.settings.obsidianTableEditor = value;
         await this.plugin.saveSettings();
       }));
       if (this.plugin.settings.developerMode) {
-        new import_obsidian.Setting(containerEl).setName(localization["advancedTables"][this.plugin.settings.language]).setDesc(localization["advancedTablesDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.useAdvancedTables).onChange(async (value) => {
+        new import_obsidian.Setting(containerEl).setName(localization["advancedTables"][lang]).setDesc(localization["advancedTablesDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.useAdvancedTables).onChange(async (value) => {
           this.plugin.settings.useAdvancedTables = value;
           await this.plugin.saveSettings();
         }));
       }
-      new import_obsidian.Setting(containerEl).setName(localization["outliner"][this.plugin.settings.language]).setDesc(localization["outlinerDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.useOutlinerBetterTab).onChange(async (value) => {
+      new import_obsidian.Setting(containerEl).setName(localization["outliner"][lang]).setDesc(localization["outlinerDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.useOutlinerBetterTab).onChange(async (value) => {
         this.plugin.settings.useOutlinerBetterTab = value;
         await this.plugin.saveSettings();
       }));
     }
     containerEl.createEl("h5", {
-      text: localization["additional"][this.plugin.settings.language]
+      text: localization["additional"][lang]
     });
-    new import_obsidian.Setting(containerEl).setName(localization["customHotkey"][this.plugin.settings.language]).setDesc(localization["customHotkeyDesc"][this.plugin.settings.language]).addText((textbox) => textbox.setValue(this.plugin.settings.hotkey).setPlaceholder("Ctrl-Alt-Space").onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName(localization["customHotkey"][lang]).setDesc(localization["customHotkeyDesc"][lang]).addText((textbox) => textbox.setValue(this.plugin.settings.hotkey).setPlaceholder("Ctrl-Alt-Space").onChange(async (value) => {
       this.plugin.settings.hotkey = value;
       await this.plugin.saveSettings();
     })).addExtraButton((button) => button.setIcon("rotate-ccw").onClick(async () => {
-      this.plugin.settings.hotkey = "Tab";
+      this.plugin.settings.hotkey = DEFAULT_SETTINGS.hotkey;
       this.display();
       await this.plugin.saveSettings();
     }));
-    new import_obsidian.Setting(containerEl).setName(localization["developerMode"][this.plugin.settings.language]).setDesc(localization["developerModeDesc"][this.plugin.settings.language]).addToggle((toggle) => toggle.setValue(this.plugin.settings.developerMode).onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName(localization["developerMode"][lang]).setDesc(localization["developerModeDesc"][lang]).addToggle((toggle) => toggle.setValue(this.plugin.settings.developerMode).onChange(async (value) => {
       this.plugin.settings.developerMode = value;
       this.display();
       await this.plugin.saveSettings();
