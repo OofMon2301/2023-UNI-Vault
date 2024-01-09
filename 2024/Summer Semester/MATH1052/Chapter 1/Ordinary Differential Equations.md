@@ -212,3 +212,9 @@ $$
 
 ### 1.2 Slope Fields and Equilibrium Solutions
 
+In order to solve $\frac{dy}{dt}=f(t)$, we need to integrate. If we do this for a more general first-order [[ODE]], this would not work. An example would be like this:
+$$
+\frac{dy}{dt}=f(t,y)
+$$
+Either way, we note that at $(t,y)=(a,b)$ the slope of $y(t)$ is $f(a,b)$. So what one can do is as follows:
+
