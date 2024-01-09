@@ -176,18 +176,19 @@
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "markdown-importer:Open format converter": true,
-      "omnisearch:Omnisearch": false,
-      "cmdr:QuickAdd: New Subject": false
+      "cmdr:QuickAdd: New Subject": false,
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "658409cc031a4992",
   "lastOpenFiles": [
-    "Random Stuff/Templates/Subject.md",
+    "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
     "2024/Summer Semester/MATH1052/MATH1052.md",
+    "2024/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
+    "Random Stuff/Templates/Subject.md",
     "2024/Definitions/IVP.md",
     "Random Stuff/Templates/Definitions.md",
     "2024/Definitions/Euler's Method.md",
-    "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
     "Random Stuff/Templates/Lecture.md",
     "2024/Definitions/Equilibrium Solution.md",
     "2024/Definitions/Argument.md",
@@ -207,7 +208,6 @@
     "2024/Summer Semester/MATH2031.md",
     "Random Stuff/Final Exam Timetable.md",
     "Random Stuff/Banners.md",
-    "2024/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
     "Attachment Folder/0bc9239d06e46004b27be3070f6ea3f7e9e2ae85.svg",
     "2023/Definitions",
     "2023",

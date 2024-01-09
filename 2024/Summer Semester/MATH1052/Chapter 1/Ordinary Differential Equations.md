@@ -2,9 +2,7 @@
 date: 02-12-2023
 type: Lecture
 subject: Week 1
-tags:
-  - lecture
-"Topic:": Ordinary Differential Equations
+tags: ODEs
 ---
 #MATH1052
 
