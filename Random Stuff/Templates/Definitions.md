@@ -3,6 +3,7 @@ date: <% tp.date.now("DD-MM-YYYY") %>
 type: Definition
 subject: <% this.app.vault.getAbstractFileByPath(this.app.workspace.getLastOpenFiles()[0]).parent.name %>
 tags: definition
+chapter: <% this.app.vault.getAbstractFileByPath(this.app.workspace.getLastOpenFiles()[0]).parent.name %>
 ---
 # [[<% tp.file.title %>]]
 
