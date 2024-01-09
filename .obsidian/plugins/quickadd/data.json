@@ -56,6 +56,34 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "ff078bb4-a685-4fa5-afd3-6c0259e3e3b9",
+      "name": "New Subject",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Random Stuff/Templates/Subject.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": true,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [],

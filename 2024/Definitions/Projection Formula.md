@@ -1,7 +1,7 @@
 ---
 date: 10-07-2023
 type: Definition
-subject: Lecture Notes 2008
+subject: MATH1052
 tags: definition
 ---
 # [[Projection Formula]]

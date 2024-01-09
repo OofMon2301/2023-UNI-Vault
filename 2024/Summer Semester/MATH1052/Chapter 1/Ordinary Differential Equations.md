@@ -232,5 +232,41 @@ title: Ways to Solve General Form ODEs
 
 ![[Pasted image 20240109161030.png]]
 
-From the slope field of $y'(t)=2y$, we can see that $y=0$ is one of the solution curves. It is a constant or [[Equilibrium Solution]].
+From the slope field of $y'(t)=2y$, we can see that $y=0$ is one of the solution curves. It is a constant or [[Equilibrium Solution]]. 
 
+#### 1.2.3 Stability of equilibrium solutions
+
+From a slope field, you can decide whether an equilibrium solution is stable or not by determining if solution curves will tend toward the equilibrium solution or away as time increases.
+
+Formally, an equilibrium solution $y(t)=y_{0}$ to the differential equation $y'=f(t,y)$ is stable if the initial value problem:
+$$
+\frac{dy}{dt} = f(t,y), \quad y(0)=y_{0} \pm \epsilon
+$$
+has a solution $y(t)$ that satisfies 
+$$
+\lim_{ t \to \infty } y(t)=y_{0}
+$$
+In other words, if you start sufficiently close to a stable [[Equilibrium Solution]], then you will approach that [[Equilibrium Solution|equilibrium solution]].
+
+> [!summary]+ Important Remark
+> It is an important point that equilibrium solutions cannot be crossed by other solution curves. In fact, no solutions curves can cross each other because this would mean that in some point(s) $y'(t)$ has more than one value. Equilibrium solutions therefore *partition* the solution space.
+
+#### 1.2.5 Main Points
+
+> [!success]+ Main Points
+> - You should understand how to generate and interpret slope fields.
+> - You should understand what is meant by an equilibrium solution and how to find one.
+> - You should be able to determine the stability of an equilibrium solution.
+> - You should understand that uniqueness of solutions to an IVP implies that solutions cannot cross.
+
+---
+
+---
+
+### 1.3 Euler's Method for solving ODEs numerically
+
+[[Euler's Method]] uses [[Tangent Lines|tangent lines]]  as approximations to solution curves. The tangent line to a solution curve of $y'=f(t,y)$ at $(t_{0},y_{0})$ is
+$$
+y=y_{0}+f(t_{0},y_{0})(t-t_{0}).
+$$
+This approximates the curve when $t$ is close to $t_{0}$.

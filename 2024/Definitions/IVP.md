@@ -1,7 +1,7 @@
 ---
 date: 05-12-2023
 type: Definition
-subject: Chapter 1
+subject: MATH1052
 tags: definition
 ---
 # [[IVP]]

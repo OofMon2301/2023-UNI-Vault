@@ -1,7 +1,7 @@
 ---
 date: 30-11-2023
 type: Definition
-subject: Week 1
+subject: MATH1052
 tags: definition
 ---
 # [[ODE]]

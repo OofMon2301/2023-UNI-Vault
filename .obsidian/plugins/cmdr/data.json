@@ -4,7 +4,14 @@
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
-  "leftRibbon": [],
+  "leftRibbon": [
+    {
+      "id": "quickadd:choice:ff078bb4-a685-4fa5-afd3-6c0259e3e3b9",
+      "icon": "book",
+      "name": "QuickAdd: New Subject",
+      "mode": "any"
+    }
+  ],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],

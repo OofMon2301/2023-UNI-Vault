@@ -1,7 +1,7 @@
 ---
 date: 06-12-2023
 type: Definition
-subject: Chapter 1
+subject: MATH1052
 tags: definition
 ---
 # [[Newton's 2nd law of motion]]

@@ -8,41 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "04c44a456f92b0a1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "e6b9ce356dfd81c0",
+            "id": "658409cc031a4992",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38be4ac660301d04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024/Definitions/Equilibrium Solution.md",
+                "file": "2024/Summer Semester/MATH1052/MATH1052.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Definitions/Equilibrium Solution.md"
+                "file": "2024/Summer Semester/MATH1052/MATH1052.md"
               }
             }
           }
@@ -108,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -162,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Definitions/Equilibrium Solution.md",
+                "file": "2024/Summer Semester/MATH1052/MATH1052.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Definitions/Equilibrium Solution.md",
+                "file": "2024/Summer Semester/MATH1052/MATH1052.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,45 +171,47 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": true,
+      "graph:Open graph view": false,
       "switcher:Open quick switcher": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "markdown-importer:Open format converter": true,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "cmdr:QuickAdd: New Subject": false
     }
   },
-  "active": "38be4ac660301d04",
+  "active": "658409cc031a4992",
   "lastOpenFiles": [
+    "2024/Summer Semester/MATH1052/MATH1052.md",
     "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
-    "2024/Definitions/Equilibrium Solution.md",
-    "Random Stuff/Templates/Definitions.md",
     "Random Stuff/Templates/Lecture.md",
-    "2023/Definitions/Equilibrium Solution.md",
+    "Random Stuff/Templates/Subject.md",
+    "2024/Definitions/Equilibrium Solution.md",
+    "2024/Definitions/Argument.md",
+    "2024/Definitions/Tautology.md",
+    "2024/Definitions/Torque.md",
+    "2024/Definitions/Vector.md",
+    "2024/Definitions/Tangent Lines.md",
+    "2024/Definitions/Sustainable Practices.md",
+    "2024/Definitions/Projection Formula.md",
+    "2024/Definitions/Pressure.md",
+    "2024/Definitions/Professional Engineering.md",
+    "2024/Definitions/Predicate.md",
+    "2024/Definitions/ODE.md",
+    "2024/Definitions/Newton's 2nd law of motion.md",
+    "2024/Definitions/Magnitude.md",
+    "2024/Definitions/Euler's Method.md",
+    "2024/Definitions/IVP.md",
+    "2024/Summer Semester/MATH2030.md",
+    "2024/Summer Semester/MATH2031.md",
+    "Random Stuff/Templates/Definitions.md",
+    "Random Stuff/Final Exam Timetable.md",
+    "Random Stuff/Banners.md",
+    "2024/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
+    "Attachment Folder/0bc9239d06e46004b27be3070f6ea3f7e9e2ae85.svg",
     "2023/Definitions",
     "2023",
-    "Equilibrium Solution.md",
-    "2023/Definitions/he.md",
-    "2023/Definitions/equilibrium solution.md",
-    "2024/Summer Semester/MATH1052/fun.md",
     "Attachment Folder/Pasted image 20240109161030.png",
-    "2024/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 0/Introduction to MATLAB.md",
-    "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
-    "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md",
-    "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md",
-    "Definitions/null.md",
-    "ztemplate/Template/lecture.md",
-    "ztemplate/Template/assignment.md",
-    "ztemplate/Snippets/newlecture.md",
-    "2023/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
-    "$SUBJECT.md",
-    "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
-    "2023/Summer Semester/MATH1052/Chapter 1/Fun.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "2023/Summer Semester/MATH1052/Chapter 1/New Thing.md",
     "Definitions",
     "Lecture Notes/null",
     "Lecture Notes",
@@ -249,7 +227,6 @@
     "Attachment Folder/Pasted image 20230403214205.png",
     "Attachment Folder/Pasted image 20230330124223.png",
     "Attachment Folder/Pasted image 20230330122238.png",
-    "Attachment Folder/Pasted image 20230328074657.png",
-    "Attachment Folder/Pasted image 20230316122956.png"
+    "Attachment Folder/Pasted image 20230328074657.png"
   ]
 }
