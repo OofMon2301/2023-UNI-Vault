@@ -8,5 +8,5 @@ tags: definition
 
 # Definition of <% tp.file.title %>:
 *Created on <% tp.file.creation_date("HH:mm DD-MM-YYYY") %>
-<% await tp.file.move("/2023/Definitions/" + tp.file.title) %>
+<% await tp.file.move("/2024/Definitions/" + tp.file.title) %>
 

@@ -12,17 +12,8 @@
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "",
-  "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "2024/Definitions",
-      "template": "Random Stuff/Templates/Definitions.md"
-    },
-    {
-      "folder": "2024",
-      "template": "Random Stuff/Templates/Lecture.md"
-    }
-  ],
+  "enable_folder_templates": false,
+  "folder_templates": [],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [],

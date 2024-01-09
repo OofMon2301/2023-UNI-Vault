@@ -28,9 +28,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "38be4ac660301d04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/Definitions/Equilibrium Solution.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md"
+                "file": "2024/Definitions/Equilibrium Solution.md"
               }
             }
           }
@@ -96,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -149,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+                "file": "2024/Definitions/Equilibrium Solution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+                "file": "2024/Definitions/Equilibrium Solution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,17 +203,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e6b9ce356dfd81c0",
+  "active": "38be4ac660301d04",
   "lastOpenFiles": [
-    "2023/Definitions/he.md",
+    "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+    "2024/Definitions/Equilibrium Solution.md",
+    "Random Stuff/Templates/Definitions.md",
+    "Random Stuff/Templates/Lecture.md",
+    "2023/Definitions/Equilibrium Solution.md",
     "2023/Definitions",
     "2023",
-    "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+    "Equilibrium Solution.md",
+    "2023/Definitions/he.md",
     "2023/Definitions/equilibrium solution.md",
     "2024/Summer Semester/MATH1052/fun.md",
     "Attachment Folder/Pasted image 20240109161030.png",
     "2024/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
-    "Random Stuff/Templates/Lecture.md",
     "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
     "2023/Semester 2 2023/MATH1051/Chapter 0/Introduction to MATLAB.md",
     "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
@@ -217,9 +234,6 @@
     "Untitled.md",
     "Untitled 1.md",
     "2023/Summer Semester/MATH1052/Chapter 1/New Thing.md",
-    "New THing.md",
-    "ztemplate/Snippets/newdefinition.md",
-    "ztemplate/Snippets/newcallout.md",
     "Definitions",
     "Lecture Notes/null",
     "Lecture Notes",
