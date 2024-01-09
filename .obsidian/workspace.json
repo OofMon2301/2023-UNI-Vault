@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Definitions/null.md",
+                "file": "Random Stuff/Templates/Lecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Definitions/null.md"
+                "file": "Random Stuff/Templates/Lecture.md"
               }
             }
           }
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Definitions/null.md",
+                "file": "Random Stuff/Templates/Lecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Definitions/null.md",
+                "file": "Random Stuff/Templates/Lecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,6 +192,13 @@
   },
   "active": "d6d1c74c06bf400a",
   "lastOpenFiles": [
+    "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 0/Introduction to MATLAB.md",
+    "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
+    "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md",
+    "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md",
+    "Random Stuff/Templates/Lecture.md",
+    "Definitions/null.md",
     "ztemplate/Template/lecture.md",
     "ztemplate/Template/assignment.md",
     "ztemplate/Snippets/newlecture.md",
@@ -206,7 +213,6 @@
     "ztemplate/Snippets/newdefinition.md",
     "ztemplate/Snippets/newcallout.md",
     "Gaussian Elimination.md",
-    "Definitions/null.md",
     "Lecture Notes/null/null.md",
     "Definitions",
     "Lecture Notes/null",
@@ -219,13 +225,7 @@
     "ztemplate",
     "preamble.sty",
     "New Text Document.txt",
-    "Random Stuff/Templates/Lecture.md",
     "Random Stuff/Templates/Definitions.md",
-    "This is.md",
-    "Homepage.md",
-    "2023/Definitions/Newton's 2nd law of motion.md",
-    "2023/Definitions/IVP.md",
-    "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
     "2023/Summer Semester/MATH1052/Chapter 1/sdsd",
     "2023/Summer Semester/MATH1052/Chapter 1",
     "Attachment Folder/Pasted image 20230912120643.png",
