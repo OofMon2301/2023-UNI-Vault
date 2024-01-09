@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "d6d1c74c06bf400a",
+            "id": "e6b9ce356dfd81c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random Stuff/Templates/Lecture.md",
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Random Stuff/Templates/Lecture.md"
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md"
               }
             }
           }
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -149,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Random Stuff/Templates/Lecture.md",
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Random Stuff/Templates/Lecture.md",
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,14 +191,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d6d1c74c06bf400a",
+  "active": "e6b9ce356dfd81c0",
   "lastOpenFiles": [
+    "2024/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
+    "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+    "Random Stuff/Templates/Lecture.md",
     "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
     "2023/Semester 2 2023/MATH1051/Chapter 0/Introduction to MATLAB.md",
     "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
     "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md",
     "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md",
-    "Random Stuff/Templates/Lecture.md",
     "Definitions/null.md",
     "ztemplate/Template/lecture.md",
     "ztemplate/Template/assignment.md",
@@ -219,13 +222,11 @@
     "Lecture Notes",
     "ztemplate/Template/subject.md",
     "ztemplate/Template/definition.md",
-    "ztemplate/Template/callout.md",
     "ztemplate/Template",
     "ztemplate/Snippets",
     "ztemplate",
     "preamble.sty",
     "New Text Document.txt",
-    "Random Stuff/Templates/Definitions.md",
     "2023/Summer Semester/MATH1052/Chapter 1/sdsd",
     "2023/Summer Semester/MATH1052/Chapter 1",
     "Attachment Folder/Pasted image 20230912120643.png",
