@@ -232,4 +232,4 @@ title: Ways to Solve General Form ODEs
 
 ![[Pasted image 20240109161030.png]]
 
-From the slope field of $y'(t)=2y$, we can see that $y=0$ is one of the solution curves. It is a constant or [[equilibrium solution]][[he]].
+From the slope field of $y'(t)=2y$, we can see that $y=0$ is one of the solution curves. It is a constant or Equilibrium Equations.

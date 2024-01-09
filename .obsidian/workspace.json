@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Definitions/he.md"
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md"
               }
             }
           }
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -150,6 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,6 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,12 +190,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "acfa305c99aa7427",
+  "active": "e6b9ce356dfd81c0",
   "lastOpenFiles": [
+    "2023/Definitions/he.md",
     "2023/Definitions",
     "2023",
     "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
-    "2023/Definitions/he.md",
     "2023/Definitions/equilibrium solution.md",
     "2024/Summer Semester/MATH1052/fun.md",
     "Attachment Folder/Pasted image 20240109161030.png",
