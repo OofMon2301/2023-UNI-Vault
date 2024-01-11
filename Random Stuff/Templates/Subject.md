@@ -13,8 +13,8 @@ year:
 # Lectures
 
 ```dataview
-TASK
-WHERE contains(subject,"<% tp.file.title %>")
+Table date as "Time Created", tags as "Tags"
+from #SUBJECT
 ```
 
 

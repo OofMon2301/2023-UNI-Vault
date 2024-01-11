@@ -267,4 +267,68 @@ In other words, if you start sufficiently close to a stable [[Equilibrium Soluti
 $$
 y=y_{0}+f(t_{0},y_{0})(t-t_{0}).
 $$
-This approximates the curve when $t$ is close to $t_{0}$.
+This approximates the curve when $t$ is close to $t_{0}$. 
+
+Using $\nabla t$ as the step size for our algorithm, let
+$$
+t_{1}=t_{0}+\nabla t, t_{2}=t_{1}+\nabla t, t_{3}=t_{2}+\nabla t,\dots,t_{n}=t_{n-1}+\nabla t
+$$
+To find approximate $y$ values at these times, use the following equations in sequence:
+$$
+y_{1}=y_{0}+f(t_{0},y_{0})\nabla t
+$$
+and so on.
+
+#### 1.3.2 Euler's Method using Matlab; an example
+
+![[Pasted image 20240111222740.png]]
+
+#### 1.3.4 Main Points
+
+> [!summary]+ Main Points
+> - You should understand how slope fields lead to [[Euler's Method]]
+> - You should know how to approximate a solution to an [[IVP]] using [[Euler's Method]] by hand.
+> - You should know how to implement [[Euler's Method]] in Matlab.
+> - You should understand that errors can be a problem in the approximate solution, especially if a large step size is used.
+
+### 1.4 Separable ODEs
+
+> [!caution]+
+> It is very important that you become skilled at identifying and solving this type of [[ODE]].
+
+#### 1.4.1 Definition
+
+A first-order [[ODE]] is called *separable* if it can be written in the form
+$$
+\frac{dy}{dx}=f(x)g(y).
+$$
+![[Pasted image 20240111223300.png]]
+
+> [!done]+ Answer
+> 1st one, 4th one and 5th one.
+
+#### 1.4.2 Solving Separable ODEs
+
+![[Pasted image 20240111223416.png]]
+
+> [!attention]+
+> The last two steps are not always possible. Just try and simplify as best you can :D
+
+#### 1.4.3 Singular solutions
+
+For solving separable ODEs we always try and start by rewriting the equation as $\frac{1}{g(y)} \frac{dy}{dx}=f(x)$. Since we cannot divide by zero, this means that our method is only valid provided that $g(y)\neq 0$.
+
+If there is such a case such as $\mathbf{a}$ such that $g(\mathbf{a})=0$ then the ODE will have the *[[Equilibrium Solution]]* $y(x)=a$.
+
+#### 1.4.4 Main Points
+> [!summary]+ Main Points
+> - You should be able to identify a first-order separable ODE.
+> - You should know how to solve a separable ODE.
+> - You should understand that equilibrium and singular solutions are equivalent and must be checked for when solving a separable ODE.
+
+### 1.5 Applications: law of Cooling, Population Growth
+
+
+#### 1.5.1 Newton's Law of Cooling
+
+[[Newton's Law of Cooling]] 

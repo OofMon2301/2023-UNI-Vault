@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/MATH1052.md",
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/MATH1052.md"
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md"
               }
             }
           }
@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -138,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/MATH1052.md",
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/MATH1052.md",
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,14 +183,18 @@
   },
   "active": "658409cc031a4992",
   "lastOpenFiles": [
+    "2024/Definitions/Newton's Law of Cooling.md",
     "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+    "Attachment Folder/Pasted image 20240111223416.png",
+    "Attachment Folder/Pasted image 20240111223300.png",
+    "Attachment Folder/Pasted image 20240111222740.png",
     "2024/Summer Semester/MATH1052/MATH1052.md",
     "2024/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
     "Random Stuff/Templates/Subject.md",
+    "Random Stuff/Templates/Lecture.md",
     "2024/Definitions/IVP.md",
     "Random Stuff/Templates/Definitions.md",
     "2024/Definitions/Euler's Method.md",
-    "Random Stuff/Templates/Lecture.md",
     "2024/Definitions/Equilibrium Solution.md",
     "2024/Definitions/Argument.md",
     "2024/Definitions/Tautology.md",
@@ -207,7 +212,6 @@
     "2024/Summer Semester/MATH2030.md",
     "2024/Summer Semester/MATH2031.md",
     "Random Stuff/Final Exam Timetable.md",
-    "Random Stuff/Banners.md",
     "Attachment Folder/0bc9239d06e46004b27be3070f6ea3f7e9e2ae85.svg",
     "2023/Definitions",
     "2023",
@@ -224,9 +228,6 @@
     "Attachment Folder/Pasted image 20230731090857.png",
     "Attachment Folder/Pasted image 20230703084721.png",
     "Attachment Folder/Pasted image 20230403214435.png",
-    "Attachment Folder/Pasted image 20230403214205.png",
-    "Attachment Folder/Pasted image 20230330124223.png",
-    "Attachment Folder/Pasted image 20230330122238.png",
-    "Attachment Folder/Pasted image 20230328074657.png"
+    "Attachment Folder/Pasted image 20230403214205.png"
   ]
 }

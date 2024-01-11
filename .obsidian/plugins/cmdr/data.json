@@ -33,7 +33,13 @@
   "macros": [],
   "explorer": [],
   "hide": {
-    "statusbar": [],
+    "statusbar": [
+      "backlink",
+      "various-complements",
+      "obsidian-git",
+      "obsidian-git",
+      "properties"
+    ],
     "leftRibbon": []
   },
   "spacing": "8",
