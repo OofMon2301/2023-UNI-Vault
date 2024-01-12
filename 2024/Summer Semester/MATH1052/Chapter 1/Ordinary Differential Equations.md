@@ -331,4 +331,72 @@ If there is such a case such as $\mathbf{a}$ such that $g(\mathbf{a})=0$ then th
 
 #### 1.5.1 Newton's Law of Cooling
 
-[[Newton's Law of Cooling]] 
+[[Newton's Law of Cooling]] states that the rate at which a "body" cools is proportional to the temperature difference between the body and its surrounding medium.
+
+If $T$ is the temperature of the body and $T_{m}$ the temperature of the surrounding medium, then according to Newton,
+$$
+\frac{dT}{dt}=-k(T-T_{m}), \quad k>0
+$$
+Here is the constant $k$ is chosen such that if $T>T_{m}, T'(t)$ is negative, describing cooling.
+
+#### 1.5.4 Extra Reading
+
+![[Pasted image 20240111230341.png]]
+
+#### 1.5.5 Main Points
+
+> [!summary]+ Main Points
+> - You should be able to apply [[Newton's Law of Cooling]] and solving the resulting [[IVP]].
+> - You should know how to model population growth and solve the resulting [[IVP]].
+> - You should be able to interpret the obtained solutions.
+
+### 1.6 Solving Linear First Order Equations
+
+> [!info] Method
+> If you cannot solve a differential equation by separation, your next plan of attack should be to test if it is *linear* and use the *integration factor* method described below.
+
+#### 1.6.1 Definition
+
+A first-order is *linear* if it can be put into the form
+$$
+\frac{dy}{dt}+p(t)y=q(t)
+$$
+for some functions $p(t)$ and $q(t)$.
+
+> [!note]
+> Recall the [[Product Rule|product rule]] for differentiation. This formula is key to solving first-order linear ODEs.
+
+
+![[Pasted image 20240111232026.png]]
+
+We can do something called an [[Integrating Factor]].
+
+Given the ODE
+$$
+\frac{dy}{dt}+p(t)y=q(t)
+$$
+we multiply by the yet-to-be-found integrating factor $I(t)$:
+$$
+I(t) \frac{dy}{dt}+I(t)p(t)y = I(t)q(t)
+$$
+We think of $I$ as $g$ and $y$ as $f$. Then the left term on the left is $f'g$ and the second term on the left to be $fg'=yI'$. Given that the second term is $Ipy$, we infer that $I$ must satisfy the [[ODE]]
+$$
+I'(t)=I(t)p(t)
+$$
+This is good news since this is a separable ODE which we already know how to solve:
+$$
+I(t)=\exp \left( \int p(t) \, dt  \right)
+$$
+
+> [!summary]
+>![[Pasted image 20240111232820.png]]
+
+#### 1.6.3 Main Points
+
+> [!summary] Main Points
+> - You need to be able to identify a first-order [[ODE]].
+> - You need to be able to solve a first-order linear [[ODE]] using an [[Integrating Factor]].
+
+### 1.7 Linear Second-Order Differential Equations with Constant Coefficients
+
+
