@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+                "file": "2024/Semester 1/CSSE2010/CSSE2010.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7f84be072f2a626",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 1/CSSE2010/Week 1/Lecture 1 - Course Intro and Binary Numbers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md"
+                "file": "2024/Semester 1/CSSE2010/Week 1/Lecture 1 - Course Intro and Binary Numbers.md"
               }
             }
           }
@@ -138,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+                "file": "2024/Semester 1/CSSE2010/Week 1/Lecture 1 - Course Intro and Binary Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+                "file": "2024/Semester 1/CSSE2010/Week 1/Lecture 1 - Course Intro and Binary Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,8 +193,18 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "658409cc031a4992",
+  "active": "d7f84be072f2a626",
   "lastOpenFiles": [
+    "Attachment Folder/Pasted image 20240219082732.png",
+    "Attachment Folder/Pasted image 20240219082701.png",
+    "2024/Definitions/Bit.md",
+    "2024/Semester 1/CSSE2010/Week 1/Lecture 1 - Course Intro and Binary Numbers.md",
+    "2024/Definitions/bit.md",
+    "Attachment Folder/Pasted image 20240219082020.png",
+    "2024/Semester 1/CSSE2010/CSSE2010.md",
+    "2024/Semester 1/CSSE2010/Week 1/Untitled.md",
+    "2024/Semester 1/CSSE2010/Week 1",
+    "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
     "Definitions/null.md",
     "Definitions",
     "2023/Definitions/Equilibrium Solution.md",
@@ -207,26 +230,16 @@
     "Random Stuff/textgenerator/prompts/default/getIdeas.md",
     "Random Stuff/textgenerator/prompts/default/getOutline.md",
     "Random Stuff/textgenerator/prompts/default/getTitles.md",
-    "Random Stuff/textgenerator/prompts/default/summarize.md",
     "Random Stuff/textgenerator/prompts/default",
     "Random Stuff/textgenerator/prompts",
     "Random Stuff/textgenerator",
-    "2024/Semester 1/CSSE2010/Untitled.md",
-    "2024/Semester 1/CSSE2010",
     "Attachment Folder/Pasted Image 20240105173653_555.jpg",
-    "ODE.md",
-    "2024/Summer Semester/MATH1052/Chapter 1/Help.md",
-    "Random Stuff/Final Exam Timetable.md",
-    "Random Stuff/Banners.md",
-    "2024/Summer Semester/MATH1052/fun.md",
     "Pasted image 20240101162327.png",
     "Attachment Folder/Pasted image 20240111232820.png",
     "Attachment Folder/Pasted image 20240111232124.png",
     "Attachment Folder/Pasted image 20240111232026.png",
     "Attachment Folder/Schema_Règle_produit.png",
     "Attachment Folder/Pasted image 20240111230341.png",
-    "Attachment Folder/Pasted image 20240111223416.png",
-    "Attachment Folder/Pasted image 20240111223300.png",
-    "Attachment Folder/Pasted image 20240111222740.png"
+    "Attachment Folder/Pasted image 20240111223416.png"
   ]
 }
