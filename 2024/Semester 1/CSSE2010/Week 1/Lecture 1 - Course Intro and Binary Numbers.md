@@ -79,6 +79,3 @@ Assuming whole unsigned numbers:
 ## Other Radices
 A Radix is a number system base. A radix-k system uses $k$ systems to represent digits 0 to $k-1$.
 The value of each digit is (from the right) $k^0,k^1,k^{2},k^{3},\dots$
-
-00011010
-1A`
