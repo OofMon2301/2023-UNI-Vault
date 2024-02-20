@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -182,6 +183,9 @@
   },
   "active": "0ecc8dba60cb3295",
   "lastOpenFiles": [
+    "Attachment Folder/Pasted image 20240220152702.png",
+    "Attachment Folder/Pasted image 20240220152527.png",
+    "Attachment Folder/Pasted image 20240220152300.png",
     "2024/Semester 1/ELEC2400/ELEC2400.md",
     "2024/Semester 1/MATH2400/MATH2400.md",
     "Random Stuff/Templates/Subject.md",
@@ -207,8 +211,6 @@
     "2024/Semester 1/MATH2400.md",
     "2024/Semester 1/MATH2400",
     "Attachment Folder/Pasted image 20240219084043.png",
-    "Attachment Folder/Pasted image 20240219082732.png",
-    "Attachment Folder/Pasted image 20240219082701.png",
     "2024/Definitions/Bit.md",
     "2024/Definitions/bit.md",
     "2024/Semester 1/CSSE2010/Week 1/Untitled.md",
@@ -226,7 +228,6 @@
     "ztemplate/Template/callout.md",
     "ztemplate/Template/definition.md",
     "ztemplate/Template/lecture.md",
-    "ztemplate/Template",
-    "ztemplate/Snippets/newlecture.md"
+    "ztemplate/Template"
   ]
 }
