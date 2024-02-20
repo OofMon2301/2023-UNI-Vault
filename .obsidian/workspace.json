@@ -8,27 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f5f8aa976372e955",
+            "id": "0ecc8dba60cb3295",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 1/ELEC2400/ELEC2400.md",
+                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0ecc8dba60cb3295",
+            "id": "c0b06fbc64ab24a8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 - Course Introduction.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
+              "state": {}
             }
           }
         ],
@@ -90,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 - Course Introduction.md"
+                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md"
               }
             }
           }
@@ -151,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 - Course Introduction.md",
+                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 - Course Introduction.md",
+                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,10 +189,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0ecc8dba60cb3295",
+  "active": "c0b06fbc64ab24a8",
   "lastOpenFiles": [
+    "Attachment Folder/Pasted image 20240220131232.png",
+    "Attachment Folder/Pasted image 20240220131106.png",
+    "Attachment Folder/Pasted image 20240220130928.png",
+    "2024/Definitions/Kirchhoff's Current Law.md",
+    "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
     "2024/Semester 1/ELEC2400/ELEC2400.md",
-    "2024/Semester 1/ELEC2400/Week 1/Lecture 1 - Course Introduction.md",
+    "2024/Definitions/Kirchhoff's Voltage Law.md",
+    "Attachment Folder/Pasted image 20240220130623.png",
     "2024/Semester 1/ELEC2400/Week 1",
     "2024/Semester 1/ELEC2400",
     "2024/Semester 1/CSSE2010/CSSE2010.md",
@@ -232,14 +234,8 @@
     "ztemplate/Snippets/newlecture.md",
     "Random Stuff/textgenerator/prompts/default/rewrite.md",
     "Random Stuff/textgenerator/prompts/default/getParagraph.md",
-    "Random Stuff/textgenerator/prompts/default/simplify.md",
-    "Random Stuff/textgenerator/prompts/default/getTags.md",
-    "Random Stuff/textgenerator/prompts/default/getEmailNeg.md",
     "Attachment Folder/Pasted Image 20240105173653_555.jpg",
     "Pasted image 20240101162327.png",
-    "Attachment Folder/Pasted image 20240111232820.png",
-    "Attachment Folder/Pasted image 20240111232124.png",
-    "Attachment Folder/Pasted image 20240111232026.png",
-    "Attachment Folder/Schema_Règle_produit.png"
+    "Attachment Folder/Pasted image 20240111232820.png"
   ]
 }
