@@ -18,17 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c0b06fbc64ab24a8",
-            "type": "leaf",
-            "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,21 +180,27 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c0b06fbc64ab24a8",
+  "active": "0ecc8dba60cb3295",
   "lastOpenFiles": [
+    "2024/Semester 1/ELEC2400/ELEC2400.md",
+    "2024/Semester 1/MATH2400/MATH2400.md",
+    "Random Stuff/Templates/Subject.md",
+    "Random Stuff/Templates/Lecture.md",
+    "Random Stuff/Templates/Definitions.md",
+    "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
+    "Attachment Folder/Pasted image 20240220132656.png",
+    "Attachment Folder/Pasted image 20240220132428.png",
+    "Attachment Folder/Pasted image 20240220132224.png",
     "Attachment Folder/Pasted image 20240220131232.png",
     "Attachment Folder/Pasted image 20240220131106.png",
     "Attachment Folder/Pasted image 20240220130928.png",
     "2024/Definitions/Kirchhoff's Current Law.md",
-    "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
-    "2024/Semester 1/ELEC2400/ELEC2400.md",
     "2024/Definitions/Kirchhoff's Voltage Law.md",
     "Attachment Folder/Pasted image 20240220130623.png",
     "2024/Semester 1/ELEC2400/Week 1",
     "2024/Semester 1/ELEC2400",
     "2024/Semester 1/CSSE2010/CSSE2010.md",
     "2024/Semester 1/CSSE2010/Week 1/Lecture 1 - Course Intro and Binary Numbers.md",
-    "2024/Semester 1/MATH2400/MATH2400.md",
     "2024/Semester 1/MATH2400/Week 1/Lecture 1 - Course Info and Intro.md",
     "2024/Semester 1/MATH2400/Week 1",
     "2024/Semester 1/MATH2400/Week1",
@@ -214,7 +211,6 @@
     "Attachment Folder/Pasted image 20240219082701.png",
     "2024/Definitions/Bit.md",
     "2024/Definitions/bit.md",
-    "Attachment Folder/Pasted image 20240219082020.png",
     "2024/Semester 1/CSSE2010/Week 1/Untitled.md",
     "2024/Semester 1/CSSE2010/Week 1",
     "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
@@ -231,11 +227,6 @@
     "ztemplate/Template/definition.md",
     "ztemplate/Template/lecture.md",
     "ztemplate/Template",
-    "ztemplate/Snippets/newlecture.md",
-    "Random Stuff/textgenerator/prompts/default/rewrite.md",
-    "Random Stuff/textgenerator/prompts/default/getParagraph.md",
-    "Attachment Folder/Pasted Image 20240105173653_555.jpg",
-    "Pasted image 20240101162327.png",
-    "Attachment Folder/Pasted image 20240111232820.png"
+    "ztemplate/Snippets/newlecture.md"
   ]
 }
