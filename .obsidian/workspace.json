@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "47b66b5856fa0697",
+        "id": "aa375ca2f20e24aa",
         "type": "tabs",
         "children": [
           {
-            "id": "63e0a0b19fb4849d",
+            "id": "aab80eec7ddd3c8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random Stuff/Templates/Lecture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e620fe350e21bead",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024/Semester 1/CSSE2010/Week 2/Lecture 1 - Binary Arithmetic.md",
+                "file": "2024/Semester 1/MATH2400/Week 2/Lecture 1 - Limits and Continuity.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 1/CSSE2010/Week 2/Lecture 1 - Binary Arithmetic.md"
+                "file": "2024/Semester 1/MATH2400/Week 2/Lecture 1 - Limits and Continuity.md"
               }
             }
           }
@@ -151,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/CSSE2010/Week 2/Lecture 1 - Binary Arithmetic.md",
+                "file": "2024/Semester 1/MATH2400/Week 2/Lecture 1 - Limits and Continuity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/CSSE2010/Week 2/Lecture 1 - Binary Arithmetic.md",
+                "file": "2024/Semester 1/MATH2400/Week 2/Lecture 1 - Limits and Continuity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,9 +180,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e620fe350e21bead",
+  "active": "aab80eec7ddd3c8b",
   "lastOpenFiles": [
     "Random Stuff/Templates/Lecture.md",
+    "2024/Semester 1/MATH2400/Week 2/Lecture 1 - Limits and Continuity.md",
+    "2024/Semester 1/MATH2400/Week 1/Lecture 1 - Course Info and Intro.md",
+    "2024/Semester 1/MATH2400/Week 2",
     "2024/Semester 1/CSSE2010/Week 2/Lecture 1 - Binary Arithmetic.md",
     "2024/Semester 1/CSSE2010/Week 2/Untitled.md",
     "2024/Semester 1/CSSE2010/Week 2",
@@ -224,7 +214,6 @@
     "2024/Semester 1/ELEC2400",
     "2024/Semester 1/CSSE2010/CSSE2010.md",
     "2024/Semester 1/CSSE2010/Week 1/Lecture 1 - Course Intro and Binary Numbers.md",
-    "2024/Semester 1/MATH2400/Week 1/Lecture 1 - Course Info and Intro.md",
     "2024/Semester 1/MATH2400/Week 1",
     "2024/Semester 1/MATH2400/Week1",
     "2024/Semester 1/MATH2400.md",
@@ -235,11 +224,9 @@
     "2024/Semester 1/CSSE2010/Week 1",
     "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
     "Definitions/null.md",
-    "Definitions",
     "2023/Definitions/Equilibrium Solution.md",
     "ztemplate/Snippets/newcallout.md",
     "ztemplate/Snippets/newdefinition.md",
-    "ztemplate/Template/subject.md",
-    "ztemplate/Template/assignment.md"
+    "ztemplate/Template/subject.md"
   ]
 }

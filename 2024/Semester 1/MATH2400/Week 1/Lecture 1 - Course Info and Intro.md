@@ -23,4 +23,4 @@ field: Mathematics
 10. Taylor Series
 11. Multivariable Functions
 12. Multivariable differentiation
-13. Inverse Function Theorem (IFT)
+13. Inverse Function Theorem (IFT)[[Lecture 1 - Limits and Continuity]]
