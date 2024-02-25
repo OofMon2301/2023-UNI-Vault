@@ -6,5 +6,5 @@ tags: lecture
 Topic:
 field: $SUBJECT
 ---
-#<% tp.file.folder(true).split('/')[2] %>
+#<% tp.file.folder(true).split('/')[2] %>[[Lecture 1 - Binary Arithmetic]]
 

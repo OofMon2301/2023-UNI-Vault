@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "f764b46484d2d44f",
+        "id": "47b66b5856fa0697",
         "type": "tabs",
         "children": [
           {
-            "id": "95305938f55fda30",
+            "id": "63e0a0b19fb4849d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/ELEC2300.md",
+                "file": "Random Stuff/Templates/Lecture.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3a3650b532a57bf9",
+            "id": "e620fe350e21bead",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Workshop 1 - Course Introduction.md",
+                "file": "2024/Semester 1/CSSE2010/Week 2/Lecture 1 - Binary Arithmetic.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Workshop 1 - Course Introduction.md"
+                "file": "2024/Semester 1/CSSE2010/Week 2/Lecture 1 - Binary Arithmetic.md"
               }
             }
           }
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Workshop 1 - Course Introduction.md",
+                "file": "2024/Semester 1/CSSE2010/Week 2/Lecture 1 - Binary Arithmetic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Workshop 1 - Course Introduction.md",
+                "file": "2024/Semester 1/CSSE2010/Week 2/Lecture 1 - Binary Arithmetic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,8 +193,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3a3650b532a57bf9",
+  "active": "e620fe350e21bead",
   "lastOpenFiles": [
+    "Random Stuff/Templates/Lecture.md",
+    "2024/Semester 1/CSSE2010/Week 2/Lecture 1 - Binary Arithmetic.md",
+    "2024/Semester 1/CSSE2010/Week 2/Untitled.md",
+    "2024/Semester 1/CSSE2010/Week 2",
     "2024/Semester 1/ELEC2300/ELEC2300.md",
     "2024/Semester 1/ELEC2300/Workshop 1 - Course Introduction.md",
     "2024/Semester 1/ELEC2300",
@@ -206,7 +210,6 @@
     "2024/Semester 1/ELEC2400/ELEC2400.md",
     "2024/Semester 1/MATH2400/MATH2400.md",
     "Random Stuff/Templates/Subject.md",
-    "Random Stuff/Templates/Lecture.md",
     "Random Stuff/Templates/Definitions.md",
     "Attachment Folder/Pasted image 20240220132656.png",
     "Attachment Folder/Pasted image 20240220132428.png",
@@ -234,12 +237,9 @@
     "Definitions/null.md",
     "Definitions",
     "2023/Definitions/Equilibrium Solution.md",
-    "2023/Definitions",
     "ztemplate/Snippets/newcallout.md",
     "ztemplate/Snippets/newdefinition.md",
     "ztemplate/Template/subject.md",
-    "ztemplate/Template/assignment.md",
-    "ztemplate/Template/callout.md",
-    "ztemplate/Template/definition.md"
+    "ztemplate/Template/assignment.md"
   ]
 }
