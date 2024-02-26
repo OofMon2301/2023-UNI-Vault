@@ -141,7 +141,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "b2e398d710777b6e",
@@ -197,7 +198,10 @@
   },
   "active": "66879a2c96d0de5c",
   "lastOpenFiles": [
+    "Attachment Folder/Pasted image 20240227080813.png",
+    "2024/Definitions/Doping.md",
     "2024/Semester 1/ELEC2400/Week 2/Lecture 1 - PN Junctions and Diode Circuits.md",
+    "2024/Definitions/Semiconductor.md",
     "Untitled 1.md",
     "2024/Semester 1/ELEC2400/Week 2",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.3 - Electric Potential.md",
@@ -221,9 +225,6 @@
     "2024/Definitions/Kirchhoff's Voltage Law.md",
     "2024/Definitions/Kirchhoff's Current Law.md",
     "2024/Definitions/IVP.md",
-    "2024/Definitions/Integrating Factor.md",
-    "2024/Definitions/Euler's Method.md",
-    "2024/Definitions/Equilibrium Solution.md",
     "2024/Semester 1/ELEC2300/Week 1",
     "2024/Semester 1/MATH2400/Week 2",
     "2024/Semester 1/CSSE2010/Week 2",
