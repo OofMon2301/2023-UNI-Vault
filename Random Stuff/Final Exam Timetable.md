@@ -1,10 +1,10 @@
 
 **Day 1 (Sunday, May 28th)**: 
 - 10 AM to 4 PM AEST: Propositional & predicate logic
-- 8 PM to 2 AM AEST: Continue with Propositional & predicate logic
+- 8 PM to 2 AM AEST: Continue with Propositional & [[predicate]] logic
 
 **Day 2 (Monday, May 29th)**: 
-- 10 AM to 4 PM AEST: Finish Propositional & predicate logic if not done, start with valid arguments
+- 10 AM to 4 PM AEST: Finish Propositional & [[predicate]] logic if not done, start with valid arguments
 - 8 PM to 2 AM AEST: Continue with valid arguments
 
 **Day 3 (Tuesday, May 30th)**: 

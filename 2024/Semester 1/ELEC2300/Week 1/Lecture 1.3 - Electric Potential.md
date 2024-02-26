@@ -47,7 +47,7 @@ Where the energy is conserved.
 - This potential represents the energetic influence of a source charge on all of space around it.
 
 ## Electric Force and Work
-- Electric force (E) is a vector, and work involves force times distance.
+- Electric force (E) is a [[vector]], and work involves force times distance.
 - Work is calculated as the dot product of force (F) and a small segment of the path (dR), i.e., `F . dR`.
 - The dot product considers the angle between the direction of the path and the force field.
 - The total work is the integral of `F . dR` over the entire path from the initial point to the final point, which is a line integral.

@@ -11,4 +11,4 @@ tags: definition
 
 Torque is a measure of the force that can cause an object to rotate about an axis. Just as force is what causes an object to accelerate in linear kinematics, torque is what causes an object to acquire angular acceleration.
 
-Torque is a vector quantity. The direction of the torque vector depends on the direction of the force on the axis.
+Torque is a [[vector]] quantity. The direction of the torque [[vector]] depends on the direction of the force on the axis.

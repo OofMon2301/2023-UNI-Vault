@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 1/Lecture 1.5 - Gauss's Law.md",
+                "file": "2024/Semester 1/ELEC2300/Week 1/Lecture 1.3 - Electric Potential.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "66879a2c96d0de5c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,17 +85,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 1/Lecture 1.5 - Gauss's Law.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -95,6 +101,7 @@
       {
         "id": "413c01d99c7ceb6f",
         "type": "tabs",
+        "dimension": 29.385964912280706,
         "children": [
           {
             "id": "d88819423420f4ac",
@@ -132,6 +139,7 @@
       {
         "id": "b2e398d710777b6e",
         "type": "tabs",
+        "dimension": 70.6140350877193,
         "children": [
           {
             "id": "981b75af9e493464",
@@ -139,7 +147,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 1/Lecture 1.5 - Gauss's Law.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,19 +163,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 1/Lecture 1.5 - Gauss's Law.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,53 +185,53 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0138e9b5790f29c1",
+  "active": "66879a2c96d0de5c",
   "lastOpenFiles": [
+    "2024/Semester 1/ELEC2300/Week 1/Lecture 1.3 - Electric Potential.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.4 - Field and Potential.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.5 - Gauss's Law.md",
-    "2024/Semester 1/ELEC2300/Week 1/Lecture 1.3 - Electric Potential.md",
-    "2024/Definitions/Electric Potential.md",
-    "2024/Semester 1/ELEC2300/Week 1/Lecture 1.2 - Electric Fields.md",
+    "2024/Definitions/Vector.md",
+    "2024/Definitions/Torque.md",
+    "2024/Definitions/Tautology.md",
+    "2024/Definitions/Tangent Lines.md",
+    "2024/Definitions/Sustainable Practices.md",
     "2024/Definitions/Steady State.md",
+    "2024/Definitions/Projection Formula.md",
+    "2024/Definitions/Professional Engineering.md",
+    "2024/Definitions/Product Rule.md",
+    "2024/Definitions/Pressure.md",
+    "2024/Definitions/Predicate.md",
+    "2024/Definitions/ODE.md",
+    "2024/Definitions/Newton's Law of Cooling.md",
+    "2024/Definitions/Newton's 2nd law of motion.md",
+    "2024/Definitions/Magnitude.md",
+    "2024/Definitions/Kirchhoff's Voltage Law.md",
+    "2024/Definitions/Kirchhoff's Current Law.md",
+    "2024/Definitions/IVP.md",
+    "2024/Definitions/Integrating Factor.md",
+    "2024/Definitions/Euler's Method.md",
+    "2024/Definitions/Equilibrium Solution.md",
+    "2024/Definitions/Electric Potential.md",
     "2024/Definitions/Electric Field.md",
-    "2024/Semester 1/MATH2400/Week 2/Lecture 1 - Limits and Continuity.md",
-    "2024/Semester 1/ELEC2300/Week 1/Lecture 1.1 - Columbs Law.md",
-    "2024/Definitions/Coulomb's Law.md",
     "2024/Semester 1/ELEC2300/Week 1",
-    "Random Stuff/Templates/Lecture.md",
-    "2024/Semester 1/MATH2400/Week 1/Lecture 1 - Course Info and Intro.md",
     "2024/Semester 1/MATH2400/Week 2",
-    "2024/Semester 1/CSSE2010/Week 2/Lecture 1 - Binary Arithmetic.md",
-    "2024/Semester 1/CSSE2010/Week 2/Untitled.md",
     "2024/Semester 1/CSSE2010/Week 2",
-    "2024/Semester 1/ELEC2300/ELEC2300.md",
-    "2024/Semester 1/ELEC2300/Workshop 1 - Course Introduction.md",
     "2024/Semester 1/ELEC2300",
     "2024/Semester 1/elec2300",
-    "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
     "Attachment Folder/Pasted image 20240220152702.png",
     "Attachment Folder/Pasted image 20240220152527.png",
     "Attachment Folder/Pasted image 20240220152300.png",
-    "2024/Semester 1/ELEC2400/ELEC2400.md",
-    "2024/Semester 1/MATH2400/MATH2400.md",
-    "Random Stuff/Templates/Subject.md",
-    "Random Stuff/Templates/Definitions.md",
     "Attachment Folder/Pasted image 20240220132656.png",
     "Attachment Folder/Pasted image 20240220132428.png",
     "Attachment Folder/Pasted image 20240220132224.png",
     "Attachment Folder/Pasted image 20240220131232.png",
     "Attachment Folder/Pasted image 20240220131106.png",
     "Attachment Folder/Pasted image 20240220130928.png",
-    "2024/Definitions/Kirchhoff's Current Law.md",
-    "2024/Definitions/Kirchhoff's Voltage Law.md",
     "Attachment Folder/Pasted image 20240220130623.png",
     "2024/Semester 1/ELEC2400/Week 1",
     "2024/Semester 1/ELEC2400",
-    "2024/Semester 1/CSSE2010/CSSE2010.md",
-    "2024/Semester 1/CSSE2010/Week 1/Lecture 1 - Course Intro and Binary Numbers.md",
     "2024/Semester 1/MATH2400/Week 1",
     "2024/Semester 1/MATH2400/Week1",
-    "2024/Semester 1/MATH2400.md",
     "2024/Semester 1/MATH2400"
   ]
 }
