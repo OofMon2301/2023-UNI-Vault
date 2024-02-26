@@ -16,7 +16,7 @@
         "chooseWhenCreatingNote": true,
         "createInSameFolderAsActiveFile": false
       },
-      "appendLink": true,
+      "appendLink": false,
       "openFileInNewTab": {
         "enabled": false,
         "direction": "vertical",
