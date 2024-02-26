@@ -1,10 +1,11 @@
 ---
 date: 26-02-2024
 type: Lecture
-subject: Week 1
+subject: ELEC2300
 tags: lecture
+week: Week 1
 Topic:
-field: $SUBJECT
+field: Electrical Engineering
 ---
 #ELEC2300
 

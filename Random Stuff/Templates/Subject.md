@@ -14,7 +14,7 @@ year:
 
 ```dataview
 Table date as "Time Created", tags as "Tags"
-from #SUBJECT
+from #<% tp.file.folder(true).split('/')[2] %>
 ```
 
 

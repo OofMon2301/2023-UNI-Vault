@@ -1,8 +1,8 @@
 ---
 date: <% tp.date.now("DD-MM-YYYY") %>
-type: Lecture
+type: Workshop
 subject: <% tp.file.folder(true).split('/')[2] %>
-tags: lecture
+tags: workshop
 week: <% this.app.workspace.getActiveFile().parent.name %>
 Topic:
 field: $SUBJECT
