@@ -25,5 +25,15 @@
       ],
       "key": "D"
     }
+  ],
+  "quickadd:choice:0e908f6f-46dd-4395-b8a4-c9fb4702adfa": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
   ]
 }

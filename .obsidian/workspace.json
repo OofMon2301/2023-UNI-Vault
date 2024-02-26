@@ -23,8 +23,12 @@
             "id": "66879a2c96d0de5c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 1/ELEC2400/Week 2/Lecture 1 - PN Junctions and Diode Circuits.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -85,14 +89,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024/Semester 1/ELEC2400/Week 2/Lecture 1 - PN Junctions and Diode Circuits.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -147,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024/Semester 1/ELEC2400/Week 2/Lecture 1 - PN Junctions and Diode Circuits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024/Semester 1/ELEC2400/Week 2/Lecture 1 - PN Junctions and Diode Circuits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,6 +197,9 @@
   },
   "active": "66879a2c96d0de5c",
   "lastOpenFiles": [
+    "2024/Semester 1/ELEC2400/Week 2/Lecture 1 - PN Junctions and Diode Circuits.md",
+    "Untitled 1.md",
+    "2024/Semester 1/ELEC2400/Week 2",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.3 - Electric Potential.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.4 - Field and Potential.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.5 - Gauss's Law.md",
@@ -211,8 +224,6 @@
     "2024/Definitions/Integrating Factor.md",
     "2024/Definitions/Euler's Method.md",
     "2024/Definitions/Equilibrium Solution.md",
-    "2024/Definitions/Electric Potential.md",
-    "2024/Definitions/Electric Field.md",
     "2024/Semester 1/ELEC2300/Week 1",
     "2024/Semester 1/MATH2400/Week 2",
     "2024/Semester 1/CSSE2010/Week 2",
@@ -231,7 +242,6 @@
     "2024/Semester 1/ELEC2400/Week 1",
     "2024/Semester 1/ELEC2400",
     "2024/Semester 1/MATH2400/Week 1",
-    "2024/Semester 1/MATH2400/Week1",
-    "2024/Semester 1/MATH2400"
+    "2024/Semester 1/MATH2400/Week1"
   ]
 }
