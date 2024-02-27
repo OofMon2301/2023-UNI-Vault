@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "88f62f5750afc873",
+        "id": "8388afaad3ba55c7",
         "type": "tabs",
         "children": [
           {
-            "id": "b8d97e9d5e483f92",
+            "id": "6d66e4f43441de7c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Random Stuff/Templates/Workshop.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -72,7 +76,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Random Stuff/Templates/Workshop.md"
+              }
             }
           }
         ]
@@ -135,6 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Random Stuff/Templates/Workshop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,6 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Random Stuff/Templates/Workshop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,37 +179,38 @@
       "command-palette:Open command palette": true,
       "markdown-importer:Open format converter": true,
       "cmdr:QuickAdd: New Subject": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "b8d97e9d5e483f92",
+  "active": "6d66e4f43441de7c",
   "lastOpenFiles": [
-    "orphaned files output.md",
-    "2024/Summer Semester/MATH1052/Chapter 1/New thing.md",
-    "2024/Summer Semester/MATH1052/fun.md",
-    "Definitions/null.md",
-    "Lecture Notes/null/null.md",
-    "2024/Semester 1/ELEC2300/Week 1/Lecture 2.2 - Parallel-Plate Capacitors.md",
-    "Random Stuff/textgenerator/prompts/default/getParagraph.md",
-    "2024/Semester 1/ELEC2300/Week 1/Lecture 2.1 - Electric Dipoles.md",
-    "Attachment Folder/VFPt_dipole_animation_electric.gif",
-    "Attachment Folder/Pasted image 20240227103113.png",
-    "Attachment Folder/Pasted image 20240227103048.png",
-    "2024/Definitions/Point Charges.md",
     "Random Stuff/Templates/Tutorial.md",
+    "Random Stuff/Templates/Subject.md",
+    "Random Stuff/Templates/Lecture.md",
     "Random Stuff/Templates/Definitions.md",
     "Random Stuff/Templates/Workshop.md",
-    "Random Stuff/Templates/Lecture.md",
-    "2024/Semester 1/ELEC2300/ELEC2300.md",
-    "2024/Semester 1/ELEC2300/Workshop 1 - Course Introduction.md",
+    "2024/Semester 1/ELEC2300/Week 1/Lecture 2.1 - Electric Dipoles.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.6 - Conductors in Electrostatic Equilibrium.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.5 - Gauss's Law.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.4 - Field and Potential.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.3 - Electric Potential.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.2 - Electric Fields.md",
+    "2024/Semester 1/ELEC2300/Week 1/Lecture 2.2 - Parallel-Plate Capacitors.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.1 - Columbs Law.md",
+    "orphaned files output.md",
+    "2024/Summer Semester/MATH1052/Chapter 1/New thing.md",
+    "2024/Summer Semester/MATH1052/fun.md",
+    "Definitions/null.md",
+    "Lecture Notes/null/null.md",
+    "Random Stuff/textgenerator/prompts/default/getParagraph.md",
+    "Attachment Folder/VFPt_dipole_animation_electric.gif",
+    "Attachment Folder/Pasted image 20240227103113.png",
+    "Attachment Folder/Pasted image 20240227103048.png",
+    "2024/Definitions/Point Charges.md",
+    "2024/Semester 1/ELEC2300/ELEC2300.md",
+    "2024/Semester 1/ELEC2300/Workshop 1 - Course Introduction.md",
     "2024/Semester 1/ELEC2400/ELEC2400.md",
-    "Random Stuff/Templates/Subject.md",
     "2024/Summer Semester/MATH1052/MATH1052.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 2.2 -20 i9j n.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 2.2 - feuhfuihe.md",

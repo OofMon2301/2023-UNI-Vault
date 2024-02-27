@@ -1,10 +1,10 @@
 ---
 type: subject
 subject: <% tp.file.title %>
-degree:
-major:
+degree: 
+major: 
 units: 2
-year:
+year: 
 ---
 # Lecture Notes
 
