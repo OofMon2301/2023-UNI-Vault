@@ -34,3 +34,4 @@ In doping, known *impurities* are added to the crystalline structure.
 If impurity is a material from Group III in the periodic table (known as the trivalent) - 3 electrons in the valance band hole concentration in the lattice increase. These impurities are called **acceptors**.
 
 If the impurity is a material from Group V (known as the pentavalent), free electron concentration in the lattice increase. These impurities are called **donors**.
+
