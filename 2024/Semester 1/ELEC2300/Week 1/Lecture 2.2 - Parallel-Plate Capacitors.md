@@ -4,9 +4,8 @@ type: Lecture
 subject: ELEC2300
 tags: lecture
 week: Week 1
-Topic: null
+Topic: 
 field: $SUBJECT
-publish: true
 ---
 #ELEC2300
 
