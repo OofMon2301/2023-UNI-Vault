@@ -8,11 +8,11 @@ field: Electronic Engineering
 ---
 #ELEC2400
 
-## Electronics
+# Electronics
 
 > Having or operating with components such as **microchips** and **transistors** that control and direct electric currents.
 
-#### What are Semiconductors?
+## What Are Semiconductors?
 
 [[Semiconductor]]s are a solid substance that has a conductivity between that of an insulator and that of most metals.
 
@@ -24,7 +24,7 @@ In 1954, the first Silicon transistor was introduced, it had the capabilities of
 
 In the 70's, the first Gallium Arsenide transistor was used. This semiconductor was used primarily as it was much more suitable for its high speed and efficiency.
 
-### Doping
+# Doping
 Doping is the process of adding a small impurity to a pure semiconductor to change its electrical properties. Lightly and moderately doped semiconductors are called extrinsic. A semiconductor doped to such high levels that it acts more like a conductor than a semiconductor is referred to as degenerate. Most semiconductors are made out of silicon crystals. Pure silicon has little use but doped silicon is the basis for most semiconductors.
 
 Intrinsic [[Semiconductor|semiconductors]] are not usually particular good to use in electronics. Therefore, to enhance its charge carrier concentration or conductivity intrinsic [[Semiconductor|semiconductors]] are exposed to a process called [[Doping]]

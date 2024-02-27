@@ -9,7 +9,7 @@ field: $SUBJECT
 ---
 #ELEC2300
 
-## Coulombs Law
+# Coulombs Law
 
 $$
  F = k \, \frac{q_{1}q_{2}}{r^{2}_{12}}

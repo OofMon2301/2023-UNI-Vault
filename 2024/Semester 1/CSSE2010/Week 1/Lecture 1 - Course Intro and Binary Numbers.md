@@ -8,12 +8,12 @@ field: $SUBJECT
 ---
 #CSSE2010
 
-## Course Details
-## What this course is about (mainly)
+# Course Details
+# What This Course is about (mainly)
 
 We will learn about computers in different aspects.
 
-### Assessment Details - ECP Section 5
+## Assessment Details - ECP Section 5
 
 - In-semester theory exam (20%)
 - In-semester lab exam (10%)
@@ -60,7 +60,7 @@ Converting binary to decimal:
 *Add values of each position where [[bit]] is 1*
 ![[Pasted image 20240219082732.png]]
 
-## Least and Most significant Bits
+## Least and Most Significant Bits
 
 There are two types of Bits:
 - Least Significant Bit

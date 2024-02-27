@@ -12,4 +12,4 @@ chapter: Chapter 1
 
 The problem of solving an [[2024/Definitions/ODE|ODE]] subject to some initial conditions of the form $y(t_{0})=a, \ y'(t_{0})=b$, etc.
 
-The solution to an initial value problem no longer contains arbitrary constants from the general solution to the [[ODE]] - these are determined by the inital conditions.
+The solution to an initial value problem no longer contains arbitrary constants from the general solution to the [[ODE]] - these are determined by the initial conditions.

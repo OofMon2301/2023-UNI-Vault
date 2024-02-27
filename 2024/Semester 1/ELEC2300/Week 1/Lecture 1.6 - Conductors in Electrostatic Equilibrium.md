@@ -9,7 +9,7 @@ field: $SUBJECT
 ---
 #ELEC2300
 
-## Conductors and Electrostatic Equilibrium
+# Conductors and Electrostatic Equilibrium
 
 1. **Electrostatic Equilibrium**
     - The state where charges are not moving.

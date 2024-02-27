@@ -6,7 +6,7 @@ tags: definition
 ---
 # [[Newton's 2nd law of motion]]
 
-# Definition of Newton's 2nd law of motion:
+# Definition of Newton's 2nd Law of Motion:
 *Created on 10:53 06-12-2023
 
 Sir Isaac Newton’s second law of motion is a fundamental principle that describes the relationship between an object’s mass, the forces acting upon it, and its acceleration. It is succinctly expressed in the equation:

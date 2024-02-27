@@ -6,7 +6,7 @@ tags: definition
 ---
 # [[equilibrium solution]]
 
-# Definition of equilibrium solution:
+# Definition of Equilibrium Solution:
 *Created on 16:16 09-01-2024
 
 
