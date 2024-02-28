@@ -173,6 +173,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "quartz-syncer:Quartz Syncer Publication Center": false,
       "switcher:Open quick switcher": true,
       "templates:Insert template": true,
       "graph:Open graph view": false,
