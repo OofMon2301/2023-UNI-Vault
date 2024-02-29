@@ -30,6 +30,19 @@ Inputs and outputs can really only have two states: 1 & 0. This can also be expr
 
 ![[Pasted image 20240229135015.png|XOR is the odd function and XNOR is the even function. When $A+B=2k$ where $k \in \mathbb{Z}$, then TRUE.]]
 
+## Boolean Logic Functions
+
+Logic functions can be expressed as expressions involving variables (such as $A,B,C, \dots, Z$), and functions (such as $+, \cdot, \circ$).
+
+Rules about how this works are called **Boolean algebra**.
+Variables and functions can only take on values of 0 or 1.
+
+![[Pasted image 20240229141237.png]]
+
+![[Pasted image 20240229141420.png]]
+
+![[Pasted image 20240229142125.png]]
+
 
 
 
