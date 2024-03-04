@@ -30,4 +30,8 @@ Suppose $f(x) = n$ is a decreasing function $\geq 0$.
 
 Let $a_{n} = f(x)$ for all positive integers n ($\forall \, \mathbb{N}^+ | n$)
 
-Then $\int_{1}^\infty f(x) \, dx$ converges $$
+Then $\int_{1}^\infty f(x) \, dx$ converges 
+
+$$
+
+$$

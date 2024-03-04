@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2ed068fdce0ba861",
+        "id": "0779dcaee9a6084e",
         "type": "tabs",
         "children": [
           {
-            "id": "09f092482881596f",
+            "id": "246dd816ad81ba9a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 1/MATH2400/Week 3/Lecture 1 - Monotone Convergence Theorem.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -72,7 +76,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024/Semester 1/MATH2400/Week 3/Lecture 1 - Monotone Convergence Theorem.md"
+              }
             }
           }
         ]
@@ -135,6 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024/Semester 1/MATH2400/Week 3/Lecture 1 - Monotone Convergence Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,6 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024/Semester 1/MATH2400/Week 3/Lecture 1 - Monotone Convergence Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +184,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "09f092482881596f",
+  "active": "246dd816ad81ba9a",
   "lastOpenFiles": [
     "2024/Semester 1/MATH2400/Week 3/Lecture 1 - Monotone Convergence Theorem.md",
     "2024/Definitions/Integral Test.md",
