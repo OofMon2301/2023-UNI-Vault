@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md",
+                "file": "Random Stuff/Templates/Lecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md"
+                "file": "Random Stuff/Templates/Lecture.md"
               }
             }
           }
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md",
+                "file": "Random Stuff/Templates/Lecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md",
+                "file": "Random Stuff/Templates/Lecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,51 +192,51 @@
   },
   "active": "d6d1c74c06bf400a",
   "lastOpenFiles": [
-    "Random Stuff/Templates/Lecture.md",
+    "2023/Semester 2 2023/MATH1051/Welcome to MATH1051.md",
+    "Random Stuff/Banners.md",
+    "Random Stuff/Final Exam Timetable.md",
+    "Definitions/null.md",
+    "Definitions",
+    "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+    "2023/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
+    "2023/Summer Semester/MATH1052/Chapter 1",
+    "2023/Summer Semester/MATH1052",
+    "2023/Summer Semester",
+    "2023/Semester 2 2023/MATH1051/Revision/Revision Doc - Mid-Semester Exam.md",
+    "2023/Semester 2 2023/MATH1051/Revision",
+    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 3 - Matrices and Linear Transformations.md",
+    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 2 - Vectors.md",
+    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008/Chapter 1 - Complex Numbers.md",
+    "2023/Semester 2 2023/MATH1051/Lecture Notes 2008",
+    "2023/Semester 2 2023/MATH1051/Chapter 9/Integration.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 9",
+    "2023/Semester 2 2023/MATH1051/Chapter 8/Power Series and Taylor Series.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 8",
+    "2023/Semester 2 2023/MATH1051/Chapter 7/Series.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 7",
+    "2023/Semester 2 2023/MATH1051/Chapter 6/Derivatives.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 6",
+    "2023/Semester 2 2023/MATH1051/Chapter 5/Continuity.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 4/Limits.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 3/Sequences.md",
     "2023/Semester 2 2023/MATH1051/Chapter 2/Functions.md",
+    "2023/Semester 2 2023/MATH1051/Chapter 1/Numbers.md",
     "2023/Semester 2 2023/MATH1051/Chapter 0/Introduction to MATLAB.md",
     "2023/Semester 2 2023/ENGG1300/Mid-Semester Exam.md",
     "2023/Semester 2 2023/ENGG1300/Introduction to Electrical Engineering.md",
     "2023/Semester 2 2023/CSSE1001/Introduction to Computing.md",
-    "Definitions/null.md",
-    "ztemplate/Template/lecture.md",
-    "ztemplate/Template/assignment.md",
-    "ztemplate/Snippets/newlecture.md",
-    "2023/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
-    "$SUBJECT.md",
-    "2023/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
-    "2023/Summer Semester/MATH1052/Chapter 1/Fun.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "2023/Summer Semester/MATH1052/Chapter 1/New Thing.md",
-    "New THing.md",
-    "ztemplate/Snippets/newdefinition.md",
-    "ztemplate/Snippets/newcallout.md",
-    "Gaussian Elimination.md",
-    "Lecture Notes/null/null.md",
-    "Definitions",
-    "Lecture Notes/null",
-    "Lecture Notes",
-    "ztemplate/Template/subject.md",
-    "ztemplate/Template/definition.md",
-    "ztemplate/Template/callout.md",
-    "ztemplate/Template",
-    "ztemplate/Snippets",
-    "ztemplate",
-    "preamble.sty",
-    "New Text Document.txt",
-    "Random Stuff/Templates/Definitions.md",
-    "2023/Summer Semester/MATH1052/Chapter 1/sdsd",
-    "2023/Summer Semester/MATH1052/Chapter 1",
-    "Attachment Folder/Pasted image 20230912120643.png",
-    "Attachment Folder/Pasted image 20230731090857.png",
-    "Attachment Folder/Pasted image 20230703084721.png",
-    "Attachment Folder/Pasted image 20230403214435.png",
-    "Attachment Folder/Pasted image 20230403214205.png",
-    "Attachment Folder/Pasted image 20230330124223.png",
-    "Attachment Folder/Pasted image 20230330122238.png",
-    "Attachment Folder/Pasted image 20230328074657.png",
-    "Attachment Folder/Pasted image 20230316122956.png",
-    "Attachment Folder/Pasted image 20230309123643.png"
+    "2023/Definitions/Professional Engineering.md",
+    "2023/Definitions/Vector.md",
+    "2023/Definitions/Torque.md",
+    "Attachment Folder/Schema_Règle_produit.png",
+    "Attachment Folder/Pasted image 20240111232820.png",
+    "Attachment Folder/Pasted image 20240111232124.png",
+    "Attachment Folder/Pasted image 20240111232026.png",
+    "Attachment Folder/Pasted image 20240111230341.png",
+    "Attachment Folder/Pasted image 20240111223416.png",
+    "Attachment Folder/Pasted image 20240111223300.png",
+    "Attachment Folder/Pasted image 20240111222740.png",
+    "Attachment Folder/Pasted image 20240109161030.png",
+    "Attachment Folder/0bc9239d06e46004b27be3070f6ea3f7e9e2ae85.svg"
   ]
 }
