@@ -27,7 +27,7 @@ Show that if $\lim_{ n \to \infty } \mid x_{n}\mid = 0$ then $\lim_{ n \to \inft
 [[Integral Test]]
 
 Suppose $f(x) = n$ is a decreasing function $\geq 0$. 
-
+n
 Let $a_{n} = f(x)$ for all positive integers n ($\forall \, \mathbb{N}^+ | n$)
 
 Then $\int_{1}^\infty f(x) \, dx$ converges 
