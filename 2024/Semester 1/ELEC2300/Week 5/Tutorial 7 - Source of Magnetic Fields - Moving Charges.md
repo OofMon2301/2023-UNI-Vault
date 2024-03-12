@@ -33,3 +33,7 @@ $$
 \vec{B}_{current ,\ segment} = \frac{\mu_{0}}{4\pi} \frac{q\vec{v}\times \hat{r}}{r^{2}}
 $$
 The magnetic field due to the whole wire we can calculate by using the principle of superposition, i.e. by summing up the field due to many small segments.
+
+
+## 3 | Ampere's Law
+
