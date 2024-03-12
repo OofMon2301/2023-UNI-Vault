@@ -11,8 +11,12 @@
             "id": "07761d917f88b953",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -72,7 +76,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md"
+              }
             }
           }
         ]
@@ -135,6 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,6 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,6 +186,8 @@
   },
   "active": "07761d917f88b953",
   "lastOpenFiles": [
+    "2024/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
+    "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
     "2024/Semester 1/MATH2400/Week 5/Limits for Functions.md",
     "2024/Semester 1/MATH2400/Week 3/Lecture 1 - Monotone Convergence Theorem.md",
     "2024/Semester 1/ELEC2300/Week 3/Tutorial 1.md",
@@ -201,7 +211,6 @@
     "2024/Definitions/Logic Gates.md",
     "2024/Semester 1/CSSE2010/Week 1/Lecture 1 - Course Intro and Binary Numbers.md",
     "2024/Semester 1/ELEC2400/Week 2/Lecture 1 - PN Junctions and Diode Circuits.md",
-    "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.6 - Conductors in Electrostatic Equilibrium.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 2.1 - Electric Dipoles.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 2.2 - Parallel-Plate Capacitors.md",
@@ -214,7 +223,6 @@
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.5 - Gauss's Law.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.4 - Field and Potential.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.3 - Electric Potential.md",
-    "2024/Semester 1/ELEC2300/Week 1/Lecture 1.1 - Columbs Law.md",
     "Attachment Folder/VFPt_dipole_animation_electric.gif",
     "Attachment Folder/Pasted image 20240227103113.png",
     "2024/Semester 1/ELEC2400/Week 2",
