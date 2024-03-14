@@ -36,4 +36,3 @@ The magnetic field due to the whole wire we can calculate by using the principle
 
 
 ## 3 | Ampere's Law
-
