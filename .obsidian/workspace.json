@@ -181,8 +181,7 @@
       "markdown-importer:Open format converter": true,
       "cmdr:QuickAdd: New Subject": false,
       "omnisearch:Omnisearch": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian42-brat:BRAT": false
     }
   },
   "active": "d1635792de9678f9",
