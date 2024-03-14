@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "edb720458617fce1",
+        "id": "b50b7bd4abcc55b4",
         "type": "tabs",
         "children": [
           {
-            "id": "d1635792de9678f9",
+            "id": "8e0e6e374b4c760c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 5/Tutorial 7 - Source of Magnetic Fields - Moving Charges.md",
+                "file": "2024/Semester 1/ELEC2300/Week 5/Workshop 7 - Source of Magnetic Fields - Moving Charges.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a609f0b7d443138",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 1/ELEC2300/Week 5/Tutorial - Magnetic Field.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 5/Tutorial 7 - Source of Magnetic Fields - Moving Charges.md"
+                "file": "2024/Semester 1/ELEC2300/Week 5/Tutorial - Magnetic Field.md"
               }
             }
           }
@@ -85,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 5/Tutorial 7 - Source of Magnetic Fields - Moving Charges.md",
+                "file": "2024/Semester 1/ELEC2300/Week 5/Tutorial - Magnetic Field.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 5/Tutorial 7 - Source of Magnetic Fields - Moving Charges.md",
+                "file": "2024/Semester 1/ELEC2300/Week 5/Tutorial - Magnetic Field.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,10 +197,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "d1635792de9678f9",
+  "active": "1a609f0b7d443138",
   "lastOpenFiles": [
+    "2024/Semester 1/ELEC2300/Week 5/Workshop 7 - Source of Magnetic Fields - Moving Charges.md",
+    "2024/Semester 1/ELEC2300/Week 5/Tutorial - Magnetic Field.md",
     "Excalidraw/Drawing 2024-03-12 16.20.04.excalidraw.md",
-    "2024/Semester 1/ELEC2300/Week 5/Tutorial 7 - Source of Magnetic Fields - Moving Charges.md",
     "2024/Semester 1/ELEC2300/Week 5",
     "2024/Semester 1/ELEC2300/Week 3/Week 5",
     "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
@@ -225,7 +238,6 @@
     "Random Stuff/Templates/Lecture.md",
     "Random Stuff/Templates/Subject.md",
     "Random Stuff/Templates/Tutorial.md",
-    "Random Stuff/Templates/Workshop.md",
     "Attachment Folder/VFPt_dipole_animation_electric.gif",
     "Attachment Folder/Pasted image 20240227103113.png",
     "2024/Semester 1/ELEC2400/Week 2",

@@ -2,12 +2,12 @@
 date: 12-03-2024
 type: Tutorial
 subject: ELEC2300
-tags: tutorial
+tags: workshop
 week: Week 5
 Topic: 
 field: $SUBJECT
 ---
-#ELEC2300
+#ELEC2300s
 
 The magnetic field $\vec{B}_{point \, charge}$ created by a moving point charge $q$ is described by the Biot-Savart law:
 $$
