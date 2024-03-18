@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "07d25d863c625ac8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.3 - Capacitance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.2 - Parallel-Plate Capacitors.md"
+                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.3 - Capacitance.md"
               }
             }
           }
@@ -143,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.2 - Parallel-Plate Capacitors.md",
+                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.3 - Capacitance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.2 - Parallel-Plate Capacitors.md",
+                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.3 - Capacitance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,10 +199,13 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c2528c40e7b8f5b2",
+  "active": "07d25d863c625ac8",
   "lastOpenFiles": [
-    "2024/Definitions/Parallel-Plate Capacitor.md",
+    "2024/Definitions/Capacitance.md",
+    "2024/Semester 1/ELEC2300/Week 2/Lecture 2.3 - Capacitance.md",
     "2024/Semester 1/ELEC2300/Week 2/Lecture 2.2 - Parallel-Plate Capacitors.md",
+    "Untitled 5.md",
+    "2024/Definitions/Parallel-Plate Capacitor.md",
     "2024/Semester 1/ELEC2300/Week 2/Lecture 2.1 - Electric Dipoles.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.6 - Conductors in Electrostatic Equilibrium.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.1 - Columbs Law.md",
@@ -212,14 +228,11 @@
     "2024/Semester 1/MATH2400/Week 3/Lecture 1 - Monotone Convergence Theorem.md",
     "2024/Semester 1/MATH2400/Week 5/Limits for Functions.md",
     "2024/Semester 1/MATH2400/Week 2/Lecture 1 - Limits and Continuity.md",
-    "2024/Semester 1/MATH2400/Week 1/Lecture 1 - Course Info and Intro.md",
     "2024/Semester 1/MATH2400/Week 3",
     "2024/Semester 1/MATH2400/Week 5",
     "2024/Semester 1/MATH2400/Week 2",
     "2024/Semester 1/MATH2400/Week 1",
-    "2024/Semester 1/MATH2400/MATH2400.md",
     "2024/Semester 1/MATH2400",
-    "2024/Semester 1/ELEC2400/Week 2/Lecture 1 - PN Junctions and Diode Circuits.md",
     "2024/Semester 1/ELEC2400/Week 2",
     "2024/Semester 1/ELEC2400/Week 1",
     "2024/Semester 1/ELEC2400",
