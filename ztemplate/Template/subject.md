@@ -1,5 +1,4 @@
 ---
-aliases:
 type: subject
 subject: subject
 field:
