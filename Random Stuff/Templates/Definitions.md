@@ -1,10 +1,9 @@
 ---
-date: 2024-01-09
+date: <% tp.date.now("YYYY-MM-DD") %>
 type: Definition
 subject: <% this.app.vault.getAbstractFileByPath(this.app.workspace.getLastOpenFiles()[0]).parent.name %>
 tags: definition
 chapter: <% this.app.vault.getAbstractFileByPath(this.app.workspace.getLastOpenFiles()[0]).parent.name %>
-date modified: 2024-03-18
 ---
 
 # [[<% tp.file.title %>]]

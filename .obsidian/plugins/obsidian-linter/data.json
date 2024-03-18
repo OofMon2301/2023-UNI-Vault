@@ -37,14 +37,14 @@
       "enabled": false,
       "yaml-key-priority-sort-order": "",
       "priority-keys-at-start-of-yaml": true,
-      "yaml-sort-order-for-other-keys": "None"
+      "yaml-sort-order-for-other-keys": "Ascending Alphabetical"
     },
     "yaml-timestamp": {
       "enabled": true,
       "date-created": true,
       "date-created-key": "date",
       "force-retention-of-create-value": false,
-      "date-modified": true,
+      "date-modified": false,
       "date-modified-key": "date modified",
       "format": "YYYY-MM-DD"
     },

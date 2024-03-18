@@ -5,8 +5,7 @@ degree:
 major: 
 units: 2
 year: 
-date: 2024-01-09
-date modified: 2024-03-18
+date: <% tp.date.now("YYYY-MM-DD") %>
 ---
 
 # Lecture Notes
