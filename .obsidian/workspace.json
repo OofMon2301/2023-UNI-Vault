@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "da5e3a082f8f64aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 1/ELEC2300/Week 2/Dielectrics and Electric Susceptibility.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -92,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.3 - Capacitance.md"
+                "file": "2024/Semester 1/ELEC2300/Week 2/Dielectrics and Electric Susceptibility.md"
               }
             }
           }
@@ -156,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.3 - Capacitance.md",
+                "file": "2024/Semester 1/ELEC2300/Week 2/Dielectrics and Electric Susceptibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.3 - Capacitance.md",
+                "file": "2024/Semester 1/ELEC2300/Week 2/Dielectrics and Electric Susceptibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,10 +211,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "07d25d863c625ac8",
+  "active": "da5e3a082f8f64aa",
   "lastOpenFiles": [
-    "2024/Definitions/Capacitance.md",
     "2024/Semester 1/ELEC2300/Week 2/Lecture 2.3 - Capacitance.md",
+    "2024/Semester 1/ELEC2300/Week 2/Dielectrics and Electric Susceptibility.md",
+    "2024/Definitions/Capacitance.md",
     "2024/Semester 1/ELEC2300/Week 2/Lecture 2.2 - Parallel-Plate Capacitors.md",
     "Untitled 5.md",
     "2024/Definitions/Parallel-Plate Capacitor.md",
@@ -227,7 +240,6 @@
     "2024/Definitions/Coulomb's Law.md",
     "2024/Semester 1/MATH2400/Week 3/Lecture 1 - Monotone Convergence Theorem.md",
     "2024/Semester 1/MATH2400/Week 5/Limits for Functions.md",
-    "2024/Semester 1/MATH2400/Week 2/Lecture 1 - Limits and Continuity.md",
     "2024/Semester 1/MATH2400/Week 3",
     "2024/Semester 1/MATH2400/Week 5",
     "2024/Semester 1/MATH2400/Week 2",
