@@ -1,10 +1,12 @@
 ---
-date: 04-03-2024
+date: 2024-03-04
 type: Definition
 subject: Week 3
 tags: definition
 chapter: Week 3
+date modified: 2024-03-18
 ---
+
 # [[Integral Test]]
 
 # Definition of Integral Test:

@@ -1,10 +1,12 @@
 ---
-date: 26-02-2024
+date: 2024-02-26
 type: Definition
 subject: Week 1
 tags: definition
 chapter: Week 1
+date modified: 2024-03-18
 ---
+
 # [[Electric Field]]
 
 # Definition of Electric Field:

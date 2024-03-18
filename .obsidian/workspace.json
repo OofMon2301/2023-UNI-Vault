@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 1/MATH2400/Week 5/Continuity.md",
+                "file": "2024/Semester 1/ELEC2300/Week 1/Lecture 1.2 - Electric Fields.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 1/MATH2400/Week 5/Continuity.md"
+                "file": "2024/Semester 1/ELEC2300/Week 1/Lecture 1.2 - Electric Fields.md"
               }
             }
           }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/MATH2400/Week 5/Continuity.md",
+                "file": "2024/Semester 1/ELEC2300/Week 1/Lecture 1.2 - Electric Fields.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/MATH2400/Week 5/Continuity.md",
+                "file": "2024/Semester 1/ELEC2300/Week 1/Lecture 1.2 - Electric Fields.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,16 +199,27 @@
   },
   "active": "d9c637c98601d4ca",
   "lastOpenFiles": [
+    "2024/Semester 1/ELEC2300/Week 1/Lecture 1.3 - Electric Potential.md",
+    "2024/Semester 1/ELEC2300/Week 1/Lecture 1.5 - Gauss's Law.md",
+    "2024/Semester 1/ELEC2300/Week 1/Lecture 1.2 - Electric Fields.md",
+    "2024/Semester 1/ELEC2300/Week 1/Lecture 1.1 - Columbs Law.md",
     "2024/Semester 1/CSSE2010/CSSE2010.md",
-    "2024/Semester 1/MATH2400/Week 5/Continuity.md",
+    "2024/Semester 1/CSSE2010/Week 5/Digital Logic to Processors.md",
     "2024/Semester 1/CSSE2010/Week 2/Lecture 1 - Binary Arithmetic.md",
+    "2024/Semester 1/CSSE2010/Week 1/Lecture 2 - Introduction to Logic Gates.md",
+    "2024/Semester 1/CSSE2010/Week 1/Lecture 1 - Course Intro and Binary Numbers.md",
+    "2024/Semester 1/CSSE2010/Week 1/Lab 1 - Number Representations.md",
+    "Random Stuff/Templates/Workshop.md",
+    "Random Stuff/Templates/Tutorial.md",
+    "Random Stuff/Templates/Subject.md",
+    "Random Stuff/Templates/Lecture.md",
+    "Random Stuff/Templates/Definitions.md",
+    "2024/Definitions/Argument.md",
+    "2024/Semester 1/MATH2400/Week 1/Lecture 1 - Course Info and Intro.md",
+    "2024/Semester 1/MATH2400/Week 5/Continuity.md",
     "2024/Semester 1/ELEC2300/ELEC2300.md",
     "2024/Semester 1/ELEC2400/ELEC2400.md",
     "2024/Semester 1/MATH2400/MATH2400.md",
-    "Random Stuff/Templates/Subject.md",
-    "Random Stuff/Templates/Workshop.md",
-    "Random Stuff/Templates/Tutorial.md",
-    "2024/Semester 1/CSSE2010/Week 5/Digital Logic to Processors.md",
     "2024/Semester 1/CSSE2010/Week 5",
     "Untitled 4.md",
     "2024/Semester 1/ELEC2300/Week 5/Workshop 7 - Source of Magnetic Fields - Moving Charges.md",
@@ -217,28 +228,17 @@
     "2024/Semester 1/ELEC2300/Week 5",
     "2024/Semester 1/ELEC2300/Week 3/Week 5",
     "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
-    "2024/Summer Semester/MATH1052/Chapter 1/Multivariate ODEs.md",
-    "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
-    "2024/Semester 1/MATH2400/Week 5/Limits for Functions.md",
-    "2024/Semester 1/MATH2400/Week 3/Lecture 1 - Monotone Convergence Theorem.md",
-    "2024/Semester 1/ELEC2300/Week 3/Tutorial 1.md",
-    "Untitled 3.md",
     "2024/Semester 1/MATH2400/Week 5",
-    "Untitled 2.md",
     "2024/Semester 1/ELEC2300/Week 3",
-    "2024/Definitions/Integral Test.md",
     "2024/Semester 1/MATH2400/Week 3",
-    "2024/Semester 1/CSSE2010/Week 1/Lab 1 - Number Representations.md",
     "Attachment Folder/Pasted image 20240229144325.png",
     "Attachment Folder/Pasted image 20240229144028.png",
-    "2024/Semester 1/CSSE2010/Week 1/Lecture 2 - Introduction to Logic Gates.md",
     "Attachment Folder/Pasted image 20240229142125.png",
     "Attachment Folder/Pasted image 20240229141420.png",
     "Attachment Folder/Pasted image 20240229141237.png",
     "Attachment Folder/Pasted image 20240229135015.png",
     "Attachment Folder/Pasted image 20240229134952.png",
     "Attachment Folder/Pasted image 20240229134938.png",
-    "2024/Definitions/Logic Gates.md",
     "Attachment Folder/VFPt_dipole_animation_electric.gif",
     "Attachment Folder/Pasted image 20240227103113.png",
     "2024/Semester 1/ELEC2400/Week 2",

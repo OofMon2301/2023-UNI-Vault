@@ -1,9 +1,11 @@
 ---
-date: 09-01-2024
+date: 2024-01-09
 type: Definition
 subject: MATH1052
 tags: definition
+date modified: 2024-03-18
 ---
+
 # [[Tangent Lines]]
 
 # Definition of Tangent Lines:

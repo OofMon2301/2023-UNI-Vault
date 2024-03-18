@@ -1,10 +1,12 @@
 ---
-date: 05-12-2023
+date: 2024-01-09
 type: Definition
 subject: MATH1052
 tags: definition
 chapter: Chapter 1
+date modified: 2024-03-18
 ---
+
 # [[IVP]]
 
 # Definition of IVP:

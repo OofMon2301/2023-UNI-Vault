@@ -1,9 +1,11 @@
 ---
-date: 10-07-2023
+date: 2024-01-09
 type: Definition
 subject: MATH1052
 tags: definition
+date modified: 2024-03-18
 ---
+
 # [[Projection Formula]]
 
 # Definition of Projection Formula:

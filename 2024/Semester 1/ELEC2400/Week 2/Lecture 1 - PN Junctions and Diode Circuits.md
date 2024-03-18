@@ -1,11 +1,13 @@
 ---
-date: 27-02-2024
+date: 2024-02-27
 type: Lecture
 subject: Week 2
 tags: lecture
 Topic: Electronic Devices and Circuits
 field: Electronic Engineering
+date modified: 2024-03-18
 ---
+
 #ELEC2400
 
 # Electronics

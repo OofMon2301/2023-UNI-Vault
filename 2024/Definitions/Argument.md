@@ -1,9 +1,11 @@
 ---
-date: 28-02-2023
+date: 2024-01-09
 type: Definition
 subject: MATH1061
 tags: definition
+date modified: 2024-03-18
 ---
+
 # [[2023/Definitions/MATH1061/Argument]]
 
 # Definition of Argument:

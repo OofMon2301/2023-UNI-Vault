@@ -1,12 +1,14 @@
 ---
-date: 11-03-2024
+date: 2024-03-11
 type: Lecture
 subject: MATH2400
 tags: lecture
 week: Week 5
 Topic: 
 field: $SUBJECT
+date modified: 2024-03-18
 ---
+
 #MATH2400
 
 

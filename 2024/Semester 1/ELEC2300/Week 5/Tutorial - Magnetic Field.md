@@ -1,12 +1,14 @@
 ---
-date: 14-03-2024
+date: 2024-03-14
 type: Tutorial
 subject: ELEC2300
 tags: tutorial
 week: Week 5
 Topic: 
 field: $SUBJECT
+date modified: 2024-03-18
 ---
+
 #ELEC2300
 
 # 3.2 Forces on Currents

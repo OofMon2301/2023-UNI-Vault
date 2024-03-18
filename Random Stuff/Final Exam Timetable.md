@@ -1,3 +1,7 @@
+---
+date: 2024-01-17
+date modified: 2024-03-18
+---
 
 **Day 1 (Sunday, May 28th)**: 
 - 10 AM to 4 PM AEST: Propositional & predicate logic

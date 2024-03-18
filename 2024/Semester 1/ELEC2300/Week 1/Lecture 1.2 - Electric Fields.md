@@ -1,12 +1,15 @@
 ---
-date: 26-02-2024
+date: 2024-02-26
 type: Lecture
 subject: ELEC2300
 tags: lecture
 week: Week 1
 Topic:
 field: Electrical Engineering
+date created: 2024-02-26
+date modified: 2024-03-18
 ---
+
 #ELEC2300
 
 # Electric Fields

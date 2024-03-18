@@ -1,9 +1,11 @@
 ---
-date: 06-12-2023
+date: 2024-01-09
 type: Definition
 subject: MATH1052
 tags: definition
+date modified: 2024-03-18
 ---
+
 # [[Newton's 2nd law of motion]]
 
 # Definition of Newton's 2nd Law of Motion:

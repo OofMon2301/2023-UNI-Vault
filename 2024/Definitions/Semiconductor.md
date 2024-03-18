@@ -1,10 +1,12 @@
 ---
-date: 27-02-2024
+date: 2024-02-27
 type: Definition
 subject: Week 2
 tags: definition
 chapter: Week 2
+date modified: 2024-03-18
 ---
+
 # [[Semiconductor]]
 
 # Definition of Semiconductor:

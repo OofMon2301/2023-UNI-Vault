@@ -4,7 +4,10 @@ banner: "![[wallhaven-57o619.png]]"
 banner_y: 0.53801
 obsidianUIMode: preview
 banner_x: 0.5
+date: 2024-01-09
+date modified: 2024-03-18
 ---
+
 #Homepage 
 
 ---

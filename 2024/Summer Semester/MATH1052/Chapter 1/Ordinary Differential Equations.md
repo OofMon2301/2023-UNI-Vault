@@ -1,9 +1,11 @@
 ---
-date: 02-12-2023
+date: 2024-01-09
 type: Lecture
 subject: Week 1
 tags: ODEs
+date modified: 2024-03-18
 ---
+
 #MATH1052
 
 # Contents

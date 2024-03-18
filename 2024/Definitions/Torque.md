@@ -1,9 +1,11 @@
 ---
-date: 04-03-2023
+date: 2024-01-09
 type: Definition
 subject: MATH1050
 tags: definition
+date modified: 2024-03-18
 ---
+
 # [[Torque]]
 
 # Definition of Torque:

@@ -1,19 +1,21 @@
 ---
-date: 18-03-2024
+date: 2024-03-18
 type: Lecture
 subject: MATH2400
 tags: lecture
 week: Week 5
 Topic: 
 field: Mathematics
+date modified: 2024-03-18
 ---
+
 #MATH2400
 
 > [!note] Informal Definition
 >  A *sub-sequence* is a part of a sequence (just like how a subset is part of a whole set).
 >  
 
-#### Example
+# Example
 $$
 x_{n}=\frac{(-1)^n}{n}
 $$

@@ -7,6 +7,7 @@ field: $FIELD
 lecture: $LECTURE
 difficulty:
 tags:
+date modified: 2024-03-18
 ---
 
 > [[$SUBJECT]]
