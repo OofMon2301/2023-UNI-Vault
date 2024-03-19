@@ -37,14 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Dielectrics and Electric Susceptibility.md",
+                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "999cf3f76569d7cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 1/ELEC2300/Week 3/Lecture 3.1 - Magnetic Fields and Forces.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4a927378dcdde04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -104,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Dielectrics and Electric Susceptibility.md"
+                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md"
               }
             }
           }
@@ -168,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Dielectrics and Electric Susceptibility.md",
+                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Dielectrics and Electric Susceptibility.md",
+                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,10 +235,13 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "da5e3a082f8f64aa",
+  "active": "a4a927378dcdde04",
   "lastOpenFiles": [
+    "2024/Semester 1/ELEC2300/Week 3/Lecture 3.1 - Magnetic Fields and Forces.md",
+    "2024/Semester 1/ELEC2300/Week 3/Lecture 3.2 - Forces on Currents and Torques on Loops.md",
+    "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
+    "2024/Semester 1/ELEC2300/Week 4",
     "2024/Semester 1/ELEC2300/Week 2/Lecture 2.3 - Capacitance.md",
-    "2024/Semester 1/ELEC2300/Week 2/Dielectrics and Electric Susceptibility.md",
     "2024/Definitions/Capacitance.md",
     "2024/Semester 1/ELEC2300/Week 2/Lecture 2.2 - Parallel-Plate Capacitors.md",
     "Untitled 5.md",
@@ -238,8 +265,6 @@
     "2024/Definitions/Bit.md",
     "ztemplate/Template/definition.md",
     "2024/Definitions/Coulomb's Law.md",
-    "2024/Semester 1/MATH2400/Week 3/Lecture 1 - Monotone Convergence Theorem.md",
-    "2024/Semester 1/MATH2400/Week 5/Limits for Functions.md",
     "2024/Semester 1/MATH2400/Week 3",
     "2024/Semester 1/MATH2400/Week 5",
     "2024/Semester 1/MATH2400/Week 2",
@@ -248,7 +273,6 @@
     "2024/Semester 1/ELEC2400/Week 2",
     "2024/Semester 1/ELEC2400/Week 1",
     "2024/Semester 1/ELEC2400",
-    "2024/Semester 1/ELEC2300/Week 3",
     "Attachment Folder/Pasted image 20240229144325.png",
     "Attachment Folder/Pasted image 20240229144028.png",
     "Attachment Folder/Pasted image 20240229142125.png",
