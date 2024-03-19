@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.2 - Parallel-Plate Capacitors.md",
+                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.2 - Parallel-Plate Capacitors.md"
+                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md"
               }
             }
           }
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.2 - Parallel-Plate Capacitors.md",
+                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.2 - Parallel-Plate Capacitors.md",
+                "file": "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,16 +188,17 @@
   },
   "active": "c2528c40e7b8f5b2",
   "lastOpenFiles": [
-    "2024/Semester 1/ELEC2300/Week 2/Lecture 2.3 - Capacitance.md",
+    "2024/Semester 1/ELEC2300/Week 2/Lecture 2.1 - Electric Dipoles.md",
     "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
+    "2024/Semester 1/ELEC2300/Week 2/Lecture 2.2 - Parallel-Plate Capacitors.md",
+    "Untitled 6.md",
+    "2024/Semester 1/ELEC2300/Week 2/Lecture 2.3 - Capacitance.md",
     "2024/Semester 1/ELEC2300/Week 3/Lecture 3.1 - Magnetic Fields and Forces.md",
     "2024/Semester 1/ELEC2300/Week 3/Lecture 3.2 - Forces on Currents and Torques on Loops.md",
     "2024/Semester 1/ELEC2300/Week 4",
     "2024/Definitions/Capacitance.md",
-    "2024/Semester 1/ELEC2300/Week 2/Lecture 2.2 - Parallel-Plate Capacitors.md",
     "Untitled 5.md",
     "2024/Definitions/Parallel-Plate Capacitor.md",
-    "2024/Semester 1/ELEC2300/Week 2/Lecture 2.1 - Electric Dipoles.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.6 - Conductors in Electrostatic Equilibrium.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.1 - Columbs Law.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.2 - Electric Fields.md",
@@ -215,7 +216,6 @@
     "2024/Definitions/Argument.md",
     "2024/Definitions/Bit.md",
     "ztemplate/Template/definition.md",
-    "2024/Definitions/Coulomb's Law.md",
     "2024/Semester 1/MATH2400/Week 3",
     "2024/Semester 1/MATH2400/Week 5",
     "2024/Semester 1/MATH2400/Week 2",
