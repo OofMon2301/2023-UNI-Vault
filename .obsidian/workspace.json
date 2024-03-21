@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c9a6cfb034e336fe",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,7 +197,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c2528c40e7b8f5b2",
+  "active": "c9a6cfb034e336fe",
   "lastOpenFiles": [
     "2024/Semester 1/ELEC2300/Week 2/Lecture 2.1 - Electric Dipoles.md",
     "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
