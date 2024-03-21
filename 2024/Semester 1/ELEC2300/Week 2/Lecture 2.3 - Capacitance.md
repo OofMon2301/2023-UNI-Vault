@@ -4,8 +4,8 @@ type: Lecture
 subject: ELEC2300
 tags: lecture
 week: Week 2
-Topic: 
-field: $SUBJECT
+Topic: Capacitance
+field: Physics
 ---
 
 #ELEC2300
