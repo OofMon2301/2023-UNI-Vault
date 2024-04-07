@@ -8,5 +8,6 @@ Topic:
 field: $SUBJECT
 ---
 
+# <% tp.file.title %>
 #<% tp.file.folder(true).split('/')[2] %>
 
