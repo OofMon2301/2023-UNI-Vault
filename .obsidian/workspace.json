@@ -11,11 +11,28 @@
             "id": "ad016e5e4c2579b4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 1/CSSE2010/CSSE2010.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "074f0aa19d306ae5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 1/CSSE2010/Week 7/Instruction Set Architecture.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +91,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024/Semester 1/CSSE2010/Week 7/Instruction Set Architecture.md"
+              }
             }
           }
         ]
@@ -137,6 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024/Semester 1/CSSE2010/Week 7/Instruction Set Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,6 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024/Semester 1/CSSE2010/Week 7/Instruction Set Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,8 +199,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "ad016e5e4c2579b4",
+  "active": "074f0aa19d306ae5",
   "lastOpenFiles": [
+    "2024/Semester 1/CSSE2010/CSSE2010.md",
+    "2024/Semester 1/CSSE2010/Week 7/Instruction Set Architecture.md",
+    "2024/Semester 1/CSSE2010/Week 7/Untitled.md",
+    "2024/Semester 1/CSSE2010/Week 7",
     "2024/Semester 1/ELEC2300/Week 3/Lecture 3.2 - Forces on Currents and Torques on Loops.md",
     "2024/Semester 1/ELEC2300/Week 3/Lecture 3.1 - Magnetic Fields and Forces.md",
     "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
@@ -205,9 +230,6 @@
     "Random Stuff/Templates/Tutorial.md",
     "Random Stuff/Templates/Subject.md",
     "Random Stuff/Templates/Lecture.md",
-    "ztemplate/Template/subject.md",
-    "2024/Semester 1/CSSE2010/CSSE2010.md",
-    "2024/Definitions/Argument.md",
     "2024/Semester 1/MATH2400/Week 3",
     "2024/Semester 1/MATH2400/Week 5",
     "2024/Semester 1/MATH2400/Week 2",
@@ -215,7 +237,6 @@
     "2024/Semester 1/MATH2400",
     "2024/Semester 1/ELEC2400/Week 2",
     "2024/Semester 1/ELEC2400/Week 1",
-    "2024/Semester 1/ELEC2400",
     "Attachment Folder/Pasted image 20240229144325.png",
     "Attachment Folder/Pasted image 20240229144028.png",
     "Attachment Folder/Pasted image 20240229142125.png",

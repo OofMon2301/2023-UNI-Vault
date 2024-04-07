@@ -17504,7 +17504,8 @@ ${headerSection}
               imageMatch.indexOf("[") + 2,
               imageMatch.indexOf("]")
             ).split("|");
-            const imagePath = (0, import_obsidian3.getLinkpath)(imageName);
+            const actualImagePath = imageName.replace(/\.\.\//g, "");
+            const imagePath = (0, import_obsidian3.getLinkpath)(actualImagePath);
             const linkedFile = this.metadataCache.getFirstLinkpathDest(
               imagePath,
               file.getPath()
@@ -17530,7 +17531,8 @@ ${headerSection}
             if (imagePath.startsWith("http")) {
               continue;
             }
-            const decodedImagePath = decodeURI(imagePath);
+            const actualImagePath = imagePath.replace(/\.\.\//g, "");
+            const decodedImagePath = decodeURI(actualImagePath);
             const linkedFile = this.metadataCache.getFirstLinkpathDest(
               decodedImagePath,
               file.getPath()
@@ -17583,7 +17585,11 @@ ${headerSection}
             }
             const image = yield this.vault.readBinary(linkedFile);
             const imageBase64 = (0, import_obsidian3.arrayBufferToBase64)(image);
-            const cmsImgPath = `/img/user/${linkedFile.path}`;
+            let relativeEmbedPrefix = "";
+            for (let i2 = 0; i2 < filePath.split("/").length - 1; i2++) {
+              relativeEmbedPrefix += "../";
+            }
+            const cmsImgPath = `${relativeEmbedPrefix}${linkedFile.path}`;
             let name = "";
             if (metaData && size) {
               name = `${imageName}|${metaData}|${size}`;
@@ -17638,7 +17644,11 @@ ${headerSection}
             }
             const image = yield this.vault.readBinary(linkedFile);
             const imageBase64 = (0, import_obsidian3.arrayBufferToBase64)(image);
-            const cmsImgPath = `/img/user/${linkedFile.path}`;
+            let relativeEmbedPrefix = "";
+            for (let i2 = 0; i2 < filePath.split("/").length - 1; i2++) {
+              relativeEmbedPrefix += "../";
+            }
+            const cmsImgPath = `${relativeEmbedPrefix}${linkedFile.path}`;
             const imageMarkdown = `![${imageName}](${cmsImgPath})`;
             assets.push({ path: cmsImgPath, content: imageBase64 });
             imageText = imageText.replace(
@@ -18710,8 +18720,6 @@ var RepositoryConnection = class {
 };
 
 // src/publisher/Publisher.ts
-var IMAGE_PATH_BASE = "content/";
-var NOTE_PATH_BASE = "content/";
 var Publisher = class {
   constructor(vault, metadataCache, settings) {
     this.vault = vault;
@@ -18761,13 +18769,13 @@ var Publisher = class {
   }
   deleteNote(vaultFilePath, sha) {
     return __async(this, null, function* () {
-      const path = `${NOTE_PATH_BASE}${vaultFilePath}`;
+      const path = `${this.settings.contentFolder}/${vaultFilePath}`;
       return yield this.delete(path, sha);
     });
   }
   deleteImage(vaultFilePath, sha) {
     return __async(this, null, function* () {
-      const path = `${IMAGE_PATH_BASE}${vaultFilePath}`;
+      const path = `${this.settings.contentFolder}/${vaultFilePath}`;
       return yield this.delete(path, sha);
     });
   }
@@ -18831,13 +18839,14 @@ var Publisher = class {
   uploadText(filePath, content, sha) {
     return __async(this, null, function* () {
       content = gBase64.encode(content);
-      const path = `${NOTE_PATH_BASE}${filePath}`;
+      const path = `${this.settings.contentFolder}/${filePath}`;
       yield this.uploadToGithub(path, content, sha);
     });
   }
   uploadImage(filePath, content, sha) {
     return __async(this, null, function* () {
-      const path = `src/site${filePath}`;
+      const actualFilePath = filePath.replace(/\.\.\//g, "");
+      const path = `${this.settings.contentFolder}/${actualFilePath}`;
       yield this.uploadToGithub(path, content, sha);
     });
   }
@@ -23418,7 +23427,7 @@ var QuartzSyncerSiteManager = class {
         path = path.substring(1);
       }
       const response = yield this.userSyncerConnection.getFile(
-        NOTE_PATH_BASE + path
+        `${this.settings.contentFolder}/${path}`
       );
       if (!response) {
         return "";
@@ -23431,12 +23440,16 @@ var QuartzSyncerSiteManager = class {
     return __async(this, null, function* () {
       const files = contentTree.tree;
       const notes = files.filter(
-        (x) => typeof x.path === "string" && x.path.startsWith(NOTE_PATH_BASE) && x.type === "blob" && x.path !== `${NOTE_PATH_BASE}notes.json`
+        (x) => typeof x.path === "string" && x.path.startsWith(this.settings.contentFolder) && x.type === "blob" && x.path !== `${this.settings.contentFolder}/notes.json`
       );
       const hashes = {};
       for (const note of notes) {
-        const vaultPath = note.path.replace(NOTE_PATH_BASE, "");
-        hashes[vaultPath] = note.sha;
+        const vaultPath = note.path.replace(
+          this.settings.contentFolder,
+          ""
+        );
+        const actualVaultPath = vaultPath.startsWith("/") ? vaultPath.substring(1) : vaultPath;
+        hashes[actualVaultPath] = note.sha;
       }
       return hashes;
     });
@@ -23446,12 +23459,15 @@ var QuartzSyncerSiteManager = class {
       var _a2;
       const files = (_a2 = contentTree.tree) != null ? _a2 : [];
       const images = files.filter(
-        (x) => typeof x.path === "string" && x.path.startsWith(IMAGE_PATH_BASE) && x.type === "blob"
+        (x) => typeof x.path === "string" && x.path.startsWith(this.settings.contentFolder) && x.type === "blob"
       );
       const hashes = {};
       for (const img of images) {
-        const vaultPath = decodeURI(img.path.replace(IMAGE_PATH_BASE, ""));
-        hashes[vaultPath] = img.sha;
+        const vaultPath = decodeURI(
+          img.path.replace(this.settings.contentFolder, "")
+        );
+        const actualVaultPath = vaultPath.startsWith("/") ? vaultPath.substring(1) : vaultPath;
+        hashes[actualVaultPath] = img.sha;
       }
       return hashes;
     });
@@ -23532,6 +23548,17 @@ var GithubSettings = class {
     this.initializeGitHubRepoSetting();
     this.initializeGitHubUserNameSetting();
     this.initializeGitHubTokenSetting();
+    this.initializeGitHubContentFolder();
+  }
+  initializeGitHubContentFolder() {
+    new import_obsidian9.Setting(this.settingsRootElement).setName("Quartz content folder name").setDesc(
+      'The folder where your vault lives inside Quartz. By default "content"'
+    ).addText(
+      (text2) => text2.setPlaceholder("content").setValue(this.settings.settings.contentFolder).onChange((value) => __async(this, null, function* () {
+        this.settings.settings.contentFolder = value;
+        yield this.checkConnectionAndSaveSettings();
+      }))
+    );
   }
   initializeGitHubRepoSetting() {
     new import_obsidian9.Setting(this.settingsRootElement).setName("GitHub repo name").setDesc("The name of the GitHub repository").addText(
@@ -23753,6 +23780,7 @@ var DEFAULT_SETTINGS = {
   noteSettingsIsInitialized: false,
   siteName: "Quartz",
   slugifyEnabled: true,
+  contentFolder: "content",
   // Timestamp related settings
   showCreatedTimestamp: false,
   createdTimestampKey: "",
