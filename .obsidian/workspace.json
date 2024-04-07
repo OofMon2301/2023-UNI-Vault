@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f0bb5631a55b497e",
+        "id": "bd35449ee39a1bfc",
         "type": "tabs",
         "children": [
           {
-            "id": "6aaa814096c62b5b",
+            "id": "ad016e5e4c2579b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 3/Lecture 3.2 - Forces on Currents and Torques on Loops.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,9 +74,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 3/Lecture 3.2 - Forces on Currents and Torques on Loops.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -143,7 +137,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 3/Lecture 3.2 - Forces on Currents and Torques on Loops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +153,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Week 3/Lecture 3.2 - Forces on Currents and Torques on Loops.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,8 +178,9 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "6aaa814096c62b5b",
+  "active": "ad016e5e4c2579b4",
   "lastOpenFiles": [
+    "2024/Semester 1/ELEC2300/Week 3/Lecture 3.2 - Forces on Currents and Torques on Loops.md",
     "2024/Semester 1/ELEC2300/Week 3/Lecture 3.1 - Magnetic Fields and Forces.md",
     "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
     "2024/Semester 1/ELEC2300/Week 2/Lecture 2.1 - Electric Dipoles.md",
@@ -196,7 +189,6 @@
     "2024/Semester 1/MATH2400/Week 5/Intermediate Value Theorem.md",
     "Untitled 7.md",
     "Untitled 6.md",
-    "2024/Semester 1/ELEC2300/Week 3/Lecture 3.2 - Forces on Currents and Torques on Loops.md",
     "2024/Semester 1/ELEC2300/Week 4",
     "2024/Definitions/Capacitance.md",
     "Untitled 5.md",
