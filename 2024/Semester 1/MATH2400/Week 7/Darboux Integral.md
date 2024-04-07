@@ -29,3 +29,8 @@ The *upper ( Darboux ) sum* of $f$ with respect to $P$, denoted as $U(f,P)$, is 
 $$
 U(f,P) = \sum_{i=1}^n M_{i}(x_{i}-x_{i-1})
 $$
+
+
+Definition 1: The position $P$ is a *refinement* of $P$ if $P \subset P'$.
+Lemma 2: If $P \subset P'$, then $L(f,P) \leq L(f,P')$ and $U(f,P) \geq U(f,P')$.
+
