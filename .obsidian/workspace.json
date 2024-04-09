@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0f7c8911b9aade42",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,7 +197,7 @@
       "quartz-syncer:Quartz Syncer Publication Center": false
     }
   },
-  "active": "b369648eb91d9d25",
+  "active": "0f7c8911b9aade42",
   "lastOpenFiles": [
     "2024/Semester 1/MATH2400/Week 7/Integrable Functions.md",
     "Random Stuff/Templates/Lecture.md",
