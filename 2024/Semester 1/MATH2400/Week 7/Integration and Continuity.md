@@ -47,4 +47,37 @@ $$
 \end{align}
 $$
 
+## Theorem 9
+(Mean value theorem for integrals)
+
+If $f$ is continuous on $[a,b]$, then there exists $c \in [a,b]$ such that 
+$$
+\int _{a}^b f \, dx = f(c)(b-a).
+$$
+
+You can then, from theorem 1 and 4:
+$$
+\begin{align}
+f(x_{n})(b-a) &\leq \int _{a}^b f \, dx \leq f(x_{n})(b-a) \\
+f(x_{n}) & = \frac{1}{b-a} \int_{a}^b f \, dx \leq f(x_{n})
+\end{align}
+$$
+By the [[Intermediate Value Theorem|Intermediate Value Theorem]], $\exists c \in (a,b) : \frac{1}{b-a} \int_{a}^b f \, dx = f(c)(b-a).$
+
+## Definition 7 
+
+$F$ *is called an anti-derivative of* $f$ if $F' = f$.
+
+### Theorem 10
+Fundamental theorem of calculus. Suppose $f:[a,b]\to \mathbb{R}$ is continuous.
+
+Define $F(x) = \int_{a}^x f(t) \, dt$. Then $F$ is an antiderivative of $f$ and
+$$
+\int_{a}^b f(t)  \, dt = F(b)-F(a).
+$$
+
+---
+
+Now, $F(x+h)-F(x) = \int _{h}^{x+h} f \, dt - \int _{h}^x f \, dt$
+$= \int _{x}^{x+h} f \, dt = f(c)(x+h-x)$.
 
