@@ -11,8 +11,12 @@
             "id": "b9b523bd554e8e3b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 1/MATH2400/Week 10/Taylor Series.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -74,7 +78,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024/Semester 1/MATH2400/Week 10/Taylor Series.md"
+              }
             }
           }
         ]
@@ -91,7 +97,7 @@
       {
         "id": "413c01d99c7ceb6f",
         "type": "tabs",
-        "dimension": 29.385964912280706,
+        "dimension": 58.66228070175439,
         "children": [
           {
             "id": "d88819423420f4ac",
@@ -123,14 +129,22 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "8b54680f90d06098",
+            "type": "leaf",
+            "state": {
+              "type": "pieces-snippet-list",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "b2e398d710777b6e",
         "type": "tabs",
-        "dimension": 70.6140350877193,
+        "dimension": 41.33771929824561,
         "children": [
           {
             "id": "981b75af9e493464",
@@ -138,6 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024/Semester 1/MATH2400/Week 10/Taylor Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,6 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024/Semester 1/MATH2400/Week 10/Taylor Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,6 +198,9 @@
   },
   "active": "b9b523bd554e8e3b",
   "lastOpenFiles": [
+    "2024/Semester 1/MATH2400/Week 1/Lecture 1 - Course Info and Intro.md",
+    "2024/Semester 1/MATH2400/Week 10/Taylor Series.md",
+    "2024/Semester 1/MATH2400/Week 10",
     "2024/Semester 1/MATH2400/Week 7/Integration and Continuity.md",
     "piecesdb.json",
     "2024/Semester 1/ELEC2300/Week 7/Revision Of Circuit Theory.md",
@@ -211,12 +230,10 @@
     "2024/Definitions/Parallel-Plate Capacitor.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.6 - Conductors in Electrostatic Equilibrium.md",
     "2024/Semester 1/ELEC2300/Week 1/Lecture 1.1 - Columbs Law.md",
-    "2024/Semester 1/ELEC2300/Week 1/Lecture 1.2 - Electric Fields.md",
     "2024/Semester 1/ELEC2300/Week 2",
     "2024/Semester 1/MATH2400/Week 3",
     "2024/Semester 1/MATH2400/Week 5",
     "2024/Semester 1/MATH2400/Week 2",
-    "2024/Semester 1/MATH2400/Week 1",
     "Attachment Folder/Pasted image 20240229144325.png",
     "Attachment Folder/Pasted image 20240229144028.png",
     "Attachment Folder/Pasted image 20240229142125.png",
