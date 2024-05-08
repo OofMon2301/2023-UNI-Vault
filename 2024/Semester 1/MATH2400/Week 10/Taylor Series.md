@@ -118,7 +118,7 @@ R_{n,a}(x) = \frac{f^{(n+1)}(t)}{(n+1)!}(x-a)^{n+1}
 $$
 for some $t$ between $a$ and $x$.
 
-###  Proof
+### Proof
 Assume $x>a$ ( the $x<a$ case can be done very similarly.)
 
 Since $f^{(n+1)}$ is continuous on $[a,x]$, there exists (by the Extreme Value Theorem):

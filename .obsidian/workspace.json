@@ -15,7 +15,7 @@
               "state": {
                 "file": "2024/Semester 1/MATH2400/Week 10/Taylor Series.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -182,10 +182,10 @@
       "command-palette:Open command palette": true,
       "markdown-importer:Open format converter": true,
       "cmdr:QuickAdd: New Subject": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian42-brat:BRAT": false,
       "quartz-syncer:Quartz Syncer Publication Center": false,
-      "pieces-for-developers:Pieces For Developers": false
+      "pieces-for-developers:Pieces For Developers": false,
+      "obsidian42-brat:BRAT": false,
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "b9b523bd554e8e3b",

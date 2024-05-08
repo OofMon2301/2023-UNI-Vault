@@ -233,25 +233,35 @@ var localization = {
     "zh-CN": "\u7576\u5149\u6A19\u5728\u62EC\u5F27\u5B57\u5143\u65C1\u908A\u6642\uFF0C\u6309\u4E0B Enter \u9375\u6703\u8907\u88FD\u7576\u884C\u7684\u7E2E\u9032\uFF0C\u4E26\u518D\u52A0\u4E00\u500B\u7E2E\u9032",
     "zh-TW": "\u7576\u6E38\u6A19\u5728\u62EC\u5F27\u5B57\u5143\u65C1\u908A\u6642\uFF0C\u6309\u4E0B Enter \u9375\u6703\u8907\u88FD\u7576\u884C\u7684\u7E2E\u6392\uFF0C\u4E26\u518D\u52A0\u4E00\u500B\u7E2E\u6392"
   },
-  braceRegex: {
-    "en-US": "Brace regex (within code blocks)",
-    "zh-CN": "\u62EC\u5F27\u6B63\u5219\u8868\u8FBE\u5F0F\uFF08\u5728\u4EE3\u7801\u533A\u5757\u5185\u65F6\uFF09",
-    "zh-TW": "\u62EC\u5F27\u6B63\u898F\u8868\u9054\u5F0F\uFF08\u5728\u7A0B\u5F0F\u78BC\u5340\u584A\u5167\u6642\uFF09"
+  braceSetCode: {
+    "en-US": "Paired braces set (within code blocks)",
+    "zh-CN": "\u6210\u5BF9\u6807\u70B9\u7B26\u53F7/\u62EC\u53F7\u96C6\u5408\uFF08\u5728\u4EE3\u7801\u533A\u5757\u5185\u65F6\uFF09",
+    "zh-TW": "\u6210\u5C0D\u6A19\u9EDE\u7B26\u865F/\u62EC\u5F27\u96C6\u5408\uFF08\u5728\u7A0B\u5F0F\u78BC\u5340\u584A\u5167\u6642\uFF09"
   },
-  braceRegexDesc: {
-    "en-US": 'If the substring before the cursor matches this regex, it will be considered "next to a brace character". \ndefault: any character between [ and ]$, including braces, brackets, parentheses and quotes',
-    "zh-CN": "\u82E5\u5149\u6807\u4EE5\u5DE6\u7684\u5B50\u5B57\u4E32\u548C\u8868\u8FBE\u5F0F\u5339\u914D\u5219\u4F1A\u4FA6\u6D4B\u4E3A\u62EC\u5F27\u3002\u9ED8\u8BA4\uFF1A\u5728 [ \u548C ]$ \u4E4B\u95F4\u7684\u5B57\u5143",
-    "zh-TW": "\u82E5\u6E38\u6A19\u4EE5\u5DE6\u7684\u5B50\u5B57\u4E32\u548C\u8868\u9054\u5F0F\u5339\u914D\u5247\u6703\u5075\u6E2C\u70BA\u62EC\u5F27\u3002\u9810\u8A2D\uFF1A\u5728 [ \u548C ]$ \u4E4B\u9593\u7684\u5B57\u5143"
+  braceSetCodeDesc: {
+    "en-US": "Match the string before the cursor on the line, and after the line. If both match for the same index in the json array of regexes, a paired brace is detected.",
+    "zh-CN": "\u5C06\u5149\u6807\u524D\u9762\u53CA\u540E\u9762\u7684\u5B57\u4E32\u8FDB\u884C\u6B63\u5219\u8868\u8FBE\u5F0F\u5339\u914D\uFF0C\u82E5\u5728json\u9635\u5217\u7684\u540C\u4E00\u4E2A\u4F4D\u7F6E\u6210\u529F\u5339\u914D\u5219\u89C6\u4E3A\u6210\u5BF9\u6807\u70B9\u7B26\u53F7\u3002",
+    "zh-TW": "\u5C07\u6E38\u6A19\u524D\u9762\u53CA\u5F8C\u9762\u7684\u5B57\u4E32\u9032\u884C\u6B63\u898F\u8868\u9054\u5F0F\u5339\u914D\uFF0C\u82E5\u5728json\u9663\u5217\u7684\u540C\u4E00\u500B\u4F4D\u7F6E\u6210\u529F\u5339\u914D\u5247\u8996\u70BA\u6210\u5C0D\u6A19\u9EDE\u7B26\u865F\u3002"
   },
-  braceRegexOutsideCodeBlocks: {
+  braceSetMarkdown: {
     "en-US": "Brace regex (outside code blocks)",
-    "zh-CN": "\u62EC\u5F27\u6B63\u5219\u8868\u8FBE\u5F0F\uFF08\u4E0D\u5728\u4EE3\u7801\u533A\u5757\u5185\u65F6\uFF09",
-    "zh-TW": "\u62EC\u5F27\u6B63\u898F\u8868\u9054\u5F0F\uFF08\u4E0D\u5728\u7A0B\u5F0F\u78BC\u5340\u584A\u5167\u6642\uFF09"
+    "zh-CN": "\u6210\u5BF9\u6807\u70B9\u7B26\u53F7/\u62EC\u53F7\u96C6\u5408\uFF08\u4E0D\u5728\u4EE3\u7801\u533A\u5757\u5185/\u4E00\u822C Markdown \u533A\u5757\u5185\u65F6\uFF09",
+    "zh-TW": "\u6210\u5C0D\u6A19\u9EDE\u7B26\u865F/\u62EC\u5F27\u96C6\u5408\uFF08\u4E0D\u5728\u7A0B\u5F0F\u78BC\u5340\u584A\u5167/\u4E00\u822C Markdown \u5340\u584A\u5167\u6642\uFF09"
   },
-  braceRegexOutsideCodeBlocksDesc: {
-    "en-US": "Same thing but when cursor is not in a code block. Note that indenting doesn't get rendered in Markdown.",
-    "zh-CN": "\u548C\u524D\u8005\u4E00\u6837\uFF0C\u4F46\u5728\u5149\u6807\u4E0D\u5728\u4EE3\u7801\u533A\u5757\u5185\u65F6\u3002\u6CE8\u610F\uFF1A\u7F29\u8FDB\u4E0D\u4F1A\u88AB Markdown \u6E32\u67D3\u51FA\u6765",
-    "zh-TW": "\u548C\u524D\u8005\u4E00\u6A23\uFF0C\u4F46\u5728\u6E38\u6A19\u4E0D\u5728\u7A0B\u5F0F\u78BC\u5340\u584A\u5167\u6642\u3002\u6CE8\u610F\uFF1A\u7E2E\u6392\u4E0D\u6703\u88AB Markdown \u6E32\u67D3\u51FA\u4F86"
+  braceSetMarkdownDesc: {
+    "en-US": "Same thing but when cursor is not in a code block. Default includes multi line math expression $$ and HTML tags. Note that indenting doesn't get rendered in Markdown.",
+    "zh-CN": "\u548C\u524D\u8005\u4E00\u6837\uFF0C\u4F46\u5728\u5149\u6807\u4E0D\u5728\u4EE3\u7801\u533A\u5757\u5185\u65F6\u3002\u9002\u7528\u4E00\u822C Markdown \u8BED\u6CD5\u4F7F\u7528\u3002\u9884\u8BBE\u503C\u5305\u62EC\u591A\u884C\u6570\u5B66\u516C\u5F0F\u548C HTML tags\u3002\u6CE8\u610F\uFF1A\u7F29\u8FDB\u4E0D\u4F1A\u88AB Markdown \u6E32\u67D3\u51FA\u6765",
+    "zh-TW": "\u548C\u524D\u8005\u4E00\u6A23\uFF0C\u4F46\u5728\u6E38\u6A19\u4E0D\u5728\u7A0B\u5F0F\u78BC\u5340\u584A\u5167\u6642\u3002\u9069\u7528\u4E00\u822C Markdown \u8A9E\u6CD5\u4F7F\u7528\u3002\u9810\u8A2D\u503C\u5305\u62EC\u591A\u884C\u6578\u5B78\u516C\u5F0F\u548C HTML tags\u3002 \u6CE8\u610F\uFF1A\u7E2E\u6392\u4E0D\u6703\u88AB Markdown \u6E32\u67D3\u51FA\u4F86"
+  },
+  extraButtonRestore: {
+    "en-US": "Restore default",
+    "zh-CN": "\u6062\u5FA9\u9ED8\u8BA4\u503C",
+    "zh-TW": "\u6062\u5FA9\u9810\u8A2D\u503C"
+  },
+  extraButtonDisable: {
+    "en-US": "Disable",
+    "zh-CN": "\u5173\u95ED",
+    "zh-TW": "\u95DC\u9589"
   }
 };
 
@@ -274,8 +284,10 @@ var DEFAULT_SETTINGS = {
   language: "auto",
   developerMode: false,
   enableBracesAutoIndent: true,
-  braceRegex: "[{[(\"'`]$",
-  braceRegexOutsideCodeBlocks: "[{[(\"'`]$",
+  braceCodeSetOpen: '["\\\\{$", "\\\\[$", "\\\\($", "\\"$", "\'$", "`$"]',
+  braceCodeSetClose: '["^\\\\}", "^\\\\]", "^\\\\)", "^\\"", "^\'", "^`"]',
+  braceMarkdownSetOpen: `["\\\\{$", "\\\\[$", "\\\\($", "\\"$", "'$", "\\\\$\\\\$$", "<.+>$", "\xA1$", "\xBF$"]`,
+  braceMarkdownSetClose: `["^\\\\}", "^\\\\]", "^\\\\)", "^\\"", "^'", "^\\\\$\\\\$", "^<\\\\/\\\\w+>", "^!", "^?"]`,
   indentCharacters: " 	"
 };
 var TabKeyPlugin = class extends import_obsidian.Plugin {
@@ -399,10 +411,22 @@ var TabKeyPlugin = class extends import_obsidian.Plugin {
           const token = this.getToken(editor.cm.state);
           if (this.settings.developerMode) {
             this.log("Current token: " + token);
-            this.log("which is" + (token.includes("hmd-codeblock") ? " " : " not ") + "a code block, matching regex: " + (token.includes("hmd-codeblock") ? this.settings.braceRegex : this.settings.braceRegexOutsideCodeBlocks));
+            this.log("which is" + (token.includes("hmd-codeblock") ? " " : " not ") + "a code block, matching regexes for " + (token.includes("hmd-codeblock") ? "code" : "markdown"));
           }
-          if (RegExp(token.includes("hmd-codeblock") ? this.settings.braceRegex : this.settings.braceRegexOutsideCodeBlocks, "u").test(line.substring(0, cursor.ch))) {
-            this.log("Code Auto Indent: Brace regex match");
+          let braceDetected = false;
+          const bracesOpen = JSON.parse(token.includes("hmd-codeblock") ? this.settings.braceCodeSetOpen : this.settings.braceMarkdownSetOpen);
+          const bracesClose = JSON.parse(token.includes("hmd-codeblock") ? this.settings.braceCodeSetClose : this.settings.braceMarkdownSetClose);
+          const pairs = Math.min(bracesOpen.length, bracesClose.length);
+          this.log("there are " + pairs + " pairs of braces defined");
+          for (let i = 0; i < pairs; i++) {
+            this.log("matching regex " + bracesOpen[i] + " and " + bracesClose[i]);
+            if (RegExp(bracesOpen[i], "u").test(line.substring(0, cursor.ch)) && RegExp(bracesClose[i], "u").test(line.substring(cursor.ch))) {
+              braceDetected = true;
+              break;
+            }
+          }
+          if (braceDetected) {
+            this.log("Code Auto Indent: Brace detected");
             let indentPrefixLen = 0;
             while (this.settings.indentCharacters.includes(line[indentPrefixLen]))
               indentPrefixLen++;
@@ -524,7 +548,7 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
         new import_obsidian.Setting(containerEl).setName(localization["exceptionRegex"][lang]).setDesc(localization["exceptionRegexDesc"][lang]).addText((textbox) => textbox.setValue(this.plugin.settings.exceptionRegex).setPlaceholder("Regex").onChange(async (value) => {
           this.plugin.settings.exceptionRegex = value;
           await this.plugin.saveSettings();
-        })).addExtraButton((button) => button.setIcon("rotate-ccw").onClick(async () => {
+        })).addExtraButton((button) => button.setIcon("rotate-ccw").setTooltip(localization["extraButtonRestore"][lang]).onClick(async () => {
           this.plugin.settings.exceptionRegex = DEFAULT_SETTINGS.exceptionRegex;
           this.display();
           await this.plugin.saveSettings();
@@ -540,27 +564,37 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
       await this.plugin.saveSettings();
     }));
     if (this.plugin.settings.enableBracesAutoIndent) {
-      new import_obsidian.Setting(containerEl).setName(localization["braceRegex"][lang]).setDesc(localization["braceRegexDesc"][lang]).addText((textbox) => textbox.setValue(this.plugin.settings.braceRegex).setPlaceholder(DEFAULT_SETTINGS.braceRegex).onChange(async (value) => {
-        this.plugin.settings.braceRegex = value;
+      new import_obsidian.Setting(containerEl).setName(localization["braceSetCode"][lang]).setDesc(localization["braceSetCodeDesc"][lang]).addTextArea((textbox) => textbox.setValue(this.plugin.settings.braceCodeSetOpen).setPlaceholder("json array of regexes").onChange(async (value) => {
+        this.plugin.settings.braceCodeSetOpen = value;
         await this.plugin.saveSettings();
-      })).addExtraButton((button) => button.setIcon("rotate-ccw").onClick(async () => {
-        this.plugin.settings.braceRegex = DEFAULT_SETTINGS.braceRegex;
+      })).addTextArea((textbox) => textbox.setValue(this.plugin.settings.braceCodeSetClose).setPlaceholder("json array of regexes").onChange(async (value) => {
+        this.plugin.settings.braceCodeSetClose = value;
+        await this.plugin.saveSettings();
+      })).addExtraButton((button) => button.setIcon("rotate-ccw").setTooltip(localization["extraButtonRestore"][lang]).onClick(async () => {
+        this.plugin.settings.braceCodeSetOpen = DEFAULT_SETTINGS.braceCodeSetOpen;
+        this.plugin.settings.braceCodeSetClose = DEFAULT_SETTINGS.braceCodeSetClose;
         this.display();
         await this.plugin.saveSettings();
-      })).addExtraButton((button) => button.setIcon("ban").onClick(async () => {
-        this.plugin.settings.braceRegex = "disabled^";
+      })).addExtraButton((button) => button.setIcon("ban").setTooltip(localization["extraButtonDisable"][lang]).onClick(async () => {
+        this.plugin.settings.braceCodeSetOpen = "[]";
+        this.plugin.settings.braceCodeSetClose = "[]";
         this.display();
         await this.plugin.saveSettings();
       }));
-      new import_obsidian.Setting(containerEl).setName(localization["braceRegexOutsideCodeBlocks"][lang]).setDesc(localization["braceRegexOutsideCodeBlocksDesc"][lang]).addText((textbox) => textbox.setValue(this.plugin.settings.braceRegexOutsideCodeBlocks).setPlaceholder(DEFAULT_SETTINGS.braceRegexOutsideCodeBlocks).onChange(async (value) => {
-        this.plugin.settings.braceRegexOutsideCodeBlocks = value;
+      new import_obsidian.Setting(containerEl).setName(localization["braceSetMarkdown"][lang]).setDesc(localization["braceSetMarkdownDesc"][lang]).addTextArea((textbox) => textbox.setValue(this.plugin.settings.braceMarkdownSetOpen).setPlaceholder("json array of regexes").onChange(async (value) => {
+        this.plugin.settings.braceMarkdownSetOpen = value;
         await this.plugin.saveSettings();
-      })).addExtraButton((button) => button.setIcon("rotate-ccw").onClick(async () => {
-        this.plugin.settings.braceRegexOutsideCodeBlocks = DEFAULT_SETTINGS.braceRegexOutsideCodeBlocks;
+      })).addTextArea((textbox) => textbox.setValue(this.plugin.settings.braceMarkdownSetClose).setPlaceholder("json array of regexes").onChange(async (value) => {
+        this.plugin.settings.braceMarkdownSetClose = value;
+        await this.plugin.saveSettings();
+      })).addExtraButton((button) => button.setIcon("rotate-ccw").setTooltip(localization["extraButtonRestore"][lang]).onClick(async () => {
+        this.plugin.settings.braceMarkdownSetOpen = DEFAULT_SETTINGS.braceMarkdownSetOpen;
+        this.plugin.settings.braceMarkdownSetClose = DEFAULT_SETTINGS.braceMarkdownSetClose;
         this.display();
         await this.plugin.saveSettings();
-      })).addExtraButton((button) => button.setIcon("ban").onClick(async () => {
-        this.plugin.settings.braceRegexOutsideCodeBlocks = "disabled^";
+      })).addExtraButton((button) => button.setIcon("ban").setTooltip(localization["extraButtonDisable"][lang]).onClick(async () => {
+        this.plugin.settings.braceMarkdownSetOpen = "[]";
+        this.plugin.settings.braceMarkdownSetClose = "[]";
         this.display();
         await this.plugin.saveSettings();
       }));
@@ -590,7 +624,7 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
     new import_obsidian.Setting(containerEl).setName(localization["customHotkey"][lang]).setDesc(localization["customHotkeyDesc"][lang]).addText((textbox) => textbox.setValue(this.plugin.settings.hotkey).setPlaceholder("Ctrl-Alt-Space").onChange(async (value) => {
       this.plugin.settings.hotkey = value;
       await this.plugin.saveSettings();
-    })).addExtraButton((button) => button.setIcon("rotate-ccw").onClick(async () => {
+    })).addExtraButton((button) => button.setIcon("rotate-ccw").setTooltip(localization["extraButtonRestore"][lang]).onClick(async () => {
       this.plugin.settings.hotkey = DEFAULT_SETTINGS.hotkey;
       this.display();
       await this.plugin.saveSettings();
