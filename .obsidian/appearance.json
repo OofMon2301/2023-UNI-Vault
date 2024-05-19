@@ -1,10 +1,6 @@
 {
   "accentColor": "",
-  "enabledCssSnippets": [
-    "smoothcursor",
-    "dashboard-readable-line-length",
-    "dashboard"
-  ],
+  "enabledCssSnippets": [],
   "theme": "obsidian",
   "cssTheme": "Catppuccin",
   "nativeMenus": false,
