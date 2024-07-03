@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Revision/Revision for Final Exam.md",
+                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Revision/Revision for Final Exam.md"
+                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md"
               }
             }
           }
@@ -87,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Revision/Revision for Final Exam.md",
+                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/ELEC2300/Revision/Revision for Final Exam.md",
+                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,10 +197,11 @@
   },
   "active": "706960fc3d75164e",
   "lastOpenFiles": [
+    "2024/Semester 1/ELEC2400/Week 2/Lecture 1 - PN Junctions and Diode Circuits.md",
+    "2024/Semester 1/ELEC2300/Revision/Revision for Final Exam.md",
     "Attachment Folder/Screenshot 2024-05-21 120933_upscayl_4x_realesrgan-x4plus.png",
     "Attachment Folder/Pasted image 20240521121341.png",
     "2024/Definitions/Kirchhoff's Voltage Law.md",
-    "2024/Semester 1/ELEC2300/Revision/Revision for Final Exam.md",
     "2024/Definitions/Kirchhoff's Current Law.md",
     "2024/Semester 1/ELEC2300/Week 7/Revision Of Circuit Theory.md",
     "2024/Semester 1/MATH2400/Revision",
@@ -242,7 +242,6 @@
     "Attachment Folder/Pasted image 20240229141237.png",
     "Attachment Folder/Pasted image 20240229135015.png",
     "Attachment Folder/Pasted image 20240229134952.png",
-    "Attachment Folder/Pasted image 20240229134938.png",
-    "Attachment Folder/VFPt_dipole_animation_electric.gif"
+    "Attachment Folder/Pasted image 20240229134938.png"
   ]
 }
