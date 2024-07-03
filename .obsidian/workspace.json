@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
+                "file": "2024/Semester 1/MATH2400/Week 7/Darboux Integral.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eb3e3aad34689780",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 1/MATH2400/Revision/Revision.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md"
+                "file": "2024/Semester 1/MATH2400/Revision/Revision.md"
               }
             }
           }
@@ -151,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
+                "file": "2024/Semester 1/MATH2400/Revision/Revision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
+                "file": "2024/Semester 1/MATH2400/Revision/Revision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,8 +208,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "706960fc3d75164e",
+  "active": "eb3e3aad34689780",
   "lastOpenFiles": [
+    "2024/Semester 1/MATH2400/Week 7/Darboux Integral.md",
+    "2024/Semester 1/MATH2400/Revision/Revision.md",
+    "2024/Semester 1/MATH2400/Revision/R.md",
+    "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
     "2024/Semester 1/ELEC2400/Week 2/Lecture 1 - PN Junctions and Diode Circuits.md",
     "2024/Semester 1/ELEC2300/Revision/Revision for Final Exam.md",
     "Attachment Folder/Screenshot 2024-05-21 120933_upscayl_4x_realesrgan-x4plus.png",
@@ -220,7 +237,6 @@
     "2024/Semester 1/MATH2400/Week 7/Integration and Continuity.md",
     "piecesdb.json",
     "2024/Semester 1/ELEC2300/Week 7",
-    "2024/Semester 1/MATH2400/Week 7/Darboux Integral.md",
     "2024/Semester 1/MATH2400/Week 7/Integrable Functions.md",
     "Random Stuff/Templates/Lecture.md",
     "Random Stuff/Templates/Definitions.md",
@@ -232,9 +248,6 @@
     "2024/Semester 1/ELEC2300/Week 3/Lecture 3.2 - Forces on Currents and Torques on Loops.md",
     "2024/Semester 1/ELEC2300/Week 3/Lecture 3.1 - Magnetic Fields and Forces.md",
     "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
-    "2024/Semester 1/ELEC2300/Week 2/Lecture 2.1 - Electric Dipoles.md",
-    "2024/Semester 1/ELEC2300/Week 2/Lecture 2.2 - Parallel-Plate Capacitors.md",
-    "2024/Semester 1/ELEC2300/Week 2/Lecture 2.3 - Capacitance.md",
     "Attachment Folder/Pasted image 20240229144325.png",
     "Attachment Folder/Pasted image 20240229144028.png",
     "Attachment Folder/Pasted image 20240229142125.png",
