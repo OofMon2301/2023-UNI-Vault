@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "725be06e07ce7cd4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,7 +218,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "eb3e3aad34689780",
+  "active": "725be06e07ce7cd4",
   "lastOpenFiles": [
     "2024/Semester 1/MATH2400/Week 7/Darboux Integral.md",
     "2024/Semester 1/MATH2400/Revision/Revision.md",
