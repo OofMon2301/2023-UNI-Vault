@@ -4,45 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a464900e8b25cccc",
+        "id": "cff9339f328280b3",
         "type": "tabs",
         "children": [
           {
-            "id": "706960fc3d75164e",
+            "id": "7165bf6a10c3298c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 1/MATH2400/Week 7/Darboux Integral.md",
+                "file": "2024/Summer Semester/MATH2030.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "eb3e3aad34689780",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024/Semester 1/MATH2400/Revision/Revision.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "725be06e07ce7cd4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,6 +65,14 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "df02d460763d3163",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
         ]
       },
@@ -102,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 1/MATH2400/Revision/Revision.md"
+                "file": "2024/Summer Semester/MATH2030.md"
               }
             }
           }
@@ -174,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 1/MATH2400/Revision/Revision.md",
+                "file": "2024/Summer Semester/MATH2030.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 1/MATH2400/Revision/Revision.md",
+                "file": "2024/Summer Semester/MATH2030.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,9 +203,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "725be06e07ce7cd4",
+  "active": "acfa305c99aa7427",
   "lastOpenFiles": [
+    "2024/Semester 2/Semester 2.md",
+    "2024/Semester 1/MATH2400/MATH2400.md",
+    "2024/Semester 2/CSSE2002/CSSE2002.md",
+    "2024/Semester 2/CSSE2002/Hellos.md",
+    "2024/Semester 2/CSSE2002",
+    "Untitled.md",
+    "2024/Semester 2",
+    "2024/Untitled.md",
     "2024/Semester 1/MATH2400/Week 7/Darboux Integral.md",
+    "Untitled 2.md",
+    "Untitled 8.md",
+    "Untitled 4.md",
+    "Untitled 5.md",
+    "Untitled 1.md",
+    "Untitled 6.md",
+    "Untitled 7.md",
+    "orphaned files output.md",
+    "Tags",
     "2024/Semester 1/MATH2400/Revision/Revision.md",
     "2024/Semester 1/MATH2400/Revision/R.md",
     "2024/Semester 1/ELEC2400/Week 1/Lecture 1 & 2 - Course Introduction.md",
@@ -239,25 +241,8 @@
     "2024/Semester 1/MATH2400/Week 13/Inverse Function Theorem.md",
     "2024/Semester 1/MATH2400/Week 13",
     "2024/Semester 1/MATH2400/Week 12/Lecture 1 - Monday Lecture.md",
-    "Untitled 9.md",
-    "2024/Semester 1/MATH2400/Week 10/Taylor Series.md",
     "2024/Semester 1/MATH2400/Week 12",
-    "2024/Semester 1/MATH2400/Week 1/Lecture 1 - Course Info and Intro.md",
     "2024/Semester 1/MATH2400/Week 10",
-    "2024/Semester 1/MATH2400/Week 7/Integration and Continuity.md",
-    "piecesdb.json",
-    "2024/Semester 1/ELEC2300/Week 7",
-    "2024/Semester 1/MATH2400/Week 7/Integrable Functions.md",
-    "Random Stuff/Templates/Lecture.md",
-    "Random Stuff/Templates/Definitions.md",
-    "2024/Semester 1/CSSE2010/Week 7/Instruction Set Architecture.md",
-    "Untitled 8.md",
-    "2024/Semester 1/MATH2400/Week 7",
-    "2024/Semester 1/CSSE2010/CSSE2010.md",
-    "2024/Semester 1/CSSE2010/Week 7/Untitled.md",
-    "2024/Semester 1/ELEC2300/Week 3/Lecture 3.2 - Forces on Currents and Torques on Loops.md",
-    "2024/Semester 1/ELEC2300/Week 3/Lecture 3.1 - Magnetic Fields and Forces.md",
-    "2024/Semester 1/ELEC2300/Week 2/Lecture 2.4 - Dielectrics and Electric Susceptibility.md",
     "Attachment Folder/Pasted image 20240229144325.png",
     "Attachment Folder/Pasted image 20240229144028.png",
     "Attachment Folder/Pasted image 20240229142125.png",
