@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5c42e1482c7682bd",
+        "id": "f8d919d4ecae7c21",
         "type": "tabs",
         "children": [
           {
-            "id": "36ae510896a9f4dc",
+            "id": "b90d80b300de3cf3",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -197,10 +195,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "36ae510896a9f4dc",
+  "active": "b90d80b300de3cf3",
   "lastOpenFiles": [
-    "Untitled 1.md",
     "Untitled.md",
+    "Untitled 1.md",
     "2024/Summer Semester/MATH2030.md",
     "2024/Semester 2/CSSE2310/Week 1",
     "2024/Semester 2/CSSE2310",
