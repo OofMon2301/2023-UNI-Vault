@@ -11,8 +11,12 @@
             "id": "b90d80b300de3cf3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 2/Semester 2.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024/Semester 2/Semester 2.md"
+              }
             }
           }
         ]
@@ -153,6 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024/Semester 2/Semester 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,6 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024/Semester 2/Semester 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
