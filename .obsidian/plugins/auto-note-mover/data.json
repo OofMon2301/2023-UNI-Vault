@@ -1,0 +1,23 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "2024/Semester 2/CSSE2310",
+      "tag": "#CSSE2310",
+      "pattern": ""
+    },
+    {
+      "folder": "2024/Semester 2/CSSE2002",
+      "tag": "#CSSE2002",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": false,
+  "excluded_folder": [
+    {
+      "folder": ""
+    }
+  ]
+}

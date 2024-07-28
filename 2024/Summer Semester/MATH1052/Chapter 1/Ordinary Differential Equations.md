@@ -330,7 +330,7 @@ If there is such a case such as $\mathbf{a}$ such that $g(\mathbf{a})=0$ then th
 
 ### 1.5 Applications: Law of Cooling, Population Growth
 
-
+3H
 #### 1.5.1 Newton's Law of Cooling
 
 [[Newton's Law of Cooling]] states that the rate at which a "body" cools is proportional to the temperature difference between the body and its surrounding medium.

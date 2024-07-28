@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f8d919d4ecae7c21",
+        "id": "89e1339e9556672a",
         "type": "tabs",
         "children": [
           {
-            "id": "b90d80b300de3cf3",
+            "id": "1f7d16658d791ee7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024/Semester 2/Semester 2.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,9 +82,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2024/Semester 2/Semester 2.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,7 +153,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 2/Semester 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +169,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 2/Semester 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,17 +192,24 @@
       "quartz-syncer:Quartz Syncer Publication Center": false,
       "pieces-for-developers:Pieces For Developers": false,
       "obsidian42-brat:BRAT": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "b90d80b300de3cf3",
+  "active": "1f7d16658d791ee7",
   "lastOpenFiles": [
+    "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
+    "Attachment Folder/Pasted image 20240101162327.png",
+    "Homepage.md",
+    "orphaned files output.md",
+    "ODE.md",
+    "2024/Semester 2/Semester 2.md",
     "Untitled.md",
-    "Untitled 1.md",
+    "2024/Semester 2/CSSE2310/Fun times.md",
     "2024/Summer Semester/MATH2030.md",
     "2024/Semester 2/CSSE2310/Week 1",
     "2024/Semester 2/CSSE2310",
-    "2024/Semester 2/Semester 2.md",
     "2024/Semester 1/MATH2400/MATH2400.md",
     "2024/Semester 2/CSSE2002/CSSE2002.md",
     "2024/Semester 2/CSSE2002/Hellos.md",
@@ -224,7 +223,6 @@
     "Untitled 5.md",
     "Untitled 6.md",
     "Untitled 7.md",
-    "orphaned files output.md",
     "Tags",
     "2024/Semester 1/MATH2400/Revision/Revision.md",
     "2024/Semester 1/MATH2400/Revision/R.md",
@@ -235,13 +233,10 @@
     "Attachment Folder/Pasted image 20240521121341.png",
     "2024/Definitions/Kirchhoff's Voltage Law.md",
     "2024/Definitions/Kirchhoff's Current Law.md",
-    "2024/Semester 1/ELEC2300/Week 7/Revision Of Circuit Theory.md",
     "2024/Semester 1/MATH2400/Revision",
     "2024/Semester 1/ELEC2400/Revision",
     "2024/Semester 1/ELEC2300/Revision",
     "2024/Semester 1/CSSE2010/Revision",
-    "2024/Semester 1/MATH2400/Week 13/Differentiation.md",
-    "2024/Semester 1/MATH2400/Week 13/Inverse Function Theorem.md",
     "2024/Semester 1/MATH2400/Week 13",
     "Attachment Folder/Pasted image 20240229144325.png",
     "Attachment Folder/Pasted image 20240229144028.png",
@@ -249,7 +244,6 @@
     "Attachment Folder/Pasted image 20240229141420.png",
     "Attachment Folder/Pasted image 20240229141237.png",
     "Attachment Folder/Pasted image 20240229135015.png",
-    "Attachment Folder/Pasted image 20240229134952.png",
-    "Attachment Folder/Pasted image 20240229134938.png"
+    "Attachment Folder/Pasted image 20240229134952.png"
   ]
 }
