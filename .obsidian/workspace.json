@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a44d2767a828a263",
+        "id": "2bd82dbadabe537b",
         "type": "tabs",
         "children": [
           {
-            "id": "247198de998d4698",
+            "id": "86eb870e99bfd39d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,14 +17,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "5863859811bbe7c2",
-            "type": "leaf",
-            "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
-              "state": {}
             }
           }
         ]
@@ -204,17 +196,24 @@
       "graph:Open graph view": false,
       "command-palette:Open command palette": true,
       "markdown-importer:Open format converter": true,
-      "cmdr:QuickAdd: New Subject": false,
-      "omnisearch:Omnisearch": false,
       "obsidian42-brat:BRAT": false,
-      "quartz-syncer:Quartz Syncer Publication Center": false,
+      "cmdr:QuickAdd: New Subject": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
       "pieces-for-developers:Pieces For Developers": false,
+      "quartz-syncer:Quartz Syncer Publication Center": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "247198de998d4698",
+  "active": "86eb870e99bfd39d",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "Untitled.md",
+    "2024/Semester 2/CSSE2310/Main Parameters.md",
+    "2024/Semester 2/Semester 2.md",
+    "2024/Definitions/Untitled.md",
     "2024 Uni Vault",
     "New folder",
     "quartz/quartz/plugins/filters/index.ts",
@@ -225,7 +224,6 @@
     "quartz/quartz/plugins/transformers/syntax.ts",
     "quartz/quartz/plugins/transformers/ofm.ts",
     "quartz/quartz/plugins/transformers/linebreaks.ts",
-    "quartz/quartz/plugins/transformers/links.ts",
     "quartz/quartz/static/og-image.png",
     "quartz/quartz/static/icon.png",
     "quartz/docs/images/quartz transform pipeline.png",
@@ -256,10 +254,6 @@
     "quartz/docs/plugins/Description.md",
     "quartz/docs/plugins/CreatedModifiedDate.md",
     "quartz/docs/plugins/CrawlLinks.md",
-    "quartz/docs/plugins/ContentPage.md",
-    "quartz/docs/plugins/ContentIndex.md",
-    "quartz/docs/plugins/ComponentResources.md",
-    "quartz/docs/plugins/CNAME.md",
-    "quartz/docs/plugins/Assets.md"
+    "quartz/docs/plugins/ContentPage.md"
   ]
 }
