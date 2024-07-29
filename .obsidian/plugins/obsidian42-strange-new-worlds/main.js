@@ -42,8 +42,7 @@ var getLinkReferencesForFile = (file, cache) => {
     return;
   }
   for (const item of [cache == null ? void 0 : cache.links, cache == null ? void 0 : cache.embeds, cache == null ? void 0 : cache.frontmatterLinks]) {
-    if (!item)
-      continue;
+    if (!item) continue;
     for (const ref of item) {
       const { path, subpath } = (0, import_obsidian.parseLinktext)(ref.link);
       const tfileDestination = app.metadataCache.getFirstLinkpathDest(path, "/");
@@ -52,11 +51,9 @@ var getLinkReferencesForFile = (file, cache) => {
           return;
         }
         const cacheDestination = tfileDestination ? app.metadataCache.getFileCache(tfileDestination) : null;
-        if (cacheDestination && (cacheDestination == null ? void 0 : cacheDestination.frontmatter) && (cacheDestination == null ? void 0 : cacheDestination.frontmatter["snw-index-exclude"]) === true)
-          continue;
+        if (cacheDestination && (cacheDestination == null ? void 0 : cacheDestination.frontmatter) && (cacheDestination == null ? void 0 : cacheDestination.frontmatter["snw-index-exclude"]) === true) continue;
         const linkWithFullPath = tfileDestination ? tfileDestination.path.replace("." + tfileDestination.extension, "") + subpath : path;
-        if (!indexedReferences.has(linkWithFullPath))
-          indexedReferences.set(linkWithFullPath, []);
+        if (!indexedReferences.has(linkWithFullPath)) indexedReferences.set(linkWithFullPath, []);
         indexedReferences.get(linkWithFullPath).push({
           realLink: ref.link,
           reference: ref,
@@ -64,8 +61,7 @@ var getLinkReferencesForFile = (file, cache) => {
           sourceFile: file
         });
       } else {
-        if (!indexedReferences.has(ref.link))
-          indexedReferences.set(ref.link, []);
+        if (!indexedReferences.has(ref.link)) indexedReferences.set(ref.link, []);
         const ghostFile = {
           vault: plugin.app.vault,
           path: path + ".md",
@@ -102,13 +98,11 @@ var removeLinkReferencesForFile = async (file) => {
   }
 };
 function buildLinksAndReferences() {
-  if (plugin.showCountsActive != true)
-    return;
+  if (plugin.showCountsActive != true) return;
   indexedReferences = /* @__PURE__ */ new Map();
   for (const file of plugin.app.vault.getMarkdownFiles()) {
     const fileCache = plugin.app.metadataCache.getFileCache(file);
-    if (fileCache)
-      getLinkReferencesForFile(file, fileCache);
+    if (fileCache) getLinkReferencesForFile(file, fileCache);
   }
   window.snwAPI.references = indexedReferences;
   lastUpdateToReferences = Date.now();
@@ -125,8 +119,7 @@ function getSNWCacheByFile(file) {
       }
     }
   }
-  if (plugin.showCountsActive != true)
-    return {};
+  if (plugin.showCountsActive != true) return {};
   const transformedCache = {};
   const cachedMetaData = plugin.app.metadataCache.getFileCache(file);
   if (!cachedMetaData) {
@@ -255,10 +248,8 @@ function getSNWCacheByFile(file) {
 function parseLinkTextToFullPath(link) {
   const resolvedFilePath = (0, import_obsidian.parseLinktext)(link);
   const resolvedTFile = plugin.app.metadataCache.getFirstLinkpathDest(resolvedFilePath.path, "/");
-  if (resolvedTFile === null)
-    return "";
-  else
-    return resolvedTFile.path.replace("." + resolvedTFile.extension, "") + resolvedFilePath.subpath;
+  if (resolvedTFile === null) return "";
+  else return resolvedTFile.path.replace("." + resolvedTFile.extension, "") + resolvedFilePath.subpath;
 }
 
 // src/view-extensions/references-cm6.ts
@@ -1218,8 +1209,7 @@ function flip(_ref) {
     };
     for (var _i = numberOfChecks; _i > 0; _i--) {
       var _ret = _loop(_i);
-      if (_ret === "break")
-        break;
+      if (_ret === "break") break;
     }
   }
   if (state.placement !== firstFittingPlacement) {
@@ -3033,15 +3023,13 @@ var getScrollParent2 = (element, includeHidden) => {
   let style = getComputedStyle(element);
   const excludeStaticParent = style.position === "absolute";
   const overflowRegex = includeHidden ? /(auto|scroll|hidden)/ : /(auto|scroll)/;
-  if (style.position === "fixed")
-    return document.body;
+  if (style.position === "fixed") return document.body;
   for (let parent = element; parent = parent.parentElement; ) {
     style = getComputedStyle(parent);
     if (excludeStaticParent && style.position === "static") {
       continue;
     }
-    if (overflowRegex.test(style.overflow + style.overflowY + style.overflowX))
-      return parent;
+    if (overflowRegex.test(style.overflow + style.overflowY + style.overflowX)) return parent;
   }
   return document.body;
 };
@@ -3057,7 +3045,7 @@ var scrollResultsIntoView = (resultContainerEl) => {
   }
 };
 
-// src/ui/components/uic-ref-area.ts
+// src/ui/components/uic-ref-area.tsx
 var import_obsidian3 = require("obsidian");
 
 // src/ui/components/uic-ref-item.tsx
@@ -3171,16 +3159,14 @@ var ContextBuilder = class {
     return listItem.parent <= 0;
   }
   getIndexOfHeadingAbove(position) {
-    if (position === void 0)
-      return -1;
+    if (position === void 0) return -1;
     return this.headings.reduce(
       (previousIndex, lookingAtHeading, index) => lookingAtHeading.position.start.line < position.start.line ? index : previousIndex,
       -1
     );
   }
   getHeadingIndexContaining(position) {
-    if (position === void 0)
-      return -1;
+    if (position === void 0) return -1;
     return this.headings.findIndex((heading) => heading.position.start.line === position.start.line);
   }
 };
@@ -3211,84 +3197,70 @@ var c;
 var s;
 var a;
 var h = {};
-var v = [];
-var p = /acit|ex(?:s|g|n|p|$)|rph|grid|ows|mnc|ntw|ine[ch]|zoo|^ord|itera/i;
+var p = [];
+var v = /acit|ex(?:s|g|n|p|$)|rph|grid|ows|mnc|ntw|ine[ch]|zoo|^ord|itera/i;
 var y = Array.isArray;
 function d(n2, l3) {
-  for (var u4 in l3)
-    n2[u4] = l3[u4];
+  for (var u4 in l3) n2[u4] = l3[u4];
   return n2;
 }
-function _(n2) {
+function w(n2) {
   var l3 = n2.parentNode;
   l3 && l3.removeChild(n2);
 }
-function g(l3, u4, t3) {
+function _(l3, u4, t3) {
   var i4, o3, r3, f4 = {};
-  for (r3 in u4)
-    "key" == r3 ? i4 = u4[r3] : "ref" == r3 ? o3 = u4[r3] : f4[r3] = u4[r3];
-  if (arguments.length > 2 && (f4.children = arguments.length > 3 ? n.call(arguments, 2) : t3), "function" == typeof l3 && null != l3.defaultProps)
-    for (r3 in l3.defaultProps)
-      void 0 === f4[r3] && (f4[r3] = l3.defaultProps[r3]);
-  return b(l3, f4, i4, o3, null);
+  for (r3 in u4) "key" == r3 ? i4 = u4[r3] : "ref" == r3 ? o3 = u4[r3] : f4[r3] = u4[r3];
+  if (arguments.length > 2 && (f4.children = arguments.length > 3 ? n.call(arguments, 2) : t3), "function" == typeof l3 && null != l3.defaultProps) for (r3 in l3.defaultProps) void 0 === f4[r3] && (f4[r3] = l3.defaultProps[r3]);
+  return g(l3, f4, i4, o3, null);
 }
-function b(n2, t3, i4, o3, r3) {
+function g(n2, t3, i4, o3, r3) {
   var f4 = { type: n2, props: t3, key: i4, ref: o3, __k: null, __: null, __b: 0, __e: null, __d: void 0, __c: null, constructor: void 0, __v: null == r3 ? ++u : r3, __i: -1, __u: 0 };
   return null == r3 && null != l.vnode && l.vnode(f4), f4;
 }
-function w(n2) {
+function k(n2) {
   return n2.children;
 }
-function k(n2, l3) {
+function b(n2, l3) {
   this.props = n2, this.context = l3;
 }
 function x(n2, l3) {
-  if (null == l3)
-    return n2.__ ? x(n2.__, n2.__i + 1) : null;
-  for (var u4; l3 < n2.__k.length; l3++)
-    if (null != (u4 = n2.__k[l3]) && null != u4.__e)
-      return u4.__e;
+  if (null == l3) return n2.__ ? x(n2.__, n2.__i + 1) : null;
+  for (var u4; l3 < n2.__k.length; l3++) if (null != (u4 = n2.__k[l3]) && null != u4.__e) return u4.__e;
   return "function" == typeof n2.type ? x(n2) : null;
 }
 function C(n2) {
   var l3, u4;
   if (null != (n2 = n2.__) && null != n2.__c) {
-    for (n2.__e = n2.__c.base = null, l3 = 0; l3 < n2.__k.length; l3++)
-      if (null != (u4 = n2.__k[l3]) && null != u4.__e) {
-        n2.__e = n2.__c.base = u4.__e;
-        break;
-      }
+    for (n2.__e = n2.__c.base = null, l3 = 0; l3 < n2.__k.length; l3++) if (null != (u4 = n2.__k[l3]) && null != u4.__e) {
+      n2.__e = n2.__c.base = u4.__e;
+      break;
+    }
     return C(n2);
   }
 }
-function P(n2) {
-  (!n2.__d && (n2.__d = true) && i.push(n2) && !S.__r++ || o !== l.debounceRendering) && ((o = l.debounceRendering) || r)(S);
+function M(n2) {
+  (!n2.__d && (n2.__d = true) && i.push(n2) && !P.__r++ || o !== l.debounceRendering) && ((o = l.debounceRendering) || r)(P);
 }
-function S() {
+function P() {
   var n2, u4, t3, o3, r3, e3, c3, s3;
-  for (i.sort(f); n2 = i.shift(); )
-    n2.__d && (u4 = i.length, o3 = void 0, e3 = (r3 = (t3 = n2).__v).__e, c3 = [], s3 = [], t3.__P && ((o3 = d({}, r3)).__v = r3.__v + 1, l.vnode && l.vnode(o3), O(t3.__P, o3, r3, t3.__n, void 0 !== t3.__P.ownerSVGElement, 32 & r3.__u ? [e3] : null, c3, null == e3 ? x(r3) : e3, !!(32 & r3.__u), s3), o3.__v = r3.__v, o3.__.__k[o3.__i] = o3, j(c3, o3, s3), o3.__e != e3 && C(o3)), i.length > u4 && i.sort(f));
-  S.__r = 0;
+  for (i.sort(f); n2 = i.shift(); ) n2.__d && (u4 = i.length, o3 = void 0, e3 = (r3 = (t3 = n2).__v).__e, c3 = [], s3 = [], t3.__P && ((o3 = d({}, r3)).__v = r3.__v + 1, l.vnode && l.vnode(o3), O(t3.__P, o3, r3, t3.__n, t3.__P.namespaceURI, 32 & r3.__u ? [e3] : null, c3, null == e3 ? x(r3) : e3, !!(32 & r3.__u), s3), o3.__v = r3.__v, o3.__.__k[o3.__i] = o3, j(c3, o3, s3), o3.__e != e3 && C(o3)), i.length > u4 && i.sort(f));
+  P.__r = 0;
 }
-function $(n2, l3, u4, t3, i4, o3, r3, f4, e3, c3, s3) {
-  var a3, p3, y3, d3, _3, g2 = t3 && t3.__k || v, b2 = l3.length;
-  for (u4.__d = e3, I(u4, l3, g2), e3 = u4.__d, a3 = 0; a3 < b2; a3++)
-    null != (y3 = u4.__k[a3]) && "boolean" != typeof y3 && "function" != typeof y3 && (p3 = -1 === y3.__i ? h : g2[y3.__i] || h, y3.__i = a3, O(n2, y3, p3, i4, o3, r3, f4, e3, c3, s3), d3 = y3.__e, y3.ref && p3.ref != y3.ref && (p3.ref && N(p3.ref, null, y3), s3.push(y3.ref, y3.__c || d3, y3)), null == _3 && null != d3 && (_3 = d3), 65536 & y3.__u || p3.__k === y3.__k ? (e3 && !e3.isConnected && (e3 = x(p3)), e3 = H(y3, e3, n2)) : "function" == typeof y3.type && void 0 !== y3.__d ? e3 = y3.__d : d3 && (e3 = d3.nextSibling), y3.__d = void 0, y3.__u &= -196609);
-  u4.__d = e3, u4.__e = _3;
+function S(n2, l3, u4, t3, i4, o3, r3, f4, e3, c3, s3) {
+  var a3, v3, y3, d3, w3, _3 = t3 && t3.__k || p, g2 = l3.length;
+  for (u4.__d = e3, $(u4, l3, _3), e3 = u4.__d, a3 = 0; a3 < g2; a3++) null != (y3 = u4.__k[a3]) && "boolean" != typeof y3 && "function" != typeof y3 && (v3 = -1 === y3.__i ? h : _3[y3.__i] || h, y3.__i = a3, O(n2, y3, v3, i4, o3, r3, f4, e3, c3, s3), d3 = y3.__e, y3.ref && v3.ref != y3.ref && (v3.ref && N(v3.ref, null, y3), s3.push(y3.ref, y3.__c || d3, y3)), null == w3 && null != d3 && (w3 = d3), 65536 & y3.__u || v3.__k === y3.__k ? (e3 && !e3.isConnected && (e3 = x(v3)), e3 = I(y3, e3, n2)) : "function" == typeof y3.type && void 0 !== y3.__d ? e3 = y3.__d : d3 && (e3 = d3.nextSibling), y3.__d = void 0, y3.__u &= -196609);
+  u4.__d = e3, u4.__e = w3;
+}
+function $(n2, l3, u4) {
+  var t3, i4, o3, r3, f4, e3 = l3.length, c3 = u4.length, s3 = c3, a3 = 0;
+  for (n2.__k = [], t3 = 0; t3 < e3; t3++) r3 = t3 + a3, null != (i4 = n2.__k[t3] = null == (i4 = l3[t3]) || "boolean" == typeof i4 || "function" == typeof i4 ? null : "string" == typeof i4 || "number" == typeof i4 || "bigint" == typeof i4 || i4.constructor == String ? g(null, i4, null, null, null) : y(i4) ? g(k, { children: i4 }, null, null, null) : void 0 === i4.constructor && i4.__b > 0 ? g(i4.type, i4.props, i4.key, i4.ref ? i4.ref : null, i4.__v) : i4) ? (i4.__ = n2, i4.__b = n2.__b + 1, f4 = L(i4, u4, r3, s3), i4.__i = f4, o3 = null, -1 !== f4 && (s3--, (o3 = u4[f4]) && (o3.__u |= 131072)), null == o3 || null === o3.__v ? (-1 == f4 && a3--, "function" != typeof i4.type && (i4.__u |= 65536)) : f4 !== r3 && (f4 === r3 + 1 ? a3++ : f4 > r3 ? s3 > e3 - r3 ? a3 += f4 - r3 : a3-- : f4 < r3 ? f4 == r3 - 1 && (a3 = f4 - r3) : a3 = 0, f4 !== t3 + a3 && (i4.__u |= 65536))) : (o3 = u4[r3]) && null == o3.key && o3.__e && 0 == (131072 & o3.__u) && (o3.__e == n2.__d && (n2.__d = x(o3)), V(o3, o3, false), u4[r3] = null, s3--);
+  if (s3) for (t3 = 0; t3 < c3; t3++) null != (o3 = u4[t3]) && 0 == (131072 & o3.__u) && (o3.__e == n2.__d && (n2.__d = x(o3)), V(o3, o3));
 }
 function I(n2, l3, u4) {
-  var t3, i4, o3, r3, f4, e3 = l3.length, c3 = u4.length, s3 = c3, a3 = 0;
-  for (n2.__k = [], t3 = 0; t3 < e3; t3++)
-    r3 = t3 + a3, null != (i4 = n2.__k[t3] = null == (i4 = l3[t3]) || "boolean" == typeof i4 || "function" == typeof i4 ? null : "string" == typeof i4 || "number" == typeof i4 || "bigint" == typeof i4 || i4.constructor == String ? b(null, i4, null, null, null) : y(i4) ? b(w, { children: i4 }, null, null, null) : void 0 === i4.constructor && i4.__b > 0 ? b(i4.type, i4.props, i4.key, i4.ref ? i4.ref : null, i4.__v) : i4) ? (i4.__ = n2, i4.__b = n2.__b + 1, f4 = A(i4, u4, r3, s3), i4.__i = f4, o3 = null, -1 !== f4 && (s3--, (o3 = u4[f4]) && (o3.__u |= 131072)), null == o3 || null === o3.__v ? (-1 == f4 && a3--, "function" != typeof i4.type && (i4.__u |= 65536)) : f4 !== r3 && (f4 === r3 + 1 ? a3++ : f4 > r3 ? s3 > e3 - r3 ? a3 += f4 - r3 : a3-- : f4 < r3 ? f4 == r3 - 1 && (a3 = f4 - r3) : a3 = 0, f4 !== t3 + a3 && (i4.__u |= 65536))) : (o3 = u4[r3]) && null == o3.key && o3.__e && 0 == (131072 & o3.__u) && (o3.__e == n2.__d && (n2.__d = x(o3)), q(o3, o3, false), u4[r3] = null, s3--);
-  if (s3)
-    for (t3 = 0; t3 < c3; t3++)
-      null != (o3 = u4[t3]) && 0 == (131072 & o3.__u) && (o3.__e == n2.__d && (n2.__d = x(o3)), q(o3, o3));
-}
-function H(n2, l3, u4) {
   var t3, i4;
   if ("function" == typeof n2.type) {
-    for (t3 = n2.__k, i4 = 0; t3 && i4 < t3.length; i4++)
-      t3[i4] && (t3[i4].__ = n2, l3 = H(t3[i4], l3, u4));
+    for (t3 = n2.__k, i4 = 0; t3 && i4 < t3.length; i4++) t3[i4] && (t3[i4].__ = n2, l3 = I(t3[i4], l3, u4));
     return l3;
   }
   n2.__e != l3 && (u4.insertBefore(n2.__e, l3 || null), l3 = n2.__e);
@@ -3297,111 +3269,86 @@ function H(n2, l3, u4) {
   } while (null != l3 && 8 === l3.nodeType);
   return l3;
 }
-function A(n2, l3, u4, t3) {
+function L(n2, l3, u4, t3) {
   var i4 = n2.key, o3 = n2.type, r3 = u4 - 1, f4 = u4 + 1, e3 = l3[u4];
-  if (null === e3 || e3 && i4 == e3.key && o3 === e3.type && 0 == (131072 & e3.__u))
-    return u4;
-  if (t3 > (null != e3 && 0 == (131072 & e3.__u) ? 1 : 0))
-    for (; r3 >= 0 || f4 < l3.length; ) {
-      if (r3 >= 0) {
-        if ((e3 = l3[r3]) && 0 == (131072 & e3.__u) && i4 == e3.key && o3 === e3.type)
-          return r3;
-        r3--;
-      }
-      if (f4 < l3.length) {
-        if ((e3 = l3[f4]) && 0 == (131072 & e3.__u) && i4 == e3.key && o3 === e3.type)
-          return f4;
-        f4++;
-      }
+  if (null === e3 || e3 && i4 == e3.key && o3 === e3.type && 0 == (131072 & e3.__u)) return u4;
+  if (t3 > (null != e3 && 0 == (131072 & e3.__u) ? 1 : 0)) for (; r3 >= 0 || f4 < l3.length; ) {
+    if (r3 >= 0) {
+      if ((e3 = l3[r3]) && 0 == (131072 & e3.__u) && i4 == e3.key && o3 === e3.type) return r3;
+      r3--;
     }
+    if (f4 < l3.length) {
+      if ((e3 = l3[f4]) && 0 == (131072 & e3.__u) && i4 == e3.key && o3 === e3.type) return f4;
+      f4++;
+    }
+  }
   return -1;
 }
-function F(n2, l3, u4) {
-  "-" === l3[0] ? n2.setProperty(l3, null == u4 ? "" : u4) : n2[l3] = null == u4 ? "" : "number" != typeof u4 || p.test(l3) ? u4 : u4 + "px";
+function T(n2, l3, u4) {
+  "-" === l3[0] ? n2.setProperty(l3, null == u4 ? "" : u4) : n2[l3] = null == u4 ? "" : "number" != typeof u4 || v.test(l3) ? u4 : u4 + "px";
 }
-function L(n2, l3, u4, t3, i4) {
+function A(n2, l3, u4, t3, i4) {
   var o3;
-  n:
-    if ("style" === l3)
-      if ("string" == typeof u4)
-        n2.style.cssText = u4;
-      else {
-        if ("string" == typeof t3 && (n2.style.cssText = t3 = ""), t3)
-          for (l3 in t3)
-            u4 && l3 in u4 || F(n2.style, l3, "");
-        if (u4)
-          for (l3 in u4)
-            t3 && u4[l3] === t3[l3] || F(n2.style, l3, u4[l3]);
-      }
-    else if ("o" === l3[0] && "n" === l3[1])
-      o3 = l3 !== (l3 = l3.replace(/(PointerCapture)$|Capture$/i, "$1")), l3 = l3.toLowerCase() in n2 || "onFocusOut" === l3 || "onFocusIn" === l3 ? l3.toLowerCase().slice(2) : l3.slice(2), n2.l || (n2.l = {}), n2.l[l3 + o3] = u4, u4 ? t3 ? u4.u = t3.u : (u4.u = e, n2.addEventListener(l3, o3 ? s : c, o3)) : n2.removeEventListener(l3, o3 ? s : c, o3);
-    else {
-      if (i4)
-        l3 = l3.replace(/xlink(H|:h)/, "h").replace(/sName$/, "s");
-      else if ("width" != l3 && "height" != l3 && "href" != l3 && "list" != l3 && "form" != l3 && "tabIndex" != l3 && "download" != l3 && "rowSpan" != l3 && "colSpan" != l3 && "role" != l3 && l3 in n2)
-        try {
-          n2[l3] = null == u4 ? "" : u4;
-          break n;
-        } catch (n3) {
-        }
-      "function" == typeof u4 || (null == u4 || false === u4 && "-" !== l3[4] ? n2.removeAttribute(l3) : n2.setAttribute(l3, u4));
+  n: if ("style" === l3) if ("string" == typeof u4) n2.style.cssText = u4;
+  else {
+    if ("string" == typeof t3 && (n2.style.cssText = t3 = ""), t3) for (l3 in t3) u4 && l3 in u4 || T(n2.style, l3, "");
+    if (u4) for (l3 in u4) t3 && u4[l3] === t3[l3] || T(n2.style, l3, u4[l3]);
+  }
+  else if ("o" === l3[0] && "n" === l3[1]) o3 = l3 !== (l3 = l3.replace(/(PointerCapture)$|Capture$/i, "$1")), l3 = l3.toLowerCase() in n2 || "onFocusOut" === l3 || "onFocusIn" === l3 ? l3.toLowerCase().slice(2) : l3.slice(2), n2.l || (n2.l = {}), n2.l[l3 + o3] = u4, u4 ? t3 ? u4.u = t3.u : (u4.u = e, n2.addEventListener(l3, o3 ? s : c, o3)) : n2.removeEventListener(l3, o3 ? s : c, o3);
+  else {
+    if ("http://www.w3.org/2000/svg" == i4) l3 = l3.replace(/xlink(H|:h)/, "h").replace(/sName$/, "s");
+    else if ("width" != l3 && "height" != l3 && "href" != l3 && "list" != l3 && "form" != l3 && "tabIndex" != l3 && "download" != l3 && "rowSpan" != l3 && "colSpan" != l3 && "role" != l3 && l3 in n2) try {
+      n2[l3] = null == u4 ? "" : u4;
+      break n;
+    } catch (n3) {
     }
+    "function" == typeof u4 || (null == u4 || false === u4 && "-" !== l3[4] ? n2.removeAttribute(l3) : n2.setAttribute(l3, u4));
+  }
 }
-function M(n2) {
+function F(n2) {
   return function(u4) {
     if (this.l) {
       var t3 = this.l[u4.type + n2];
-      if (null == u4.t)
-        u4.t = e++;
-      else if (u4.t < t3.u)
-        return;
+      if (null == u4.t) u4.t = e++;
+      else if (u4.t < t3.u) return;
       return t3(l.event ? l.event(u4) : u4);
     }
   };
 }
 function O(n2, u4, t3, i4, o3, r3, f4, e3, c3, s3) {
-  var a3, h3, v3, p3, _3, g2, b2, m2, x2, C3, P2, S2, I2, H2, T, A2 = u4.type;
-  if (void 0 !== u4.constructor)
-    return null;
+  var a3, h3, p3, v3, w3, _3, g2, m2, x2, C3, M2, P2, $2, I2, H, L2 = u4.type;
+  if (void 0 !== u4.constructor) return null;
   128 & t3.__u && (c3 = !!(32 & t3.__u), r3 = [e3 = u4.__e = t3.__e]), (a3 = l.__b) && a3(u4);
-  n:
-    if ("function" == typeof A2)
-      try {
-        if (m2 = u4.props, x2 = (a3 = A2.contextType) && i4[a3.__c], C3 = a3 ? x2 ? x2.props.value : a3.__ : i4, t3.__c ? b2 = (h3 = u4.__c = t3.__c).__ = h3.__E : ("prototype" in A2 && A2.prototype.render ? u4.__c = h3 = new A2(m2, C3) : (u4.__c = h3 = new k(m2, C3), h3.constructor = A2, h3.render = B), x2 && x2.sub(h3), h3.props = m2, h3.state || (h3.state = {}), h3.context = C3, h3.__n = i4, v3 = h3.__d = true, h3.__h = [], h3._sb = []), null == h3.__s && (h3.__s = h3.state), null != A2.getDerivedStateFromProps && (h3.__s == h3.state && (h3.__s = d({}, h3.__s)), d(h3.__s, A2.getDerivedStateFromProps(m2, h3.__s))), p3 = h3.props, _3 = h3.state, h3.__v = u4, v3)
-          null == A2.getDerivedStateFromProps && null != h3.componentWillMount && h3.componentWillMount(), null != h3.componentDidMount && h3.__h.push(h3.componentDidMount);
-        else {
-          if (null == A2.getDerivedStateFromProps && m2 !== p3 && null != h3.componentWillReceiveProps && h3.componentWillReceiveProps(m2, C3), !h3.__e && (null != h3.shouldComponentUpdate && false === h3.shouldComponentUpdate(m2, h3.__s, C3) || u4.__v === t3.__v)) {
-            for (u4.__v !== t3.__v && (h3.props = m2, h3.state = h3.__s, h3.__d = false), u4.__e = t3.__e, u4.__k = t3.__k, u4.__k.forEach(function(n3) {
-              n3 && (n3.__ = u4);
-            }), P2 = 0; P2 < h3._sb.length; P2++)
-              h3.__h.push(h3._sb[P2]);
-            h3._sb = [], h3.__h.length && f4.push(h3);
-            break n;
-          }
-          null != h3.componentWillUpdate && h3.componentWillUpdate(m2, h3.__s, C3), null != h3.componentDidUpdate && h3.__h.push(function() {
-            h3.componentDidUpdate(p3, _3, g2);
-          });
-        }
-        if (h3.context = C3, h3.props = m2, h3.__P = n2, h3.__e = false, S2 = l.__r, I2 = 0, "prototype" in A2 && A2.prototype.render) {
-          for (h3.state = h3.__s, h3.__d = false, S2 && S2(u4), a3 = h3.render(h3.props, h3.state, h3.context), H2 = 0; H2 < h3._sb.length; H2++)
-            h3.__h.push(h3._sb[H2]);
-          h3._sb = [];
-        } else
-          do {
-            h3.__d = false, S2 && S2(u4), a3 = h3.render(h3.props, h3.state, h3.context), h3.state = h3.__s;
-          } while (h3.__d && ++I2 < 25);
-        h3.state = h3.__s, null != h3.getChildContext && (i4 = d(d({}, i4), h3.getChildContext())), v3 || null == h3.getSnapshotBeforeUpdate || (g2 = h3.getSnapshotBeforeUpdate(p3, _3)), $(n2, y(T = null != a3 && a3.type === w && null == a3.key ? a3.props.children : a3) ? T : [T], u4, t3, i4, o3, r3, f4, e3, c3, s3), h3.base = u4.__e, u4.__u &= -161, h3.__h.length && f4.push(h3), b2 && (h3.__E = h3.__ = null);
-      } catch (n3) {
-        u4.__v = null, c3 || null != r3 ? (u4.__e = e3, u4.__u |= c3 ? 160 : 32, r3[r3.indexOf(e3)] = null) : (u4.__e = t3.__e, u4.__k = t3.__k), l.__e(n3, u4, t3);
+  n: if ("function" == typeof L2) try {
+    if (m2 = u4.props, x2 = (a3 = L2.contextType) && i4[a3.__c], C3 = a3 ? x2 ? x2.props.value : a3.__ : i4, t3.__c ? g2 = (h3 = u4.__c = t3.__c).__ = h3.__E : ("prototype" in L2 && L2.prototype.render ? u4.__c = h3 = new L2(m2, C3) : (u4.__c = h3 = new b(m2, C3), h3.constructor = L2, h3.render = q), x2 && x2.sub(h3), h3.props = m2, h3.state || (h3.state = {}), h3.context = C3, h3.__n = i4, p3 = h3.__d = true, h3.__h = [], h3._sb = []), null == h3.__s && (h3.__s = h3.state), null != L2.getDerivedStateFromProps && (h3.__s == h3.state && (h3.__s = d({}, h3.__s)), d(h3.__s, L2.getDerivedStateFromProps(m2, h3.__s))), v3 = h3.props, w3 = h3.state, h3.__v = u4, p3) null == L2.getDerivedStateFromProps && null != h3.componentWillMount && h3.componentWillMount(), null != h3.componentDidMount && h3.__h.push(h3.componentDidMount);
+    else {
+      if (null == L2.getDerivedStateFromProps && m2 !== v3 && null != h3.componentWillReceiveProps && h3.componentWillReceiveProps(m2, C3), !h3.__e && (null != h3.shouldComponentUpdate && false === h3.shouldComponentUpdate(m2, h3.__s, C3) || u4.__v === t3.__v)) {
+        for (u4.__v !== t3.__v && (h3.props = m2, h3.state = h3.__s, h3.__d = false), u4.__e = t3.__e, u4.__k = t3.__k, u4.__k.forEach(function(n3) {
+          n3 && (n3.__ = u4);
+        }), M2 = 0; M2 < h3._sb.length; M2++) h3.__h.push(h3._sb[M2]);
+        h3._sb = [], h3.__h.length && f4.push(h3);
+        break n;
       }
-    else
-      null == r3 && u4.__v === t3.__v ? (u4.__k = t3.__k, u4.__e = t3.__e) : u4.__e = z(t3.__e, u4, t3, i4, o3, r3, f4, c3, s3);
+      null != h3.componentWillUpdate && h3.componentWillUpdate(m2, h3.__s, C3), null != h3.componentDidUpdate && h3.__h.push(function() {
+        h3.componentDidUpdate(v3, w3, _3);
+      });
+    }
+    if (h3.context = C3, h3.props = m2, h3.__P = n2, h3.__e = false, P2 = l.__r, $2 = 0, "prototype" in L2 && L2.prototype.render) {
+      for (h3.state = h3.__s, h3.__d = false, P2 && P2(u4), a3 = h3.render(h3.props, h3.state, h3.context), I2 = 0; I2 < h3._sb.length; I2++) h3.__h.push(h3._sb[I2]);
+      h3._sb = [];
+    } else do {
+      h3.__d = false, P2 && P2(u4), a3 = h3.render(h3.props, h3.state, h3.context), h3.state = h3.__s;
+    } while (h3.__d && ++$2 < 25);
+    h3.state = h3.__s, null != h3.getChildContext && (i4 = d(d({}, i4), h3.getChildContext())), p3 || null == h3.getSnapshotBeforeUpdate || (_3 = h3.getSnapshotBeforeUpdate(v3, w3)), S(n2, y(H = null != a3 && a3.type === k && null == a3.key ? a3.props.children : a3) ? H : [H], u4, t3, i4, o3, r3, f4, e3, c3, s3), h3.base = u4.__e, u4.__u &= -161, h3.__h.length && f4.push(h3), g2 && (h3.__E = h3.__ = null);
+  } catch (n3) {
+    u4.__v = null, c3 || null != r3 ? (u4.__e = e3, u4.__u |= c3 ? 160 : 32, r3[r3.indexOf(e3)] = null) : (u4.__e = t3.__e, u4.__k = t3.__k), l.__e(n3, u4, t3);
+  }
+  else null == r3 && u4.__v === t3.__v ? (u4.__k = t3.__k, u4.__e = t3.__e) : u4.__e = z(t3.__e, u4, t3, i4, o3, r3, f4, c3, s3);
   (a3 = l.diffed) && a3(u4);
 }
 function j(n2, u4, t3) {
   u4.__d = void 0;
-  for (var i4 = 0; i4 < t3.length; i4++)
-    N(t3[i4], t3[++i4], t3[++i4]);
+  for (var i4 = 0; i4 < t3.length; i4++) N(t3[i4], t3[++i4], t3[++i4]);
   l.__c && l.__c(u4, n2), n2.some(function(u5) {
     try {
       n2 = u5.__h, u5.__h = [], n2.some(function(n3) {
@@ -3413,35 +3360,30 @@ function j(n2, u4, t3) {
   });
 }
 function z(l3, u4, t3, i4, o3, r3, f4, e3, c3) {
-  var s3, a3, v3, p3, d3, g2, b2, m2 = t3.props, w3 = u4.props, k3 = u4.type;
-  if ("svg" === k3 && (o3 = true), null != r3) {
-    for (s3 = 0; s3 < r3.length; s3++)
-      if ((d3 = r3[s3]) && "setAttribute" in d3 == !!k3 && (k3 ? d3.localName === k3 : 3 === d3.nodeType)) {
-        l3 = d3, r3[s3] = null;
-        break;
-      }
+  var s3, a3, p3, v3, d3, _3, g2, m2 = t3.props, k3 = u4.props, b2 = u4.type;
+  if ("svg" === b2 ? o3 = "http://www.w3.org/2000/svg" : "math" === b2 ? o3 = "http://www.w3.org/1998/Math/MathML" : o3 || (o3 = "http://www.w3.org/1999/xhtml"), null != r3) {
+    for (s3 = 0; s3 < r3.length; s3++) if ((d3 = r3[s3]) && "setAttribute" in d3 == !!b2 && (b2 ? d3.localName === b2 : 3 === d3.nodeType)) {
+      l3 = d3, r3[s3] = null;
+      break;
+    }
   }
   if (null == l3) {
-    if (null === k3)
-      return document.createTextNode(w3);
-    l3 = o3 ? document.createElementNS("http://www.w3.org/2000/svg", k3) : document.createElement(k3, w3.is && w3), r3 = null, e3 = false;
+    if (null === b2) return document.createTextNode(k3);
+    l3 = document.createElementNS(o3, b2, k3.is && k3), r3 = null, e3 = false;
   }
-  if (null === k3)
-    m2 === w3 || e3 && l3.data === w3 || (l3.data = w3);
+  if (null === b2) m2 === k3 || e3 && l3.data === k3 || (l3.data = k3);
   else {
-    if (r3 = r3 && n.call(l3.childNodes), m2 = t3.props || h, !e3 && null != r3)
-      for (m2 = {}, s3 = 0; s3 < l3.attributes.length; s3++)
-        m2[(d3 = l3.attributes[s3]).name] = d3.value;
-    for (s3 in m2)
-      d3 = m2[s3], "children" == s3 || ("dangerouslySetInnerHTML" == s3 ? v3 = d3 : "key" === s3 || s3 in w3 || L(l3, s3, null, d3, o3));
-    for (s3 in w3)
-      d3 = w3[s3], "children" == s3 ? p3 = d3 : "dangerouslySetInnerHTML" == s3 ? a3 = d3 : "value" == s3 ? g2 = d3 : "checked" == s3 ? b2 = d3 : "key" === s3 || e3 && "function" != typeof d3 || m2[s3] === d3 || L(l3, s3, d3, m2[s3], o3);
-    if (a3)
-      e3 || v3 && (a3.__html === v3.__html || a3.__html === l3.innerHTML) || (l3.innerHTML = a3.__html), u4.__k = [];
-    else if (v3 && (l3.innerHTML = ""), $(l3, y(p3) ? p3 : [p3], u4, t3, i4, o3 && "foreignObject" !== k3, r3, f4, r3 ? r3[0] : t3.__k && x(t3, 0), e3, c3), null != r3)
-      for (s3 = r3.length; s3--; )
-        null != r3[s3] && _(r3[s3]);
-    e3 || (s3 = "value", void 0 !== g2 && (g2 !== l3[s3] || "progress" === k3 && !g2 || "option" === k3 && g2 !== m2[s3]) && L(l3, s3, g2, m2[s3], false), s3 = "checked", void 0 !== b2 && b2 !== l3[s3] && L(l3, s3, b2, m2[s3], false));
+    if (r3 = r3 && n.call(l3.childNodes), m2 = t3.props || h, !e3 && null != r3) for (m2 = {}, s3 = 0; s3 < l3.attributes.length; s3++) m2[(d3 = l3.attributes[s3]).name] = d3.value;
+    for (s3 in m2) if (d3 = m2[s3], "children" == s3) ;
+    else if ("dangerouslySetInnerHTML" == s3) p3 = d3;
+    else if ("key" !== s3 && !(s3 in k3)) {
+      if ("value" == s3 && "defaultValue" in k3 || "checked" == s3 && "defaultChecked" in k3) continue;
+      A(l3, s3, null, d3, o3);
+    }
+    for (s3 in k3) d3 = k3[s3], "children" == s3 ? v3 = d3 : "dangerouslySetInnerHTML" == s3 ? a3 = d3 : "value" == s3 ? _3 = d3 : "checked" == s3 ? g2 = d3 : "key" === s3 || e3 && "function" != typeof d3 || m2[s3] === d3 || A(l3, s3, d3, m2[s3], o3);
+    if (a3) e3 || p3 && (a3.__html === p3.__html || a3.__html === l3.innerHTML) || (l3.innerHTML = a3.__html), u4.__k = [];
+    else if (p3 && (l3.innerHTML = ""), S(l3, y(v3) ? v3 : [v3], u4, t3, i4, "foreignObject" === b2 ? "http://www.w3.org/1999/xhtml" : o3, r3, f4, r3 ? r3[0] : t3.__k && x(t3, 0), e3, c3), null != r3) for (s3 = r3.length; s3--; ) null != r3[s3] && w(r3[s3]);
+    e3 || (s3 = "value", void 0 !== _3 && (_3 !== l3[s3] || "progress" === b2 && !_3 || "option" === b2 && _3 !== m2[s3]) && A(l3, s3, _3, m2[s3], o3), s3 = "checked", void 0 !== g2 && g2 !== l3[s3] && A(l3, s3, g2, m2[s3], o3));
   }
   return l3;
 }
@@ -3452,61 +3394,53 @@ function N(n2, u4, t3) {
     l.__e(n3, t3);
   }
 }
-function q(n2, u4, t3) {
+function V(n2, u4, t3) {
   var i4, o3;
   if (l.unmount && l.unmount(n2), (i4 = n2.ref) && (i4.current && i4.current !== n2.__e || N(i4, null, u4)), null != (i4 = n2.__c)) {
-    if (i4.componentWillUnmount)
-      try {
-        i4.componentWillUnmount();
-      } catch (n3) {
-        l.__e(n3, u4);
-      }
+    if (i4.componentWillUnmount) try {
+      i4.componentWillUnmount();
+    } catch (n3) {
+      l.__e(n3, u4);
+    }
     i4.base = i4.__P = null;
   }
-  if (i4 = n2.__k)
-    for (o3 = 0; o3 < i4.length; o3++)
-      i4[o3] && q(i4[o3], u4, t3 || "function" != typeof n2.type);
-  t3 || null == n2.__e || _(n2.__e), n2.__c = n2.__ = n2.__e = n2.__d = void 0;
+  if (i4 = n2.__k) for (o3 = 0; o3 < i4.length; o3++) i4[o3] && V(i4[o3], u4, t3 || "function" != typeof n2.type);
+  t3 || null == n2.__e || w(n2.__e), n2.__c = n2.__ = n2.__e = n2.__d = void 0;
 }
-function B(n2, l3, u4) {
+function q(n2, l3, u4) {
   return this.constructor(n2, u4);
 }
-function D(u4, t3, i4) {
+function B(u4, t3, i4) {
   var o3, r3, f4, e3;
-  l.__ && l.__(u4, t3), r3 = (o3 = "function" == typeof i4) ? null : i4 && i4.__k || t3.__k, f4 = [], e3 = [], O(t3, u4 = (!o3 && i4 || t3).__k = g(w, null, [u4]), r3 || h, h, void 0 !== t3.ownerSVGElement, !o3 && i4 ? [i4] : r3 ? null : t3.firstChild ? n.call(t3.childNodes) : null, f4, !o3 && i4 ? i4 : r3 ? r3.__e : t3.firstChild, o3, e3), j(f4, u4, e3);
+  l.__ && l.__(u4, t3), r3 = (o3 = "function" == typeof i4) ? null : i4 && i4.__k || t3.__k, f4 = [], e3 = [], O(t3, u4 = (!o3 && i4 || t3).__k = _(k, null, [u4]), r3 || h, h, t3.namespaceURI, !o3 && i4 ? [i4] : r3 ? null : t3.firstChild ? n.call(t3.childNodes) : null, f4, !o3 && i4 ? i4 : r3 ? r3.__e : t3.firstChild, o3, e3), j(f4, u4, e3);
 }
-n = v.slice, l = { __e: function(n2, l3, u4, t3) {
-  for (var i4, o3, r3; l3 = l3.__; )
-    if ((i4 = l3.__c) && !i4.__)
-      try {
-        if ((o3 = i4.constructor) && null != o3.getDerivedStateFromError && (i4.setState(o3.getDerivedStateFromError(n2)), r3 = i4.__d), null != i4.componentDidCatch && (i4.componentDidCatch(n2, t3 || {}), r3 = i4.__d), r3)
-          return i4.__E = i4;
-      } catch (l4) {
-        n2 = l4;
-      }
+n = p.slice, l = { __e: function(n2, l3, u4, t3) {
+  for (var i4, o3, r3; l3 = l3.__; ) if ((i4 = l3.__c) && !i4.__) try {
+    if ((o3 = i4.constructor) && null != o3.getDerivedStateFromError && (i4.setState(o3.getDerivedStateFromError(n2)), r3 = i4.__d), null != i4.componentDidCatch && (i4.componentDidCatch(n2, t3 || {}), r3 = i4.__d), r3) return i4.__E = i4;
+  } catch (l4) {
+    n2 = l4;
+  }
   throw n2;
 } }, u = 0, t = function(n2) {
   return null != n2 && null == n2.constructor;
-}, k.prototype.setState = function(n2, l3) {
+}, b.prototype.setState = function(n2, l3) {
   var u4;
-  u4 = null != this.__s && this.__s !== this.state ? this.__s : this.__s = d({}, this.state), "function" == typeof n2 && (n2 = n2(d({}, u4), this.props)), n2 && d(u4, n2), null != n2 && this.__v && (l3 && this._sb.push(l3), P(this));
-}, k.prototype.forceUpdate = function(n2) {
-  this.__v && (this.__e = true, n2 && this.__h.push(n2), P(this));
-}, k.prototype.render = w, i = [], r = "function" == typeof Promise ? Promise.prototype.then.bind(Promise.resolve()) : setTimeout, f = function(n2, l3) {
+  u4 = null != this.__s && this.__s !== this.state ? this.__s : this.__s = d({}, this.state), "function" == typeof n2 && (n2 = n2(d({}, u4), this.props)), n2 && d(u4, n2), null != n2 && this.__v && (l3 && this._sb.push(l3), M(this));
+}, b.prototype.forceUpdate = function(n2) {
+  this.__v && (this.__e = true, n2 && this.__h.push(n2), M(this));
+}, b.prototype.render = k, i = [], r = "function" == typeof Promise ? Promise.prototype.then.bind(Promise.resolve()) : setTimeout, f = function(n2, l3) {
   return n2.__v.__b - l3.__v.__b;
-}, S.__r = 0, e = 0, c = M(false), s = M(true), a = 0;
+}, P.__r = 0, e = 0, c = F(false), s = F(true), a = 0;
 
 // node_modules/preact/jsx-runtime/dist/jsxRuntime.module.js
 var f2 = 0;
 var i2 = Array.isArray;
 function u2(e3, t3, n2, o3, i4, u4) {
-  var a3, c3, p3 = {};
-  for (c3 in t3)
-    "ref" == c3 ? a3 = t3[c3] : p3[c3] = t3[c3];
+  t3 || (t3 = {});
+  var a3, c3, p3 = t3;
+  if ("ref" in p3) for (c3 in p3 = {}, t3) "ref" == c3 ? a3 = t3[c3] : p3[c3] = t3[c3];
   var l3 = { type: e3, props: p3, key: n2, ref: a3, __k: null, __: null, __b: 0, __e: null, __d: void 0, __c: null, constructor: void 0, __v: --f2, __i: -1, __u: 0, __source: i4, __self: u4 };
-  if ("function" == typeof e3 && (a3 = e3.defaultProps))
-    for (c3 in a3)
-      void 0 === p3[c3] && (p3[c3] = a3[c3]);
+  if ("function" == typeof e3 && (a3 = e3.defaultProps)) for (c3 in a3) void 0 === p3[c3] && (p3[c3] = a3[c3]);
   return l.vnode && l.vnode(l3), l3;
 }
 
@@ -3529,7 +3463,7 @@ var getUIC_Ref_Item = async (ref) => {
     }
   );
   const itemEl = createDiv();
-  D(itemElJsx, itemEl);
+  B(itemElJsx, itemEl);
   return itemEl;
 };
 var grabChunkOfFile = async (ref) => {
@@ -3585,11 +3519,9 @@ var grabChunkOfFile = async (ref) => {
     } else {
       const sectionContainingLink = contextBuilder.getSectionContaining(linkPosition);
       let blockContents = "";
-      if ((sectionContainingLink == null ? void 0 : sectionContainingLink.position) !== void 0)
-        blockContents = getTextAtPosition(fileContents, sectionContainingLink.position);
+      if ((sectionContainingLink == null ? void 0 : sectionContainingLink.position) !== void 0) blockContents = getTextAtPosition(fileContents, sectionContainingLink.position);
       const regex = /^\[\^([\w]+)\]:(.*)$/;
-      if (regex.test(blockContents))
-        blockContents = blockContents.replace("[", "").replace("]:", "");
+      if (regex.test(blockContents)) blockContents = blockContents.replace("[", "").replace("]:", "");
       await import_obsidian2.MarkdownRenderer.render(plugin2.app, blockContents, container, ref.sourceFile.path, plugin2);
     }
     const headingThatContainsLink = contextBuilder.getHeadingContaining(linkPosition);
@@ -3661,24 +3593,22 @@ function h2(n2, t3) {
   return n2 >= u4.__.length && u4.__.push({ __V: c2 }), u4.__[n2];
 }
 function p2(n2) {
-  return o2 = 1, y2(D2, n2);
+  return o2 = 1, y2(D, n2);
 }
 function y2(n2, u4, i4) {
   var o3 = h2(t2++, 2);
-  if (o3.t = n2, !o3.__c && (o3.__ = [i4 ? i4(u4) : D2(void 0, u4), function(n3) {
+  if (o3.t = n2, !o3.__c && (o3.__ = [i4 ? i4(u4) : D(void 0, u4), function(n3) {
     var t3 = o3.__N ? o3.__N[0] : o3.__[0], r3 = o3.t(t3, n3);
     t3 !== r3 && (o3.__N = [r3, o3.__[1]], o3.__c.setState({}));
   }], o3.__c = r2, !r2.u)) {
     var f4 = function(n3, t3, r3) {
-      if (!o3.__c.__H)
-        return true;
+      if (!o3.__c.__H) return true;
       var u5 = o3.__c.__H.__.filter(function(n4) {
         return !!n4.__c;
       });
       if (u5.every(function(n4) {
         return !n4.__N;
-      }))
-        return !c3 || c3.call(this, n3, t3, r3);
+      })) return !c3 || c3.call(this, n3, t3, r3);
       var i5 = false;
       return u5.forEach(function(n4) {
         if (n4.__N) {
@@ -3713,13 +3643,11 @@ function q2(n2, r3) {
   return C2(u4.__H, r3) ? (u4.__V = n2(), u4.i = r3, u4.__h = n2, u4.__V) : u4.__;
 }
 function j2() {
-  for (var n2; n2 = f3.shift(); )
-    if (n2.__P && n2.__H)
-      try {
-        n2.__H.__h.forEach(z2), n2.__H.__h.forEach(B2), n2.__H.__h = [];
-      } catch (t3) {
-        n2.__H.__h = [], e2.__e(t3, n2.__v);
-      }
+  for (var n2; n2 = f3.shift(); ) if (n2.__P && n2.__H) try {
+    n2.__H.__h.forEach(z2), n2.__H.__h.forEach(B2), n2.__H.__h = [];
+  } catch (t3) {
+    n2.__H.__h = [], e2.__e(t3, n2.__v);
+  }
 }
 e2.__b = function(n2) {
   r2 = null, a2 && a2(n2);
@@ -3780,7 +3708,7 @@ function C2(n2, t3) {
     return t4 !== n2[r3];
   });
 }
-function D2(n2, t3) {
+function D(n2, t3) {
   return "function" == typeof t3 ? t3(n2) : t3;
 }
 
@@ -3887,11 +3815,11 @@ var getUIC_Ref_Title_Div = (refType, realLink, key, filePath, refCount, lineNu, 
     )
   ] });
   const titleEl = createDiv();
-  D(titleElJsx, titleEl);
+  B(titleElJsx, titleEl);
   return titleEl;
 };
 
-// src/ui/components/uic-ref-area.ts
+// src/ui/components/uic-ref-area.tsx
 var plugin3;
 function setPluginVariableUIC_RefArea(snwPlugin) {
   plugin3 = snwPlugin;
@@ -3910,6 +3838,9 @@ var getUIC_Ref_Area = async (refType, realLink, key, filePath, lineNu, isHoverVi
         refAreaEl2.style.visibility = "visible";
         const refAreaItems2 = await getRefAreaItems(refType, key, filePath);
         refAreaEl2.prepend(refAreaItems2.response);
+        setTimeout(async () => {
+          await setFileLinkHandlers(false, refAreaEl2);
+        }, 500);
       }
     })
   );
@@ -3945,16 +3876,14 @@ var getRefAreaItems = async (refType, key, filePath) => {
     const incomingLinks = [];
     for (const items of allLinks.values()) {
       for (const item of items) {
-        if ((item == null ? void 0 : item.resolvedFile) && ((_a = item == null ? void 0 : item.resolvedFile) == null ? void 0 : _a.path) === filePath)
-          incomingLinks.push(item);
+        if ((item == null ? void 0 : item.resolvedFile) && ((_a = item == null ? void 0 : item.resolvedFile) == null ? void 0 : _a.path) === filePath) incomingLinks.push(item);
       }
     }
     countOfRefs = incomingLinks.length;
     linksToLoop = incomingLinks;
   } else {
     let refCache = getIndexedReferences().get(key);
-    if (refCache === void 0)
-      refCache = getIndexedReferences().get(key);
+    if (refCache === void 0) refCache = getIndexedReferences().get(key);
     const sortedCache = await sortRefCache(refCache);
     countOfRefs = sortedCache.length;
     linksToLoop = sortedCache;
@@ -3975,9 +3904,11 @@ var getRefAreaItems = async (refType, key, filePath) => {
     maxItemsToShow = countOfRefs;
   }
   let itemsDisplayedCounter = 0;
+  let customProperties = null;
+  if (plugin3.settings.displayCustomPropertyList.trim() != "")
+    customProperties = plugin3.settings.displayCustomPropertyList.split(",").map((x2) => x2.trim());
   for (let index = 0; index < sortedFileKeys.length; index++) {
-    if (itemsDisplayedCounter > maxItemsToShow)
-      continue;
+    if (itemsDisplayedCounter > maxItemsToShow) continue;
     const file_path = sortedFileKeys[index];
     const responseItemContainerEl = createDiv();
     responseItemContainerEl.addClass("snw-ref-item-container");
@@ -4004,6 +3935,25 @@ var getRefAreaItems = async (refType, key, filePath) => {
     refItemFileEl.append(refItemFileIconEl);
     refItemFileEl.append(refItemFileLabelEl);
     responseItemContainerEl.appendChild(refItemFileEl);
+    if (customProperties != null) {
+      const fileCache = plugin3.app.metadataCache.getFileCache(file_path.sourceFile);
+      customProperties.forEach((propName) => {
+        var _a2;
+        const propValue = (_a2 = fileCache == null ? void 0 : fileCache.frontmatter) == null ? void 0 : _a2[propName];
+        if (propValue) {
+          const customPropertyElement = /* @__PURE__ */ u2("div", { class: "snw-custom-property-container", children: [
+            /* @__PURE__ */ u2("span", { class: "snw-custom-property-name", children: propName }),
+            /* @__PURE__ */ u2("span", { class: "snw-custom-property-text", children: [
+              ": ",
+              propValue
+            ] })
+          ] });
+          const fieldEl = createDiv();
+          B(customPropertyElement, fieldEl);
+          refItemFileLabelEl.append(fieldEl);
+        }
+      });
+    }
     const refItemsCollectionE = createDiv();
     refItemsCollectionE.addClass("snw-ref-item-collection-items");
     refItemsCollectionE.addClass("search-result-file-matches");
@@ -4020,11 +3970,9 @@ var getRefAreaItems = async (refType, key, filePath) => {
 var sortRefCache = async (refCache) => {
   return refCache.sort((a3, b2) => {
     let positionA = 0;
-    if (a3.reference.position !== void 0)
-      positionA = Number(a3.reference.position.start.line);
+    if (a3.reference.position !== void 0) positionA = Number(a3.reference.position.start.line);
     let positionB = 0;
-    if (b2.reference.position !== void 0)
-      positionB = Number(b2.reference.position.start.line);
+    if (b2.reference.position !== void 0) positionB = Number(b2.reference.position.start.line);
     return a3.sourceFile.basename.localeCompare(b2.sourceFile.basename) || Number(positionA) - Number(positionB);
   });
 };
@@ -4158,7 +4106,7 @@ function htmlDecorationForReferencesElement(count, referenceType, realLink, key,
     }
   );
   const refenceElement = createDiv();
-  D(referenceElementJsx, refenceElement);
+  B(referenceElementJsx, refenceElement);
   const refCountBox = refenceElement.firstElementChild;
   if (import_obsidian5.Platform.isDesktop || import_obsidian5.Platform.isDesktopApp)
     refCountBox.onclick = async (e3) => processHtmlDecorationReferenceEvent(e3.target);
@@ -4173,8 +4121,7 @@ function htmlDecorationForReferencesElement(count, referenceType, realLink, key,
     // trigger: "click", // on click is another option instead of hovering at all
     onTrigger(instance, event) {
       const mouseEvent = event;
-      if (requireModifierKey === false)
-        return;
+      if (requireModifierKey === false) return;
       if (mouseEvent.ctrlKey || mouseEvent.metaKey) {
         showTippy = true;
       } else {
@@ -4182,8 +4129,7 @@ function htmlDecorationForReferencesElement(count, referenceType, realLink, key,
       }
     },
     onShow(instance) {
-      if (!showTippy)
-        return false;
+      if (!showTippy) return false;
       setTimeout(async () => {
         await getUIC_Hoverview(instance);
       }, 1);
@@ -4233,25 +4179,19 @@ var InlineReferenceExtension = import_view.ViewPlugin.fromClass(
       this.view = view;
       this.decorations = import_view.Decoration.none;
       this.regxPattern = "";
-      if (plugin6.settings.enableRenderingBlockIdInLivePreview)
-        this.regxPattern = "(\\s\\^)(\\S+)$";
+      if (plugin6.settings.enableRenderingBlockIdInLivePreview) this.regxPattern = "(\\s\\^)(\\S+)$";
       if (plugin6.settings.enableRenderingEmbedsInLivePreview)
         this.regxPattern += (this.regxPattern != "" ? "|" : "") + "!\\[\\[(.*?)\\]\\]";
-      if (plugin6.settings.enableRenderingLinksInLivePreview)
-        this.regxPattern += (this.regxPattern != "" ? "|" : "") + "\\[\\[(.*?)\\]\\]";
-      if (plugin6.settings.enableRenderingHeadersInLivePreview)
-        this.regxPattern += (this.regxPattern != "" ? "|" : "") + "^#+\\s.+";
-      if (this.regxPattern === "")
-        return;
+      if (plugin6.settings.enableRenderingLinksInLivePreview) this.regxPattern += (this.regxPattern != "" ? "|" : "") + "\\[\\[(.*?)\\]\\]";
+      if (plugin6.settings.enableRenderingHeadersInLivePreview) this.regxPattern += (this.regxPattern != "" ? "|" : "") + "^#+\\s.+";
+      if (this.regxPattern === "") return;
       this.decorator = new import_view.MatchDecorator({
         regexp: new RegExp(this.regxPattern, "g"),
         decorate: (add, from, to, match, view2) => {
           var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l, _m, _n, _o, _p, _q, _r, _s, _t, _u, _v, _w;
           const mdView = view2.state.field(import_obsidian6.editorInfoField);
-          if (!mdView.file)
-            return;
-          if (((_a = mdView.currentMode) == null ? void 0 : _a.sourceMode) === true && plugin6.settings.displayInlineReferencesInSourceMode === false)
-            return null;
+          if (!mdView.file) return;
+          if (((_a = mdView.currentMode) == null ? void 0 : _a.sourceMode) === true && plugin6.settings.displayInlineReferencesInSourceMode === false) return null;
           const mdViewFile = mdView.file;
           const transformedCache = getSNWCacheByFile(mdViewFile);
           if (((_c = (_b = transformedCache == null ? void 0 : transformedCache.cacheMetaData) == null ? void 0 : _b.frontmatter) == null ? void 0 : _c["snw-file-exclude"]) != true && ((_e = (_d = transformedCache == null ? void 0 : transformedCache.cacheMetaData) == null ? void 0 : _d.frontmatter) == null ? void 0 : _e["snw-canvas-exclude-edit"]) != true) {
@@ -4372,8 +4312,7 @@ var constructWidgetForInlineReference = (refType, key, references, filePath, fil
           "snw-liveupdate",
           ref.pos.start.line
         );
-      else
-        return null;
+      else return null;
     }
   }
   return null;
@@ -4419,18 +4358,13 @@ function setPluginVariableForMarkdownPreviewProcessor(snwPlugin) {
 }
 function markdownPreviewProcessor(el, ctx) {
   var _a, _b;
-  if (ctx.remainingNestLevel === 4)
-    return;
-  if (el.hasAttribute("uic"))
-    return;
-  if (el.querySelectorAll(".contains-task-list").length > 0)
-    return;
+  if (ctx.remainingNestLevel === 4) return;
+  if (el.hasAttribute("uic")) return;
+  if (el.querySelectorAll(".contains-task-list").length > 0) return;
   const currentFile = plugin7.app.vault.fileMap[ctx.sourcePath];
-  if (currentFile === void 0)
-    return;
+  if (currentFile === void 0) return;
   const fileCache = plugin7.app.metadataCache.getFileCache(currentFile);
-  if (((_a = fileCache == null ? void 0 : fileCache.frontmatter) == null ? void 0 : _a["kanban-plugin"]) || ((_b = ctx.el.parentElement) == null ? void 0 : _b.classList.contains("kanban-plugin__markdown-preview-view")))
-    return;
+  if (((_a = fileCache == null ? void 0 : fileCache.frontmatter) == null ? void 0 : _a["kanban-plugin"]) || ((_b = ctx.el.parentElement) == null ? void 0 : _b.classList.contains("kanban-plugin__markdown-preview-view"))) return;
   try {
     ctx.addChild(new snwChildComponent(el, ctx.getSectionInfo(el), currentFile));
   } catch (error) {
@@ -4450,10 +4384,8 @@ var snwChildComponent = class extends import_obsidian7.MarkdownRenderChild {
     var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l, _m, _n;
     const minRefCountThreshold = plugin7.settings.minimumRefCountThreshold;
     const transformedCache = getSNWCacheByFile(this.currentFile);
-    if (((_b = (_a = transformedCache == null ? void 0 : transformedCache.cacheMetaData) == null ? void 0 : _a.frontmatter) == null ? void 0 : _b["snw-file-exclude"]) === true)
-      return;
-    if (((_d = (_c = transformedCache == null ? void 0 : transformedCache.cacheMetaData) == null ? void 0 : _c.frontmatter) == null ? void 0 : _d["snw-canvas-exclude-preview"]) === true)
-      return;
+    if (((_b = (_a = transformedCache == null ? void 0 : transformedCache.cacheMetaData) == null ? void 0 : _a.frontmatter) == null ? void 0 : _b["snw-file-exclude"]) === true) return;
+    if (((_d = (_c = transformedCache == null ? void 0 : transformedCache.cacheMetaData) == null ? void 0 : _c.frontmatter) == null ? void 0 : _d["snw-canvas-exclude-preview"]) === true) return;
     if ((transformedCache == null ? void 0 : transformedCache.blocks) || transformedCache.embeds || transformedCache.headings || transformedCache.links) {
       if (plugin7.settings.enableRenderingBlockIdInMarkdown && (transformedCache == null ? void 0 : transformedCache.blocks)) {
         for (const value of transformedCache.blocks) {
@@ -4471,10 +4403,8 @@ var snwChildComponent = class extends import_obsidian7.MarkdownRenderChild {
             const valueLineInSection = value.pos.start.line - this.sectionInfo.lineStart;
             if (!blockElement) {
               blockElement = this.containerEl.querySelector(`li[data-line="${valueLineInSection}"]`);
-              if (blockElement.querySelector("ul"))
-                blockElement.querySelector("ul").before(referenceElement);
-              else
-                blockElement.append(referenceElement);
+              if (blockElement.querySelector("ul")) blockElement.querySelector("ul").before(referenceElement);
+              else blockElement.append(referenceElement);
             } else {
               if (!blockElement) {
                 blockElement = this.containerEl.querySelector(`ol[data-line="${valueLineInSection}"]`);
@@ -4604,18 +4534,13 @@ var ReferenceGutterExtension = (0, import_view2.gutter)({
   lineMarker(editorView, line) {
     var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j;
     const mdView = editorView.state.field(import_obsidian8.editorInfoField);
-    if (((_a = mdView.currentMode) == null ? void 0 : _a.sourceMode) === true && plugin8.settings.displayInlineReferencesInSourceMode === false)
-      return null;
-    if (!mdView.file)
-      return null;
+    if (((_a = mdView.currentMode) == null ? void 0 : _a.sourceMode) === true && plugin8.settings.displayInlineReferencesInSourceMode === false) return null;
+    if (!mdView.file) return null;
     const transformedCache = getSNWCacheByFile(mdView.file);
-    if (((_c = (_b = transformedCache == null ? void 0 : transformedCache.cacheMetaData) == null ? void 0 : _b.frontmatter) == null ? void 0 : _c["snw-file-exclude"]) === true)
-      return null;
-    if (((_e = (_d = transformedCache == null ? void 0 : transformedCache.cacheMetaData) == null ? void 0 : _d.frontmatter) == null ? void 0 : _e["snw-canvas-exclude-edit"]) === true)
-      return null;
+    if (((_c = (_b = transformedCache == null ? void 0 : transformedCache.cacheMetaData) == null ? void 0 : _b.frontmatter) == null ? void 0 : _c["snw-file-exclude"]) === true) return null;
+    if (((_e = (_d = transformedCache == null ? void 0 : transformedCache.cacheMetaData) == null ? void 0 : _d.frontmatter) == null ? void 0 : _e["snw-canvas-exclude-edit"]) === true) return null;
     const embedsFromMetaDataCache = (_f = mdView.app.metadataCache.getFileCache(mdView.file)) == null ? void 0 : _f.embeds;
-    if (!embedsFromMetaDataCache)
-      return null;
+    if (!embedsFromMetaDataCache) return null;
     if ((embedsFromMetaDataCache == null ? void 0 : embedsFromMetaDataCache.length) >= 0) {
       const lineNumberInFile = editorView.state.doc.lineAt(line.from).number;
       for (const embed of embedsFromMetaDataCache) {
@@ -4664,8 +4589,7 @@ function setPluginVariableForHeaderRefCount(snwPlugin) {
 }
 function setHeaderWithReferenceCounts() {
   plugin9.app.workspace.iterateAllLeaves((leaf) => {
-    if (leaf.view.getViewType() === "markdown")
-      processHeader(leaf.view);
+    if (leaf.view.getViewType() === "markdown") processHeader(leaf.view);
   });
 }
 var updateHeadersDebounce = (0, import_obsidian9.debounce)(
@@ -4678,23 +4602,19 @@ var updateHeadersDebounce = (0, import_obsidian9.debounce)(
 function processHeader(mdView) {
   var _a, _b, _c, _d, _e;
   const mdViewFile = mdView.file;
-  if (!mdViewFile)
-    return;
+  if (!mdViewFile) return;
   const allLinks = getIndexedReferences();
   const incomingLinks = [];
   for (const items of allLinks.values()) {
     for (const item of items) {
-      if ((item == null ? void 0 : item.resolvedFile) && ((_a = item == null ? void 0 : item.resolvedFile) == null ? void 0 : _a.path) === mdViewFile.path)
-        incomingLinks.push(item);
+      if ((item == null ? void 0 : item.resolvedFile) && ((_a = item == null ? void 0 : item.resolvedFile) == null ? void 0 : _a.path) === mdViewFile.path) incomingLinks.push(item);
     }
   }
   let incomingLinksCount = incomingLinks.length;
   const transformedCache = getSNWCacheByFile(mdViewFile);
-  if (((_c = (_b = transformedCache == null ? void 0 : transformedCache.cacheMetaData) == null ? void 0 : _b.frontmatter) == null ? void 0 : _c["snw-file-exclude"]) === true)
-    incomingLinksCount = 0;
+  if (((_c = (_b = transformedCache == null ? void 0 : transformedCache.cacheMetaData) == null ? void 0 : _b.frontmatter) == null ? void 0 : _c["snw-file-exclude"]) === true) incomingLinksCount = 0;
   if (incomingLinksCount < 1) {
-    if (mdView.contentEl.querySelector(".snw-header-count-wrapper"))
-      (_d = mdView.contentEl.querySelector(".snw-header-count-wrapper")) == null ? void 0 : _d.remove();
+    if (mdView.contentEl.querySelector(".snw-header-count-wrapper")) (_d = mdView.contentEl.querySelector(".snw-header-count-wrapper")) == null ? void 0 : _d.remove();
     return;
   }
   let snwTitleRefCountDisplayCountEl = mdView.contentEl.querySelector(".snw-header-count");
@@ -4703,8 +4623,7 @@ function processHeader(mdView) {
     return;
   }
   const containerViewContent = mdView.contentEl;
-  if (mdView.contentEl.querySelector(".snw-header-count-wrapper"))
-    (_e = mdView.contentEl.querySelector(".snw-header-count-wrapper")) == null ? void 0 : _e.remove();
+  if (mdView.contentEl.querySelector(".snw-header-count-wrapper")) (_e = mdView.contentEl.querySelector(".snw-header-count-wrapper")) == null ? void 0 : _e.remove();
   let wrapper = containerViewContent.querySelector(".snw-header-count-wrapper");
   if (!wrapper) {
     wrapper = createDiv({ cls: "snw-reference snw-header-count-wrapper" });
@@ -4714,13 +4633,11 @@ function processHeader(mdView) {
   } else {
     snwTitleRefCountDisplayCountEl = containerViewContent.querySelector(".snw-header-count");
   }
-  if (snwTitleRefCountDisplayCountEl)
-    snwTitleRefCountDisplayCountEl.innerText = " " + incomingLinks.length.toString() + " ";
+  if (snwTitleRefCountDisplayCountEl) snwTitleRefCountDisplayCountEl.innerText = " " + incomingLinks.length.toString() + " ";
   if ((import_obsidian9.Platform.isDesktop || import_obsidian9.Platform.isDesktopApp) && snwTitleRefCountDisplayCountEl) {
     snwTitleRefCountDisplayCountEl.onclick = (e3) => {
       e3.stopPropagation();
-      if (wrapper)
-        processHtmlDecorationReferenceEvent(wrapper);
+      if (wrapper) processHtmlDecorationReferenceEvent(wrapper);
     };
   }
   wrapper.setAttribute("data-snw-reallink", mdViewFile.basename);
@@ -4741,8 +4658,7 @@ function processHeader(mdView) {
     placement: "auto-end",
     onTrigger(instance, event) {
       const mouseEvent = event;
-      if (requireModifierKey === false)
-        return;
+      if (requireModifierKey === false) return;
       if (mouseEvent.ctrlKey || mouseEvent.metaKey) {
         showTippy = true;
       } else {
@@ -4750,8 +4666,7 @@ function processHeader(mdView) {
       }
     },
     onShow(instance) {
-      if (!showTippy)
-        return false;
+      if (!showTippy) return false;
       setTimeout(async () => {
         await getUIC_Hoverview(instance);
       }, 1);
@@ -4778,7 +4693,7 @@ var SideBarPaneView = class extends import_obsidian10.ItemView {
     return "file-digit";
   }
   async onOpen() {
-    D(
+    B(
       /* @__PURE__ */ u2("div", { class: "snw-sidepane-loading", children: [
         /* @__PURE__ */ u2("div", { class: "snw-sidepane-loading-banner", children: "Discovering Strange New Worlds..." }),
         /* @__PURE__ */ u2("div", { class: "snw-sidepane-loading-subtext", children: "Click a reference counter in the main document for information to appear here." })
@@ -5012,6 +4927,15 @@ var SettingsTab = class extends import_obsidian11.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
+    new import_obsidian11.Setting(containerEl).setHeading().setName("Custom Display Settings");
+    new import_obsidian11.Setting(this.containerEl).setName("Custom Property List").setDesc(
+      "Displays properties from referenced files in the references list. The list is comma separated list of case-sensitive property names."
+    ).addText((cb) => {
+      cb.setPlaceholder("Ex: Project, Summary").setValue(this.plugin.settings.displayCustomPropertyList).onChange(async (list) => {
+        this.plugin.settings.displayCustomPropertyList = list;
+        await this.plugin.saveSettings();
+      });
+    });
   }
 };
 
@@ -5040,7 +4964,8 @@ var DEFAULT_SETTINGS = {
   enableIgnoreObsExcludeFoldersLinksFrom: false,
   enableIgnoreObsExcludeFoldersLinksTo: false,
   requireModifierKeyToActivateSNWView: false,
-  sortOptionDefault: "name-asc"
+  sortOptionDefault: "name-asc",
+  displayCustomPropertyList: ""
 };
 
 // src/snwApi.ts
@@ -5127,8 +5052,7 @@ function setPluginVariableForFrontmatterLinksRefCount(snwPlugin) {
 }
 function setFrontmatterLinksReferenceCounts() {
   plugin10.app.workspace.iterateAllLeaves((leaf) => {
-    if (leaf.view.getViewType() === "markdown")
-      processFrontmatterLinks(leaf.view);
+    if (leaf.view.getViewType() === "markdown") processFrontmatterLinks(leaf.view);
   });
 }
 var updatePropertiesDebounce = (0, import_obsidian13.debounce)(
@@ -5140,23 +5064,18 @@ var updatePropertiesDebounce = (0, import_obsidian13.debounce)(
 );
 function processFrontmatterLinks(mdView) {
   var _a;
-  if (plugin10.showCountsActive === false)
-    return;
+  if (plugin10.showCountsActive === false) return;
   const state = import_obsidian13.Platform.isMobile || import_obsidian13.Platform.isMobileApp ? plugin10.settings.displayPropertyReferencesMobile : plugin10.settings.displayPropertyReferences;
-  if (state === false)
-    return;
-  if ((mdView == null ? void 0 : mdView.rawFrontmatter) === "")
-    return;
+  if (state === false) return;
+  if ((mdView == null ? void 0 : mdView.rawFrontmatter) === "") return;
   const transformedCache = getSNWCacheByFile(mdView.file);
-  if (((_a = transformedCache.frontmatterLinks) == null ? void 0 : _a.length) === 0)
-    return;
+  if (((_a = transformedCache.frontmatterLinks) == null ? void 0 : _a.length) === 0) return;
   mdView.metadataEditor.rendered.forEach((item) => {
     var _a2;
     const innerLink = item.valueEl.querySelector(".metadata-link-inner.internal-link");
     if (innerLink) {
       const fmMatch = (_a2 = transformedCache.frontmatterLinks) == null ? void 0 : _a2.find((item2) => item2.displayText === innerLink.innerText);
-      if (fmMatch)
-        appendRefCounter(innerLink, fmMatch);
+      if (fmMatch) appendRefCounter(innerLink, fmMatch);
     } else {
       const pillLinks = item.valueEl.querySelectorAll(".multi-select-pill.internal-link .multi-select-pill-content span");
       if (pillLinks.length > 0) {
@@ -5164,8 +5083,7 @@ function processFrontmatterLinks(mdView) {
           var _a3;
           if (pill) {
             const fmMatch = (_a3 = transformedCache.frontmatterLinks) == null ? void 0 : _a3.find((item2) => item2.displayText === pill.innerText);
-            if (fmMatch)
-              appendRefCounter(pill.parentElement, fmMatch);
+            if (fmMatch) appendRefCounter(pill.parentElement, fmMatch);
           }
         });
       }
@@ -5193,8 +5111,7 @@ function appendRefCounter(parentLink, cacheItem) {
     try {
       if (refCount >= plugin10.settings.minimumRefCountThreshold)
         wrapperEl.querySelector(".snw-frontmatter-count").innerText = " " + refCount + " ";
-      else
-        wrapperEl == null ? void 0 : wrapperEl.remove();
+      else wrapperEl == null ? void 0 : wrapperEl.remove();
     } catch (error) {
     }
   }
@@ -5235,10 +5152,8 @@ var SNWPlugin4 = class extends import_obsidian14.Plugin {
     window.snwAPI = this.snwAPI;
     await this.loadSettings();
     this.addSettingTab(new SettingsTab(this.app, this));
-    if (import_obsidian14.Platform.isMobile || import_obsidian14.Platform.isMobileApp)
-      this.showCountsActive = this.settings.enableOnStartupMobile;
-    else
-      this.showCountsActive = this.settings.enableOnStartupDesktop;
+    if (import_obsidian14.Platform.isMobile || import_obsidian14.Platform.isMobileApp) this.showCountsActive = this.settings.enableOnStartupMobile;
+    else this.showCountsActive = this.settings.enableOnStartupDesktop;
     this.registerView(VIEW_TYPE_SNW, (leaf) => new SideBarPaneView(leaf, this));
     const indexFullUpdateDebounce = (0, import_obsidian14.debounce)(
       () => {
@@ -5302,16 +5217,13 @@ var SNWPlugin4 = class extends import_obsidian14.Plugin {
       const leaf2 = workspace.getRightLeaf(false);
       await leaf2.setViewState({ type: VIEW_TYPE_SNW, active: true });
     }
-    if (leaf)
-      workspace.revealLeaf(leaf);
+    if (leaf) workspace.revealLeaf(leaf);
     await this.app.workspace.getLeavesOfType(VIEW_TYPE_SNW)[0].view.updateView();
   }
   // Turns on and off the reference count displayed at the top of the document in the header area
   toggleStateHeaderCount() {
-    if (this.settings.displayIncomingFilesheader && this.showCountsActive)
-      this.app.workspace.on("layout-change", this.layoutChangeEvent);
-    else
-      this.app.workspace.off("layout-change", this.layoutChangeEvent);
+    if (this.settings.displayIncomingFilesheader && this.showCountsActive) this.app.workspace.on("layout-change", this.layoutChangeEvent);
+    else this.app.workspace.off("layout-change", this.layoutChangeEvent);
   }
   // Turns on and off the SNW reference counters in Reading mode
   toggleStateSNWMarkdownPreview() {
@@ -5329,15 +5241,13 @@ var SNWPlugin4 = class extends import_obsidian14.Plugin {
   // Turns on and off the SNW reference counters in CM editor
   toggleStateSNWLivePreview() {
     let state = this.settings.displayInlineReferencesLivePreview;
-    if (state === true)
-      state = this.showCountsActive;
+    if (state === true) state = this.showCountsActive;
     this.updateCMExtensionState("inline-ref", state, InlineReferenceExtension);
   }
   // Turns on and off the SNW reference counters in CM editor gutter
   toggleStateSNWGutters() {
     let state = import_obsidian14.Platform.isMobile || import_obsidian14.Platform.isMobileApp ? this.settings.displayEmbedReferencesInGutterMobile : this.settings.displayEmbedReferencesInGutter;
-    if (state === true)
-      state = this.showCountsActive;
+    if (state === true) state = this.showCountsActive;
     this.updateCMExtensionState("gutter", state, gutters_cm6_default);
   }
   // Manages which CM extensions are loaded into Obsidian

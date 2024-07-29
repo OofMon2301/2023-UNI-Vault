@@ -41,6 +41,11 @@ div:has(> .snw-reference),
   }
 }
 
+/* custom properties display */
+.snw-custom-property-name {
+  font-style: italic;
+}
+
 /* CM Live Preview */
 .cm-content .snw-reference {
   padding-right: 2px;
@@ -144,6 +149,10 @@ div:has(> .snw-reference),
 .snw-ref-item-file {
   display: flex;
   flex-direction: row;
+}
+
+.snw-ref-item-file.tree-item-self {
+  align-items: flex-start !important;
 }
 
 .snw-ref-item-collection-items {

@@ -1,6 +1,6 @@
 {
   "manifest": {
-    "version": "3.1.0"
+    "version": "3.0.2"
   },
   "MergeParagraph_Newlines": true,
   "MergeParagraph_Spaces": true,
@@ -116,9 +116,5 @@
   "calloutType": "NOTE",
   "debugMode": false,
   "headingLevelMin": 0,
-  "calloutTypeDecider": "previous-content",
-  "formatOnSaveSettings": {
-    "enabled": false,
-    "commandsString": ""
-  }
+  "calloutTypeDecider": "previous-content"
 }
