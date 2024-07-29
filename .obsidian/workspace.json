@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "89e1339e9556672a",
+        "id": "a44d2767a828a263",
         "type": "tabs",
         "children": [
           {
-            "id": "1f7d16658d791ee7",
+            "id": "247198de998d4698",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024/Semester 2/CSSE2310/Main Parameters.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024/Semester 2/CSSE2310/Main Parameters.md"
+              }
             }
           }
         ]
@@ -153,6 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024/Semester 2/CSSE2310/Main Parameters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,6 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024/Semester 2/CSSE2310/Main Parameters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,15 +205,16 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "1f7d16658d791ee7",
+  "active": "247198de998d4698",
   "lastOpenFiles": [
+    "2024/Semester 2/CSSE2310/Main Parameters.md",
+    "Untitled.md",
     "2024/Summer Semester/MATH1052/Chapter 1/Ordinary Differential Equations.md",
     "Attachment Folder/Pasted image 20240101162327.png",
     "Homepage.md",
     "orphaned files output.md",
     "ODE.md",
     "2024/Semester 2/Semester 2.md",
-    "Untitled.md",
     "2024/Semester 2/CSSE2310/Fun times.md",
     "2024/Summer Semester/MATH2030.md",
     "2024/Semester 2/CSSE2310/Week 1",
@@ -232,7 +241,6 @@
     "Attachment Folder/Screenshot 2024-05-21 120933_upscayl_4x_realesrgan-x4plus.png",
     "Attachment Folder/Pasted image 20240521121341.png",
     "2024/Definitions/Kirchhoff's Voltage Law.md",
-    "2024/Definitions/Kirchhoff's Current Law.md",
     "2024/Semester 1/MATH2400/Revision",
     "2024/Semester 1/ELEC2400/Revision",
     "2024/Semester 1/ELEC2300/Revision",
