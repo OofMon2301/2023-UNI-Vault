@@ -33,3 +33,6 @@ int main(int, argc, char** argv){
 }
 ```
 
+```js
+console.log("Hellos");
+```
