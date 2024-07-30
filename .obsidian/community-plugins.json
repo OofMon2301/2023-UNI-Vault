@@ -41,5 +41,6 @@
   "obsidian-plugin-toc",
   "templater-obsidian",
   "various-complements",
-  "obsidian-text-format"
+  "obsidian-text-format",
+  "execute-code"
 ]
