@@ -47,20 +47,21 @@
     }
   ],
   "switcher:open": [],
-  "darlal-switcher-plus:switcher-plus:open-commands": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "O"
-    }
-  ],
-  "file-explorer:new-file": [
+  "file-explorer:new-file": [],
+  "templater-obsidian:create-new-note-from-template": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "N"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
     }
   ]
 }

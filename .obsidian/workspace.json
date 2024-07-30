@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "907942c1a780d188",
+        "id": "853c191a77b2590f",
         "type": "tabs",
         "children": [
           {
-            "id": "effd6f5441fa2fbd",
+            "id": "367cc0fdddeee067",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Random Stuff/Templates/General.md",
+                "file": "2024/Semester 2/CSSE2310/Main Parameters.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Random Stuff/Templates/General.md"
+                "file": "2024/Semester 2/CSSE2310/Main Parameters.md"
               }
             }
           }
@@ -151,7 +151,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Random Stuff/Templates/General.md"
+                "file": "2024/Semester 2/CSSE2310/Main Parameters.md"
               }
             }
           }
@@ -169,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Random Stuff/Templates/General.md",
+                "file": "2024/Semester 2/CSSE2310/Main Parameters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Random Stuff/Templates/General.md",
+                "file": "2024/Semester 2/CSSE2310/Main Parameters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +196,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361
+    "width": 361,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,23 +217,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "effd6f5441fa2fbd",
+  "active": "367cc0fdddeee067",
   "lastOpenFiles": [
+    "Untitled 2.md",
+    "Subversion.md",
+    "funny.md",
+    "2024/Semester 2/CSSE2310/Subversion Control.md",
+    "2024/Semester 2/CSSE2310/Subversion.md",
+    "Random Stuff/Templates/Classes.md",
+    "2024/Semester 2/CSSE2310/Untitled 12.md",
+    "Version Control.md",
+    "Random Stuff/Templates/Lecture.md",
+    "2024/Semester 2/CSSE2310/Main Parameters.md",
+    "Untitled 10.md",
+    "Untitled 7.md",
+    "Untitled 9.md",
+    "Untitled 11.md",
+    "Untitled 8.md",
+    "Untitled 6.md",
+    "Untitled 5.md",
     "Suu.md",
     "Untitled 3.md",
-    "Random Stuff/Templates/General.md",
     "Untitled 4.md",
-    "Untitled 2.md",
     "2024/Definitions/Untitled 2.md",
     "Untitled 1.md",
     "Untitled.md",
     "suvb.md",
     "SUbversion.md",
-    "Random Stuff/Templates/Lecture.md",
     "Funny.md",
-    "2024/Semester 2/CSSE2310/Main Parameters.md",
-    "2024/Semester 2/Semester 2.md",
-    "2024/Definitions/Untitled.md",
     "2024 Uni Vault",
     "New folder",
     "quartz/quartz/plugins/filters/index.ts",
@@ -252,17 +264,6 @@
     "quartz/docs/images/giscus-results.png",
     "quartz/docs/images/giscus-repo.png",
     "quartz/docs/images/giscus-example.png",
-    "quartz/docs/images/giscus-discussion.png",
-    "quartz/docs/tags/plugin.md",
-    "quartz/docs/tags/component.md",
-    "quartz/docs/plugins/TagPage.md",
-    "quartz/docs/plugins/TableOfContents.md",
-    "quartz/docs/plugins/SyntaxHighlighting.md",
-    "quartz/docs/plugins/Static.md",
-    "quartz/docs/plugins/RemoveDrafts.md",
-    "quartz/docs/plugins/OxHugoFlavoredMarkdown.md",
-    "quartz/docs/plugins/ObsidianFlavoredMarkdown.md",
-    "quartz/docs/plugins/NotFoundPage.md",
-    "quartz/docs/plugins/Latex.md"
+    "quartz/docs/images/giscus-discussion.png"
   ]
 }
