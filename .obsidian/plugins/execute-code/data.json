@@ -1,5 +1,5 @@
 {
-  "lastOpenLanguageTab": "js",
+  "lastOpenLanguageTab": "c",
   "timeout": 10000,
   "allowInput": true,
   "wslMode": false,
@@ -67,7 +67,7 @@
   "cppInject": "",
   "cppArgs": "",
   "cppUseMain": false,
-  "clingPath": "C:/Users/jamie/OneDrive/Desktop/2024 UNI Vault/2024 Uni Vault/obsidian-execute-code-c-support",
+  "clingPath": "E:/obsidian-execute-code-c-support",
   "clingArgs": "",
   "clingStd": "c++17",
   "rustFileExtension": "rs",

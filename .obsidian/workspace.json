@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "853c191a77b2590f",
+        "id": "8406fa25b7b4b4c4",
         "type": "tabs",
         "children": [
           {
-            "id": "367cc0fdddeee067",
+            "id": "7e8994b38d049136",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/Main Parameters.md",
+                "file": "2024/Semester 2/CSSE2310/Printf.md",
                 "mode": "preview",
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/Main Parameters.md"
+                "file": "2024/Semester 2/CSSE2310/Printf.md"
               }
             }
           }
@@ -95,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -151,12 +152,12 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/Main Parameters.md"
+                "file": "2024/Semester 2/CSSE2310/Printf.md"
               }
             }
           },
           {
-            "id": "c55430653f8a6679",
+            "id": "b047c8b6c8034222",
             "type": "leaf",
             "state": {
               "type": "code-execute-manage-executors",
@@ -177,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/Main Parameters.md",
+                "file": "2024/Semester 2/CSSE2310/Printf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/Main Parameters.md",
+                "file": "2024/Semester 2/CSSE2310/Printf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,11 +226,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "367cc0fdddeee067",
+  "active": "7e8994b38d049136",
   "lastOpenFiles": [
+    "2024/Semester 2/CSSE2310/Printf.md",
+    "2024/Semester 2/CSSE2310/Code Compilation.md",
+    "Random Stuff/Templates/Classes.md",
+    "2024/Semester 1/MATH2400/Week 3/Lecture 1 - Monotone Convergence Theorem.md",
+    "2024/Semester 2/CSSE2310/Main Parameters.md",
     "temp.cpp",
     "2024/Semester 2/Semester 2.md",
-    "2024/Semester 2/CSSE2310/Main Parameters.md",
     "obsidian-execute-code-c-support.log",
     "obsidian-execute-code-c-support.exe",
     "Untitled 2.md",
@@ -237,7 +242,6 @@
     "funny.md",
     "2024/Semester 2/CSSE2310/Subversion Control.md",
     "2024/Semester 2/CSSE2310/Subversion.md",
-    "Random Stuff/Templates/Classes.md",
     "2024/Semester 2/CSSE2310/Untitled 12.md",
     "Version Control.md",
     "Random Stuff/Templates/Lecture.md",
@@ -253,8 +257,6 @@
     "Untitled 4.md",
     "2024/Definitions/Untitled 2.md",
     "Untitled 1.md",
-    "Untitled.md",
-    "suvb.md",
     "2024 Uni Vault",
     "New folder",
     "quartz/quartz/plugins/filters/index.ts",

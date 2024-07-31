@@ -42,3 +42,26 @@ console.log(f)
 ```js icon title:tesing2
 console.log(f)
 ```
+
+```c icon
+#include <stdio.h>
+
+/*
+** Prints an extended format of the sum of arg1 and arg2 provided.
+*/
+// Expected format: 10 + 20 = 30
+void print_sum(int arg1, int arg2) {
+    // Add your print statement here
+    printf("%d + %d = %d\n", arg1, arg2, arg1 + arg2);
+}
+
+int main(void) {
+    print_sum(10, 20);
+    print_sum(0, 0);
+    print_sum(-1, -10);
+    print_sum(-1, 10);
+    print_sum(4096, -4096);
+
+    return 0;
+}
+```

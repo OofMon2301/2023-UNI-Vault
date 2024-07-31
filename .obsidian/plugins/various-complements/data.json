@@ -14,7 +14,8 @@
   "complementAutomatically": true,
   "delayMilliSeconds": 0,
   "disableSuggestionsDuringImeOn": false,
-  "insertAfterCompletion": false,
+  "disableSuggestionsInMathBlock": true,
+  "insertSpaceAfterCompletion": false,
   "firstCharactersDisableSuggestions": ":/^",
   "patternsToSuppressTrigger": [
     "^~~~.*",
@@ -34,6 +35,7 @@
         "hideHotkeyGuide": false
       }
     ],
+    "select with custom alias": [],
     "up": [
       {
         "modifiers": [],
@@ -63,11 +65,13 @@
   "enableCurrentFileComplement": false,
   "currentFileMinNumberOfCharacters": 0,
   "onlyComplementEnglishOnCurrentFileComplement": true,
+  "excludeCurrentFileWordPatterns": [],
   "enableCurrentVaultComplement": false,
   "currentVaultMinNumberOfCharacters": 5,
   "includeCurrentVaultPathPrefixPatterns": "",
   "excludeCurrentVaultPathPrefixPatterns": "",
   "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
+  "excludeCurrentVaultWordPatterns": [],
   "enableCustomDictionaryComplement": true,
   "customDictionaryPaths": "https://gist.githubusercontent.com/h3xx/1976236/raw/bbabb412261386673eff521dddbe1dc815373b1d/wiki-100k.txt",
   "columnDelimiter": "Tab",
@@ -97,6 +101,7 @@
   },
   "disableOnMobile": false,
   "showLogAboutPerformanceInConsole": true,
+  "insertAfterCompletion": false,
   "selectionHistoryTree": {},
   "useCommonPrefixCompletionOfSuggestion": false,
   "selectSuggestionKeys": "Tab",

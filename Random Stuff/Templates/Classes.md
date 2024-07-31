@@ -5,7 +5,7 @@ const courseCode = subjectName.toUpperCase();
 tp.file.rename(fileName);
 tR += `---
 subject: ${subjectName.toUpperCase()}
-week: ${await tp.system.prompt("Week")}
+week: "${await tp.system.prompt("Week")}"
 type: lecture
 topic: ${await tp.system.prompt("Topic")}
 date: ${tp.date.now("YYYY-MM-DD")}
