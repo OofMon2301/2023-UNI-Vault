@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "2024/Semester 2/CSSE2310/Main Parameters.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -154,9 +154,17 @@
                 "file": "2024/Semester 2/CSSE2310/Main Parameters.md"
               }
             }
+          },
+          {
+            "id": "c55430653f8a6679",
+            "type": "leaf",
+            "state": {
+              "type": "code-execute-manage-executors",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "b2e398d710777b6e",
@@ -220,6 +228,8 @@
   "active": "367cc0fdddeee067",
   "lastOpenFiles": [
     "temp.cpp",
+    "2024/Semester 2/Semester 2.md",
+    "2024/Semester 2/CSSE2310/Main Parameters.md",
     "obsidian-execute-code-c-support.log",
     "obsidian-execute-code-c-support.exe",
     "Untitled 2.md",
@@ -231,7 +241,6 @@
     "2024/Semester 2/CSSE2310/Untitled 12.md",
     "Version Control.md",
     "Random Stuff/Templates/Lecture.md",
-    "2024/Semester 2/CSSE2310/Main Parameters.md",
     "Untitled 10.md",
     "Untitled 7.md",
     "Untitled 9.md",
@@ -246,7 +255,6 @@
     "Untitled 1.md",
     "Untitled.md",
     "suvb.md",
-    "SUbversion.md",
     "2024 Uni Vault",
     "New folder",
     "quartz/quartz/plugins/filters/index.ts",
@@ -254,7 +262,6 @@
     "quartz/quartz/plugins/filters/draft.ts",
     "quartz/quartz/plugins/transformers/toc.ts",
     "quartz/quartz/plugins/transformers/oxhugofm.ts",
-    "quartz/quartz/plugins/transformers/syntax.ts",
     "quartz/quartz/static/og-image.png",
     "quartz/quartz/static/icon.png",
     "quartz/docs/images/quartz transform pipeline.png",

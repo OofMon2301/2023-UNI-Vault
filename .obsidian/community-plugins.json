@@ -42,5 +42,6 @@
   "templater-obsidian",
   "various-complements",
   "obsidian-text-format",
-  "execute-code"
+  "execute-code",
+  "code-styler"
 ]

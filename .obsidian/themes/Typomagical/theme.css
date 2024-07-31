@@ -539,6 +539,11 @@ settings:
 				label: 1.25 Major Third
 				value: type-scale-major-third
 	-
+		id: source-mode-headings-regular
+		title: Source mode heading size reset
+		description: In source mode, by default Typomagical will set headings to be the same size as other text. Turn this on to go back to Obsidian's default behaviour.
+		type: class-toggle
+	-
 		id: line-height-headings
 		title: Heading line height
 		description: Height of each line in headings. I recommend around 1.2. If you have Embedded Note Titles plugin, that setting overrides this.
@@ -556,7 +561,7 @@ settings:
 	*/
 .theme-light {
   --title-gradient-top: var(--link-color);
-  --title-gradient-bottom: hsl(249, 34%, 35%);
+  --title-gradient-bottom: color-mix(in hsl, var(--link-color), black) ;
 }
 
 .theme-dark {
@@ -643,6 +648,18 @@ body:not(.align-title-left) .markdown-preview-section.markdown-preview-section h
 /* Headings END */
 .mod-left-split .workspace-tabs .workspace-leaf-content h1, .mod-left-split .workspace-tabs .workspace-leaf-content h1.embedded-note-title.embedded-note-title {
   font-size: var(--h2-size);
+}
+
+body:not(.source-mode-headings-regular) .markdown-source-view:not(.is-live-preview) {
+  --h1-size: var(--font-text-size);
+  --h2-size: var(--font-text-size);
+  --h3-size: var(--font-text-size);
+  --h4-size: var(--font-text-size);
+  --h5-size: var(--font-text-size);
+  --h6-size: var(--font-text-size);
+}
+body:not(.source-mode-headings-regular) .markdown-source-view:not(.is-live-preview) .HyperMD-header-1.HyperMD-header-1 {
+  text-align: left;
 }
 
 /* @settings
@@ -1399,6 +1416,10 @@ ul.dataview-ul {
   padding: 0 var(--size-4-1);
 }
 
+#time-ruler [aria-describedby=DndDescribedBy-1] svg {
+  color: var(--text-on-accent);
+}
+
 body {
   --font-default: "Spectral", -apple-system, BlinkMacSystemFont, "Segoe UI",
   	"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", serif;
@@ -1413,6 +1434,7 @@ body {
   --link-decoration: none;
   --modal-height: 75vh;
   --line-height-body: 1.45;
+  --bold-weight: 600;
 }
 
 .theme-light {
@@ -1437,7 +1459,6 @@ body {
 
 b,
 .cm-s-obsidian .cm-strong {
-  font-weight: 600;
   font-weight: var(--bold-weight);
 }
 

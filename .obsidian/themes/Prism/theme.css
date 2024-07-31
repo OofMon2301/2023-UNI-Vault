@@ -1,5 +1,5 @@
 /*
-    Prism Theme for Obsidian.md (Version: 3.5.2)
+    Prism Theme for Obsidian.md (Version: 3.5.3)
     > A Comprehensive, Highly-Customisable and Elegant Light/Dark Theme for Obsidian.md
 
     Source: https://github.com/damiankorcz/Obsidian-Prism
@@ -20,7 +20,7 @@
 
     Copyright (c) 2021-2024 Damian Korcz <https://github.com/damiankorcz>
 */
-.theme-light.pt-color-scheme-swan-lt,
+.theme-light,
 .theme-light.pt-color-scheme-custom-lt,
 .theme-light:not(.css-settings-manager) {
   --color-grey-base-hsl: 0, 0%, 90%;
@@ -66,7 +66,7 @@
   --shadow-l: hsla(var(--shadow-color-hsl), 3%) 0 1px 2px, hsla(var(--shadow-color-hsl), 3%) 0 2px 4px, hsla(var(--shadow-color-hsl), 3%) 0 4px 8px, hsla(var(--shadow-color-hsl), 3%) 0 6px 12px;
 }
 
-.theme-dark.pt-color-scheme-raven-dt,
+.theme-dark,
 .theme-dark.pt-color-scheme-custom-dt,
 .theme-dark:not(.css-settings-manager) {
   --color-grey-base-hsl: 0, 0%, 16%;
@@ -690,14 +690,21 @@ body.theme-light {
   --pdf-sidebar-background: var(--background-primary);
   --canvas-dot-pattern: hsla(var(--background-secondary-alt-hsl), 75%);
   --indentation-guide-color: hsla(var(--background-secondary-alt-hsl), 75%);
+  --interactive-normal: var(--background-primary);
+  --toggle-thumb-color: var(--background-primary);
+  --background-modifier-form-field: var(--background-primary);
+  --graph-line: var(--graph-line-color-lt);
+  --graph-node: var(--graph-fill-color-lt);
+  --graph-node-focused: var(--graph-fill-focused-color-lt);
+  --graph-node-tag: var(--graph-tag-color-lt);
+  --graph-node-attachment: var(--graph-attachment-color-lt);
+  --graph-node-unresolved: var(--graph-unresolved-color-lt);
   --graph-line-color-lt: var(--background-secondary-alt);
   --graph-fill-color-lt: var(--color-grey-tint);
   --graph-fill-focused-color-lt: var(--interactive-accent-tint);
   --graph-tag-color-lt: var(--color-blue-tint);
   --graph-attachment-color-lt: var(--color-yellow-tint);
   --graph-unresolved-color-lt: var(--color-red-tint);
-  --graph-highlight-color-lt: var(--interactive-accent-tint);
-  --graph-highlight-line-color-lt: var(--interactive-accent-tint);
   --h1-text-color-lt: var(--text-normal);
   --h2-text-color-lt: var(--text-normal);
   --h3-text-color-lt: var(--text-normal);
@@ -869,14 +876,19 @@ body.theme-dark {
   --pdf-sidebar-background: var(--background-secondary-alt);
   --canvas-dot-pattern: hsla(var(--background-primary-alt-hsl), 80%);
   --indentation-guide-color: hsla(var(--background-primary-alt-hsl), 80%);
+  --interactive-normal: var(--background-secondary);
+  --graph-line: var(--graph-line-color-dt);
+  --graph-node: var(--graph-fill-color-dt);
+  --graph-node-focused: var(--graph-fill-focused-color-dt);
+  --graph-node-tag: var(--graph-tag-color-dt);
+  --graph-node-attachment: var(--graph-attachment-color-dt);
+  --graph-node-unresolved: var(--graph-unresolved-color-dt);
   --graph-line-color-dt: var(--background-primary-alt);
-  --graph-fill-color-dt: var(--color-grey-tint);
-  --graph-fill-focused-color-dt: var(--interactive-accent-tint);
-  --graph-tag-color-dt: var(--color-blue-tint);
-  --graph-attachment-color-dt: var(--color-yellow-tint);
-  --graph-unresolved-color-dt: var(--color-red-tint);
-  --graph-highlight-color-dt: var(--interactive-accent-tint);
-  --graph-highlight-line-color-dt: var(--interactive-accent-tint);
+  --graph-fill-color-dt: var(--color-grey-text);
+  --graph-fill-focused-color-dt: var(--interactive-accent-text);
+  --graph-tag-color-dt: var(--color-blue-text);
+  --graph-attachment-color-dt: var(--color-yellow-text);
+  --graph-unresolved-color-dt: var(--color-red-text);
   --h1-text-color-dt: var(--text-normal);
   --h2-text-color-dt: var(--text-normal);
   --h3-text-color-dt: var(--text-normal);
@@ -1347,17 +1359,12 @@ body.is-mobile {
   --input-border-width: 1px;
   --nav-item-color: var(--text-muted);
   --font-ui-large: calc(var(--font-text-size) * 1.1);
+  --prompt-max-height: 80vh;
   --file-margins: var(--size-4-4) var(--size-4-5) calc(var(--size-4-4) + 50px) var(--size-4-5);
-}
-body.is-mobile.theme-light {
-  --background-modifier-form-field: var(--color-base-00);
 }
 body.is-mobile.theme-light .workspace-leaf-content,
 body.is-mobile.theme-light .workspace-drawer-tab-options {
   background-color: var(--background-primary);
-}
-body.is-mobile.theme-dark {
-  --background-modifier-form-field: var(--background-secondary-alt);
 }
 body.is-mobile.theme-dark .workspace-leaf-content,
 body.is-mobile.theme-dark .workspace-drawer-tab-option,
@@ -1477,9 +1484,10 @@ body.is-mobile .workspace-drawer-active-tab-header .workspace-drawer-active-tab-
 body.is-mobile .workspace-drawer {
   background-color: var(--background-secondary);
   border-radius: var(--radius-m);
+  padding-top: unset;
 }
 body.is-mobile .workspace-drawer:not(.is-pinned) {
-  margin: var(--size-4-2);
+  margin: calc(var(--safe-area-inset-top) + var(--size-4-2)) var(--size-4-2) calc(var(--safe-area-inset-bottom) + var(--size-4-2));
   border: var(--window-border);
 }
 body.is-mobile .workspace-drawer.is-pinned .workspace-drawer-header {
@@ -1496,8 +1504,7 @@ body.is-mobile .workspace-drawer-ribbon {
   background-color: var(--background-secondary);
   border-right: var(--window-border);
 }
-body.is-mobile .workspace-drawer-header,
-body.is-mobile .workspace-drawer-active-tab-header {
+body.is-mobile .workspace-drawer-header {
   padding: var(--size-4-2) var(--size-4-5);
   background-color: var(--background-secondary);
   border-bottom: var(--window-border);
@@ -1505,6 +1512,10 @@ body.is-mobile .workspace-drawer-active-tab-header {
 }
 body.is-mobile .workspace-drawer-active-tab-header {
   padding: var(--size-4-3) var(--size-4-5);
+  margin: unset;
+  border-radius: unset;
+  background-color: unset;
+  border-bottom: var(--window-border);
 }
 body.is-mobile .workspace-drawer-header-icon,
 body.is-mobile .workspace-drawer-active-tab-back-icon,
@@ -1642,7 +1653,7 @@ body.is-mobile .metadata-properties-heading {
   font-size: 14px;
   font-weight: 600;
   color: var(--interactive-accent-text);
-  content: "Prism 3.5.2";
+  content: "Prism 3.5.3";
   border: 1px solid var(--window-border-color);
   border-radius: var(--radius-s);
 }
@@ -1938,9 +1949,6 @@ select.dropdown {
   border: 1px solid var(--window-border-color);
   border-radius: var(--radius-s);
   box-shadow: var(--shadow-s);
-}
-.theme-light select.dropdown {
-  background-color: white;
 }
 .theme-dark select.dropdown {
   background-color: var(--background-secondary-alt);
@@ -3183,10 +3191,10 @@ body:not(.pt-disable-callout-styling) {
   --callout-radius: var(--radius-m);
   --callout-background-alpha: 20%;
 }
-body:not(.pt-disable-callout-styling) .callout {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout) {
   background-color: unset;
 }
-body:not(.pt-disable-callout-styling) .callout .callout-title {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout) .callout-title {
   position: relative;
   z-index: 5;
   gap: unset;
@@ -3195,32 +3203,32 @@ body:not(.pt-disable-callout-styling) .callout .callout-title {
   border: 2px solid;
   border-radius: var(--radius-m);
 }
-body:not(.pt-disable-callout-styling) .callout .callout-title:empty + .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout) .callout-title:empty + .callout-content {
   padding: var(--size-4-1) var(--size-4-3);
   border-top-style: solid;
   border-top-width: 1px;
   border-radius: var(--radius-m);
 }
-body:not(.pt-disable-callout-styling) .callout .callout-title-inner {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout) .callout-title-inner {
   padding: var(--size-4-1) 0;
   margin-inline: var(--size-4-2) var(--size-4-1);
   margin-top: 0;
   margin-bottom: 0;
 }
-body:not(.pt-disable-callout-styling) .callout .callout-icon {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout) .callout-icon {
   align-self: unset;
   margin-inline: var(--size-4-2) var(--size-4-1);
   margin-top: 0;
   margin-bottom: 0;
   border-radius: var(--radius-m);
 }
-body:not(.pt-disable-callout-styling) .callout .callout-fold {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout) .callout-fold {
   display: flex;
   align-self: unset;
   margin-inline-start: auto;
   margin-top: unset;
 }
-body:not(.pt-disable-callout-styling) .callout .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout) .callout-content {
   padding: var(--size-4-5) var(--size-4-3) var(--size-4-1) var(--size-4-3);
   margin-top: -16px;
   border-right: 1px solid;
@@ -3229,147 +3237,147 @@ body:not(.pt-disable-callout-styling) .callout .callout-content {
   border-bottom-right-radius: var(--radius-m);
   border-bottom-left-radius: var(--radius-m);
 }
-body:not(.pt-disable-callout-styling) .callout[data-callout=note] > .callout-title {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout)[data-callout=note] > .callout-title {
   color: var(--color-grey-text);
   background-color: var(--color-grey-base);
   border-color: var(--color-grey-tint);
 }
-body:not(.pt-disable-callout-styling) .callout[data-callout=note] > .callout-title .callout-icon .svg-icon {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout)[data-callout=note] > .callout-title .callout-icon .svg-icon {
   color: var(--color-grey-text);
 }
-body:not(.pt-disable-callout-styling) .callout[data-callout=note] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout)[data-callout=note] > .callout-content {
   background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
   border-color: var(--color-grey-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=abstract], [data-callout=summary], [data-callout=tldr]) > .callout-title {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=abstract], [data-callout=summary], [data-callout=tldr]) > .callout-title {
   color: var(--color-cyan-text);
   background-color: var(--color-cyan-base);
   border-color: var(--color-cyan-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=abstract], [data-callout=summary], [data-callout=tldr]) > .callout-title .callout-icon .svg-icon {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=abstract], [data-callout=summary], [data-callout=tldr]) > .callout-title .callout-icon .svg-icon {
   color: var(--color-cyan-text);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=abstract], [data-callout=summary], [data-callout=tldr]) > .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=abstract], [data-callout=summary], [data-callout=tldr]) > .callout-content {
   background-color: hsla(var(--color-cyan-base-hsl), var(--callout-background-alpha));
   border-color: var(--color-cyan-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=info], [data-callout=todo]) > .callout-title {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=info], [data-callout=todo]) > .callout-title {
   color: var(--color-blue-text);
   background-color: var(--color-blue-base);
   border-color: var(--color-blue-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=info], [data-callout=todo]) > .callout-title .callout-icon .svg-icon {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=info], [data-callout=todo]) > .callout-title .callout-icon .svg-icon {
   color: var(--color-blue-text);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=info], [data-callout=todo]) > .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=info], [data-callout=todo]) > .callout-content {
   background-color: hsla(var(--color-blue-base-hsl), var(--callout-background-alpha));
   border-color: var(--color-blue-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=tip], [data-callout=hint], [data-callout=important]) > .callout-title {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=tip], [data-callout=hint], [data-callout=important]) > .callout-title {
   color: var(--color-mint-text);
   background-color: var(--color-mint-base);
   border-color: var(--color-mint-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=tip], [data-callout=hint], [data-callout=important]) > .callout-title .callout-icon .svg-icon {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=tip], [data-callout=hint], [data-callout=important]) > .callout-title .callout-icon .svg-icon {
   color: var(--color-mint-text);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=tip], [data-callout=hint], [data-callout=important]) > .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=tip], [data-callout=hint], [data-callout=important]) > .callout-content {
   background-color: hsla(var(--color-mint-base-hsl), var(--callout-background-alpha));
   border-color: var(--color-mint-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=success], [data-callout=check], [data-callout=done]) > .callout-title {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=success], [data-callout=check], [data-callout=done]) > .callout-title {
   color: var(--color-green-text);
   background-color: var(--color-green-base);
   border-color: var(--color-green-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=success], [data-callout=check], [data-callout=done]) > .callout-title .callout-icon .svg-icon {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=success], [data-callout=check], [data-callout=done]) > .callout-title .callout-icon .svg-icon {
   color: var(--color-green-text);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=success], [data-callout=check], [data-callout=done]) > .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=success], [data-callout=check], [data-callout=done]) > .callout-content {
   background-color: hsla(var(--color-green-base-hsl), var(--callout-background-alpha));
   border-color: var(--color-green-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=question], [data-callout=help], [data-callout=faq]) > .callout-title {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=question], [data-callout=help], [data-callout=faq]) > .callout-title {
   color: var(--color-yellow-text);
   background-color: var(--color-yellow-base);
   border-color: var(--color-yellow-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=question], [data-callout=help], [data-callout=faq]) > .callout-title .callout-icon .svg-icon {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=question], [data-callout=help], [data-callout=faq]) > .callout-title .callout-icon .svg-icon {
   color: var(--color-yellow-text);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=question], [data-callout=help], [data-callout=faq]) > .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=question], [data-callout=help], [data-callout=faq]) > .callout-content {
   background-color: hsla(var(--color-yellow-base-hsl), var(--callout-background-alpha));
   border-color: var(--color-yellow-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=warning], [data-callout=caution], [data-callout=attention]) > .callout-title {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=warning], [data-callout=caution], [data-callout=attention]) > .callout-title {
   color: var(--color-orange-text);
   background-color: var(--color-orange-base);
   border-color: var(--color-orange-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=warning], [data-callout=caution], [data-callout=attention]) > .callout-title .callout-icon .svg-icon {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=warning], [data-callout=caution], [data-callout=attention]) > .callout-title .callout-icon .svg-icon {
   color: var(--color-orange-text);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=warning], [data-callout=caution], [data-callout=attention]) > .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=warning], [data-callout=caution], [data-callout=attention]) > .callout-content {
   background-color: hsla(var(--color-orange-base-hsl), var(--callout-background-alpha));
   border-color: var(--color-orange-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=failure], [data-callout=fail], [data-callout=missing]) > .callout-title {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=failure], [data-callout=fail], [data-callout=missing]) > .callout-title {
   color: var(--color-red-text);
   background-color: var(--color-red-base);
   border-color: var(--color-red-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=failure], [data-callout=fail], [data-callout=missing]) > .callout-title .callout-icon .svg-icon {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=failure], [data-callout=fail], [data-callout=missing]) > .callout-title .callout-icon .svg-icon {
   color: var(--color-red-text);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=failure], [data-callout=fail], [data-callout=missing]) > .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=failure], [data-callout=fail], [data-callout=missing]) > .callout-content {
   background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
   border-color: var(--color-red-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=danger], [data-callout=error]) > .callout-title {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=danger], [data-callout=error]) > .callout-title {
   color: var(--color-red-text);
   background-color: var(--color-red-base);
   border-color: var(--color-red-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=danger], [data-callout=error]) > .callout-title .callout-icon .svg-icon {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=danger], [data-callout=error]) > .callout-title .callout-icon .svg-icon {
   color: var(--color-red-text);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=danger], [data-callout=error]) > .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=danger], [data-callout=error]) > .callout-content {
   background-color: hsla(var(--color-red-base-hsl), var(--callout-background-alpha));
   border-color: var(--color-red-tint);
 }
-body:not(.pt-disable-callout-styling) .callout[data-callout=bug] > .callout-title {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout)[data-callout=bug] > .callout-title {
   color: var(--color-pink-text);
   background-color: var(--color-pink-base);
   border-color: var(--color-pink-tint);
 }
-body:not(.pt-disable-callout-styling) .callout[data-callout=bug] > .callout-title .callout-icon .svg-icon {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout)[data-callout=bug] > .callout-title .callout-icon .svg-icon {
   color: var(--color-pink-text);
 }
-body:not(.pt-disable-callout-styling) .callout[data-callout=bug] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout)[data-callout=bug] > .callout-content {
   background-color: hsla(var(--color-pink-base-hsl), var(--callout-background-alpha));
   border-color: var(--color-pink-tint);
 }
-body:not(.pt-disable-callout-styling) .callout[data-callout=example] > .callout-title {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout)[data-callout=example] > .callout-title {
   color: var(--color-purple-text);
   background-color: var(--color-purple-base);
   border-color: var(--color-purple-tint);
 }
-body:not(.pt-disable-callout-styling) .callout[data-callout=example] > .callout-title .callout-icon .svg-icon {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout)[data-callout=example] > .callout-title .callout-icon .svg-icon {
   color: var(--color-purple-text);
 }
-body:not(.pt-disable-callout-styling) .callout[data-callout=example] > .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout)[data-callout=example] > .callout-content {
   background-color: hsla(var(--color-purple-base-hsl), var(--callout-background-alpha));
   border-color: var(--color-purple-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=quote], [data-callout=cite]) > .callout-title {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=quote], [data-callout=cite]) > .callout-title {
   color: var(--color-grey-text);
   background-color: var(--color-grey-base);
   border-color: var(--color-grey-tint);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=quote], [data-callout=cite]) > .callout-title .callout-icon .svg-icon {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=quote], [data-callout=cite]) > .callout-title .callout-icon .svg-icon {
   color: var(--color-grey-text);
 }
-body:not(.pt-disable-callout-styling) .callout:is([data-callout=quote], [data-callout=cite]) > .callout-content {
+body:not(.pt-disable-callout-styling) .callout:not(.cg-note-toolbar-callout):is([data-callout=quote], [data-callout=cite]) > .callout-content {
   background-color: hsla(var(--color-grey-base-hsl), var(--callout-background-alpha));
   border-color: var(--color-grey-tint);
 }
@@ -4092,27 +4100,21 @@ body:not(.is-grabbing) .nav-folder-title.is-being-dragged,
 }
 
 .theme-light .graph-view.color-line {
-  color: var(--graph-line-color-lt);
   opacity: var(--graph-line-opacity-lt);
 }
 .theme-light .graph-view.color-fill {
-  color: var(--graph-fill-color-lt);
   opacity: var(--graph-fill-opacity-lt);
 }
 .theme-light .graph-view.color-fill-focused {
-  color: var(--graph-fill-focused-color-lt);
   opacity: var(--graph-fill-focused-opacity-lt);
 }
 .theme-light .graph-view.color-fill-tag {
-  color: var(--graph-tag-color-lt);
   opacity: var(--graph-tag-opacity-lt);
 }
 .theme-light .graph-view.color-fill-attachment {
-  color: var(--graph-attachment-color-lt);
   opacity: var(--graph-attachment-opacity-lt);
 }
 .theme-light .graph-view.color-fill-unresolved {
-  color: var(--graph-unresolved-color-lt);
   opacity: var(--graph-unresolved-opacity-lt);
 }
 .theme-light .graph-view.color-fill-highlight {
@@ -4125,27 +4127,21 @@ body:not(.is-grabbing) .nav-folder-title.is-being-dragged,
 }
 
 .theme-dark .graph-view.color-line {
-  color: var(--graph-line-color-dt);
   opacity: var(--graph-line-opacity-dt);
 }
 .theme-dark .graph-view.color-fill {
-  color: var(--graph-fill-color-dt);
   opacity: var(--graph-fill-opacity-dt);
 }
 .theme-dark .graph-view.color-fill-focused {
-  color: var(--graph-fill-focused-color-dt);
   opacity: var(--graph-fill-focused-opacity-dt);
 }
 .theme-dark .graph-view.color-fill-tag {
-  color: var(--graph-tag-color-dt);
   opacity: var(--graph-tag-opacity-dt);
 }
 .theme-dark .graph-view.color-fill-attachment {
-  color: var(--graph-attachment-color-dt);
   opacity: var(--graph-attachment-opacity-dt);
 }
 .theme-dark .graph-view.color-fill-unresolved {
-  color: var(--graph-unresolved-color-dt);
   opacity: var(--graph-unresolved-opacity-dt);
 }
 .theme-dark .graph-view.color-fill-highlight {
@@ -4683,6 +4679,7 @@ body:not(.is-grabbing) .workspace-leaf-content[data-type=bookmarks] .tree-item-s
 
 body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile {
   padding: var(--size-4-1) var(--size-4-2);
+  border-top: var(--window-border);
 }
 
 body:not(.pt-disable-mark-highlight-styling) mark[class] {
@@ -6517,6 +6514,18 @@ body.is-mobile.is-phone .search-input-container::before {
   padding: var(--size-2-1) var(--size-4-1);
 }
 
+body {
+  --cg-nt-tbar-top-sticky-pos-desktop: calc(calc(var(--header-height) - 8px) * -1);
+}
+body.theme-dark {
+  --cg-nt-tbar-bg-color: var(--background-secondary);
+}
+
+.callout[data-callout=note-toolbar][data-callout-metadata*=button] ula,
+.callout[data-callout=note-toolbar][data-callout-metadata*=button] ul span.external-link {
+  border: var(--window-border);
+}
+
 /* @settings
 name: Prism Theme
 id: obsidian-prism-theme
@@ -6915,34 +6924,34 @@ settings:
                 value: var(--graph-line-custom-color-lt)
             -
                 label: Red
-                value: var(--color-red-text)
+                value: var(--color-red-tint)
             -
                 label: Orange
-                value: var(--color-orange-text)
+                value: var(--color-orange-tint)
             -
                 label: Yellow
-                value: var(--color-yellow-text)
+                value: var(--color-yellow-tint)
             -
                 label: Green
-                value: var(--color-green-text)
+                value: var(--color-green-tint)
             -
                 label: Mint
-                value: var(--color-mint-text)
+                value: var(--color-mint-tint)
             -
                 label: Cyan
-                value: var(--color-cyan-text)
+                value: var(--color-cyan-tint)
             -
                 label: Blue
-                value: var(--color-blue-text)
+                value: var(--color-blue-tint)
             -
                 label: Purple
-                value: var(--color-purple-text)
+                value: var(--color-purple-tint)
             -
                 label: Pink
-                value: var(--color-pink-text)
+                value: var(--color-pink-tint)
             -
                 label: Grey
-                value: var(--color-grey-text)
+                value: var(--color-grey-tint)
     -
         id: graph-line-custom-color-lt
         title: Graph Lines Custom Color
@@ -6955,7 +6964,7 @@ settings:
         id: graph-line-opacity-lt
         title: Graph Lines Opacity
         type: variable-number-slider
-        default: 0.6
+        default: 1
         min: 0
         max: 1
         step: 0.05
@@ -6971,41 +6980,41 @@ settings:
         title: Graph Note Color Presets
         type: variable-select
         allowEmpty: false
-        default: var(--color-grey-text)
+        default: var(--color-grey-tint)
         options:
             -
                 label: Custom
                 value: var(--graph-fill-custom-color-lt)
             -
                 label: Red
-                value: var(--color-red-text)
+                value: var(--color-red-tint)
             -
                 label: Orange
-                value: var(--color-orange-text)
+                value: var(--color-orange-tint)
             -
                 label: Yellow
-                value: var(--color-yellow-text)
+                value: var(--color-yellow-tint)
             -
                 label: Green
-                value: var(--color-green-text)
+                value: var(--color-green-tint)
             -
                 label: Mint
-                value: var(--color-mint-text)
+                value: var(--color-mint-tint)
             -
                 label: Cyan
-                value: var(--color-cyan-text)
+                value: var(--color-cyan-tint)
             -
                 label: Blue
-                value: var(--color-blue-text)
+                value: var(--color-blue-tint)
             -
                 label: Purple
-                value: var(--color-purple-text)
+                value: var(--color-purple-tint)
             -
                 label: Pink
-                value: var(--color-pink-text)
+                value: var(--color-pink-tint)
             -
                 label: Grey
-                value: var(--color-grey-text)
+                value: var(--color-grey-tint)
     -
         id: graph-fill-custom-color-lt
         title: Graph Note Custom Color
@@ -7034,44 +7043,44 @@ settings:
         title: Graph Note Focused Color Presets
         type: variable-select
         allowEmpty: false
-        default: var(--interactive-accent-text)
+        default: var(--interactive-accent-tint)
         options:
             -
                 label: Accent Color
-                value: var(--interactive-accent-text)
+                value: var(--interactive-accent-tint)
             -
                 label: Custom
                 value: var(--graph-fill-focused-custom-color-lt)
             -
                 label: Red
-                value: var(--color-red-text)
+                value: var(--color-red-tint)
             -
                 label: Orange
-                value: var(--color-orange-text)
+                value: var(--color-orange-tint)
             -
                 label: Yellow
-                value: var(--color-yellow-text)
+                value: var(--color-yellow-tint)
             -
                 label: Green
-                value: var(--color-green-text)
+                value: var(--color-green-tint)
             -
                 label: Mint
-                value: var(--color-mint-text)
+                value: var(--color-mint-tint)
             -
                 label: Cyan
-                value: var(--color-cyan-text)
+                value: var(--color-cyan-tint)
             -
                 label: Blue
-                value: var(--color-blue-text)
+                value: var(--color-blue-tint)
             -
                 label: Purple
-                value: var(--color-purple-text)
+                value: var(--color-purple-tint)
             -
                 label: Pink
-                value: var(--color-pink-text)
+                value: var(--color-pink-tint)
             -
                 label: Grey
-                value: var(--color-grey-text)
+                value: var(--color-grey-tint)
     -
         id: graph-fill-focused-custom-color-lt
         title: Graph Note Focused Custom Color
@@ -7100,41 +7109,41 @@ settings:
         title: Graph Tag Color Presets
         type: variable-select
         allowEmpty: false
-        default: var(--color-blue-text)
+        default: var(--color-blue-tint)
         options:
             -
                 label: Custom
                 value: var(--graph-tag-custom-color-lt)
             -
                 label: Red
-                value: var(--color-red-text)
+                value: var(--color-red-tint)
             -
                 label: Orange
-                value: var(--color-orange-text)
+                value: var(--color-orange-tint)
             -
                 label: Yellow
-                value: var(--color-yellow-text)
+                value: var(--color-yellow-tint)
             -
                 label: Green
-                value: var(--color-green-text)
+                value: var(--color-green-tint)
             -
                 label: Mint
-                value: var(--color-mint-text)
+                value: var(--color-mint-tint)
             -
                 label: Cyan
-                value: var(--color-cyan-text)
+                value: var(--color-cyan-tint)
             -
                 label: Blue
-                value: var(--color-blue-text)
+                value: var(--color-blue-tint)
             -
                 label: Purple
-                value: var(--color-purple-text)
+                value: var(--color-purple-tint)
             -
                 label: Pink
-                value: var(--color-pink-text)
+                value: var(--color-pink-tint)
             -
                 label: Grey
-                value: var(--color-grey-text)
+                value: var(--color-grey-tint)
     -
         id: graph-tag-custom-color-lt
         title: Graph Tag Custom Color
@@ -7163,41 +7172,41 @@ settings:
         title: Graph Attachment Color Presets
         type: variable-select
         allowEmpty: false
-        default: var(--color-yellow-text)
+        default: var(--color-yellow-tint)
         options:
             -
                 label: Custom
                 value: var(--graph-attachment-custom-color-lt)
             -
                 label: Red
-                value: var(--color-red-text)
+                value: var(--color-red-tint)
             -
                 label: Orange
-                value: var(--color-orange-text)
+                value: var(--color-orange-tint)
             -
                 label: Yellow
-                value: var(--color-yellow-text)
+                value: var(--color-yellow-tint)
             -
                 label: Green
-                value: var(--color-green-text)
+                value: var(--color-green-tint)
             -
                 label: Mint
-                value: var(--color-mint-text)
+                value: var(--color-mint-tint)
             -
                 label: Cyan
-                value: var(--color-cyan-text)
+                value: var(--color-cyan-tint)
             -
                 label: Blue
-                value: var(--color-blue-text)
+                value: var(--color-blue-tint)
             -
                 label: Purple
-                value: var(--color-purple-text)
+                value: var(--color-purple-tint)
             -
                 label: Pink
-                value: var(--color-pink-text)
+                value: var(--color-pink-tint)
             -
                 label: Grey
-                value: var(--color-grey-text)
+                value: var(--color-grey-tint)
     -
         id: graph-attachment-custom-color-lt
         title: Graph Attachment Custom Color
@@ -7226,41 +7235,41 @@ settings:
         title: Graph Unresolved Color Presets
         type: variable-select
         allowEmpty: false
-        default: var(--color-red-text)
+        default: var(--color-red-tint)
         options:
             -
                 label: Custom
                 value: var(--graph-unresolved-custom-color-lt)
             -
                 label: Red
-                value: var(--color-red-text)
+                value: var(--color-red-tint)
             -
                 label: Orange
-                value: var(--color-orange-text)
+                value: var(--color-orange-tint)
             -
                 label: Yellow
-                value: var(--color-yellow-text)
+                value: var(--color-yellow-tint)
             -
                 label: Green
-                value: var(--color-green-text)
+                value: var(--color-green-tint)
             -
                 label: Mint
-                value: var(--color-mint-text)
+                value: var(--color-mint-tint)
             -
                 label: Cyan
-                value: var(--color-cyan-text)
+                value: var(--color-cyan-tint)
             -
                 label: Blue
-                value: var(--color-blue-text)
+                value: var(--color-blue-tint)
             -
                 label: Purple
-                value: var(--color-purple-text)
+                value: var(--color-purple-tint)
             -
                 label: Pink
-                value: var(--color-pink-text)
+                value: var(--color-pink-tint)
             -
                 label: Grey
-                value: var(--color-grey-text)
+                value: var(--color-grey-tint)
     -
         id: graph-unresolved-custom-color-lt
         title: Graph Unresolved Custom Color
@@ -7289,44 +7298,44 @@ settings:
         title: Graph Highlight Color Presets
         type: variable-select
         allowEmpty: false
-        default: var(--interactive-accent-text)
+        default: var(--interactive-accent-tint)
         options:
             -
                 label: Accent Color
-                value: var(--interactive-accent-text)
+                value: var(--interactive-accent-tint)
             -
                 label: Custom
                 value: var(--graph-highlight-custom-color-lt)
             -
                 label: Red
-                value: var(--color-red-text)
+                value: var(--color-red-tint)
             -
                 label: Orange
-                value: var(--color-orange-text)
+                value: var(--color-orange-tint)
             -
                 label: Yellow
-                value: var(--color-yellow-text)
+                value: var(--color-yellow-tint)
             -
                 label: Green
-                value: var(--color-green-text)
+                value: var(--color-green-tint)
             -
                 label: Mint
-                value: var(--color-mint-text)
+                value: var(--color-mint-tint)
             -
                 label: Cyan
-                value: var(--color-cyan-text)
+                value: var(--color-cyan-tint)
             -
                 label: Blue
-                value: var(--color-blue-text)
+                value: var(--color-blue-tint)
             -
                 label: Purple
-                value: var(--color-purple-text)
+                value: var(--color-purple-tint)
             -
                 label: Pink
-                value: var(--color-pink-text)
+                value: var(--color-pink-tint)
             -
                 label: Grey
-                value: var(--color-grey-text)
+                value: var(--color-grey-tint)
     -
         id: graph-highlight-custom-color-lt
         title: Graph Highlight Custom Color
@@ -7355,44 +7364,44 @@ settings:
         title: Graph Highlight Line Color Presets
         type: variable-select
         allowEmpty: false
-        default: var(--interactive-accent-text)
+        default: var(--interactive-accent-tint)
         options:
             -
                 label: Accent Color
-                value: var(--interactive-accent-text)
+                value: var(--interactive-accent-tint)
             -
                 label: Custom
                 value: var(--graph-highlight-line-custom-color-lt)
             -
                 label: Red
-                value: var(--color-red-text)
+                value: var(--color-red-tint)
             -
                 label: Orange
-                value: var(--color-orange-text)
+                value: var(--color-orange-tint)
             -
                 label: Yellow
-                value: var(--color-yellow-text)
+                value: var(--color-yellow-tint)
             -
                 label: Green
-                value: var(--color-green-text)
+                value: var(--color-green-tint)
             -
                 label: Mint
-                value: var(--color-mint-text)
+                value: var(--color-mint-tint)
             -
                 label: Cyan
-                value: var(--color-cyan-text)
+                value: var(--color-cyan-tint)
             -
                 label: Blue
-                value: var(--color-blue-text)
+                value: var(--color-blue-tint)
             -
                 label: Purple
-                value: var(--color-purple-text)
+                value: var(--color-purple-tint)
             -
                 label: Pink
-                value: var(--color-pink-text)
+                value: var(--color-pink-tint)
             -
                 label: Grey
-                value: var(--color-grey-text)
+                value: var(--color-grey-tint)
     -
         id: graph-highlight-line-custom-color-lt
         title: Graph Highlight Line Custom Color
@@ -7477,7 +7486,7 @@ settings:
         id: graph-line-opacity-dt
         title: Graph Lines Opacity
         type: variable-number-slider
-        default: 0.6
+        default: 1
         min: 0
         max: 1
         step: 0.05

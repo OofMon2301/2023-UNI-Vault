@@ -21,7 +21,8 @@ argv[0] // The program being run
 C arrays are not range checked
 Generally you can't reliably ask how big an array is (hence argc).
 
-```c
+```c icon
+
 #include <stdio.h>
 
 int main(int, argc, char** argv){
@@ -33,6 +34,11 @@ int main(int, argc, char** argv){
 }
 ```
 
-```js
-console.log("Hellos");
+```js icon title:testing
+let f = 3;
+console.log(f)
+```
+
+```js icon title:tesing2
+console.log(f)
 ```

@@ -1681,8 +1681,11 @@ body {
 }
 
 strong,
-.cm-strong {
+.cm-strong,
+.cm-s-obsidian span.cm-formatting-strong,
+.cm-s-obsidian span.cm-strong {
   --bold-color: rgb(var(--ctp-bold, var(--ctp-sapphire)));
+  color: rgb(var(--ctp-bold, var(--ctp-sapphire)));
 }
 
 em,
@@ -1693,6 +1696,10 @@ em,
 del,
 .cm-strikethrough {
   color: rgb(var(--ctp-strikethrough, var(--ctp-maroon)));
+}
+
+.cm-s-obsidian .cm-link.cm-strikethrough {
+  text-decoration: line-through;
 }
 
 .markdown-rendered blockquote,
@@ -1835,8 +1842,13 @@ h6,
   border: 1px solid rgb(var(--ctp-rosewater), 60%);
 }
 
+/**
+* 1. Not sure when or why I added this, but it became an issue in
+https://github.com/catppuccin/obsidian/issues/60. I have set it to the value it
+should have. Hopefully it doesn't break anything!
+*/
 .tree-item-self.is-clickable.nav-file-title.has-focus[style] {
-  --background-modifier-border-focus: var(--background-modifier-border-focus);
+  --background-modifier-border-focus: var(--color-base-40);
 }
 
 /*
@@ -2134,6 +2146,10 @@ body {
 .nav-folder.is-collapsed .nav-folder-title .nav-folder-title-content::before:hover,
 .nav-folder .nav-folder-title .nav-folder-title-content::before:hover {
   color: var(--text-on-accent);
+}
+
+.tree-item-self.is-being-renamed:focus-within {
+  color: currentcolor;
 }
 
 /*
@@ -3155,6 +3171,16 @@ button.mod-cta:hover {
 
 .omnisearch-result.is-selected .omnisearch-default-highlight {
   background-color: rgb(var(--ctp-rosewater), 60%);
+}
+
+.omnisearch-result:not(.is-selected) .omnisearch-highlight.omnisearch-default-highlight {
+  background-color: rgb(var(--ctp-rosewater), 100%);
+}
+
+.omnisearch-result.is-selected .omnisearch-result__folder-path > span,
+.omnisearch-result.is-selected .omnisearch-result__extension,
+.omnisearch-result.is-selected .omnisearch-result__counter {
+  color: var(--text-faint);
 }
 
 /*
