@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8406fa25b7b4b4c4",
+        "id": "cfc4440b55a2fb6c",
         "type": "tabs",
         "children": [
           {
-            "id": "7e8994b38d049136",
+            "id": "4994bfbcd8f5d57a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/Printf.md",
-                "mode": "source",
+                "file": "2024/Semester 2/CSSE2002/Sequences.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/Printf.md"
+                "file": "2024/Semester 2/CSSE2002/Sequences.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/Printf.md"
+                "file": "2024/Semester 2/CSSE2002/Sequences.md"
               }
             }
           },
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/Printf.md",
+                "file": "2024/Semester 2/CSSE2002/Sequences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/Printf.md",
+                "file": "2024/Semester 2/CSSE2002/Sequences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,8 +226,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7e8994b38d049136",
+  "active": "4994bfbcd8f5d57a",
   "lastOpenFiles": [
+    "2024/Semester 2/CSSE2002/Sequences.md",
     "2024/Semester 2/CSSE2310/Printf.md",
     "2024/Semester 2/CSSE2310/Code Compilation.md",
     "Random Stuff/Templates/Classes.md",
@@ -256,7 +257,6 @@
     "Untitled 3.md",
     "Untitled 4.md",
     "2024/Definitions/Untitled 2.md",
-    "Untitled 1.md",
     "2024 Uni Vault",
     "New folder",
     "quartz/quartz/plugins/filters/index.ts",

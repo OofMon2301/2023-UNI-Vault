@@ -21,4 +21,3 @@ printf("3+5=%d\n", (3+5));
 ```
 Placeholders must (correctly) describe the type of the expression being substituted.
 
-
