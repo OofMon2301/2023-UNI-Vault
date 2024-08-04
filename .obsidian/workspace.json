@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "cfc4440b55a2fb6c",
+        "id": "f774d88ae7a4dddd",
         "type": "tabs",
         "children": [
           {
-            "id": "4994bfbcd8f5d57a",
+            "id": "bfa668923d7addbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 2/CSSE2002/Sequences.md",
+                "file": "Solutions of First Order ODEs.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 2/CSSE2002/Sequences.md"
+                "file": "Solutions of First Order ODEs.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2024/Semester 2/CSSE2002/Sequences.md"
+                "file": "Solutions of First Order ODEs.md"
               }
             }
           },
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 2/CSSE2002/Sequences.md",
+                "file": "Solutions of First Order ODEs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 2/CSSE2002/Sequences.md",
+                "file": "Solutions of First Order ODEs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,8 +226,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4994bfbcd8f5d57a",
+  "active": "bfa668923d7addbc",
   "lastOpenFiles": [
+    "Solutions of First Order ODEs.md",
     "2024/Semester 2/CSSE2002/Sequences.md",
     "2024/Semester 2/CSSE2310/Printf.md",
     "2024/Semester 2/CSSE2310/Code Compilation.md",
@@ -256,7 +257,6 @@
     "Suu.md",
     "Untitled 3.md",
     "Untitled 4.md",
-    "2024/Definitions/Untitled 2.md",
     "2024 Uni Vault",
     "New folder",
     "quartz/quartz/plugins/filters/index.ts",
