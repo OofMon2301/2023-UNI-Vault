@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Successive Approximations.md",
-                "mode": "preview",
+                "file": "Equivalence with Integral Equation.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Successive Approximations.md"
+                "file": "Equivalence with Integral Equation.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Successive Approximations.md"
+                "file": "Equivalence with Integral Equation.md"
               }
             }
           },
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Successive Approximations.md",
+                "file": "Equivalence with Integral Equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Successive Approximations.md",
+                "file": "Equivalence with Integral Equation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,6 +229,7 @@
   "active": "bfa668923d7addbc",
   "lastOpenFiles": [
     "Successive Approximations.md",
+    "Equivalence with Integral Equation.md",
     "Existence and Uniqueness Criteria.md",
     "Solutions of First Order ODEs.md",
     "2024/Semester 2/CSSE2002/Sequences.md",
@@ -256,7 +257,6 @@
     "Untitled 8.md",
     "Untitled 6.md",
     "Untitled 5.md",
-    "Suu.md",
     "2024 Uni Vault",
     "New folder",
     "quartz/quartz/plugins/filters/index.ts",
