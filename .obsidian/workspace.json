@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solutions of First Order ODEs.md",
-                "mode": "source",
-                "source": false
+                "file": "Successive Approximations.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Solutions of First Order ODEs.md"
+                "file": "Successive Approximations.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Solutions of First Order ODEs.md"
+                "file": "Successive Approximations.md"
               }
             }
           },
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Solutions of First Order ODEs.md",
+                "file": "Successive Approximations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Solutions of First Order ODEs.md",
+                "file": "Successive Approximations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,6 +228,8 @@
   },
   "active": "bfa668923d7addbc",
   "lastOpenFiles": [
+    "Successive Approximations.md",
+    "Existence and Uniqueness Criteria.md",
     "Solutions of First Order ODEs.md",
     "2024/Semester 2/CSSE2002/Sequences.md",
     "2024/Semester 2/CSSE2310/Printf.md",
@@ -255,8 +257,6 @@
     "Untitled 6.md",
     "Untitled 5.md",
     "Suu.md",
-    "Untitled 3.md",
-    "Untitled 4.md",
     "2024 Uni Vault",
     "New folder",
     "quartz/quartz/plugins/filters/index.ts",
