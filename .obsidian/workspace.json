@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "582f9d9fd843c040",
+        "id": "2ceb448ce479d36d",
         "type": "tabs",
         "children": [
           {
-            "id": "f4aa761d8a0213bd",
+            "id": "2e27224fb2a3fb05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/More C.md",
+                "file": "2024/Semester 2/MATH2001/Solutions of First Order ODEs.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/More C.md"
+                "file": "2024/Semester 2/MATH2001/Solutions of First Order ODEs.md"
               }
             }
           }
@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -152,7 +151,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/More C.md"
+                "file": "2024/Semester 2/MATH2001/Solutions of First Order ODEs.md"
               }
             }
           },
@@ -178,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/More C.md",
+                "file": "2024/Semester 2/MATH2001/Solutions of First Order ODEs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 2/CSSE2310/More C.md",
+                "file": "2024/Semester 2/MATH2001/Solutions of First Order ODEs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,13 +225,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f4aa761d8a0213bd",
+  "active": "2e27224fb2a3fb05",
   "lastOpenFiles": [
+    "2024/Semester 2/MATH2001/Solution of First Order ODE.md",
+    "2024/Semester 2/MATH2001/Solutions of First Order ODEs.md",
     "2024/Semester 2/CSSE2310/More C.md",
+    "2024/Semester 2/MATH2001",
     "Equivalence with Integral Equation.md",
     "Successive Approximations.md",
     "Existence and Uniqueness Criteria.md",
-    "Solutions of First Order ODEs.md",
     "2024/Semester 2/CSSE2002/Sequences.md",
     "2024/Semester 2/CSSE2310/Printf.md",
     "2024/Semester 2/CSSE2310/Code Compilation.md",
@@ -256,14 +257,12 @@
     "Untitled 9.md",
     "Untitled 11.md",
     "Untitled 8.md",
-    "Untitled 6.md",
     "2024 Uni Vault",
     "New folder",
     "quartz/quartz/plugins/filters/index.ts",
     "quartz/quartz/plugins/filters/explicit.ts",
     "quartz/quartz/plugins/filters/draft.ts",
     "quartz/quartz/plugins/transformers/toc.ts",
-    "quartz/quartz/plugins/transformers/oxhugofm.ts",
     "quartz/quartz/static/og-image.png",
     "quartz/quartz/static/icon.png",
     "quartz/docs/images/quartz transform pipeline.png",
