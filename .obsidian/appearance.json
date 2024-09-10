@@ -7,6 +7,6 @@
   "translucency": false,
   "baseFontSize": 18,
   "textFontFamily": "CMU Serif",
-  "monospaceFontFamily": "Cascadia Mono",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
   "showViewHeader": true
 }

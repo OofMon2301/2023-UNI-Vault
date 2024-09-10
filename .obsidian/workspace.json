@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f774d88ae7a4dddd",
+        "id": "582f9d9fd843c040",
         "type": "tabs",
         "children": [
           {
-            "id": "bfa668923d7addbc",
+            "id": "f4aa761d8a0213bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Equivalence with Integral Equation.md",
+                "file": "2024/Semester 2/CSSE2310/More C.md",
                 "mode": "source",
                 "source": true
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Equivalence with Integral Equation.md"
+                "file": "2024/Semester 2/CSSE2310/More C.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Equivalence with Integral Equation.md"
+                "file": "2024/Semester 2/CSSE2310/More C.md"
               }
             }
           },
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Equivalence with Integral Equation.md",
+                "file": "2024/Semester 2/CSSE2310/More C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Equivalence with Integral Equation.md",
+                "file": "2024/Semester 2/CSSE2310/More C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,10 +226,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bfa668923d7addbc",
+  "active": "f4aa761d8a0213bd",
   "lastOpenFiles": [
-    "Successive Approximations.md",
+    "2024/Semester 2/CSSE2310/More C.md",
     "Equivalence with Integral Equation.md",
+    "Successive Approximations.md",
     "Existence and Uniqueness Criteria.md",
     "Solutions of First Order ODEs.md",
     "2024/Semester 2/CSSE2002/Sequences.md",
@@ -256,7 +257,6 @@
     "Untitled 11.md",
     "Untitled 8.md",
     "Untitled 6.md",
-    "Untitled 5.md",
     "2024 Uni Vault",
     "New folder",
     "quartz/quartz/plugins/filters/index.ts",
