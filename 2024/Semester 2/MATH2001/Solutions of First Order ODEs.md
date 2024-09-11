@@ -2,7 +2,7 @@
 subject: MATH2001
 week: "1"
 type: lecture
-topic: ODEs
+topic: 1
 date: 2024-08-05
 ---
 #MATH2001

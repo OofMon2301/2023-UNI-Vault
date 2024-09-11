@@ -11,8 +11,12 @@
             "id": "96a05ccb297d1718",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Method of successive approximations.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,14 +86,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Method of successive approximations.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bbad5c880586bc53",
@@ -144,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Method of successive approximations.md"
+              }
             }
           },
           {
@@ -169,6 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Method of successive approximations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Method of successive approximations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,12 +223,14 @@
       "quartz-syncer:Quartz Syncer Publication Center": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "96a05ccb297d1718",
   "lastOpenFiles": [
     "2024/Semester 2/MATH2001/Solutions of First Order ODEs.md",
+    "Method of successive approximations.md",
     "Untitled 1.md",
     "Untitled.md",
     "2024/Semester 2/MATH2001/Solution of First Order ODE.md",
@@ -236,7 +249,6 @@
     "2024/Semester 2/Semester 2.md",
     "obsidian-execute-code-c-support.log",
     "obsidian-execute-code-c-support.exe",
-    "Untitled 2.md",
     "Subversion.md",
     "funny.md",
     "2024/Semester 2/CSSE2310/Subversion Control.md",

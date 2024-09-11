@@ -6,7 +6,7 @@ tags: definition
 chapter: 
 ---
 
-# [[Untitled 2]]
+# [[Method of successive approximations]]
 
 # Definition of Untitled 2:
 *Created on 08:47 31-07-2024
