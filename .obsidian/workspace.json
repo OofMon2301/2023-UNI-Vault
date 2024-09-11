@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2ceb448ce479d36d",
+        "id": "97e81a72484494b4",
         "type": "tabs",
         "children": [
           {
-            "id": "2e27224fb2a3fb05",
+            "id": "96a05ccb297d1718",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024/Semester 2/MATH2001/Solutions of First Order ODEs.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,9 +82,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2024/Semester 2/MATH2001/Solutions of First Order ODEs.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -150,9 +144,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "2024/Semester 2/MATH2001/Solutions of First Order ODEs.md"
-              }
+              "state": {}
             }
           },
           {
@@ -177,7 +169,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024/Semester 2/MATH2001/Solutions of First Order ODEs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +185,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024/Semester 2/MATH2001/Solutions of First Order ODEs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,10 +215,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2e27224fb2a3fb05",
+  "active": "96a05ccb297d1718",
   "lastOpenFiles": [
-    "2024/Semester 2/MATH2001/Solution of First Order ODE.md",
     "2024/Semester 2/MATH2001/Solutions of First Order ODEs.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "2024/Semester 2/MATH2001/Solution of First Order ODE.md",
     "2024/Semester 2/CSSE2310/More C.md",
     "2024/Semester 2/MATH2001",
     "Equivalence with Integral Equation.md",
@@ -255,8 +247,6 @@
     "Untitled 10.md",
     "Untitled 7.md",
     "Untitled 9.md",
-    "Untitled 11.md",
-    "Untitled 8.md",
     "2024 Uni Vault",
     "New folder",
     "quartz/quartz/plugins/filters/index.ts",

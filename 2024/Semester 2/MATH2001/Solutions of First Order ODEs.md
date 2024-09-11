@@ -9,7 +9,7 @@ date: 2024-08-05
 
 # First Order ODEs
 
-- How do you solve an IVP associated with directly integrable, separable or linear ODEs? 
+- How do you solve an IVP associated with directly integrable, separable or linear ODEs?
 - Under what conditions does a solution to an IVP problem exist?
 - Under what conditions is a solution to an IVP problem unique? 
 

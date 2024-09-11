@@ -1,9 +1,9 @@
 {
   "accentColor": "#914ce6",
   "enabledCssSnippets": [],
-  "theme": "obsidian",
-  "cssTheme": "Catppuccin",
-  "nativeMenus": false,
+  "theme": "moonstone",
+  "cssTheme": "Typomagical",
+  "nativeMenus": true,
   "translucency": false,
   "baseFontSize": 18,
   "textFontFamily": "CMU Serif",

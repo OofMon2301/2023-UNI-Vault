@@ -1,5 +1,5 @@
 {
-  "readableLineLength": false,
+  "readableLineLength": true,
   "attachmentFolderPath": "Attachment Folder",
   "showInlineTitle": false,
   "spellcheck": true,
@@ -18,6 +18,6 @@
   },
   "rightToLeft": false,
   "showLineNumber": true,
-  "livePreview": false,
+  "livePreview": true,
   "propertiesInDocument": "source"
 }
