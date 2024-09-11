@@ -3,7 +3,7 @@
   "enabledCssSnippets": [],
   "theme": "moonstone",
   "cssTheme": "Typomagical",
-  "nativeMenus": true,
+  "nativeMenus": false,
   "translucency": false,
   "baseFontSize": 18,
   "textFontFamily": "CMU Serif",
